@@ -10,7 +10,7 @@ The live site, https://www.hippocampushub.eu/build/, is still served by the
   `backend/data/`. No server or database. See `backend/README.md`.
 - `frontend/` – the static site (Vite + React). It reads the JSON files; search and
   filters run in the browser. See `frontend/README.md`.
-- `.github/workflows/deploy.yml` – refreshes the data every Monday, commits it,
+- `.github/workflows/deploy.yml` – refreshes the data every day at 01:00 Italian time, commits it,
   builds the site and publishes it to `gh-pages`. It also runs on every push to
   `main` (build and publish only) and on demand from the Actions tab.
 

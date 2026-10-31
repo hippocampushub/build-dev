@@ -1,11 +1,14 @@
 # Refreshes the data and publishes the site to this repository's GitHub Pages
-# (gh-pages branch). Runs every Monday, on every push to main, and on demand
-# (Actions tab -> "Refresh data and deploy" -> Run workflow).
+# (gh-pages branch). Runs every day at 01:00 Italian time, on every push to main,
+# and on demand (Actions tab -> "Refresh data and deploy" -> Run workflow).
 name: Refresh data and deploy
 
 on:
+  # GitHub schedules are in UTC: 01:00 in Rome is 23:00 UTC in summer (CEST)
+  # and 00:00 UTC in winter (CET). Both run; the "when" job keeps the right one.
   schedule:
-    - cron: "0 3 * * 1"
+    - cron: "0 23 * * *"
+    - cron: "0 0 * * *"
   push:
     branches: [main]
   workflow_dispatch:
@@ -24,7 +27,28 @@ env:
   VITE_STAGING: "1"
 
 jobs:
+  when:
+    runs-on: ubuntu-latest
+    outputs:
+      run: ${{ steps.check.outputs.run }}
+    steps:
+      - id: check
+        env:
+          CRON: ${{ github.event.schedule }}
+        run: |
+          zone=$(TZ=Europe/Rome date +%Z)   # CEST in summer, CET in winter
+          if [ "${{ github.event_name }}" != "schedule" ] \
+             || { [ "$CRON" = "0 23 * * *" ] && [ "$zone" = "CEST" ]; } \
+             || { [ "$CRON" = "0 0 * * *" ] && [ "$zone" = "CET" ]; }; then
+            echo "run=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "run=false" >> "$GITHUB_OUTPUT"
+            echo "Not 01:00 in Rome ($zone) for schedule '$CRON': skipping"
+          fi
+
   deploy:
+    needs: when
+    if: needs.when.outputs.run == 'true'
     runs-on: ubuntu-latest
     timeout-minutes: 30
     steps:
