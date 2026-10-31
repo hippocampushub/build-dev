@@ -1,0 +1,99 @@
+# Refreshes the data and publishes the site to this repository's GitHub Pages
+# (gh-pages branch). Runs every Monday, on every push to main, and on demand
+# (Actions tab -> "Refresh data and deploy" -> Run workflow).
+name: Refresh data and deploy
+
+on:
+  schedule:
+    - cron: "0 3 * * 1"
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write  # commit the refreshed data and push the gh-pages branch
+
+concurrency:
+  group: deploy
+  cancel-in-progress: false
+
+env:
+  # Public path of the site: /build-dev/ for this test site, /build/ for the live one
+  HH_BASE: /build-dev/
+  # "1" shows the "test version" banner and keeps the site out of search engines; empty for the live site
+  VITE_STAGING: "1"
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install backend dependencies
+        run: pip install -r backend/requirements.txt
+
+      # A failing source keeps its previous files (committed in backend/data), so the
+      # site is still published; the run is marked as failed at the end.
+      - name: Fetch data
+        id: fetch
+        if: github.event_name != 'push'
+        continue-on-error: true
+        working-directory: backend
+        run: python fetch_all.py
+
+      - name: Fetch ModelDB file lists
+        id: modfiles
+        if: github.event_name != 'push'
+        continue-on-error: true
+        working-directory: backend
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        # --allow-zip: the few models not mirrored on GitHub yet get their list from the ModelDB zip
+        run: python fetch_model_files.py --allow-zip
+
+      - name: Commit refreshed data
+        if: github.event_name != 'push'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898211+github-actions[bot]@users.noreply.github.com"
+          git add backend/data backend/cache
+          if git diff --cached --quiet; then
+            echo "No data changes"
+          else
+            git commit -m "Refresh data"
+            git push
+          fi
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: npm
+          cache-dependency-path: frontend/package-lock.json
+
+      - name: Build site
+        working-directory: frontend
+        run: |
+          npm ci
+          npm run build
+
+      - name: Publish to gh-pages
+        working-directory: frontend/dist
+        run: |
+          touch .nojekyll
+          git init -q -b gh-pages
+          git config user.name "github-actions[bot]"
+          git config user.email "41898211+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -q -m "Deploy ${GITHUB_SHA::7}"
+          git push -f "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" gh-pages
+
+      - name: Report fetch failures
+        if: steps.fetch.outcome == 'failure' || steps.modfiles.outcome == 'failure'
+        run: |
+          echo "::error::Some sources could not be fetched; the site was published with their previous data. See the Fetch steps above."
+          exit 1

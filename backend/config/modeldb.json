@@ -1,0 +1,5 @@
+{
+  "modeling_application": "NEURON",
+  "region_key": "hippocampus",
+  "workers": 6
+}

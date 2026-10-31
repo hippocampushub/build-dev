@@ -1,0 +1,125 @@
+{
+  "id": 1,
+  "title": "About",
+  "showTitle": false,
+  "enableSectionsMenu": true,
+  "sections": [
+    {
+      "id": "navigation",
+      "header": "A quick guide to navigating the build models section",
+      "asContainer": true,
+      "variant": "light",
+      "carousel": null,
+      "rows": [
+        {
+          "header": "Navigating the Hippocampus Hub Build section",
+          "columns": [
+            {
+              "content": "On the Hippocampus Hub (HFH) Build section page, the users select, via the relevant buttons or from the top menu bar in the home page, the resources they want to access.<br>Currently two resource pages are available: Data and Models. These can be explored through user-friendly point-and-click interfaces."
+            }
+          ]
+        },
+        {
+          "header": "Exploring the Data",
+          "columns": [
+            {
+              "content": "The Data section is made up of three subsections: Connections, Morphologies, Electrophysiology, with data collected from internal and external resources.<br>The <strong>Connections</strong> page displays neural connectivity information relative to hippocampal areas. New data will be continuously integrated as further resources are made available. For both the pre and postsynaptic neurons of a given connection, relevant information are shown (e.g., cell name, hippocampal region and layer, original paper where the connection is referred to). The user can either display all the available connections listed on the entry page or a subset of them through a dedicated filter panel where Regions and Layers of interest can be selected, for both pre and postsynaptic neurons. For each connection, the link to the source web page is provided.<br>The <strong>Morphologies</strong> page shows hippocampal neuron reconstructed morphologies. For each morphology, a dedicated panel is provided containing relevant information (e.g., morphology name, cell species, cell region, physical integrity of the morphology) and a set of interactive links. These allow to: 1) download the morphology file (in .asc format) or select it for batch download; 2) open the file source web page; 3) select the morphology for further processing (see below, section Integration with the Hodgkin-Huxley Neuron Builder); 4) zoom in and out a 2D image and 5) show an interactive 3D representation of the morphology.  The users can select the data of interest through the filter panel (filter keys are: Species, Region and Cell Type).<br>Similarly to the Connections page, the <strong>Electrophysiology</strong> page displays information and links relative to the hippocampal cell electrophysiology. Data can be filtered by Region and Layers and a link to the source page is provided."
+            }
+          ]
+        },
+        {
+          "header": "Exploring the Models",
+          "columns": [
+            {
+              "content": "The Models page provides a list computational models related to the hippocampus from internal and external resources. Information on individual models (e.g., model name and type, NEURON .mod files, reference paper) are displayed on dedicated panels and interactive buttons allow to download (or batch download) the models or open the corresponding source page. In order to restrict the number of items displayed, the user can filter the data through the following keys: Channels, Receptors, Model Concepts, Implementers."
+            }
+          ]
+        },
+        {
+          "header": "Integration with the Hodgkin-Huxley Neuron Builder",
+          "columns": [
+            {
+              "content": "One of the final goals of the Build section of the Hippocampal Facility Hub is to guide the user through the construction of biophysically detailed hippocampal single cell models, optimized against electrophysiological data. In order to achieve this goal, we have integrated the resources available within the HFH with the EBRAINS Hodgkin-Huxley Neuron Builder. <br>The Hodgkin-Huxley Neuron Builder panel is automatically populated with the morphology and model files chosen by the user during navigation of the <i>Morphologies</i> and <i>Models</i> pages. At any time the user is allowed to check files being used for the model construction, at any time.<br>Once the selection is completed, by clicking on the <i>Launch HH Neuron Builder</i> button, the users are redirected to the HH Neuron Builder workflow page through which they can complete the model building, launch the model optimization on an HPC system and finally fetch and use the optimized model."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "terms_and_conditions",
+      "header": "Website Usage Terms and Conditions",
+      "asContainer": true,
+      "variant": "dark",
+      "rows": [
+        {
+          "columns": [{
+            "content": "Welcome to the Hippocampus Hub Build Models Section (HH Build Models Section). If you continue to navigate and use this website, you are agreeing to comply with and be bound by the following terms and conditions of use, which, together with our privacy policy, govern 'CNR-IBF Hippocampus Facility Hub Project’s' relationship with you with respect to this website. If you disagree with any part of these terms and conditions, please do not continue the navigation.<br><br>The use of this part of the website is subject to the following terms of use:<br><br>- The content of the HH Build Models Section is for your general information and use only. It is subjected to change without notice.<br><br>- Neither we nor any third parties provide any warranty or guarantee as to the accuracy, timeliness, performance, completeness or suitability of the information and materials found or offered on this website for any particular purpose. You acknowledge that such information and materials may contain inaccuracies or errors and we expressly exclude liability for any such inaccuracies or errors to the fullest extent permitted by law.<br><br>- Your use of any information or materials on this website is entirely at your own risk, for which we shall not be liable. It shall be your own responsibility to ensure that any products, services or information available through this website meet your specific requirements.<br><br>- The HH Build Models Section gives you access to material which is owned by or licensed to us. This material includes, but is not limited to, the design, layout, look, appearance and graphics. Reproduction is prohibited other than in accordance with the copyright notice, which forms part of these terms and conditions.<br><br>- Unauthorised use of this website may result to a claim for damages and/or be a criminal offence.<br><br>- The HH Build Models Section also includes links to other websites. These links are provided for your convenience to provide further information. They do not signify that we endorse the website(s). We have no responsibility for the content of the linked website(s).<br><br>- Your use of this website and any dispute arising out of such use of the website is subject to the laws of Italy."
+          }]
+        }
+      ]
+    },
+    {
+      "id": "disclaimer",
+      "header": "Website Disclaimer",
+      "asContainer": true,
+      "variant": "light",
+      "rows": [
+        {
+          "columns": [{
+            "content": "The information contained in this website is for general information purposes only.<br>The information is provided by 'CNR-IBF Hippocampus Facility Hub Project', and while we endeavour to keep the information up to date and correct, we make no representations or warranties of any kind, express or implied, about the completeness, accuracy, reliability, suitability or availability with respect to the website or the information, products, services, or related graphics contained on the website for any purpose. Any reliance you place on such information is therefore strictly at your own risk.<br><br>In no event will we be liable for any loss or damage including, without limitation, indirect or consequential loss or damage, or any loss or damage whatsoever arising from loss of data or profits arising out of, or in connection with, the use of this website.<br><br>Through this website you will be able to access other websites, which are not under the control of 'CNR-IBF Hippocampus Facility Hub Project'. We have no control over the nature, content and availability of those sites. The inclusion of any links does not necessarily imply a recommendation or endorse the views expressed within them.<br><br>Every effort is made to keep the website up and running smoothly. However, CNF-IBF takes no responsibility for, and will not be liable for, the website being temporarily unavailable due to technical issues beyond our control."
+          }]
+        }
+      ]
+    },
+    {
+      "id": "privacy_and_cookie_policy",
+      "header": "Privacy and Cookies Policy",
+      "asContainer": true,
+      "variant": "dark",
+      "rows": [{
+        "header": "Privacy Policy",
+        "columns": [{
+          "content": "This 'CNR-IBF Hippocampus Facility Hub Project' privacy policy (hereinafter 'Privacy Policy') aims at informing you on how 'CNR-IBF Hippocampus Facility Hub Project' or 'We' or 'Us') may process your personal data and the rights to which you are entitled. It provides general information applicable in most situations and may be supplemented with more specific notices or regulations whenever applicable.<br><br>Personal data (hereinafter 'Personal Data') means any information relating to an identified or identifiable person, according to the European/Italian (EU 2016/679 and following modifications) 'General Data Protection Regulation' (hereinafter 'GDPR').<br><br>We may update this Privacy Policy at any time. Any changes to this Privacy Policy will be posted to this page.<br><br>CNR-IBF is a public research Institution with headquarters in Genova (Italy). We are responsible for the Personal Data we process at CNR-IBF.  For more information about us, please visit <a href='https://www.ibf.cnr.it/index.php/privacy/' target='_blank'>this page</a>.<br><br>The processing of Personal Data is carried out under the GDPR, the Regulation (EU) 2016/679 of the European parliament and of the Council of 27 April 2016 on the protection of natural persons with regards to the processing of Personal Data and on the free movement of such data (GDPR).<br><br>CNR-IBF’s mandate is to promote and develop research excellence for the society and its economy in Italy. CNR-IBF processes Personal Data in particular in line with its three academic core tasks which are education, research and innovation, and its supporting services. The legal basis for the processing of your Personal Data is mainly the Italian law. We may process different categories of Personal Data depending on your relationship with us. If you need more information, please contact us at <i>info [ at ] hippocampushub.eu</i>.<br><br>'CNR-IBF Hippocampus Facility Hub Project' is bound to respect the principles related to data protection. In application of these principles:<br>a) we will only process data lawfully, fairly and in a transparent manner, for specified, explicit and legitimate purposes and not further processed in a manner that is incompatible with those purposes,<br>b) for archiving purposes in the public interest, scientific research purposes or statistical purposes,<br>c) processed in a manner that ensures appropriate security of the Personal Data.<br><br>You have the right to receive a copy of your Personal Data and you may request the correction of any data which is inaccurate or incomplete. You also have the right to object to the processing of your Personal Data for legitimate reasons as well as a right to object to the use of those data for prospecting in accordance with applicable laws. When the processing is based on your consent, you have the right to withdraw your consent at any time, without affecting the lawfulness of processing based on consent before its withdrawal. 'CNR-IBF Hippocampus Facility Hub Project' reserves the right to refuse any abusive request or one which is contrary to applicable laws. Finally, you have the right to lodge a complaint with the relevant supervisory authority. If you wish to forward a request to us, please visit <a href='https://www.ibf.cnr.it/index.php/privacy/' target='_blank'>this page</a>." }]
+      }, {
+        "header": "Cookie Policy",
+        "asContainer": true,
+        "columns": [{
+          "content": "'CNR-IBF Hippocampus Facility Hub Project's' use of Cookies<br><br>'CNR-IBF Hippocampus Facility Hub Project' section and online services may use 'cookies'. Cookies are small text files placed on the hard drive of your device.<br><br>There are several types of cookies: Session cookies are temporary bits of information that are erased once you exit your web browser window or otherwise turn your computer off. Persistent cookies remain on your computer until you delete them or they expire.<br><br>When you access the HH Build Models Section, we can, according to your settings, install cookies on your devices, which will allow us to recognize your browser, during the validity time of the cookies. The cookies that 'CNR-IBF Hippocampus Facility Hub Project' generates allow us:<br>- to prepare statistics including frequency of access, the use and performances of websites<br>- to adapt the presentation of the HH Build Models Section to the display preferences of your device (language, operating system etc.)<br>- to memorize preferences and parameters (authentication)<br>- to enable you to access reserved or personal spaces on 'CNR-IBF Hippocampus Facility Hub Project' websites<br>- to improve our communication and services.<br><br>We do not use cookies for commercial or profiling purposes.<br><br>Most web browsers automatically accept cookies but provide controls that allow you to block or delete them. Please refer to your browser’s privacy or help documentation to find instructions for blocking or deleting cookies. For examples: Internet Explorer, Edge, Safari, Chrome, Firefox. If you choose to refuse cookies, you may not have access to certain functionality on the 'CNR-IBF Hippocampus Facility Hub Project' websites, which 'CNR-IBF Hippocampus Facility Hub Project' cannot be held responsible for."
+        }]
+      }]
+    },
+    {
+      "id": "copyright_notice",
+      "header": "Copyright Notice",
+      "asContainer": true,
+      "variant": "light",
+      "rows": [{
+        "columns": [{
+          "content": "Model downloads, text, image files, and video clips from the 'Hippocampus Hub Build Models Section' and other associated sites are property of 'CNR-IBF Hippocampus Facility Hub Project', and are protected by copyright restrictions.<br><br>Text, image file, and video clip downloads: Text, image files, and video clips provided in the Hippocampus Facility Hub Build section, are the property of 'CNR-IBF Hippocampus Facility Hub Project', and are protected by copyright restrictions.<br><br>'CNR-IBF Hippocampus Facility Hub Project' permits the use of text, image files and video clips from the Hippocampus Hub Build Models Section, according to the guidelines below:<br>1. text, image files and video clips may only be used to illustrate articles or other media reporting specifically about the Hippocampus Facility Hub Build section;<br>2. Permission is not granted for personal or commercial use or to illustrate non-commercial content not associated with the 'CNR-IBF Hippocampus Facility Hub Project' under any circumstances;<br>3. All text, images and video clips must cite 'CNR-IBF Hippocampus Facility Hub Project', and the citation must include: 'Copyright ©2021 CNR-IBF Hippocampus Facility Hub Project'.<br> 4. None of the content may be altered or modified without approval;<br>5. No high resolution images or source video files may be used in a manner which permits download by a third party.<br>6. For collaboration on any commercial project or activity please contact <i>info [ at ] hippocampushub.eu</i>."
+        }]
+      }]
+    },
+    {
+      "id": "accessibility",
+      "header": "Accessibility",
+      "asContainer": true,
+      "variant": "dark",
+      "rows": [{
+        "columns": [{
+          "content": "The colours used to illustrate the different web pages respect the different symptoms of colour blindness.<br>When adding static or animated images, equivalent alternatives to visual content are provided."
+        }]
+      }]
+    },
+    {
+      "id": "contributors",
+      "header": "Contributors",
+      "asContainer": true,
+      "variant": "light",
+      "rows": [{
+        "columns": [{
+          "content": "Michele Migliore - <i>michele.migliore [ at ] cnr.it</i><br>Luca Leonardo Bologna - <i>lucaleonardo.bologna [ at ] cnr.it</i><br>Antonino Tocco - <i>antonino.tocco [ at ] ibf.cnr.it</i><br>Roberto Smiriglia - <i>roberto.smiriglia [ at ] ibf.cnr.it</i><br>Rosanna Migliore - <i>rosanna.migliore [ at ] cnr.it</i><br>Francesca Spataro - <i>francesca.spataro [ at ] ibf.cnr.it</i><br>"
+        }]
+      }]
+    }
+  ]
+}
