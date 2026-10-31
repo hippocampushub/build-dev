@@ -26,7 +26,7 @@ The paths are those of the previous site; the short paths of an earlier version
 (`/morphologies`, `/electrophysiology`, `/connections`) redirect to them.
 
 The top menu is the previous site's: Home, Build Models (Data with its three
-pages, Models), Explore Models, Resources, Contact us. The home page
+pages, Models), Explore Models, Contact us. The home page
 banner is the previous site's neuron image (`public/images/banner_*.jpg`,
 resized from `background_02.png`), blended into the background, with its credits.
 
