@@ -71,7 +71,7 @@ export function Home() {
         {COLLECTIONS.map((c) => (
           <Link key={c.key} to={c.path} className="tile" style={{ "--accent": c.accent } as React.CSSProperties}>
             <span className="tile-count">
-              {counts.status === "ready" ? (counts.data[c.key] != null ? <CountUp value={counts.data[c.key]} /> : "–") : "0"}
+              {counts.status === "ready" ? (counts.data[c.key] != null ? <CountUp value={counts.data[c.key]} /> : "–") : "\u00a0"}
             </span>
             <span className="tile-title">{c.title}</span>
             <span className="tile-text">{TILE_TEXT[c.key]}</span>
