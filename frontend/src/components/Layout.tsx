@@ -13,7 +13,6 @@ const asset = (path: string) => `${import.meta.env.BASE_URL}${path}`;
 const HUB_URL = "https://www.hippocampushub.eu";
 const EXTERNAL_MENU = [
   ["Explore Models", `${HUB_URL}/model`],
-  ["Resources", `${HUB_URL}/#resources`],
   ["Contact us", `${HUB_URL}/#contact-us`],
 ];
 

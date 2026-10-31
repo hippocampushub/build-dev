@@ -2009,11 +2009,11 @@ textarea.field {
   transition: transform 0.4s ease;
 }
 
-/* trace figures: same layout as the morphologies, on dark tiles (the figures were
-   recoloured onto this navy); the wide plots are cropped to fill each tile
+/* trace figures: same layout as the morphologies, on black tiles (the figures were
+   recoloured onto black); the wide plots are cropped to fill each tile
    (the left of the plot, with the mV axis, is kept) */
 .mosaic-plot .mosaic-tile {
-  background: #10163e;
+  background: #000;
 }
 
 .mosaic-plot img {
