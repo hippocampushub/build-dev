@@ -107,13 +107,18 @@ jobs:
 
       # Browsers may keep the previous index.html for a few minutes (GitHub Pages
       # caches it for 10 min); it points to the previous script and stylesheet, so
-      # those are kept next to the new ones, otherwise such visitors get a blank page.
-      - name: Keep the previous version's script and stylesheet
+      # those, and the files they use, are kept next to the new ones. Otherwise such
+      # visitors get a blank page right after a deploy.
+      - name: Keep the previous version's files
         working-directory: frontend/dist
         run: |
           if git clone -q --depth 1 --branch gh-pages "https://github.com/${{ github.repository }}.git" /tmp/previous; then
-            for f in $(grep -o 'assets/[^"]*\.\(js\|css\)' /tmp/previous/index.html | sort -u); do
-              [ -e "$f" ] || cp "/tmp/previous/$f" "$f"
+            cd /tmp/previous
+            main=$(grep -o 'assets/[^"]*\.\(js\|css\)' index.html | sort -u)
+            used=$(cat $main | grep -o 'assets/[A-Za-z0-9_.-]*\.[a-z0-9]*' | sort -u)
+            cd - > /dev/null
+            for f in $main $used; do
+              [ -e "$f" ] || [ ! -e "/tmp/previous/$f" ] || cp "/tmp/previous/$f" "$f"
             done
           fi
 

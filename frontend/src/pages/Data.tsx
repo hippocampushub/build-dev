@@ -6,6 +6,9 @@ import { toList } from "../lib/facets";
 import { secureUrl } from "../lib/format";
 import type { Connection, Morphology, Trace } from "../lib/types";
 import { ArrowRightIcon } from "../components/Icons";
+import trace1 from "../assets/data/trace_1.png";
+import trace2 from "../assets/data/trace_2.png";
+import trace3 from "../assets/data/trace_3.png";
 
 type Shot = { src: string; caption?: string; alt: string; to: string };
 type Stat = [number, string];
@@ -13,8 +16,9 @@ type Feature = { stats: Stat[]; visual: ReactNode; sources: string };
 
 const REGIONS = ["DG", "CA3", "CA2", "CA1", "Sub", "EC"];
 
-// Figures of recorded voltage responses supplied for this page (public/images/data)
-const TRACE_FIGURES = [1, 2, 3].map((i) => `${import.meta.env.BASE_URL}images/data/trace_${i}.png`);
+// Figures of recorded voltage responses supplied for this page. Imported, so the
+// build names them after their content and browsers never show an outdated copy.
+const TRACE_FIGURES = [trace1, trace2, trace3];
 
 const distinct = (values: (string | null | undefined)[]) => new Set(values.filter(Boolean)).size;
 const recordLink = (c: Collection<any>, id: string) => `${c.path}?item=${encodeURIComponent(id)}`;
