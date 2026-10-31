@@ -6,7 +6,7 @@ import { facetCounts, filterItems, type Selection } from "../lib/facets";
 import { plural } from "../lib/format";
 import { FacetGroup } from "../components/FacetPanel";
 import { Drawer } from "../components/Overlay";
-import { CloseIcon, FilterIcon, SearchIcon } from "../components/Icons";
+import { ArrowRightIcon, CloseIcon, FilterIcon, SearchIcon } from "../components/Icons";
 
 type Item = { source_id: string; name: string };
 
@@ -31,7 +31,14 @@ export function Browse<T extends Item>({ collection }: { collection: Collection<
           <p className="eyebrow">
             {collection.group === "data" ? <Link to="/data">{collection.eyebrow}</Link> : collection.eyebrow}
           </p>
-          <h1 className="page-title">{collection.title}</h1>
+          <div className="page-title-row">
+            <h1 className="page-title">{collection.title}</h1>
+            {collection.group === "models" && (
+              <Link to="/data" className="title-link" style={{ "--accent": "var(--peach)" } as React.CSSProperties}>
+                <ArrowRightIcon size={18} /> Go to Data
+              </Link>
+            )}
+          </div>
           <p className="page-lead">{collection.lead}</p>
         </header>
         {state.status === "loading" && <div className="loading"><div className="spinner" aria-label="Loading" /></div>}
