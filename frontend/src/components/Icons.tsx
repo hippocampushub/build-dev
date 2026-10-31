@@ -78,10 +78,12 @@ export const FileIcon = (p: IconProps) => (
     <path d="M14 3v4h4" />
   </Icon>
 );
+/** HH Neuron Builder: a pyramidal neuron (filled soma, branching apical dendrite, basal dendrites, axon). */
 export const BuilderIcon = (p: IconProps) => (
-  <Icon {...p}>
-    <circle cx="12" cy="12" r="3" />
-    <path d="M12 3v3m0 12v3M3 12h3m12 0h3M5.6 5.6l2.1 2.1m8.6 8.6 2.1 2.1M5.6 18.4l2.1-2.1m8.6-8.6 2.1-2.1" />
+  <Icon strokeWidth={1.7} {...p}>
+    <path d="M12 11 15 15.6Q12 17.2 9 15.6Z" fill="currentColor" />
+    <path d="M12 11V2.5M12 7 8.5 3.5M12 5.5l3-2.5M12 8.5l3.5-2" />
+    <path d="M9.4 15.4 4.5 17.5M6.8 16.5 5.5 20M14.6 15.4l4.9 2.1M17.2 16.5l1.3 3.5M12 16.8V21.5" />
   </Icon>
 );
 export const NeuronIcon = (p: IconProps) => (
