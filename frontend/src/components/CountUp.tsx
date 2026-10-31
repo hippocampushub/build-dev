@@ -1,18 +1,14 @@
 import { useEffect, useState } from "react";
 
-// The last 15 values roll in 1.5 s: the first 11 quickly and evenly (600 ms),
-// the last 4 slowing down (150, 200, 250 and 300 ms).
-const FAST_STEPS = 11;
-const FAST_TIME = 600; // ms
-const SLOW_STEPS = [150, 200, 250, 300]; // ms each
-const STEPS = FAST_STEPS + SLOW_STEPS.length;
+// The last 15 values roll in 1.5 s, slowing down smoothly: each step lasts 15% longer
+// than the previous one (from about 30 ms to about 220 ms).
+const STEPS = 15;
+const DURATION = 1500; // ms
+const GROWTH = 1.15;
 
 // time (ms from the start) at which each step is shown
-const STEP_TIMES = [
-  ...Array.from({ length: FAST_STEPS }, (_, i) => ((i + 1) * FAST_TIME) / FAST_STEPS),
-  ...SLOW_STEPS.map((_, i) => FAST_TIME + SLOW_STEPS.slice(0, i + 1).reduce((a, b) => a + b, 0)),
-];
-const DURATION = STEP_TIMES[STEP_TIMES.length - 1];
+const FIRST = (DURATION * (GROWTH - 1)) / (Math.pow(GROWTH, STEPS) - 1);
+const STEP_TIMES = Array.from({ length: STEPS }, (_, i) => (FIRST * (Math.pow(GROWTH, i + 1) - 1)) / (GROWTH - 1));
 
 /**
  * A number that rolls up through its last values to `value`, slowing down at the end.
