@@ -105,6 +105,18 @@ jobs:
           npm ci
           npm run build
 
+      # Browsers may keep the previous index.html for a few minutes (GitHub Pages
+      # caches it for 10 min); it points to the previous script and stylesheet, so
+      # those are kept next to the new ones, otherwise such visitors get a blank page.
+      - name: Keep the previous version's script and stylesheet
+        working-directory: frontend/dist
+        run: |
+          if git clone -q --depth 1 --branch gh-pages "https://github.com/${{ github.repository }}.git" /tmp/previous; then
+            for f in $(grep -o 'assets/[^"]*\.\(js\|css\)' /tmp/previous/index.html | sort -u); do
+              [ -e "$f" ] || cp "/tmp/previous/$f" "$f"
+            done
+          fi
+
       - name: Publish to gh-pages
         working-directory: frontend/dist
         run: |
