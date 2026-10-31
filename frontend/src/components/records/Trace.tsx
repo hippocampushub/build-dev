@@ -4,7 +4,7 @@ import { fileName } from "../../lib/format";
 import { toList } from "../../lib/facets";
 import { CheckIcon, PlusIcon } from "../Icons";
 import { DownloadButton } from "../DownloadButton";
-import { Facts, Section, SourceBadge, SourceLink, Thumb } from "./common";
+import { Facts, InfoButton, Section, SourceBadge, SourceLink, Thumb } from "./common";
 
 function UseTraceButton({ item, wide = false }: { item: Trace; wide?: boolean }) {
   const { hasTrace, toggleTrace } = useHhnb();
@@ -35,6 +35,7 @@ export function TraceCard({ item, onOpen }: { item: Trace; onOpen: () => void })
         <div className="card-actions">
           <DownloadButton url={item.download_link} source={item.source} label="" />
           <UseTraceButton item={item} />
+          <InfoButton onOpen={onOpen} name={item.name} />
           <span className="spacer" />
           <SourceBadge source={item.source} stacked />
         </div>

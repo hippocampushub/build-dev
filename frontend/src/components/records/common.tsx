@@ -1,7 +1,7 @@
 import { useState, type ReactNode } from "react";
 import type { Paper } from "../../lib/types";
 import { secureUrl } from "../../lib/format";
-import { ExternalIcon, NeuronIcon } from "../Icons";
+import { ExternalIcon, InfoIcon, NeuronIcon } from "../Icons";
 
 export function Facts({ rows }: { rows: [string, ReactNode][] }) {
   const shown = rows.filter(([, v]) => v !== null && v !== undefined && v !== "" && !(Array.isArray(v) && !v.length));
@@ -89,5 +89,14 @@ export function SourceBadge({ source, stacked = false }: { source?: string | nul
     <span className={`source-badge${stacked ? " stacked" : ""}`}>
       <span className="source-label">Source</span> {source}
     </span>
+  );
+}
+
+/** Small "i" button that opens the item's details panel. */
+export function InfoButton({ onOpen, name }: { onOpen: () => void; name: string }) {
+  return (
+    <button className="btn btn-sm btn-icon" onClick={onOpen} aria-label={`Details of ${name}`} title="Details">
+      <InfoIcon size={17} />
+    </button>
   );
 }

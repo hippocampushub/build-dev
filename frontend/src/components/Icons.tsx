@@ -95,3 +95,10 @@ export const TraceIcon = (p: IconProps) => (
     <path d="M2 14h4l2-8 3 14 3-10 2 4h6" />
   </Icon>
 );
+export const InfoIcon = (p: IconProps) => (
+  <Icon {...p}>
+    <circle cx="12" cy="12" r="9" />
+    <path d="M12 11v5" />
+    <path d="M12 7.5h.01" />
+  </Icon>
+);

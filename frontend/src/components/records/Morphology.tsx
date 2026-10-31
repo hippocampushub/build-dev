@@ -4,7 +4,7 @@ import { fileName, secureUrl } from "../../lib/format";
 import { toList } from "../../lib/facets";
 import { CheckIcon, PlusIcon } from "../Icons";
 import { DownloadButton } from "../DownloadButton";
-import { Facts, Papers, Section, SourceBadge, SourceLink, Tags, Thumb } from "./common";
+import { Facts, InfoButton, Papers, Section, SourceBadge, SourceLink, Tags, Thumb } from "./common";
 
 function UseMorphologyButton({ item, wide = false }: { item: Morphology; wide?: boolean }) {
   const { selection, setMorphology } = useHhnb();
@@ -35,6 +35,7 @@ export function MorphologyCard({ item, onOpen }: { item: Morphology; onOpen: () 
         <div className="card-actions">
           <DownloadButton url={item.download_link} source={item.source} label="" />
           <UseMorphologyButton item={item} />
+          <InfoButton onOpen={onOpen} name={item.name} />
           <span className="spacer" />
           <SourceBadge source={item.source} stacked />
         </div>
