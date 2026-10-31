@@ -7,7 +7,7 @@ import { CloseIcon, ExternalIcon } from "./Icons";
 // GitHub issue with the same title and body, which the visitor submits on GitHub.
 const ISSUES_URL = "https://github.com/hippocampushub/build/issues/new";
 const CONTACT_KEY = "hh-build:feedback-contact";
-const FEEDBACK_EMAIL = "lucaleonardo.bologna@cnr.it";
+const FEEDBACK_EMAIL = "info@hippocampushub.eu";
 
 const TYPES = [
   ["content", "Content"],
