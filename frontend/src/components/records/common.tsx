@@ -1,4 +1,4 @@
-import { useState, type ReactNode } from "react";
+import { useLayoutEffect, useRef, useState, type ReactNode } from "react";
 import type { Paper } from "../../lib/types";
 import { secureUrl } from "../../lib/format";
 import { ExternalIcon, InfoIcon, NeuronIcon } from "../Icons";
@@ -84,10 +84,29 @@ export function Thumb({ src, alt, onClick, large = false }: { src?: string | nul
 }
 
 export function SourceBadge({ source, stacked = false }: { source?: string | null; stacked?: boolean }) {
+  const name = useRef<HTMLSpanElement>(null);
+
+  // Stacked (on a card's button row): the name shrinks, only if needed, to fit the
+  // room left by the buttons, so a long name like NEUROMORPHO stays on the row.
+  useLayoutEffect(() => {
+    const el = name.current;
+    const box = el?.parentElement;
+    if (!stacked || !el || !box) return;
+    const fit = () => {
+      el.style.fontSize = "";
+      const overflow = el.scrollWidth / Math.max(1, box.clientWidth);
+      if (overflow > 1) el.style.fontSize = `${Math.max(8, parseFloat(getComputedStyle(el).fontSize) / overflow - 0.2)}px`;
+    };
+    fit();
+    const observer = new ResizeObserver(fit);
+    observer.observe(box);
+    return () => observer.disconnect();
+  }, [stacked, source]);
+
   if (!source) return null;
   return (
     <span className={`source-badge${stacked ? " stacked" : ""}`}>
-      <span className="source-label">Source</span> {source}
+      <span className="source-label">Source</span> <span ref={name} className="source-name">{source}</span>
     </span>
   );
 }

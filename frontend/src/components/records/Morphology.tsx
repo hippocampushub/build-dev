@@ -36,7 +36,6 @@ export function MorphologyCard({ item, onOpen }: { item: Morphology; onOpen: () 
           <DownloadButton url={item.download_link} source={item.source} label="" />
           <UseMorphologyButton item={item} />
           <InfoButton onOpen={onOpen} name={item.name} />
-          <span className="spacer" />
           <SourceBadge source={item.source} stacked />
         </div>
       </div>

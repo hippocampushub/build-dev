@@ -36,7 +36,6 @@ export function TraceCard({ item, onOpen }: { item: Trace; onOpen: () => void })
           <DownloadButton url={item.download_link} source={item.source} label="" />
           <UseTraceButton item={item} />
           <InfoButton onOpen={onOpen} name={item.name} />
-          <span className="spacer" />
           <SourceBadge source={item.source} stacked />
         </div>
       </div>

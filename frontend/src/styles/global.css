@@ -1013,9 +1013,15 @@ textarea {
   padding: 0 8px;
 }
 
+/* takes the room left on the row (never wraps); a long name shrinks to fit */
 .card-actions .source-badge.stacked {
-  margin-left: auto; /* stays on the right, also when it wraps to its own line */
+  flex: 1 1 0;
+  min-width: 0;
   letter-spacing: 0.03em;
+}
+
+.source-name {
+  white-space: nowrap;
 }
 
 /* "Source" over the source name, right of the card's buttons */
