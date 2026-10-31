@@ -2037,16 +2037,15 @@ textarea.field {
   transition: transform 0.4s ease;
 }
 
-/* trace figures: same layout as the morphologies; the figures are transparent with
-   light labels, on very dark grey. The wide plots are cropped to fill each tile
-   (the left of the plot, with the mV axis, is kept) */
+/* trace figures: same layout as the morphologies; transparent figures with light
+   ink, drawn for these tiles, shown whole */
 .mosaic-plot .mosaic-tile {
   background: #141519;
 }
 
 .mosaic-plot img {
-  object-fit: cover;
-  object-position: left center;
+  object-fit: contain;
+  padding: 6px 6px 22px;
 }
 
 .mosaic-dark img {

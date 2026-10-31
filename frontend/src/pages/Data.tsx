@@ -16,9 +16,14 @@ type Feature = { stats: Stat[]; visual: ReactNode; sources: string };
 
 const REGIONS = ["DG", "CA3", "CA2", "CA1", "Sub", "EC"];
 
-// Figures of recorded voltage responses supplied for this page. Imported, so the
-// build names them after their content and browsers never show an outdated copy.
-const TRACE_FIGURES = [trace1, trace2, trace3];
+// Voltage responses to current steps (-0.4 nA, near threshold, strongest step) of three
+// of the site's recordings, drawn from their .abf files. Imported, so the build names
+// them after their content and browsers never show an outdated copy.
+const TRACE_FIGURES = [
+  { src: trace1, id: "internal_electrophysiologies-95912005", caption: "cAC · pyramidal" },
+  { src: trace2, id: "internal_electrophysiologies-95810035", caption: "bAC · interneuron" },
+  { src: trace3, id: "internal_electrophysiologies-98513011", caption: "cNAC · interneuron" },
+];
 
 const distinct = (values: (string | null | undefined)[]) => new Set(values.filter(Boolean)).size;
 const recordLink = (c: Collection<any>, id: string) => `${c.path}?item=${encodeURIComponent(id)}`;
@@ -132,7 +137,15 @@ function useFeatures() {
         ],
         sources: "Source: EBRAINS",
         visual: (
-          <Mosaic variant="plot" shots={TRACE_FIGURES.map((src) => ({ src, alt: "Voltage responses to current steps", to: traceCol.path }))} />
+          <Mosaic
+            variant="plot"
+            shots={TRACE_FIGURES.map((f) => ({
+              src: f.src,
+              caption: f.caption,
+              alt: `Voltage responses to current steps, ${f.caption}`,
+              to: recordLink(traceCol, f.id),
+            }))}
+          />
         ),
       },
       morphology: {
