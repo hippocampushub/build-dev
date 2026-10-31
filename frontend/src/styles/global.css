@@ -812,14 +812,14 @@ textarea {
 
 /* items selected for the HH Neuron Builder: solid, in the builder's colour */
 .btn.selected {
-  border-color: var(--c-hhnb);
-  background: var(--c-hhnb);
+  border-color: #9aacc6;
+  background: #9aacc6;
   color: var(--on-accent);
 }
 
 .btn.selected:hover {
-  border-color: #6f86a8;
-  background: #6f86a8;
+  border-color: var(--c-hhnb);
+  background: var(--c-hhnb);
 }
 
 .filters-toggle {
