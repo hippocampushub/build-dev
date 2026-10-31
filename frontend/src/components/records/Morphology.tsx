@@ -13,7 +13,7 @@ function UseMorphologyButton({ item, wide = false }: { item: Morphology; wide?: 
   const selected = selection.morphology?.url === url;
   return (
     <button
-      className={`btn btn-sm${selected ? " selected" : ""}`}
+      className={`btn${wide ? "" : " btn-sm"}${selected ? " selected" : ""}`}
       onClick={() => setMorphology(selected ? null : { name: item.name, url })}
       aria-pressed={selected}
       title={selected ? "Remove from the HH Neuron Builder selection" : "Use this morphology in the HH Neuron Builder"}

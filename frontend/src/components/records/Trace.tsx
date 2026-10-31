@@ -13,7 +13,7 @@ function UseTraceButton({ item, wide = false }: { item: Trace; wide?: boolean })
   const selected = hasTrace(url);
   return (
     <button
-      className={`btn btn-sm${selected ? " selected" : ""}`}
+      className={`btn${wide ? "" : " btn-sm"}${selected ? " selected" : ""}`}
       onClick={() => toggleTrace({ name: item.name, url })}
       aria-pressed={selected}
       title={selected ? "Remove from the HH Neuron Builder selection" : "Add this trace to the HH Neuron Builder selection"}
