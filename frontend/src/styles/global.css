@@ -2010,10 +2010,10 @@ textarea.field {
 }
 
 /* trace figures: same layout as the morphologies; the figures are transparent with
-   light labels, on the same background as the connection matrix. The wide plots
-   are cropped to fill each tile (the left of the plot, with the mV axis, is kept) */
+   light labels, on very dark grey. The wide plots are cropped to fill each tile
+   (the left of the plot, with the mV axis, is kept) */
 .mosaic-plot .mosaic-tile {
-  background: rgba(49, 51, 84, 0.45);
+  background: #141519;
 }
 
 .mosaic-plot img {
