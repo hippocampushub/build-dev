@@ -16,8 +16,8 @@ type Feature = { stats: Stat[]; visual: ReactNode; sources: string };
 
 const REGIONS = ["DG", "CA3", "CA2", "CA1", "Sub", "EC"];
 
-// Voltage responses to current steps (-0.4 nA, near threshold, strongest step) of three
-// of the site's recordings, drawn from their .abf files. Imported, so the build names
+// Voltage responses to current steps (-0.8 to +1.0 nA) of three of the site's
+// recordings, drawn from their .abf files (backend/tools/draw_trace_figures.py). Imported, so the build names
 // them after their content and browsers never show an outdated copy.
 const TRACE_FIGURES = [
   { src: trace1, id: "internal_electrophysiologies-95912005", caption: "cAC · pyramidal" },

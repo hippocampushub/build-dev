@@ -6,9 +6,9 @@
 The .abf files are the recordings' download links in data/internal/electrophysiologies.json
 (95912005, 95810035 and 98513011).
 
-Transparent background, light ink, three overlaid sweeps (a hyperpolarizing step,
-a step near threshold, the strongest step), scale bars instead of axes, and the
-current protocol underneath.
+Transparent background, light ink, the sweeps from -0.8 nA up to the strongest step
+overlaid (coloured from cool to warm, strongest on top), scale bars instead of axes,
+and the current steps underneath in the same colours.
 """
 import sys
 import numpy as np
@@ -18,38 +18,36 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 
 INK = "#dde1f0"
-COLORS = ["#7d8bb0", "#c7a6dc", "#ef8f7f"]   # hyperpolarizing, near threshold, strongest
+# cool (most negative step) to warm (strongest step)
+GRADIENT = ["#4f6fb0", "#7d8bd0", "#a99be0", "#d29ad0", "#ee95a6", "#f39a7e", "#f6b26b"]
+AMPS = [-0.8, -0.4, 0.2, 0.4, 0.6, 0.8, 1.0]
 
 def spikes(y):
     return int(((y[1:] > -10) & (y[:-1] <= -10)).sum())
 
-def draw(path, out, width, height, t_end=0.48, near=None):
+def draw(path, out, width, height, t_end=0.48):
     abf = pyabf.ABF(path)
     rate = abf.dataRate
     sweeps = []
     for s in range(abf.sweepCount):
         abf.setSweep(s)
         sweeps.append((abf.sweepC[np.argmax(abs(abf.sweepC))], abf.sweepY.copy(), abf.sweepC.copy()))
-    hyper = min((sw for sw in sweeps if -0.45 < sw[0] < -0.35), key=lambda sw: abs(sw[0] + 0.4))
-    firing = [sw for sw in sweeps if sw[0] > 0 and spikes(sw[1]) > 0]
-    strongest = max(firing, key=lambda sw: (spikes(sw[1]), sw[0]))
-    first = near if near is not None else min(firing, key=lambda sw: sw[0])
-    if isinstance(first, float):
-        first = min(sweeps, key=lambda sw: abs(sw[0] - first))
-    chosen = [hyper, first, strongest]
+    chosen = [min(sweeps, key=lambda sw: abs(sw[0] - a)) for a in AMPS]
+    chosen = [sw for i, sw in enumerate(chosen) if abs(sw[0] - AMPS[i]) < 0.05]
+    colors = GRADIENT[-len(chosen):] if len(chosen) < len(GRADIENT) else GRADIENT
 
     n = int(t_end * rate)
     t = np.arange(n) / rate * 1000
     fig = plt.figure(figsize=(width / 100, height / 100), dpi=200)
     fig.patch.set_alpha(0)
     v = fig.add_axes([0.04, 0.17, 0.92, 0.79])
-    c = fig.add_axes([0.04, 0.04, 0.92, 0.08], sharex=v)
+    c = fig.add_axes([0.04, 0.03, 0.92, 0.11], sharex=v)
     for ax in (v, c):
         ax.set_axis_off()
         ax.patch.set_alpha(0)
-    for (amp, y, cmd), color in zip(chosen, COLORS):
-        v.plot(t, y[:n], color=color, lw=1.1, solid_joinstyle="round")
-        c.plot(t, cmd[:n], color=color, lw=1.1)
+    for (amp, y, cmd), color in zip(chosen, colors):
+        v.plot(t, y[:n], color=color, lw=0.9, solid_joinstyle="round")
+        c.plot(t, cmd[:n], color=color, lw=0.9)
     lo = min(sw[1][:n].min() for sw in chosen)
     hi = max(sw[1][:n].max() for sw in chosen)
     # room under the lowest trace for the scale bars

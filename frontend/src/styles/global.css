@@ -2040,7 +2040,7 @@ textarea.field {
 /* trace figures: same layout as the morphologies; transparent figures with light
    ink, drawn for these tiles, shown whole */
 .mosaic-plot .mosaic-tile {
-  background: #141519;
+  background: #000;
 }
 
 .mosaic-plot img {
