@@ -18,8 +18,8 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 
 INK = "#dde1f0"
-# clearly distinct colours, from blue (most negative step) to red (strongest step)
-GRADIENT = ["#4c7dff", "#2ec4e6", "#3fcf8e", "#c8d84a", "#f2b63c", "#f07a3a", "#e8445a"]
+# distinct, softened colours, from blue (most negative step) to red (strongest step)
+GRADIENT = ["#7a96de", "#5bb1c4", "#63b690", "#b6bf6e", "#d0af6a", "#ce8c67", "#ca6e7a"]
 AMPS = [-0.8, -0.4, 0.2, 0.4, 0.6, 0.8, 1.0]
 
 def spikes(y):
