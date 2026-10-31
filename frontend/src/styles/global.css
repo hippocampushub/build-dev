@@ -469,6 +469,30 @@ textarea {
   text-transform: uppercase;
 }
 
+.page-title-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px 24px;
+}
+
+/* small link next to a page title, e.g. "→ Go to Models" on the Data page */
+.title-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--accent);
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.title-link:hover {
+  color: var(--text);
+}
+
 .page-lead {
   max-width: 760px;
   margin: 16px 0 0;

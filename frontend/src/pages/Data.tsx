@@ -1,6 +1,6 @@
 import type { ReactNode } from "react";
 import { Link } from "react-router-dom";
-import { DATA_COLLECTIONS, type Collection } from "../lib/collections";
+import { DATA_COLLECTIONS, pathOf, type Collection } from "../lib/collections";
 import { loadAll, useLoad } from "../lib/data";
 import { toList } from "../lib/facets";
 import { secureUrl } from "../lib/format";
@@ -175,7 +175,12 @@ export function Data() {
     <div className="container">
       <header className="page-header">
         <p className="eyebrow">Build Models</p>
-        <h1 className="page-title">Data</h1>
+        <div className="page-title-row">
+          <h1 className="page-title">Data</h1>
+          <Link to={pathOf("model")} className="title-link" style={{ "--accent": "var(--c-model)" } as React.CSSProperties}>
+            <ArrowRightIcon size={18} /> Go to Models
+          </Link>
+        </div>
         <p className="page-lead">
           The Data section of the Hippocampus Hub Build portal provides data resources on hippocampal cells
           Connections, Morphologies and Electrophysiology from internal and external sources. Data can be visualized
