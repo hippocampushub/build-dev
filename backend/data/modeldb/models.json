@@ -21991,8 +21991,219 @@
       "Glutamate"
     ],
     "papers": [],
-    "readme_link": null,
-    "model_files": null,
+    "readme_link": "https://modeldb.science/getModelFile?model=2018268&file=gabab%2FREADME.html",
+    "model_files": [
+      {
+        "label": "AMPANMDA.mod",
+        "path": "gabab/neuron/mechanisms/AMPANMDA.mod",
+        "url": "https://modeldb.science/getModelFile?model=2018268&file=gabab%2Fneuron%2Fmechanisms%2FAMPANMDA.mod"
+      },
+      {
+        "label": "AMPANMDA_externalNT.mod",
+        "path": "gabab/neuron/mechanisms/AMPANMDA_externalNT.mod",
+        "url": "https://modeldb.science/getModelFile?model=2018268&file=gabab%2Fneuron%2Fmechanisms%2FAMPANMDA_externalNT.mod"
+      },
+      {
+        "label": "CaDynamics_E2.mod",
+        "path": "gabab/neuron/mechanisms/CaDynamics_E2.mod",
+        "url": "https://modeldb.science/getModelFile?model=2018268&file=gabab%2Fneuron%2Fmechanisms%2FCaDynamics_E2.mod"
+      },
+      {
+        "label": "CaNtype.mod",
+        "path": "gabab/neuron/mechanisms/CaNtype.mod",
+        "url": "https://modeldb.science/getModelFile?model=2018268&file=gabab%2Fneuron%2Fmechanisms%2FCaNtype.mod"
+      },
+      {
+        "label": "CaNtypeWillingReluctant.mod",
+        "path": "gabab/neuron/mechanisms/CaNtypeWillingReluctant.mod",
+        "url": "https://modeldb.science/getModelFile?model=2018268&file=gabab%2Fneuron%2Fmechanisms%2FCaNtypeWillingReluctant.mod"
+      },
+      {
+        "label": "CaNtypeWillingReluctantFixedRatio.mod",
+        "path": "gabab/neuron/mechanisms/CaNtypeWillingReluctantFixedRatio.mod",
+        "url": "https://modeldb.science/getModelFile?model=2018268&file=gabab%2Fneuron%2Fmechanisms%2FCaNtypeWillingReluctantFixedRatio.mod"
+      },
+      {
+        "label": "Ca_HVA.mod",
+        "path": "gabab/neuron/mechanisms/Ca_HVA.mod",
+        "url": "https://modeldb.science/getModelFile?model=2018268&file=gabab%2Fneuron%2Fmechanisms%2FCa_HVA.mod"
+      },
+      {
+        "label": "Ca_LVAst.mod",
+        "path": "gabab/neuron/mechanisms/Ca_LVAst.mod",
+        "url": "https://modeldb.science/getModelFile?model=2018268&file=gabab%2Fneuron%2Fmechanisms%2FCa_LVAst.mod"
+      },
+      {
+        "label": "Ih.mod",
+        "path": "gabab/neuron/mechanisms/Ih.mod",
+        "url": "https://modeldb.science/getModelFile?model=2018268&file=gabab%2Fneuron%2Fmechanisms%2FIh.mod"
+      },
+      {
+        "label": "Im.mod",
+        "path": "gabab/neuron/mechanisms/Im.mod",
+        "url": "https://modeldb.science/getModelFile?model=2018268&file=gabab%2Fneuron%2Fmechanisms%2FIm.mod"
+      },
+      {
+        "label": "K_Pst.mod",
+        "path": "gabab/neuron/mechanisms/K_Pst.mod",
+        "url": "https://modeldb.science/getModelFile?model=2018268&file=gabab%2Fneuron%2Fmechanisms%2FK_Pst.mod"
+      },
+      {
+        "label": "K_Tst.mod",
+        "path": "gabab/neuron/mechanisms/K_Tst.mod",
+        "url": "https://modeldb.science/getModelFile?model=2018268&file=gabab%2Fneuron%2Fmechanisms%2FK_Tst.mod"
+      },
+      {
+        "label": "NaTa_t.mod",
+        "path": "gabab/neuron/mechanisms/NaTa_t.mod",
+        "url": "https://modeldb.science/getModelFile?model=2018268&file=gabab%2Fneuron%2Fmechanisms%2FNaTa_t.mod"
+      },
+      {
+        "label": "NaTs2_t.mod",
+        "path": "gabab/neuron/mechanisms/NaTs2_t.mod",
+        "url": "https://modeldb.science/getModelFile?model=2018268&file=gabab%2Fneuron%2Fmechanisms%2FNaTs2_t.mod"
+      },
+      {
+        "label": "Nap_Et2.mod",
+        "path": "gabab/neuron/mechanisms/Nap_Et2.mod",
+        "url": "https://modeldb.science/getModelFile?model=2018268&file=gabab%2Fneuron%2Fmechanisms%2FNap_Et2.mod"
+      },
+      {
+        "label": "ProbAMPANMDA2.mod",
+        "path": "gabab/neuron/mechanisms/ProbAMPANMDA2.mod",
+        "url": "https://modeldb.science/getModelFile?model=2018268&file=gabab%2Fneuron%2Fmechanisms%2FProbAMPANMDA2.mod"
+      },
+      {
+        "label": "ProbUDFsyn2.mod",
+        "path": "gabab/neuron/mechanisms/ProbUDFsyn2.mod",
+        "url": "https://modeldb.science/getModelFile?model=2018268&file=gabab%2Fneuron%2Fmechanisms%2FProbUDFsyn2.mod"
+      },
+      {
+        "label": "SK_E2.mod",
+        "path": "gabab/neuron/mechanisms/SK_E2.mod",
+        "url": "https://modeldb.science/getModelFile?model=2018268&file=gabab%2Fneuron%2Fmechanisms%2FSK_E2.mod"
+      },
+      {
+        "label": "SKv3_1.mod",
+        "path": "gabab/neuron/mechanisms/SKv3_1.mod",
+        "url": "https://modeldb.science/getModelFile?model=2018268&file=gabab%2Fneuron%2Fmechanisms%2FSKv3_1.mod"
+      },
+      {
+        "label": "girk_yim.mod",
+        "path": "gabab/neuron/mechanisms/girk_yim.mod",
+        "url": "https://modeldb.science/getModelFile?model=2018268&file=gabab%2Fneuron%2Fmechanisms%2Fgirk_yim.mod"
+      },
+      {
+        "label": "AMPANMDA.mod",
+        "path": "gabab/neuron_withCA1/mechanisms/AMPANMDA.mod",
+        "url": "https://modeldb.science/getModelFile?model=2018268&file=gabab%2Fneuron_withCA1%2Fmechanisms%2FAMPANMDA.mod"
+      },
+      {
+        "label": "cad.mod",
+        "path": "gabab/neuron_withCA1/mechanisms/cad.mod",
+        "url": "https://modeldb.science/getModelFile?model=2018268&file=gabab%2Fneuron_withCA1%2Fmechanisms%2Fcad.mod"
+      },
+      {
+        "label": "cagk.mod",
+        "path": "gabab/neuron_withCA1/mechanisms/cagk.mod",
+        "url": "https://modeldb.science/getModelFile?model=2018268&file=gabab%2Fneuron_withCA1%2Fmechanisms%2Fcagk.mod"
+      },
+      {
+        "label": "cal.mod",
+        "path": "gabab/neuron_withCA1/mechanisms/cal.mod",
+        "url": "https://modeldb.science/getModelFile?model=2018268&file=gabab%2Fneuron_withCA1%2Fmechanisms%2Fcal.mod"
+      },
+      {
+        "label": "calH.mod",
+        "path": "gabab/neuron_withCA1/mechanisms/calH.mod",
+        "url": "https://modeldb.science/getModelFile?model=2018268&file=gabab%2Fneuron_withCA1%2Fmechanisms%2FcalH.mod"
+      },
+      {
+        "label": "car.mod",
+        "path": "gabab/neuron_withCA1/mechanisms/car.mod",
+        "url": "https://modeldb.science/getModelFile?model=2018268&file=gabab%2Fneuron_withCA1%2Fmechanisms%2Fcar.mod"
+      },
+      {
+        "label": "cat.mod",
+        "path": "gabab/neuron_withCA1/mechanisms/cat.mod",
+        "url": "https://modeldb.science/getModelFile?model=2018268&file=gabab%2Fneuron_withCA1%2Fmechanisms%2Fcat.mod"
+      },
+      {
+        "label": "d3.mod",
+        "path": "gabab/neuron_withCA1/mechanisms/d3.mod",
+        "url": "https://modeldb.science/getModelFile?model=2018268&file=gabab%2Fneuron_withCA1%2Fmechanisms%2Fd3.mod"
+      },
+      {
+        "label": "girk_yim.mod",
+        "path": "gabab/neuron_withCA1/mechanisms/girk_yim.mod",
+        "url": "https://modeldb.science/getModelFile?model=2018268&file=gabab%2Fneuron_withCA1%2Fmechanisms%2Fgirk_yim.mod"
+      },
+      {
+        "label": "h.mod",
+        "path": "gabab/neuron_withCA1/mechanisms/h.mod",
+        "url": "https://modeldb.science/getModelFile?model=2018268&file=gabab%2Fneuron_withCA1%2Fmechanisms%2Fh.mod"
+      },
+      {
+        "label": "kadist.mod",
+        "path": "gabab/neuron_withCA1/mechanisms/kadist.mod",
+        "url": "https://modeldb.science/getModelFile?model=2018268&file=gabab%2Fneuron_withCA1%2Fmechanisms%2Fkadist.mod"
+      },
+      {
+        "label": "kaprox.mod",
+        "path": "gabab/neuron_withCA1/mechanisms/kaprox.mod",
+        "url": "https://modeldb.science/getModelFile?model=2018268&file=gabab%2Fneuron_withCA1%2Fmechanisms%2Fkaprox.mod"
+      },
+      {
+        "label": "kca.mod",
+        "path": "gabab/neuron_withCA1/mechanisms/kca.mod",
+        "url": "https://modeldb.science/getModelFile?model=2018268&file=gabab%2Fneuron_withCA1%2Fmechanisms%2Fkca.mod"
+      },
+      {
+        "label": "kcasimple.mod",
+        "path": "gabab/neuron_withCA1/mechanisms/kcasimple.mod",
+        "url": "https://modeldb.science/getModelFile?model=2018268&file=gabab%2Fneuron_withCA1%2Fmechanisms%2Fkcasimple.mod"
+      },
+      {
+        "label": "kdr.mod",
+        "path": "gabab/neuron_withCA1/mechanisms/kdr.mod",
+        "url": "https://modeldb.science/getModelFile?model=2018268&file=gabab%2Fneuron_withCA1%2Fmechanisms%2Fkdr.mod"
+      },
+      {
+        "label": "km.mod",
+        "path": "gabab/neuron_withCA1/mechanisms/km.mod",
+        "url": "https://modeldb.science/getModelFile?model=2018268&file=gabab%2Fneuron_withCA1%2Fmechanisms%2Fkm.mod"
+      },
+      {
+        "label": "na3.mod",
+        "path": "gabab/neuron_withCA1/mechanisms/na3.mod",
+        "url": "https://modeldb.science/getModelFile?model=2018268&file=gabab%2Fneuron_withCA1%2Fmechanisms%2Fna3.mod"
+      },
+      {
+        "label": "na3dend.mod",
+        "path": "gabab/neuron_withCA1/mechanisms/na3dend.mod",
+        "url": "https://modeldb.science/getModelFile?model=2018268&file=gabab%2Fneuron_withCA1%2Fmechanisms%2Fna3dend.mod"
+      },
+      {
+        "label": "nap.mod",
+        "path": "gabab/neuron_withCA1/mechanisms/nap.mod",
+        "url": "https://modeldb.science/getModelFile?model=2018268&file=gabab%2Fneuron_withCA1%2Fmechanisms%2Fnap.mod"
+      },
+      {
+        "label": "nax.mod",
+        "path": "gabab/neuron_withCA1/mechanisms/nax.mod",
+        "url": "https://modeldb.science/getModelFile?model=2018268&file=gabab%2Fneuron_withCA1%2Fmechanisms%2Fnax.mod"
+      },
+      {
+        "label": "somacar.mod",
+        "path": "gabab/neuron_withCA1/mechanisms/somacar.mod",
+        "url": "https://modeldb.science/getModelFile?model=2018268&file=gabab%2Fneuron_withCA1%2Fmechanisms%2Fsomacar.mod"
+      },
+      {
+        "label": "GABAB_signaling.mod",
+        "path": "gabab/sbtab/GABAB_signaling.mod",
+        "url": "https://modeldb.science/getModelFile?model=2018268&file=gabab%2Fsbtab%2FGABAB_signaling.mod"
+      }
+    ],
     "created": "2025-02-27T12:12:52.621627+00:00",
     "updated": "2025-02-27T12:12:52.621627+00:00",
     "type": "single",
@@ -22630,8 +22841,179 @@
       "Glutamate"
     ],
     "papers": [],
-    "readme_link": null,
-    "model_files": null,
+    "readme_link": "https://modeldb.science/getModelFile?model=2017004&file=CA1PyrIschemicModel%2Freadme.md",
+    "model_files": [
+      {
+        "label": "ampa.mod",
+        "path": "CA1PyrIschemicModel/mod/ampa.mod",
+        "url": "https://modeldb.science/getModelFile?model=2017004&file=CA1PyrIschemicModel%2Fmod%2Fampa.mod"
+      },
+      {
+        "label": "cacumm.mod",
+        "path": "CA1PyrIschemicModel/mod/cacumm.mod",
+        "url": "https://modeldb.science/getModelFile?model=2017004&file=CA1PyrIschemicModel%2Fmod%2Fcacumm.mod"
+      },
+      {
+        "label": "cacummb.mod",
+        "path": "CA1PyrIschemicModel/mod/cacummb.mod",
+        "url": "https://modeldb.science/getModelFile?model=2017004&file=CA1PyrIschemicModel%2Fmod%2Fcacummb.mod"
+      },
+      {
+        "label": "cagk.mod",
+        "path": "CA1PyrIschemicModel/mod/cagk.mod",
+        "url": "https://modeldb.science/getModelFile?model=2017004&file=CA1PyrIschemicModel%2Fmod%2Fcagk.mod"
+      },
+      {
+        "label": "cal2.mod",
+        "path": "CA1PyrIschemicModel/mod/cal2.mod",
+        "url": "https://modeldb.science/getModelFile?model=2017004&file=CA1PyrIschemicModel%2Fmod%2Fcal2.mod"
+      },
+      {
+        "label": "caleak.mod",
+        "path": "CA1PyrIschemicModel/mod/caleak.mod",
+        "url": "https://modeldb.science/getModelFile?model=2017004&file=CA1PyrIschemicModel%2Fmod%2Fcaleak.mod"
+      },
+      {
+        "label": "can2.mod",
+        "path": "CA1PyrIschemicModel/mod/can2.mod",
+        "url": "https://modeldb.science/getModelFile?model=2017004&file=CA1PyrIschemicModel%2Fmod%2Fcan2.mod"
+      },
+      {
+        "label": "capump.mod",
+        "path": "CA1PyrIschemicModel/mod/capump.mod",
+        "url": "https://modeldb.science/getModelFile?model=2017004&file=CA1PyrIschemicModel%2Fmod%2Fcapump.mod"
+      },
+      {
+        "label": "cat.mod",
+        "path": "CA1PyrIschemicModel/mod/cat.mod",
+        "url": "https://modeldb.science/getModelFile?model=2017004&file=CA1PyrIschemicModel%2Fmod%2Fcat.mod"
+      },
+      {
+        "label": "clleak.mod",
+        "path": "CA1PyrIschemicModel/mod/clleak.mod",
+        "url": "https://modeldb.science/getModelFile?model=2017004&file=CA1PyrIschemicModel%2Fmod%2Fclleak.mod"
+      },
+      {
+        "label": "divmech.mod",
+        "path": "CA1PyrIschemicModel/mod/divmech.mod",
+        "url": "https://modeldb.science/getModelFile?model=2017004&file=CA1PyrIschemicModel%2Fmod%2Fdivmech.mod"
+      },
+      {
+        "label": "glurelease.mod",
+        "path": "CA1PyrIschemicModel/mod/glurelease.mod",
+        "url": "https://modeldb.science/getModelFile?model=2017004&file=CA1PyrIschemicModel%2Fmod%2Fglurelease.mod"
+      },
+      {
+        "label": "h.mod",
+        "path": "CA1PyrIschemicModel/mod/h.mod",
+        "url": "https://modeldb.science/getModelFile?model=2017004&file=CA1PyrIschemicModel%2Fmod%2Fh.mod"
+      },
+      {
+        "label": "horig.mod",
+        "path": "CA1PyrIschemicModel/mod/horig.mod",
+        "url": "https://modeldb.science/getModelFile?model=2017004&file=CA1PyrIschemicModel%2Fmod%2Fhorig.mod"
+      },
+      {
+        "label": "kadist.mod",
+        "path": "CA1PyrIschemicModel/mod/kadist.mod",
+        "url": "https://modeldb.science/getModelFile?model=2017004&file=CA1PyrIschemicModel%2Fmod%2Fkadist.mod"
+      },
+      {
+        "label": "kaprox.mod",
+        "path": "CA1PyrIschemicModel/mod/kaprox.mod",
+        "url": "https://modeldb.science/getModelFile?model=2017004&file=CA1PyrIschemicModel%2Fmod%2Fkaprox.mod"
+      },
+      {
+        "label": "kca.mod",
+        "path": "CA1PyrIschemicModel/mod/kca.mod",
+        "url": "https://modeldb.science/getModelFile?model=2017004&file=CA1PyrIschemicModel%2Fmod%2Fkca.mod"
+      },
+      {
+        "label": "kcc2.mod",
+        "path": "CA1PyrIschemicModel/mod/kcc2.mod",
+        "url": "https://modeldb.science/getModelFile?model=2017004&file=CA1PyrIschemicModel%2Fmod%2Fkcc2.mod"
+      },
+      {
+        "label": "kccmerge.mod",
+        "path": "CA1PyrIschemicModel/mod/kccmerge.mod",
+        "url": "https://modeldb.science/getModelFile?model=2017004&file=CA1PyrIschemicModel%2Fmod%2Fkccmerge.mod"
+      },
+      {
+        "label": "kdb.mod",
+        "path": "CA1PyrIschemicModel/mod/kdb.mod",
+        "url": "https://modeldb.science/getModelFile?model=2017004&file=CA1PyrIschemicModel%2Fmod%2Fkdb.mod"
+      },
+      {
+        "label": "kdrbca1.mod",
+        "path": "CA1PyrIschemicModel/mod/kdrbca1.mod",
+        "url": "https://modeldb.science/getModelFile?model=2017004&file=CA1PyrIschemicModel%2Fmod%2Fkdrbca1.mod"
+      },
+      {
+        "label": "kdrca1.mod",
+        "path": "CA1PyrIschemicModel/mod/kdrca1.mod",
+        "url": "https://modeldb.science/getModelFile?model=2017004&file=CA1PyrIschemicModel%2Fmod%2Fkdrca1.mod"
+      },
+      {
+        "label": "kir.mod",
+        "path": "CA1PyrIschemicModel/mod/kir.mod",
+        "url": "https://modeldb.science/getModelFile?model=2017004&file=CA1PyrIschemicModel%2Fmod%2Fkir.mod"
+      },
+      {
+        "label": "kleak.mod",
+        "path": "CA1PyrIschemicModel/mod/kleak.mod",
+        "url": "https://modeldb.science/getModelFile?model=2017004&file=CA1PyrIschemicModel%2Fmod%2Fkleak.mod"
+      },
+      {
+        "label": "kmb.mod",
+        "path": "CA1PyrIschemicModel/mod/kmb.mod",
+        "url": "https://modeldb.science/getModelFile?model=2017004&file=CA1PyrIschemicModel%2Fmod%2Fkmb.mod"
+      },
+      {
+        "label": "mglur.mod",
+        "path": "CA1PyrIschemicModel/mod/mglur.mod",
+        "url": "https://modeldb.science/getModelFile?model=2017004&file=CA1PyrIschemicModel%2Fmod%2Fmglur.mod"
+      },
+      {
+        "label": "na3n.mod",
+        "path": "CA1PyrIschemicModel/mod/na3n.mod",
+        "url": "https://modeldb.science/getModelFile?model=2017004&file=CA1PyrIschemicModel%2Fmod%2Fna3n.mod"
+      },
+      {
+        "label": "nacax.mod",
+        "path": "CA1PyrIschemicModel/mod/nacax.mod",
+        "url": "https://modeldb.science/getModelFile?model=2017004&file=CA1PyrIschemicModel%2Fmod%2Fnacax.mod"
+      },
+      {
+        "label": "nakpump.mod",
+        "path": "CA1PyrIschemicModel/mod/nakpump.mod",
+        "url": "https://modeldb.science/getModelFile?model=2017004&file=CA1PyrIschemicModel%2Fmod%2Fnakpump.mod"
+      },
+      {
+        "label": "naleak.mod",
+        "path": "CA1PyrIschemicModel/mod/naleak.mod",
+        "url": "https://modeldb.science/getModelFile?model=2017004&file=CA1PyrIschemicModel%2Fmod%2Fnaleak.mod"
+      },
+      {
+        "label": "nap.mod",
+        "path": "CA1PyrIschemicModel/mod/nap.mod",
+        "url": "https://modeldb.science/getModelFile?model=2017004&file=CA1PyrIschemicModel%2Fmod%2Fnap.mod"
+      },
+      {
+        "label": "naxn.mod",
+        "path": "CA1PyrIschemicModel/mod/naxn.mod",
+        "url": "https://modeldb.science/getModelFile?model=2017004&file=CA1PyrIschemicModel%2Fmod%2Fnaxn.mod"
+      },
+      {
+        "label": "nkcc1.mod",
+        "path": "CA1PyrIschemicModel/mod/nkcc1.mod",
+        "url": "https://modeldb.science/getModelFile?model=2017004&file=CA1PyrIschemicModel%2Fmod%2Fnkcc1.mod"
+      },
+      {
+        "label": "nmda.mod",
+        "path": "CA1PyrIschemicModel/mod/nmda.mod",
+        "url": "https://modeldb.science/getModelFile?model=2017004&file=CA1PyrIschemicModel%2Fmod%2Fnmda.mod"
+      }
+    ],
     "created": "2024-05-25T03:04:47.620372+00:00",
     "updated": "2024-05-25T03:04:47.620372+00:00",
     "type": "single",
