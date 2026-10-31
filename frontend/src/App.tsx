@@ -40,7 +40,8 @@ export function App() {
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
             {COLLECTIONS.map((c) => (
-              <Route key={c.key} path={c.path} element={<Browse collection={c} />} />
+              // keyed: each list page starts fresh, so one page's items never meet another's sort
+              <Route key={c.key} path={c.path} element={<Browse key={c.key} collection={c} />} />
             ))}
             <Route path="/data" element={<Data />} />
             {RENAMED.map(([from, to]) => (
