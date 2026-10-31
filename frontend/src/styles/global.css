@@ -472,14 +472,14 @@ textarea {
 .page-title-row {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
+  align-items: baseline; /* the link sits on the title's bottom line */
   gap: 8px 24px;
 }
 
 /* small link next to a page title, e.g. "→ Go to Models" on the Data page */
 .title-link {
   display: inline-flex;
-  align-items: center;
+  align-items: baseline; /* the text, not the arrow, sets the link's baseline */
   gap: 6px;
   color: var(--accent);
   font-size: 15px;
@@ -487,6 +487,10 @@ textarea {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   text-decoration: none;
+}
+
+.title-link svg {
+  align-self: center;
 }
 
 .title-link:hover {

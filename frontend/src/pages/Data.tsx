@@ -130,7 +130,7 @@ function useFeatures() {
           [distinct(traces.map((t) => t.etype)), "e-types"],
           [distinct(traces.map((t) => t.cell_type)), "cell classes"],
         ],
-        sources: "Hippocampus Hub on EBRAINS",
+        sources: "Source: EBRAINS",
         visual: (
           <Mosaic variant="plot" shots={TRACE_FIGURES.map((src) => ({ src, alt: "Voltage responses to current steps", to: traceCol.path }))} />
         ),
@@ -141,7 +141,7 @@ function useFeatures() {
           [distinct(morphologies.flatMap((m) => toList(m.cell_type))), "cell types"],
           [distinct(morphologies.flatMap((m) => toList(m.species))), "species"],
         ],
-        sources: "Hippocampus Hub on EBRAINS · NeuroMorpho.org",
+        sources: "Source: EBRAINS · NeuroMorpho.org",
         visual: (
           <Mosaic
             variant="dark"
@@ -160,7 +160,7 @@ function useFeatures() {
           [neuronTypes.size, "neuron types"],
           [distinct(connections.flatMap((c) => [...c.presynaptic.secondary_region, ...c.postsynaptic.secondary_region])), "regions"],
         ],
-        sources: "Hippocampome.org",
+        sources: "Source: Hippocampome.org",
         visual: <ConnectionMatrix items={connections} to={connCol.path} />,
       },
     };
