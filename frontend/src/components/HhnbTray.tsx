@@ -49,13 +49,13 @@ export function HhnbTray() {
   return (
     <Drawer
       eyebrow="Your selection"
-      title="HH Neuron Builder"
+      title="Hodgkin-Huxley Neuron Builder"
       accent="var(--c-hhnb)"
       onClose={() => setTrayOpen(false)}
       footer={
         <>
           <a className="btn btn-primary" href={hhnbLaunchUrl(selection)} target="_blank" rel="noreferrer">
-            Open in HH Neuron Builder <ExternalIcon size={16} />
+            Open in Hodgkin-Huxley Neuron Builder <ExternalIcon size={16} />
           </a>
           <span style={{ flex: 1 }} />
           <button className="btn btn-ghost" onClick={clear} disabled={count === 0}>Clear all</button>
@@ -67,7 +67,7 @@ export function HhnbTray() {
         Builder on EBRAINS to optimize and simulate a single-cell model.
       </p>
       <Group
-        title="Morphology (one)"
+        title={`Morphology (${selection.morphology ? 1 : 0})`}
         to={pathOf("morphology")}
         empty="No morphology selected."
         files={selection.morphology ? [selection.morphology] : []}
