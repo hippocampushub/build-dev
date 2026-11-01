@@ -1005,19 +1005,19 @@ textarea {
 /* tighter buttons on the card rows, so download, "Add to HHNB" and the source
    still fit on one line with the larger text */
 .card-actions {
-  gap: 6px;
+  gap: 4px;
 }
 
 .card-actions .btn-sm {
-  gap: 6px;
-  padding: 0 8px;
+  gap: 5px;
+  padding: 0 5px;
 }
 
 /* takes the room left on the row (never wraps); a long name shrinks to fit */
 .card-actions .source-badge.stacked {
   flex: 1 1 0;
   min-width: 0;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.01em;
 }
 
 .source-name {

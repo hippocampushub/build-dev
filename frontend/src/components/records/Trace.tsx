@@ -2,7 +2,7 @@ import type { Trace } from "../../lib/types";
 import { useHhnb } from "../../lib/hhnb";
 import { fileName } from "../../lib/format";
 import { toList } from "../../lib/facets";
-import { CheckIcon, PlusIcon } from "../Icons";
+import { CheckIcon, PlusIcon, SendIcon } from "../Icons";
 import { DownloadButton } from "../DownloadButton";
 import { Facts, InfoButton, Section, SourceBadge, SourceLink, Thumb } from "./common";
 
@@ -18,8 +18,8 @@ function UseTraceButton({ item, wide = false }: { item: Trace; wide?: boolean })
       aria-pressed={selected}
       title={selected ? "Remove from the HH Neuron Builder selection" : "Add this trace to the HH Neuron Builder selection"}
     >
-      {selected ? <CheckIcon size={16} /> : <PlusIcon size={16} />}
-      {wide ? (selected ? "Selected for HH Neuron Builder" : "Add to HH Neuron Builder") : selected ? "Selected" : "Add to HHNB"}
+      {selected ? <CheckIcon size={16} /> : wide ? <PlusIcon size={16} /> : <SendIcon size={15} />}
+      {wide ? (selected ? "Selected for HH Neuron Builder" : "Add to HH Neuron Builder") : selected ? "Selected" : "HHNB"}
     </button>
   );
 }

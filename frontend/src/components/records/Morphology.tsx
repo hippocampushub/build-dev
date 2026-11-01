@@ -2,7 +2,7 @@ import type { Morphology } from "../../lib/types";
 import { useHhnb } from "../../lib/hhnb";
 import { fileName, secureUrl } from "../../lib/format";
 import { toList } from "../../lib/facets";
-import { CheckIcon, PlusIcon } from "../Icons";
+import { CheckIcon, PlusIcon, SendIcon } from "../Icons";
 import { DownloadButton } from "../DownloadButton";
 import { Facts, InfoButton, Papers, Section, SourceBadge, SourceLink, Tags, Thumb } from "./common";
 
@@ -18,8 +18,8 @@ function UseMorphologyButton({ item, wide = false }: { item: Morphology; wide?: 
       aria-pressed={selected}
       title={selected ? "Remove from the HH Neuron Builder selection" : "Use this morphology in the HH Neuron Builder"}
     >
-      {selected ? <CheckIcon size={16} /> : <PlusIcon size={16} />}
-      {wide ? (selected ? "Selected for HH Neuron Builder" : "Use in HH Neuron Builder") : selected ? "Selected" : "Add to HHNB"}
+      {selected ? <CheckIcon size={16} /> : wide ? <PlusIcon size={16} /> : <SendIcon size={15} />}
+      {wide ? (selected ? "Selected for HH Neuron Builder" : "Use in HH Neuron Builder") : selected ? "Selected" : "HHNB"}
     </button>
   );
 }
