@@ -27,9 +27,8 @@ The paths are those of the previous site; the short paths of an earlier version
 
 The top menu is the previous site's: Home, Build Models (Data with its three
 pages, Models), Explore Models, Contact us. The home page
-banner is the previous site's neuron image, cropped to its three cells
-(`public/images/banner_cells_*.jpg`, from `background_02.png`), shown on the right
-of the text and blended into the background; its credits open in a dialog.
+banner is the previous site's neuron image (`public/images/banner_*.jpg`,
+resized from `background_02.png`), blended into the background, with its credits.
 
 **Hodgkin-Huxley Neuron Builder:** pick one morphology, any traces and `.mod`
 files ("Builder"/"Add" buttons); the selection is kept in the browser
