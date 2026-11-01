@@ -87,7 +87,7 @@ function Header() {
           ))}
         </nav>
         <button className="hhnb-button" onClick={() => setTrayOpen(true)} aria-label={`HH Neuron Builder selection, ${count} items`}>
-          <BuilderIcon />
+          <BuilderIcon size={22} />
           <span className="label">HH Neuron Builder</span>
           <span className="badge-count">{count}</span>
         </button>

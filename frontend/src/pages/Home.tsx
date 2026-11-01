@@ -56,7 +56,7 @@ export function Home() {
             </Link>
             <Link className="btn" to={pathOf("model")}>Models</Link>
             <button className="btn" onClick={() => setTrayOpen(true)}>
-              <BuilderIcon size={16} /> HH Neuron Builder selection
+              <BuilderIcon size={20} /> HH Neuron Builder selection
             </button>
           </div>
         </div>
