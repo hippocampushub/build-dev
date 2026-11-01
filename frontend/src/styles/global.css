@@ -1415,25 +1415,33 @@ textarea {
   text-align: right;
 }
 
-.banner-credits summary {
-  display: inline;
-  cursor: pointer;
+.banner-credits .link-button {
+  color: var(--text-subtle);
+  font-size: inherit;
+  font-weight: 400;
   text-decoration: underline;
   text-underline-offset: 2px;
 }
 
-.banner-credits[open] div {
-  max-width: 760px;
-  margin: 8px 0 0 auto;
-  padding: 12px 14px;
-  border-radius: var(--radius-sm);
-  background: rgba(49, 51, 84, 0.85);
-  text-align: left;
-  line-height: 1.5;
+.banner-credits .link-button:hover {
+  color: var(--text-muted);
 }
 
-.banner-credits a {
+/* credits modal: wider than the default dialog, for the long references */
+.dialog:has(.credits-text) {
+  width: min(680px, calc(100vw - 32px));
+  max-height: calc(100vh - 32px);
+  overflow-y: auto;
+}
+
+.credits-text {
+  margin-bottom: 16px;
   color: var(--text-muted);
+  line-height: 1.55;
+}
+
+.credits-text a {
+  color: var(--steel);
   word-break: break-all;
 }
 

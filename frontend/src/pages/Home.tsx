@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { Link } from "react-router-dom";
 import { COLLECTIONS, pathOf } from "../lib/collections";
 import { loadAll, loadJson, useLoad } from "../lib/data";
@@ -6,6 +7,7 @@ import { useHhnb } from "../lib/hhnb";
 import type { Manifest } from "../lib/types";
 import { ArrowRightIcon, BuilderIcon } from "../components/Icons";
 import { CountUp } from "../components/CountUp";
+import { Dialog } from "../components/Overlay";
 
 const TILE_TEXT: Record<string, string> = {
   morphology: "Reconstructed neurons to use as the cell's shape.",
@@ -36,6 +38,7 @@ export function Home() {
   const counts = useCounts();
   const manifest = useLoad(() => loadJson<Manifest>("manifest.json"), []);
   const { setTrayOpen } = useHhnb();
+  const [creditsOpen, setCreditsOpen] = useState(false);
 
   return (
     <>
@@ -60,10 +63,18 @@ export function Home() {
             </button>
           </div>
         </div>
-        <details className="banner-credits container">
-          <summary>Image credits</summary>
-          <div dangerouslySetInnerHTML={{ __html: BANNER_CREDITS }} />
-        </details>
+        <div className="banner-credits container">
+          <button className="link-button" onClick={() => setCreditsOpen(true)}>Image credits</button>
+        </div>
+        {creditsOpen && (
+          <Dialog
+            title="Image credits"
+            onClose={() => setCreditsOpen(false)}
+            actions={<button className="btn" onClick={() => setCreditsOpen(false)}>Close</button>}
+          >
+            <div className="credits-text" dangerouslySetInnerHTML={{ __html: BANNER_CREDITS }} />
+          </Dialog>
+        )}
       </section>
 
       <div className="container">
