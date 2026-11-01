@@ -1391,7 +1391,7 @@ textarea {
   position: absolute;
   inset: 0;
   /* sized to the banner height, so the cells are always shown whole, never cut at the bottom */
-  background: url("/images/banner_2400.jpg") 85% 60% / auto 125% no-repeat;
+  background: url("/images/banner_2400.jpg") 50% 60% / auto 125% no-repeat;
   mix-blend-mode: screen;
   opacity: 0.9;
   -webkit-mask-image: linear-gradient(90deg, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.6) 35%, #000 65%),
