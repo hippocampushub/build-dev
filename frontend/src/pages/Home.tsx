@@ -5,16 +5,27 @@ import { loadAll, loadJson, useLoad } from "../lib/data";
 import { formatDate } from "../lib/format";
 import { useHhnb } from "../lib/hhnb";
 import type { Manifest } from "../lib/types";
-import { ArrowRightIcon, BuilderIcon } from "../components/Icons";
+import { ArrowRightIcon, BuilderIcon, PauseIcon, PlayIcon } from "../components/Icons";
 import { CountUp } from "../components/CountUp";
 import { Dialog } from "../components/Overlay";
 
 const CAROUSEL_CELLS = ["multipolar", "slender", "pyramidal"];
+const CAROUSEL_PAUSED_KEY = "hh-build:carousel-paused";
 
-/** The three banner cells turning on a carousel; paused while the banner is scrolled out of view. */
+/**
+ * The three banner cells turning on a carousel. A button pauses it (WCAG 2.2.2: moving content that lasts more
+ * than 5 s can be paused), and the choice is remembered; it also pauses while the banner is scrolled out of view.
+ */
 function BannerCarousel() {
   const stage = useRef<HTMLDivElement>(null);
   const [visible, setVisible] = useState(true);
+  const [stopped, setStopped] = useState(() => {
+    try {
+      return localStorage.getItem(CAROUSEL_PAUSED_KEY) === "yes";
+    } catch {
+      return false;
+    }
+  });
   useEffect(() => {
     const el = stage.current;
     if (!el || !("IntersectionObserver" in window)) return;
@@ -22,11 +33,31 @@ function BannerCarousel() {
     observer.observe(el);
     return () => observer.disconnect();
   }, []);
+  const toggle = () => {
+    setStopped((s) => {
+      try {
+        if (s) localStorage.removeItem(CAROUSEL_PAUSED_KEY);
+        else localStorage.setItem(CAROUSEL_PAUSED_KEY, "yes");
+      } catch {
+        // not remembered: this visit only
+      }
+      return !s;
+    });
+  };
   return (
-    <div className={`carousel-stage${visible ? "" : " paused"}`} ref={stage} aria-hidden>
+    <div className={`carousel-stage${visible && !stopped ? "" : " paused"}`} ref={stage}>
       {CAROUSEL_CELLS.map((cell) => (
-        <img key={cell} className={`orbit-${cell}`} src={`${import.meta.env.BASE_URL}images/banner_cell_${cell}.webp`} alt="" />
+        <img key={cell} className={`orbit-${cell}`} src={`${import.meta.env.BASE_URL}images/banner_cell_${cell}.webp`} alt="" aria-hidden />
       ))}
+      <button
+        className="carousel-toggle"
+        onClick={toggle}
+        aria-pressed={stopped}
+        aria-label={stopped ? "Play the banner animation" : "Pause the banner animation"}
+        title={stopped ? "Play animation" : "Pause animation"}
+      >
+        {stopped ? <PlayIcon size={14} /> : <PauseIcon size={14} />}
+      </button>
     </div>
   );
 }

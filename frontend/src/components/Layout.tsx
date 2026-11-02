@@ -6,6 +6,7 @@ import { BuilderIcon, ChevronIcon, CloseIcon, MenuIcon } from "./Icons";
 import { HhnbToast, HhnbTray } from "./HhnbTray";
 import { FeedbackTab } from "./FeedbackTab";
 import { TermsNotice } from "./TermsNotice";
+import { useTerms } from "../lib/terms";
 
 const CNR_URL = "https://www.ibf.cnr.it/";
 const asset = (path: string) => `${import.meta.env.BASE_URL}${path}`;
@@ -108,6 +109,17 @@ const LEGAL_LINKS = [
   ["contributors", "Contributors"],
 ];
 
+/** Shows the statistics question again, so the choice can be changed (or consent withdrawn) at any time. */
+function StatisticsPreferences() {
+  const { statistics, setStatistics } = useTerms();
+  const state = statistics === "granted" ? "accepted" : statistics === "denied" ? "rejected" : "not chosen";
+  return (
+    <button className="link-button footer-link-button" onClick={() => setStatistics(null)} title={`Statistics: ${state}`}>
+      Statistics preferences
+    </button>
+  );
+}
+
 // Same content as the previous site's footer (json_data/config.json).
 function Footer() {
   return (
@@ -137,6 +149,9 @@ function Footer() {
                 <Link to={`/about#${anchor}`}>{label}</Link> - CNR-IBF
               </li>
             ))}
+            <li>
+              <StatisticsPreferences />
+            </li>
           </ul>
         </div>
         <p className="footer-copyright">Copyright ©2021 CNR-IBF Hippocampus Facility Hub Project. All rights reserved.</p>

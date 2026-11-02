@@ -1,4 +1,4 @@
-// Google Analytics of the previous site, loaded only once the visitor has accepted the terms notice.
+// Google Analytics of the previous site, loaded only once the visitor has accepted statistics in the notice bar.
 const GA_ID = "G-SGZ83Y6E8H";
 
 // Only the live build reports: local development and test deployments (VITE_STAGING) never do
@@ -28,4 +28,16 @@ export function loadAnalytics() {
   script.async = true;
   script.src = `https://www.googletagmanager.com/gtag/js?id=${GA_ID}`;
   document.head.appendChild(script);
+}
+
+/** Removes the Google Analytics cookies (_ga, _ga_<id>) when the visitor withdraws consent. */
+export function clearAnalyticsCookies() {
+  const names = document.cookie.split(";").map((c) => c.split("=")[0].trim()).filter((n) => n.startsWith("_ga"));
+  const host = window.location.hostname;
+  // GA sets them on the widest domain it can (.hippocampushub.eu), so try each level of the host name
+  const domains = host.split(".").map((_, i, parts) => parts.slice(i).join(".")).filter((d) => d.includes("."));
+  for (const name of names) {
+    document.cookie = `${name}=; Max-Age=0; path=/`;
+    for (const domain of domains) document.cookie = `${name}=; Max-Age=0; path=/; domain=.${domain}`;
+  }
 }

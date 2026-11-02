@@ -1706,7 +1706,34 @@ textarea {
   animation: cell-orbit var(--orbit) linear calc(var(--orbit) * -2 / 3) infinite !important;
 }
 
-/* nothing to animate while the banner is scrolled out of view */
+/* pause / play: always reachable, discreet until hovered or focused */
+.carousel-toggle {
+  position: absolute;
+  z-index: 20;
+  right: 8px;
+  bottom: 16px;
+  width: 32px;
+  height: 32px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  border: 1px solid var(--line-strong);
+  background: rgba(29, 33, 71, 0.6);
+  color: var(--text-muted);
+  cursor: pointer;
+  pointer-events: auto;
+  opacity: 0.7;
+  transition: opacity 0.15s, background 0.15s;
+}
+
+.carousel-toggle:hover,
+.carousel-toggle:focus-visible {
+  opacity: 1;
+  background: rgba(29, 33, 71, 0.9);
+  color: var(--text);
+}
+
+/* paused by the visitor, or while the banner is scrolled out of view */
 .banner .carousel-stage.paused img {
   animation-play-state: paused !important;
 }
@@ -3311,9 +3338,23 @@ body:has(.terms-notice) {
   text-underline-offset: 2px;
 }
 
-.terms-notice .btn {
+.terms-notice-actions {
   flex: none;
-  --accent: var(--peach);
+  display: flex;
+  gap: 8px;
+}
+
+/* Accept and Reject look the same: neither choice is pushed */
+.terms-notice-actions .btn {
+  min-width: 96px;
+}
+
+.footer-link-button {
+  padding: 0;
+  color: inherit;
+  font: inherit;
+  text-decoration: underline;
+  text-underline-offset: 2px;
 }
 
 @media (max-width: 640px) {
@@ -3321,6 +3362,10 @@ body:has(.terms-notice) {
     flex-direction: column;
     align-items: stretch;
     gap: 12px;
+  }
+
+  .terms-notice-actions .btn {
+    flex: 1;
   }
 }
 

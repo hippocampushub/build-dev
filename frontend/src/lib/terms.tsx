@@ -1,15 +1,29 @@
 import { createContext, useCallback, useContext, useEffect, useMemo, useState, type MouseEvent, type ReactNode } from "react";
 import { Dialog } from "../components/Overlay";
-import { loadAnalytics } from "./analytics";
+import { clearAnalyticsCookies, loadAnalytics } from "./analytics";
 
-// Same key and value as the previous site (www.hippocampushub.eu/build): whoever agreed there is not asked again
-const STORAGE_KEY = "HFH_TOS";
+// Terms of use: same key and value as the previous site (www.hippocampushub.eu/build), so whoever accepted them
+// there is not asked again. It covers the terms only: it was never a valid consent to statistics.
+const TERMS_KEY = "HFH_TOS";
+// Statistics (Google Analytics): a separate, freely given choice that can be changed at any time
+const STATS_KEY = "hh-build:statistics";
 
-function readAgreed() {
+export type StatisticsChoice = "granted" | "denied" | null;
+
+function read<T>(key: string, parse: (raw: string) => T, fallback: T): T {
   try {
-    return JSON.parse(localStorage.getItem(STORAGE_KEY) ?? "null")?.agree === true;
+    const raw = localStorage.getItem(key);
+    return raw === null ? fallback : parse(raw);
   } catch {
-    return false;
+    return fallback;
+  }
+}
+
+function write(key: string, value: string) {
+  try {
+    localStorage.setItem(key, value);
+  } catch {
+    // storage unavailable: the choice holds for this visit only
   }
 }
 
@@ -20,7 +34,7 @@ const SOURCES = [
   ["EBRAINS Knowledge Graph", "https://kg.ebrains.eu/search-terms-of-use.html?v=2.2"],
 ];
 
-/** The previous site's terms of use text, with the links to the four sources' terms. */
+/** The previous site's terms of use, with the links to the four sources' terms. */
 export function TermsText() {
   return (
     <>
@@ -31,40 +45,59 @@ export function TermsText() {
           {i < SOURCES.length - 2 ? ", " : i === SOURCES.length - 2 ? " and " : "."}
         </span>
       ))}
-      <br />
-      Our site saves cookies on your device for technical and statistical reasons and should not be disabled. We do not
-      use cookies for commercial or profiling purposes. By browsing our website you grant us permission to store cookies
-      on your device.
     </>
   );
 }
 
 interface TermsContextValue {
-  agreed: boolean;
-  agree: () => void;
-  /** Runs the action now if the terms are accepted, otherwise once the visitor accepts them in a dialog. */
-  withTerms: (action: () => void) => void;
   /** onClick for a link to a resource (download, .mod file, Neuron Builder): asks for the terms first. */
   guardLink: (url: string) => (e: MouseEvent<HTMLAnchorElement>) => void;
+  /** Runs the action now if the terms are accepted, otherwise once the visitor accepts them in a dialog. */
+  withTerms: (action: () => void) => void;
+  statistics: StatisticsChoice;
+  setStatistics: (choice: StatisticsChoice) => void;
 }
 
 const TermsContext = createContext<TermsContextValue | null>(null);
 
-/** Browsing is free; downloading or opening the Neuron Builder needs the terms accepted once (which also allows the statistics). */
+/**
+ * Browsing is free. Downloads, .mod files and the Neuron Builder need the terms of use accepted once.
+ * Statistics are a separate choice (accept or reject, equally easy), asked in the notice bar.
+ */
 export function TermsProvider({ children }: { children: ReactNode }) {
-  const [agreed, setAgreed] = useState(readAgreed);
+  const [agreed, setAgreed] = useState(() => read(TERMS_KEY, (raw) => JSON.parse(raw)?.agree === true, false));
+  const [statistics, setStatisticsState] = useState<StatisticsChoice>(() =>
+    read(STATS_KEY, (raw) => (raw === "granted" || raw === "denied" ? raw : null), null),
+  );
   const [pending, setPending] = useState<(() => void) | null>(null);
 
   useEffect(() => {
-    if (agreed) loadAnalytics();
-  }, [agreed]);
+    if (statistics === "granted") loadAnalytics();
+  }, [statistics]);
 
-  const agree = useCallback(() => {
-    try {
-      localStorage.setItem(STORAGE_KEY, JSON.stringify({ agree: true }));
-    } catch {
-      // storage unavailable: agreed for this visit only
-    }
+  const setStatistics = useCallback(
+    (choice: StatisticsChoice) => {
+      if (choice) write(STATS_KEY, choice);
+      else {
+        try {
+          localStorage.removeItem(STATS_KEY);
+        } catch {
+          // nothing stored
+        }
+      }
+      // withdrawing a consent already given: drop the statistics cookies and stop the loaded script
+      if (statistics === "granted" && choice !== "granted") {
+        clearAnalyticsCookies();
+        window.location.reload();
+        return;
+      }
+      setStatisticsState(choice);
+    },
+    [statistics],
+  );
+
+  const acceptTerms = useCallback(() => {
+    write(TERMS_KEY, JSON.stringify({ agree: true }));
     setAgreed(true);
   }, []);
 
@@ -82,7 +115,10 @@ export function TermsProvider({ children }: { children: ReactNode }) {
     [agreed],
   );
 
-  const value = useMemo(() => ({ agreed, agree, withTerms, guardLink }), [agreed, agree, withTerms, guardLink]);
+  const value = useMemo(
+    () => ({ guardLink, withTerms, statistics, setStatistics }),
+    [guardLink, withTerms, statistics, setStatistics],
+  );
 
   return (
     <TermsContext.Provider value={value}>
@@ -97,7 +133,7 @@ export function TermsProvider({ children }: { children: ReactNode }) {
               <button
                 className="btn btn-primary"
                 onClick={() => {
-                  agree();
+                  acceptTerms();
                   setPending(null);
                   pending();
                 }}

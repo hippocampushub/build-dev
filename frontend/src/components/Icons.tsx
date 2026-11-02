@@ -102,6 +102,17 @@ export const TraceIcon = (p: IconProps) => (
     <path d="M2 14h4l2-8 3 14 3-10 2 4h6" />
   </Icon>
 );
+export const PauseIcon = (p: IconProps) => (
+  <Icon {...p}>
+    <path d="M9 5v14" />
+    <path d="M15 5v14" />
+  </Icon>
+);
+export const PlayIcon = (p: IconProps) => (
+  <Icon {...p}>
+    <path d="M7 4.5v15l12-7.5z" />
+  </Icon>
+);
 export const InfoIcon = (p: IconProps) => (
   <Icon {...p}>
     <circle cx="12" cy="12" r="9" />
