@@ -40,9 +40,16 @@ export function hhnbLaunchUrl(selection: HhnbSelection): string {
     : HHNB_URL;
 }
 
+// The selection belongs to the browser tab (sessionStorage): it survives a reload, while a new tab starts empty.
 function readStored(): HhnbSelection {
   try {
-    const stored = JSON.parse(localStorage.getItem(STORAGE_KEY) ?? "null");
+    // selections saved by earlier versions in localStorage (shared by all tabs) are dropped
+    localStorage.removeItem(STORAGE_KEY);
+  } catch {
+    // storage unavailable
+  }
+  try {
+    const stored = JSON.parse(sessionStorage.getItem(STORAGE_KEY) ?? "null");
     return stored ? { ...EMPTY, ...stored } : EMPTY;
   } catch {
     return EMPTY;
@@ -82,9 +89,9 @@ export function HhnbProvider({ children }: { children: ReactNode }) {
 
   useEffect(() => {
     try {
-      localStorage.setItem(STORAGE_KEY, JSON.stringify(selection));
+      sessionStorage.setItem(STORAGE_KEY, JSON.stringify(selection));
     } catch {
-      // storage unavailable (private mode): the selection still works for this visit
+      // storage unavailable: the selection still works until the page is reloaded
     }
   }, [selection]);
 
