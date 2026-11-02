@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
 import { COLLECTIONS, pathOf } from "../lib/collections";
 import { loadAll, loadJson, useLoad } from "../lib/data";
@@ -8,6 +8,28 @@ import type { Manifest } from "../lib/types";
 import { ArrowRightIcon, BuilderIcon } from "../components/Icons";
 import { CountUp } from "../components/CountUp";
 import { Dialog } from "../components/Overlay";
+
+const CAROUSEL_CELLS = ["multipolar", "slender", "pyramidal"];
+
+/** The three banner cells turning on a carousel; paused while the banner is scrolled out of view. */
+function BannerCarousel() {
+  const stage = useRef<HTMLDivElement>(null);
+  const [visible, setVisible] = useState(true);
+  useEffect(() => {
+    const el = stage.current;
+    if (!el || !("IntersectionObserver" in window)) return;
+    const observer = new IntersectionObserver(([entry]) => setVisible(entry.isIntersecting));
+    observer.observe(el);
+    return () => observer.disconnect();
+  }, []);
+  return (
+    <div className={`carousel-stage${visible ? "" : " paused"}`} ref={stage} aria-hidden>
+      {CAROUSEL_CELLS.map((cell) => (
+        <img key={cell} className={`orbit-${cell}`} src={`${import.meta.env.BASE_URL}images/banner_cell_${cell}.webp`} alt="" />
+      ))}
+    </div>
+  );
+}
 
 const TILE_TEXT: Record<string, string> = {
   morphology: "Reconstructed neurons to use as the cell's shape.",
@@ -43,7 +65,7 @@ export function Home() {
   return (
     <>
       <section className="banner">
-        <div className="banner-image" aria-hidden />
+        <BannerCarousel />
         <div className="container hero">
           <p className="eyebrow" style={{ color: "var(--peach)" }}>Build</p>
           <h1>
