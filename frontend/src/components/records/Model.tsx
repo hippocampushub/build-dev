@@ -114,6 +114,11 @@ function TagSection({ title, values }: { title: string; values?: string[] }) {
 export function ModelDetail({ item }: { item: Model }) {
   return (
     <>
+      {item.description && (
+        <Section title="Description">
+          <p className="prose">{item.description}</p>
+        </Section>
+      )}
       <div className="detail-links">
         <DownloadButton url={item.download_link} source={item.source} label="Download ZIP" small={false} primary />
         <span style={{ flex: 1 }} />
@@ -121,11 +126,6 @@ export function ModelDetail({ item }: { item: Model }) {
         <SourceLink url={item.github_link} label="GitHub" />
         <SourceLink url={item.page_link} label="ModelDB" />
       </div>
-      {item.description && (
-        <Section title="Description">
-          <p className="prose">{item.description}</p>
-        </Section>
-      )}
       <ModFiles item={item} />
       <TagSection title="Cell types" values={item.cell_types} />
       <TagSection title="Channels" values={item.channels} />

@@ -1533,15 +1533,19 @@ textarea {
   font-size: calc(16px + 1pt);
 }
 
-/* download and source links right under a record's title */
+/* download and source links under a model's description */
 .detail-links {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   gap: 8px;
-  margin-bottom: 24px;
+  margin-top: 16px;
   padding-bottom: 20px;
   border-bottom: 1px solid var(--line);
+}
+
+.detail-links:first-child {
+  margin-top: 0;
 }
 
 /* in a model's details: opens the HHNB selection panel */
