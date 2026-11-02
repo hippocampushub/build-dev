@@ -51,7 +51,10 @@ function BannerCarousel({ stopped }: { stopped: boolean }) {
   return (
     <div className={`carousel-stage${visible && !stopped ? "" : " paused"}`} ref={stage} aria-hidden>
       {CAROUSEL_CELLS.map((cell) => (
-        <img key={cell} className={`orbit-${cell}`} src={`${import.meta.env.BASE_URL}images/banner_cell_${cell}.webp`} alt="" />
+        // the wrapper fills the stage, so the motion can use plain percentages of it
+        <div key={cell} className={`orbit orbit-${cell}`}>
+          <img src={`${import.meta.env.BASE_URL}images/banner_cell_${cell}.webp`} alt="" />
+        </div>
       ))}
     </div>
   );
