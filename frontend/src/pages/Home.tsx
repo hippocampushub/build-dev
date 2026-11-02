@@ -13,12 +13,10 @@ const CAROUSEL_CELLS = ["multipolar", "slender", "pyramidal"];
 const CAROUSEL_PAUSED_KEY = "hh-build:carousel-paused";
 
 /**
- * The three banner cells turning on a carousel. A button pauses it (WCAG 2.2.2: moving content that lasts more
- * than 5 s can be paused), and the choice is remembered; it also pauses while the banner is scrolled out of view.
+ * The visitor's pause of the banner animation (WCAG 2.2.2: moving content that lasts more than 5 s can be
+ * paused), remembered between visits.
  */
-function BannerCarousel() {
-  const stage = useRef<HTMLDivElement>(null);
-  const [visible, setVisible] = useState(true);
+function useCarouselPause() {
   const [stopped, setStopped] = useState(() => {
     try {
       return localStorage.getItem(CAROUSEL_PAUSED_KEY) === "yes";
@@ -26,14 +24,7 @@ function BannerCarousel() {
       return false;
     }
   });
-  useEffect(() => {
-    const el = stage.current;
-    if (!el || !("IntersectionObserver" in window)) return;
-    const observer = new IntersectionObserver(([entry]) => setVisible(entry.isIntersecting));
-    observer.observe(el);
-    return () => observer.disconnect();
-  }, []);
-  const toggle = () => {
+  const toggle = () =>
     setStopped((s) => {
       try {
         if (s) localStorage.removeItem(CAROUSEL_PAUSED_KEY);
@@ -43,21 +34,25 @@ function BannerCarousel() {
       }
       return !s;
     });
-  };
+  return [stopped, toggle] as const;
+}
+
+/** The three banner cells turning on a carousel; paused by the visitor or while the banner is out of view. */
+function BannerCarousel({ stopped }: { stopped: boolean }) {
+  const stage = useRef<HTMLDivElement>(null);
+  const [visible, setVisible] = useState(true);
+  useEffect(() => {
+    const el = stage.current;
+    if (!el || !("IntersectionObserver" in window)) return;
+    const observer = new IntersectionObserver(([entry]) => setVisible(entry.isIntersecting));
+    observer.observe(el);
+    return () => observer.disconnect();
+  }, []);
   return (
-    <div className={`carousel-stage${visible && !stopped ? "" : " paused"}`} ref={stage}>
+    <div className={`carousel-stage${visible && !stopped ? "" : " paused"}`} ref={stage} aria-hidden>
       {CAROUSEL_CELLS.map((cell) => (
-        <img key={cell} className={`orbit-${cell}`} src={`${import.meta.env.BASE_URL}images/banner_cell_${cell}.webp`} alt="" aria-hidden />
+        <img key={cell} className={`orbit-${cell}`} src={`${import.meta.env.BASE_URL}images/banner_cell_${cell}.webp`} alt="" />
       ))}
-      <button
-        className="carousel-toggle"
-        onClick={toggle}
-        aria-pressed={stopped}
-        aria-label={stopped ? "Play the banner animation" : "Pause the banner animation"}
-        title={stopped ? "Play animation" : "Pause animation"}
-      >
-        {stopped ? <PlayIcon size={14} /> : <PauseIcon size={14} />}
-      </button>
     </div>
   );
 }
@@ -92,11 +87,12 @@ export function Home() {
   const manifest = useLoad(() => loadJson<Manifest>("manifest.json"), []);
   const { setTrayOpen } = useHhnb();
   const [creditsOpen, setCreditsOpen] = useState(false);
+  const [carouselStopped, toggleCarousel] = useCarouselPause();
 
   return (
     <>
       <section className="banner">
-        <BannerCarousel />
+        <BannerCarousel stopped={carouselStopped} />
         <div className="container hero">
           <p className="eyebrow" style={{ color: "var(--peach)" }}>Build</p>
           <h1>
@@ -117,6 +113,11 @@ export function Home() {
           </div>
         </div>
         <div className="banner-credits container">
+          <button className="link-button carousel-toggle" onClick={toggleCarousel} aria-pressed={carouselStopped}>
+            {carouselStopped ? <PlayIcon size={12} /> : <PauseIcon size={12} />}
+            {carouselStopped ? "Play animation" : "Pause animation"}
+          </button>
+          <span className="credits-sep" aria-hidden>·</span>
           <button className="link-button" onClick={() => setCreditsOpen(true)}>Image credits</button>
         </div>
         {creditsOpen && (
