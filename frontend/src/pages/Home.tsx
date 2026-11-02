@@ -113,11 +113,15 @@ export function Home() {
           </div>
         </div>
         <div className="banner-credits container">
-          <button className="link-button carousel-toggle" onClick={toggleCarousel} aria-pressed={carouselStopped}>
-            {carouselStopped ? <PlayIcon size={12} /> : <PauseIcon size={12} />}
-            {carouselStopped ? "Play animation" : "Pause animation"}
+          <button
+            className="link-button carousel-toggle"
+            onClick={toggleCarousel}
+            aria-pressed={carouselStopped}
+            aria-label={carouselStopped ? "Play the banner animation" : "Pause the banner animation"}
+            title={carouselStopped ? "Play animation" : "Pause animation"}
+          >
+            {carouselStopped ? <PlayIcon size={14} /> : <PauseIcon size={14} />}
           </button>
-          <span className="credits-sep" aria-hidden>·</span>
           <button className="link-button" onClick={() => setCreditsOpen(true)}>Image credits</button>
         </div>
         {creditsOpen && (

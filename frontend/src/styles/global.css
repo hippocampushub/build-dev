@@ -3091,15 +3091,22 @@ textarea {
   color: var(--text-muted);
 }
 
-/* pause / play of the banner animation, next to the credits */
+/* pause / play of the banner animation (icon only), next to the credits */
 .banner-credits .carousel-toggle {
-  display: inline-flex;
-  align-items: center;
-  gap: 5px;
+  display: inline-grid;
+  place-items: center;
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+  padding: 0;
+  border-radius: 50%;
+  vertical-align: middle;
+  text-decoration: none;
 }
 
-.credits-sep {
-  margin: 0 8px;
+.banner-credits .carousel-toggle:hover,
+.banner-credits .carousel-toggle:focus-visible {
+  background: rgba(229, 233, 244, 0.08);
 }
 
 /* credits modal: wider than the default dialog, for the long references */
