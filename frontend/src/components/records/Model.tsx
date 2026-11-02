@@ -1,7 +1,7 @@
 import type { Model } from "../../lib/types";
 import { useHhnb } from "../../lib/hhnb";
 import { formatDate } from "../../lib/format";
-import { CheckIcon, SendIcon } from "../Icons";
+import { BuilderIcon, CheckIcon, SendIcon } from "../Icons";
 import { DownloadButton } from "../DownloadButton";
 import { Papers, Section, SourceBadge, SourceLink, Tags } from "./common";
 
@@ -50,7 +50,7 @@ export function ModelCard({ item, onOpen }: { item: Model; onOpen: () => void })
 }
 
 function ModFiles({ item }: { item: Model }) {
-  const { hasModFile, toggleModFile } = useHhnb();
+  const { hasModFile, toggleModFile, count, setTrayOpen } = useHhnb();
   if (item.model_files === null || item.model_files === undefined) {
     return (
       <Section title="Mod files">
@@ -77,6 +77,11 @@ function ModFiles({ item }: { item: Model }) {
         <span className="hint">Add the mechanisms you need to the HH Neuron Builder selection.</span>
         <button className="link-button" onClick={toggleAll}>{allSelected ? "Remove all" : "Add all"}</button>
       </div>
+      <button className="btn hhnb-open" onClick={() => setTrayOpen(true)}>
+        <BuilderIcon size={20} />
+        Open HH Neuron Builder selection
+        <span className="badge-count">{count}</span>
+      </button>
       <div className="files">
         {files.map((f) => {
           const selected = hasModFile(f.url);

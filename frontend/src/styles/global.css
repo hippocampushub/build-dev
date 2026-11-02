@@ -1357,12 +1357,43 @@ textarea {
 }
 
 /* ---------- HHNB tray ---------- */
-/* the selection panel has its own coloured header and numbered steps, so it never reads like a record's details */
+/* the selection panel has its own cool steel-blue colouring and numbered steps, so it never reads like a
+   record's details (slate-violet) */
+.drawer-hhnb {
+  --hhnb-deep: #24324f;
+  background:
+    radial-gradient(120% 60% at 100% 0%, rgba(131, 152, 181, 0.22), transparent 60%),
+    linear-gradient(180deg, #33476b, var(--hhnb-deep));
+  border-left: 1px solid rgba(131, 152, 181, 0.6);
+  box-shadow: -24px 0 60px rgba(10, 18, 40, 0.55);
+}
+
 .drawer-hhnb .drawer-head {
   align-items: center;
-  background: linear-gradient(160deg, var(--c-hhnb), color-mix(in srgb, var(--c-hhnb) 72%, #313354));
+  background: linear-gradient(135deg, #a9bbd3, var(--c-hhnb) 55%, #6c84a6);
   border-bottom: 0;
+  box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 0.35), 0 6px 18px rgba(10, 18, 40, 0.35);
   color: var(--on-accent);
+}
+
+.drawer-hhnb .drawer-foot {
+  border-top-color: rgba(131, 152, 181, 0.35);
+  background: rgba(14, 22, 44, 0.35);
+}
+
+.drawer-hhnb .file-row,
+.drawer-hhnb .tray-empty {
+  background: rgba(131, 152, 181, 0.08);
+  border-color: rgba(131, 152, 181, 0.3);
+}
+
+.drawer-hhnb .tray-empty {
+  border-style: dashed;
+}
+
+.drawer-hhnb .hint,
+.drawer-hhnb .step-status {
+  color: #c3cfe2;
 }
 
 .drawer-hhnb .drawer-head .eyebrow {
@@ -1500,6 +1531,19 @@ textarea {
   justify-content: center;
   height: 46px;
   font-size: calc(16px + 1pt);
+}
+
+/* in a model's details: opens the HHNB selection panel */
+.hhnb-open {
+  width: 100%;
+  margin-bottom: 12px;
+  border-color: rgba(131, 152, 181, 0.6);
+  background: linear-gradient(135deg, rgba(131, 152, 181, 0.28), rgba(131, 152, 181, 0.12));
+}
+
+.hhnb-open:hover {
+  border-color: var(--c-hhnb);
+  background: linear-gradient(135deg, rgba(131, 152, 181, 0.4), rgba(131, 152, 181, 0.2));
 }
 
 /* confirmation when something is added to the selection */
