@@ -151,7 +151,7 @@ export function ModelFooter() {
   return (
     <button className="btn hhnb-open" onClick={() => setTrayOpen(true)}>
       <BuilderIcon size={20} />
-      Open HH Neuron Builder selection
+      View selected HHNB items
       <span className="badge-count">{count}</span>
     </button>
   );
