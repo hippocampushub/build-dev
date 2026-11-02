@@ -5,6 +5,7 @@ import { hhnbLaunchUrl, useHhnb, type HhnbFile } from "../lib/hhnb";
 import { Drawer } from "./Overlay";
 import { BuilderIcon, CheckIcon, CloseIcon, ExternalIcon, FileIcon } from "./Icons";
 import { pathOf } from "../lib/collections";
+import { useTerms } from "../lib/terms";
 
 function FileRow({ file, onRemove }: { file: HhnbFile; onRemove: () => void }) {
   return (
@@ -53,7 +54,9 @@ function Step({ n, title, to, empty, files, onRemove }: {
 
 export function HhnbTray() {
   const { selection, count, trayOpen, setTrayOpen, setMorphology, toggleTrace, toggleModFile, clear } = useHhnb();
+  const { guardLink } = useTerms();
   if (!trayOpen) return null;
+  const launchUrl = hhnbLaunchUrl(selection);
 
   return (
     <Drawer
@@ -66,7 +69,7 @@ export function HhnbTray() {
       footer={
         <div className="tray-launch">
           <span className={`step-marker${count ? " ready" : ""}`} aria-hidden="true">4</span>
-          <a className="btn btn-primary btn-lg" href={hhnbLaunchUrl(selection)} target="_blank" rel="noreferrer">
+          <a className="btn btn-primary btn-lg" href={launchUrl} target="_blank" rel="noreferrer" onClick={guardLink(launchUrl)}>
             Open in HH Neuron Builder <ExternalIcon size={16} />
           </a>
         </div>

@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Dialog } from "./Overlay";
 import { DownloadIcon } from "./Icons";
+import { useTerms } from "../lib/terms";
 
 const AGREED_KEY = "hh-build:neuromorpho-terms";
 const TERMS_URL = "https://neuromorpho.org/useterm.jsp";
@@ -28,6 +29,7 @@ export function DownloadButton({
   primary?: boolean;
 }) {
   const [asking, setAsking] = useState(false);
+  const { withTerms, guardLink } = useTerms();
   if (!url) return null;
   const needsTerms = source?.toLowerCase() === "neuromorpho";
   const className = `btn${small ? " btn-sm" : ""}${primary ? " btn-primary" : ""}`;
@@ -36,7 +38,7 @@ export function DownloadButton({
 
   if (!needsTerms) {
     return (
-      <a className={className} href={url} target="_blank" rel="noreferrer" {...a11y}>
+      <a className={className} href={url} target="_blank" rel="noreferrer" onClick={guardLink(url)} {...a11y}>
         <DownloadIcon size={16} /> {label}
       </a>
     );
@@ -55,7 +57,7 @@ export function DownloadButton({
 
   return (
     <>
-      <button className={className} onClick={() => (hasAgreed() ? download() : setAsking(true))} {...a11y}>
+      <button className={className} onClick={() => withTerms(() => (hasAgreed() ? download() : setAsking(true)))} {...a11y}>
         <DownloadIcon size={16} /> {label}
       </button>
       {asking && (

@@ -1,5 +1,6 @@
 import type { Model } from "../../lib/types";
 import { useHhnb } from "../../lib/hhnb";
+import { useTerms } from "../../lib/terms";
 import { formatDate } from "../../lib/format";
 import { BuilderIcon, CheckIcon, SendIcon } from "../Icons";
 import { DownloadButton } from "../DownloadButton";
@@ -51,6 +52,7 @@ export function ModelCard({ item, onOpen }: { item: Model; onOpen: () => void })
 
 function ModFiles({ item }: { item: Model }) {
   const { hasModFile, toggleModFile } = useHhnb();
+  const { guardLink } = useTerms();
   if (item.model_files === null || item.model_files === undefined) {
     return (
       <Section title="Mod files">
@@ -83,7 +85,7 @@ function ModFiles({ item }: { item: Model }) {
           return (
             <div className="file-row" key={f.url}>
               <span className="name">
-                <a href={f.url} target="_blank" rel="noreferrer">{f.name}</a>
+                <a href={f.url} target="_blank" rel="noreferrer" onClick={guardLink(f.url)}>{f.name}</a>
                 {f.path !== f.name && <div className="path">{f.path}</div>}
               </span>
               <button

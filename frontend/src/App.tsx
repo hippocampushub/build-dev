@@ -1,5 +1,6 @@
 import { BrowserRouter, Link, Navigate, Route, Routes, useLocation } from "react-router-dom";
 import { COLLECTIONS } from "./lib/collections";
+import { TermsProvider } from "./lib/terms";
 import { HhnbProvider } from "./lib/hhnb";
 import { Layout } from "./components/Layout";
 import { About } from "./pages/About";
@@ -34,23 +35,25 @@ function NotFound() {
 export function App() {
   return (
     <BrowserRouter basename={import.meta.env.BASE_URL.replace(/\/$/, "")}>
-      <HhnbProvider>
-        <Layout>
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/about" element={<About />} />
-            {COLLECTIONS.map((c) => (
-              // keyed: each list page starts fresh, so one page's items never meet another's sort
-              <Route key={c.key} path={c.path} element={<Browse key={c.key} collection={c} />} />
-            ))}
-            <Route path="/data" element={<Data />} />
-            {RENAMED.map(([from, to]) => (
-              <Route key={from} path={from} element={<Redirect to={to} />} />
-            ))}
-            <Route path="*" element={<NotFound />} />
-          </Routes>
-        </Layout>
-      </HhnbProvider>
+      <TermsProvider>
+        <HhnbProvider>
+          <Layout>
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/about" element={<About />} />
+              {COLLECTIONS.map((c) => (
+                // keyed: each list page starts fresh, so one page's items never meet another's sort
+                <Route key={c.key} path={c.path} element={<Browse key={c.key} collection={c} />} />
+              ))}
+              <Route path="/data" element={<Data />} />
+              {RENAMED.map(([from, to]) => (
+                <Route key={from} path={from} element={<Redirect to={to} />} />
+              ))}
+              <Route path="*" element={<NotFound />} />
+            </Routes>
+          </Layout>
+        </HhnbProvider>
+      </TermsProvider>
     </BrowserRouter>
   );
 }

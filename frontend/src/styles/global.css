@@ -3323,3 +3323,18 @@ body:has(.terms-notice) {
     gap: 12px;
   }
 }
+
+.terms-dialog-text {
+  margin: 0;
+  color: var(--text-muted);
+  line-height: 1.55;
+}
+
+.terms-dialog-text a {
+  color: var(--text);
+}
+
+/* a dialog dims and blocks everything below it, the side panels included */
+.scrim:has(+ .dialog) {
+  z-index: 95;
+}
