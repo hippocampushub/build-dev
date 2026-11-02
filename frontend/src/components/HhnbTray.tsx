@@ -1,7 +1,9 @@
+import { useEffect } from "react";
+import { createPortal } from "react-dom";
 import { Link } from "react-router-dom";
 import { hhnbLaunchUrl, useHhnb, type HhnbFile } from "../lib/hhnb";
 import { Drawer } from "./Overlay";
-import { CloseIcon, ExternalIcon, FileIcon } from "./Icons";
+import { BuilderIcon, CheckIcon, CloseIcon, ExternalIcon, FileIcon } from "./Icons";
 import { pathOf } from "../lib/collections";
 
 function FileRow({ file, onRemove }: { file: HhnbFile; onRemove: () => void }) {
@@ -16,7 +18,9 @@ function FileRow({ file, onRemove }: { file: HhnbFile; onRemove: () => void }) {
   );
 }
 
-function Group({ title, to, empty, files, onRemove }: {
+/** One step of the selection: a numbered marker that turns into a check once something is picked. */
+function Step({ n, title, to, empty, files, onRemove }: {
+  n: number;
   title: string;
   to: string;
   empty: string;
@@ -24,11 +28,16 @@ function Group({ title, to, empty, files, onRemove }: {
   onRemove: (file: HhnbFile) => void;
 }) {
   const { setTrayOpen } = useHhnb();
+  const done = files.length > 0;
   return (
-    <div className="tray-group">
-      <div className="section">
-        <h3>{title}</h3>
-        {files.length ? (
+    <li className={`tray-step${done ? " done" : ""}`}>
+      <span className="step-marker" aria-hidden="true">{done ? <CheckIcon size={14} /> : n}</span>
+      <div className="step-body">
+        <div className="step-head">
+          <h3>{title}</h3>
+          <span className="step-status">{done ? `${files.length} selected` : "Not selected"}</span>
+        </div>
+        {done ? (
           <div className="files">
             {files.map((f) => <FileRow key={f.url} file={f} onRemove={() => onRemove(f)} />)}
           </div>
@@ -38,7 +47,7 @@ function Group({ title, to, empty, files, onRemove }: {
           </div>
         )}
       </div>
-    </div>
+    </li>
   );
 }
 
@@ -48,45 +57,76 @@ export function HhnbTray() {
 
   return (
     <Drawer
+      className="drawer-hhnb"
+      icon={<BuilderIcon size={28} />}
       eyebrow="Your selection"
-      title="Hodgkin-Huxley Neuron Builder"
+      title="HH Neuron Builder"
       accent="var(--c-hhnb)"
       onClose={() => setTrayOpen(false)}
       footer={
-        <>
-          <a className="btn btn-primary" href={hhnbLaunchUrl(selection)} target="_blank" rel="noreferrer">
-            Open in Hodgkin-Huxley Neuron Builder <ExternalIcon size={16} />
+        <div className="tray-launch">
+          <span className={`step-marker${count ? " ready" : ""}`} aria-hidden="true">4</span>
+          <a className="btn btn-primary btn-lg" href={hhnbLaunchUrl(selection)} target="_blank" rel="noreferrer">
+            Open in HH Neuron Builder <ExternalIcon size={16} />
           </a>
-          <span style={{ flex: 1 }} />
-          <button className="btn btn-ghost" onClick={clear} disabled={count === 0}>Clear all</button>
-        </>
+        </div>
       }
     >
-      <p className="hint" style={{ marginTop: 0 }}>
-        Pick one morphology, the electrophysiology traces and the .mod files to start from, then open the Neuron
-        Builder on EBRAINS to optimize and simulate a single-cell model.
-      </p>
-      <Group
-        title={`Morphology (${selection.morphology ? 1 : 0})`}
-        to={pathOf("morphology")}
-        empty="No morphology selected."
-        files={selection.morphology ? [selection.morphology] : []}
-        onRemove={() => setMorphology(null)}
-      />
-      <Group
-        title={`Electrophysiology traces (${selection.electrophysiologies.length})`}
-        to={pathOf("electrophysiology")}
-        empty="No traces selected."
-        files={selection.electrophysiologies}
-        onRemove={toggleTrace}
-      />
-      <Group
-        title={`Mod files (${selection.modFiles.length})`}
-        to={pathOf("model")}
-        empty="No .mod files selected. Add them from a model's details."
-        files={selection.modFiles}
-        onRemove={toggleModFile}
-      />
+      <div className="tray-intro">
+        <p className="hint">
+          Pick one morphology, the electrophysiology traces and the .mod files to start from, then open the Neuron
+          Builder on EBRAINS to optimize and simulate a single-cell model.
+        </p>
+        <button className="link-button" onClick={clear} disabled={count === 0}>Clear all</button>
+      </div>
+      <ol className="tray-steps">
+        <Step
+          n={1}
+          title="Morphology"
+          to={pathOf("morphology")}
+          empty="No morphology selected."
+          files={selection.morphology ? [selection.morphology] : []}
+          onRemove={() => setMorphology(null)}
+        />
+        <Step
+          n={2}
+          title="Electrophysiology traces"
+          to={pathOf("electrophysiology")}
+          empty="No traces selected."
+          files={selection.electrophysiologies}
+          onRemove={toggleTrace}
+        />
+        <Step
+          n={3}
+          title="Mod files"
+          to={pathOf("model")}
+          empty="No .mod files selected. Add them from a model's details."
+          files={selection.modFiles}
+          onRemove={toggleModFile}
+        />
+      </ol>
     </Drawer>
+  );
+}
+
+/** Short confirmation when something is added to the selection, with a shortcut to the tray. */
+export function HhnbToast() {
+  const { added, dismissAdded, count, trayOpen, setTrayOpen } = useHhnb();
+  useEffect(() => {
+    if (!added) return;
+    const timer = setTimeout(dismissAdded, 3500);
+    return () => clearTimeout(timer);
+  }, [added, dismissAdded]);
+  if (!added || trayOpen) return null;
+
+  return createPortal(
+    <div className="hhnb-toast" role="status" key={added.id}>
+      <BuilderIcon size={22} />
+      <span className="text">
+        <strong>{added.name}</strong> added to your HH Neuron Builder selection ({count})
+      </span>
+      <button className="link-button" onClick={() => { dismissAdded(); setTrayOpen(true); }}>View</button>
+    </div>,
+    document.body,
   );
 }

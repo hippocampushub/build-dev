@@ -19,6 +19,8 @@ export function Drawer({
   title,
   eyebrow,
   accent,
+  icon,
+  className,
   onClose,
   footer,
   children,
@@ -26,6 +28,8 @@ export function Drawer({
   title: ReactNode;
   eyebrow?: string;
   accent?: string;
+  icon?: ReactNode;
+  className?: string;
   onClose: () => void;
   footer?: ReactNode;
   children: ReactNode;
@@ -39,7 +43,7 @@ export function Drawer({
     <>
       <div className="scrim" onClick={onClose} />
       <div
-        className="drawer"
+        className={`drawer${className ? ` ${className}` : ""}`}
         role="dialog"
         aria-modal="true"
         aria-label={typeof title === "string" ? title : undefined}
@@ -48,6 +52,7 @@ export function Drawer({
         style={accent ? ({ "--accent": accent } as React.CSSProperties) : undefined}
       >
         <div className="drawer-head">
+          {icon && <span className="drawer-icon">{icon}</span>}
           <div style={{ flex: 1, minWidth: 0 }}>
             {eyebrow && <p className="eyebrow">{eyebrow}</p>}
             <h2>{title}</h2>

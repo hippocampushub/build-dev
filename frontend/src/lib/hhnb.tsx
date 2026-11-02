@@ -1,4 +1,4 @@
-import { createContext, useCallback, useContext, useEffect, useMemo, useState, type ReactNode } from "react";
+import { createContext, useCallback, useContext, useEffect, useMemo, useRef, useState, type ReactNode } from "react";
 
 export const HHNB_URL = "https://hhnb.ebrains-italy.eu/hh-neuron-builder/";
 const STORAGE_KEY = "hh-build:hhnb-selection";
@@ -60,9 +60,15 @@ interface HhnbContextValue {
   clear: () => void;
   trayOpen: boolean;
   setTrayOpen: (open: boolean) => void;
+  /** The last file added to the selection, for the confirmation toast; id changes on every addition. */
+  added: { id: number; name: string } | null;
+  dismissAdded: () => void;
 }
 
 const HhnbContext = createContext<HhnbContextValue | null>(null);
+
+const urls = (s: HhnbSelection) =>
+  new Set([...(s.morphology ? [s.morphology] : []), ...s.electrophysiologies, ...s.modFiles].map((f) => f.url));
 
 const toggle = (list: HhnbFile[], file: HhnbFile) =>
   list.some((f) => f.url === file.url) ? list.filter((f) => f.url !== file.url) : [...list, file];
@@ -70,6 +76,9 @@ const toggle = (list: HhnbFile[], file: HhnbFile) =>
 export function HhnbProvider({ children }: { children: ReactNode }) {
   const [selection, setSelection] = useState<HhnbSelection>(readStored);
   const [trayOpen, setTrayOpen] = useState(false);
+  const [added, setAdded] = useState<HhnbContextValue["added"]>(null);
+  const previous = useRef(selection);
+  const additions = useRef(0);
 
   useEffect(() => {
     try {
@@ -78,6 +87,16 @@ export function HhnbProvider({ children }: { children: ReactNode }) {
       // storage unavailable (private mode): the selection still works for this visit
     }
   }, [selection]);
+
+  // announce whatever was just added (not removals, nor the selection restored from storage)
+  useEffect(() => {
+    const before = urls(previous.current);
+    previous.current = selection;
+    const fresh = [...(selection.morphology ? [selection.morphology] : []), ...selection.electrophysiologies, ...selection.modFiles]
+      .filter((f) => !before.has(f.url));
+    if (fresh.length) setAdded({ id: ++additions.current, name: fresh.length > 1 ? `${fresh.length} files` : fresh[0].name });
+  }, [selection]);
+  const dismissAdded = useCallback(() => setAdded(null), []);
 
   const setMorphology = useCallback((file: HhnbFile | null) => setSelection((s) => ({ ...s, morphology: file })), []);
   const toggleTrace = useCallback(
@@ -101,8 +120,10 @@ export function HhnbProvider({ children }: { children: ReactNode }) {
       clear: () => setSelection(EMPTY),
       trayOpen,
       setTrayOpen,
+      added,
+      dismissAdded,
     }),
-    [selection, trayOpen, setMorphology, toggleTrace, toggleModFile],
+    [selection, trayOpen, added, setMorphology, toggleTrace, toggleModFile, dismissAdded],
   );
 
   return <HhnbContext.Provider value={value}>{children}</HhnbContext.Provider>;

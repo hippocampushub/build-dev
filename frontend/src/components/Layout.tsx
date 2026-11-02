@@ -3,7 +3,7 @@ import { Link, NavLink, useLocation } from "react-router-dom";
 import { useHhnb } from "../lib/hhnb";
 import { COLLECTIONS, DATA_COLLECTIONS, pathOf } from "../lib/collections";
 import { BuilderIcon, ChevronIcon, CloseIcon, MenuIcon } from "./Icons";
-import { HhnbTray } from "./HhnbTray";
+import { HhnbToast, HhnbTray } from "./HhnbTray";
 import { FeedbackTab } from "./FeedbackTab";
 
 const CNR_URL = "https://www.ibf.cnr.it/";
@@ -57,7 +57,7 @@ function BuildMenu() {
 }
 
 function Header() {
-  const { count, setTrayOpen } = useHhnb();
+  const { count, setTrayOpen, added } = useHhnb();
   const [menuOpen, setMenuOpen] = useState(false);
   const location = useLocation();
   useEffect(() => {
@@ -86,7 +86,10 @@ function Header() {
             <a key={label} className="menu-top" href={url}>{label}</a>
           ))}
         </nav>
-        <button className="hhnb-button" onClick={() => setTrayOpen(true)} aria-label={`HH Neuron Builder selection, ${count} items`}>
+        <button
+          key={added?.id ?? 0}
+          className={`hhnb-button${added ? " pulse" : ""}`}
+          onClick={() => setTrayOpen(true)} aria-label={`HH Neuron Builder selection, ${count} items`}>
           <BuilderIcon size={22} />
           <span className="label">HH Neuron Builder</span>
           <span className="badge-count">{count}</span>
@@ -159,6 +162,7 @@ export function Layout({ children }: { children: ReactNode }) {
       <main id="main">{children}</main>
       <Footer />
       <HhnbTray />
+      <HhnbToast />
       <FeedbackTab />
     </>
   );

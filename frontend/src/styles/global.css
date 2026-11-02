@@ -1357,8 +1357,201 @@ textarea {
 }
 
 /* ---------- HHNB tray ---------- */
-.tray-group + .tray-group {
-  margin-top: 20px;
+/* the selection panel has its own coloured header and numbered steps, so it never reads like a record's details */
+.drawer-hhnb .drawer-head {
+  align-items: center;
+  background: linear-gradient(160deg, var(--c-hhnb), color-mix(in srgb, var(--c-hhnb) 72%, #313354));
+  border-bottom: 0;
+  color: var(--on-accent);
+}
+
+.drawer-hhnb .drawer-head .eyebrow {
+  color: color-mix(in srgb, var(--on-accent) 75%, transparent);
+}
+
+.drawer-hhnb .drawer-head .btn-ghost {
+  color: var(--on-accent);
+}
+
+.drawer-hhnb .drawer-head .btn-ghost:hover {
+  background: rgba(29, 33, 71, 0.12);
+}
+
+.drawer-icon {
+  flex: none;
+  width: 48px;
+  height: 48px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  background: rgba(29, 33, 71, 0.14);
+}
+
+.tray-intro {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  margin-bottom: 20px;
+}
+
+.tray-intro .hint {
+  flex: 1;
+  margin: 0;
+}
+
+.tray-intro .link-button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  text-decoration: none;
+}
+
+.tray-steps {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.tray-step {
+  position: relative;
+  display: flex;
+  gap: 14px;
+  padding-bottom: 22px;
+}
+
+/* the line that joins one step marker to the next */
+.tray-step::before {
+  content: "";
+  position: absolute;
+  left: 13px;
+  top: 30px;
+  bottom: 2px;
+  width: 2px;
+  background: var(--line-strong);
+}
+
+.tray-step.done::before {
+  background: var(--c-hhnb);
+}
+
+.tray-step:last-child::before {
+  display: none;
+}
+
+.step-marker {
+  flex: none;
+  width: 28px;
+  height: 28px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  border: 2px solid var(--line-strong);
+  color: var(--text-subtle);
+  font-weight: 700;
+  font-size: calc(13px + 1pt);
+}
+
+.tray-step.done .step-marker,
+.step-marker.ready {
+  border-color: var(--c-hhnb);
+  background: var(--c-hhnb);
+  color: var(--on-accent);
+}
+
+.step-body {
+  flex: 1;
+  min-width: 0;
+  padding-top: 3px;
+}
+
+.step-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+
+.step-head h3 {
+  margin: 0;
+  font-size: calc(15px + 1pt);
+  font-weight: 600;
+}
+
+.step-status {
+  color: var(--text-subtle);
+  font-size: calc(13px + 1pt);
+  white-space: nowrap;
+}
+
+.tray-step.done .step-status {
+  color: var(--c-hhnb);
+  font-weight: 600;
+}
+
+.tray-launch {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.tray-launch .btn-primary {
+  flex: 1;
+  justify-content: center;
+  height: 46px;
+  font-size: calc(16px + 1pt);
+}
+
+/* confirmation when something is added to the selection */
+.hhnb-toast {
+  position: fixed;
+  z-index: 110;
+  left: 50%;
+  bottom: 24px;
+  transform: translateX(-50%);
+  width: max-content;
+  max-width: calc(100vw - 32px);
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 18px;
+  border-radius: var(--radius);
+  background: var(--c-hhnb);
+  color: var(--on-accent);
+  box-shadow: var(--shadow);
+  font-size: calc(14px + 1pt);
+  animation: toast-in 0.2s ease-out;
+}
+
+.hhnb-toast .text {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+.hhnb-toast .link-button {
+  color: var(--on-accent);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+@keyframes toast-in {
+  from {
+    transform: translate(-50%, 12px);
+    opacity: 0;
+  }
+}
+
+.hhnb-button.pulse {
+  animation: hhnb-pulse 0.9s ease-out 2;
+}
+
+@keyframes hhnb-pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(131, 152, 181, 0.7);
+  }
+  100% {
+    box-shadow: 0 0 0 12px rgba(131, 152, 181, 0);
+  }
 }
 
 .tray-empty {
