@@ -3199,7 +3199,7 @@ textarea {
 
 /* the digits of the counts fade in one after the other, in place */
 .fade-number > span {
-  animation: digit-in 0.6s ease-out calc(var(--i) * 90ms) both !important;
+  animation: digit-in 1s ease-out calc(var(--i) * 150ms) both !important;
 }
 
 @keyframes digit-in {
