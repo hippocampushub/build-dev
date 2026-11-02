@@ -1533,10 +1533,21 @@ textarea {
   font-size: calc(16px + 1pt);
 }
 
+/* download and source links right under a record's title */
+.detail-links {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 24px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid var(--line);
+}
+
 /* in a model's details: opens the HHNB selection panel */
 .hhnb-open {
-  width: 100%;
-  margin-bottom: 12px;
+  flex: 1;
+  height: 42px;
   border-color: rgba(131, 152, 181, 0.6);
   background: linear-gradient(135deg, rgba(131, 152, 181, 0.28), rgba(131, 152, 181, 0.12));
 }

@@ -50,7 +50,7 @@ export function ModelCard({ item, onOpen }: { item: Model; onOpen: () => void })
 }
 
 function ModFiles({ item }: { item: Model }) {
-  const { hasModFile, toggleModFile, count, setTrayOpen } = useHhnb();
+  const { hasModFile, toggleModFile } = useHhnb();
   if (item.model_files === null || item.model_files === undefined) {
     return (
       <Section title="Mod files">
@@ -77,11 +77,6 @@ function ModFiles({ item }: { item: Model }) {
         <span className="hint">Add the mechanisms you need to the HH Neuron Builder selection.</span>
         <button className="link-button" onClick={toggleAll}>{allSelected ? "Remove all" : "Add all"}</button>
       </div>
-      <button className="btn hhnb-open" onClick={() => setTrayOpen(true)}>
-        <BuilderIcon size={20} />
-        Open HH Neuron Builder selection
-        <span className="badge-count">{count}</span>
-      </button>
       <div className="files">
         {files.map((f) => {
           const selected = hasModFile(f.url);
@@ -119,6 +114,13 @@ function TagSection({ title, values }: { title: string; values?: string[] }) {
 export function ModelDetail({ item }: { item: Model }) {
   return (
     <>
+      <div className="detail-links">
+        <DownloadButton url={item.download_link} source={item.source} label="Download ZIP" small={false} primary />
+        <span style={{ flex: 1 }} />
+        <SourceLink url={item.readme_link} label="README" />
+        <SourceLink url={item.github_link} label="GitHub" />
+        <SourceLink url={item.page_link} label="ModelDB" />
+      </div>
       {item.description && (
         <Section title="Description">
           <p className="prose">{item.description}</p>
@@ -143,14 +145,14 @@ export function ModelDetail({ item }: { item: Model }) {
   );
 }
 
-export function ModelFooter({ item }: { item: Model }) {
+/** The model's links sit under its title, so the footer is left to the HH Neuron Builder selection. */
+export function ModelFooter() {
+  const { count, setTrayOpen } = useHhnb();
   return (
-    <>
-      <DownloadButton url={item.download_link} source={item.source} label="Download ZIP" small={false} primary />
-      <span style={{ flex: 1 }} />
-      <SourceLink url={item.readme_link} label="README" />
-      <SourceLink url={item.github_link} label="GitHub" />
-      <SourceLink url={item.page_link} label="ModelDB" />
-    </>
+    <button className="btn hhnb-open" onClick={() => setTrayOpen(true)}>
+      <BuilderIcon size={20} />
+      Open HH Neuron Builder selection
+      <span className="badge-count">{count}</span>
+    </button>
   );
 }
