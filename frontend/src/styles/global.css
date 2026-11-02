@@ -3191,10 +3191,21 @@ textarea {
 }
 
 .tile-count {
-  font-variant-numeric: tabular-nums; /* digits keep their width while counting up */
+  font-variant-numeric: tabular-nums;
   font-size: calc(44px + 1pt);
   font-weight: 700;
   line-height: 1;
+}
+
+/* the digits of the counts fade in one after the other, in place */
+.fade-number > span {
+  animation: digit-in 0.6s ease-out calc(var(--i) * 90ms) both !important;
+}
+
+@keyframes digit-in {
+  from {
+    opacity: 0;
+  }
 }
 
 .tile-title {
