@@ -1,7 +1,7 @@
 import type { Model } from "../../lib/types";
 import { useHhnb } from "../../lib/hhnb";
 import { formatDate } from "../../lib/format";
-import { CheckIcon, PlusIcon } from "../Icons";
+import { CheckIcon, SendIcon } from "../Icons";
 import { DownloadButton } from "../DownloadButton";
 import { Papers, Section, SourceBadge, SourceLink, Tags } from "./common";
 
@@ -92,8 +92,8 @@ function ModFiles({ item }: { item: Model }) {
                 aria-pressed={selected}
                 aria-label={`${selected ? "Remove" : "Add"} ${f.name} ${selected ? "from" : "to"} the HH Neuron Builder selection`}
               >
-                {selected ? <CheckIcon size={16} /> : <PlusIcon size={16} />}
-                {selected ? "Added" : "Add"}
+                {selected ? <CheckIcon size={16} /> : <SendIcon size={15} />}
+                {selected ? "Added" : "HHNB"}
               </button>
             </div>
           );
