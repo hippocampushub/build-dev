@@ -3332,6 +3332,22 @@ textarea {
     max-width: none;
   }
 
+  /* the credits and the pause button stay right below the image, as on wide screens */
+  .banner {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .banner > .banner-credits {
+    order: 1;
+    padding-bottom: 0;
+  }
+
+  .banner > .hero {
+    order: 2;
+    padding-top: 24px;
+  }
+
   .carousel-stage img {
     height: min(80cqh, 50cqw);
   }
