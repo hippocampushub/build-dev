@@ -1539,13 +1539,16 @@ textarea {
   flex-wrap: wrap;
   align-items: center;
   gap: 8px;
-  margin-top: 16px;
-  padding-bottom: 20px;
+  margin-top: 20px;
+  padding: 20px 0;
+  border-top: 1px solid var(--line);
   border-bottom: 1px solid var(--line);
 }
 
 .detail-links:first-child {
   margin-top: 0;
+  padding-top: 0;
+  border-top: 0;
 }
 
 /* in a model's details: opens the HHNB selection panel */
