@@ -1569,7 +1569,8 @@ textarea {
   position: fixed;
   z-index: 110;
   left: 50%;
-  bottom: 24px;
+  /* above the terms notice while it is shown */
+  bottom: calc(24px + var(--notice-h, 0px));
   transform: translateX(-50%);
   width: max-content;
   max-width: calc(100vw - 32px);
@@ -3270,3 +3271,55 @@ textarea.field {
   }
 }
 
+
+/* ---------- Terms of use notice (until the visitor agrees) ---------- */
+.terms-notice {
+  position: fixed;
+  z-index: 85;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(29, 33, 71, 0.96);
+  border-top: 1px solid var(--line-strong);
+  box-shadow: 0 -10px 30px rgba(5, 10, 48, 0.45);
+  backdrop-filter: blur(4px);
+}
+
+/* the end of the page stays reachable above the notice */
+body:has(.terms-notice) {
+  padding-bottom: var(--notice-h, 0px);
+}
+
+.terms-notice-inner {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+
+.terms-notice p {
+  flex: 1;
+  margin: 0;
+  color: var(--text-muted);
+  font-size: calc(13px + 1pt);
+  line-height: 1.5;
+}
+
+.terms-notice a {
+  color: var(--text);
+  text-underline-offset: 2px;
+}
+
+.terms-notice .btn {
+  flex: none;
+  --accent: var(--peach);
+}
+
+@media (max-width: 640px) {
+  .terms-notice-inner {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 12px;
+  }
+}

@@ -5,6 +5,7 @@ import { COLLECTIONS, DATA_COLLECTIONS, pathOf } from "../lib/collections";
 import { BuilderIcon, ChevronIcon, CloseIcon, MenuIcon } from "./Icons";
 import { HhnbToast, HhnbTray } from "./HhnbTray";
 import { FeedbackTab } from "./FeedbackTab";
+import { TermsNotice } from "./TermsNotice";
 
 const CNR_URL = "https://www.ibf.cnr.it/";
 const asset = (path: string) => `${import.meta.env.BASE_URL}${path}`;
@@ -164,6 +165,7 @@ export function Layout({ children }: { children: ReactNode }) {
       <HhnbTray />
       <HhnbToast />
       <FeedbackTab />
+      <TermsNotice />
     </>
   );
 }
