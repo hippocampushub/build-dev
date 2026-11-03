@@ -26,7 +26,7 @@ env:
   # Public path of the site: /build/ for the live one, /build-dev/ for the test site
   HH_BASE: ${{ github.repository == 'hippocampushub/build' && '/build/' || '/build-dev/' }}
   # "1" shows the "test version" banner and keeps the site out of search engines; empty for the live site
-  VITE_STAGING: ${{ github.repository == 'hippocampushub/build' && '' || '1' }}
+  VITE_STAGING: ${{ github.repository != 'hippocampushub/build' && '1' || '' }}
 
 jobs:
   when:
