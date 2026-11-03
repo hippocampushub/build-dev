@@ -1,6 +1,8 @@
 # Refreshes the data and publishes the site to this repository's GitHub Pages
-# (gh-pages branch). Runs every day at 01:00 Italian time, on every push to main,
-# and on demand (Actions tab -> "Refresh data and deploy" -> Run workflow).
+# (gh-pages branch). Runs every day at 01:00 Italian time, on every push to the
+# default branch, and on demand (Actions tab -> "Refresh data and deploy" -> Run workflow).
+# The same file serves the live site (hippocampushub/build, www.hippocampushub.eu/build/)
+# and the test site (hippocampushub/build-dev, www.hippocampushub.eu/build-dev/).
 name: Refresh data and deploy
 
 on:
@@ -10,7 +12,7 @@ on:
     - cron: "0 23 * * *"
     - cron: "0 0 * * *"
   push:
-    branches: [main]
+    branches: [main, master]
   workflow_dispatch:
 
 permissions:
@@ -21,10 +23,10 @@ concurrency:
   cancel-in-progress: false
 
 env:
-  # Public path of the site: /build-dev/ for this test site, /build/ for the live one
-  HH_BASE: /build-dev/
+  # Public path of the site: /build/ for the live one, /build-dev/ for the test site
+  HH_BASE: ${{ github.repository == 'hippocampushub/build' && '/build/' || '/build-dev/' }}
   # "1" shows the "test version" banner and keeps the site out of search engines; empty for the live site
-  VITE_STAGING: "1"
+  VITE_STAGING: ${{ github.repository == 'hippocampushub/build' && '' || '1' }}
 
 jobs:
   when:

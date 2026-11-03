@@ -13,6 +13,15 @@ const RENAMED = [
   ["/morphologies", "/data/morphology"],
   ["/electrophysiology", "/data/electrophysiology"],
   ["/connections", "/data/connection"],
+  // pages of the previous site (www.hippocampushub.eu/build before v2)
+  ["/index.html", "/"],
+  ["/data.html", "/data"],
+  ["/models.html", "/models"],
+  ["/about.html", "/about"],
+  ["/news.html", "/"],
+  ["/tutorial.html", "/"],
+  ["/contacts.html", "/about"],
+  ["/workflows.html", "/"],
 ];
 
 function Redirect({ to }: { to: string }) {
