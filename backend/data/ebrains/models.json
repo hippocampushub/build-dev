@@ -3024,8 +3024,8 @@
         "version": "2.0",
         "description": "Python 3 compatible",
         "source": "https://data-proxy.ebrains.eu/api/v1/buckets/pc0a33-hippocampus_optimization?prefix=rat/CA1/v4.0.5/optimizations_Python3/CA1_pyr_cACpyr_oh140807_A0_idA_20190305112828/",
-        "parameters": "https://data-proxy.ebrains.eu/api/v1/buckets/pc0a33-hippocampus_optimization/rat/CA1/v4.0.5/optimizations_Python3/CA1_pyr_cACpyr_oh140807_A0_idA_20190305112828/CA1_pyr_cACpyr_oh140807_A0_idA_20190305112828_meta.json",
-        "morphology": "https://data-proxy.ebrains.eu/api/v1/buckets/pc0a33-hippocampus_optimization/rat/CA1/v4.0.5/optimizations_Python3/CA1_pyr_cACpyr_oh140807_A0_idA_20190305112828/CA1_pyr_cACpyr_oh140807_A0_idA_20190305112828/CA1_pyr_cACpyr_oh140807_A0_idA_20190305112828/morphology/oh140807_A0_idA.asc",
+        "parameters": null,
+        "morphology": null,
         "code_format": "text/plain",
         "license": null,
         "timestamp": "2020-02-19"
