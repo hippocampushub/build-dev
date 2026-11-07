@@ -1,0 +1,1718 @@
+[
+  {
+    "source_id": "internal_electrophysiologies-95810006",
+    "id": "95810006",
+    "type": "electrophysiology",
+    "name": "95810006",
+    "page_link": "https://live-papers.apps.ebrains.eu/#2018-migliore-et-al",
+    "icon": "https://openbluebrain.s3.us-west-2.amazonaws.com/Portals/hippocampus-model-portal/data/images/2_neuron-models/trace-preview/95810006.png",
+    "region": "hippocampus",
+    "species": [
+      "rat"
+    ],
+    "secondary_region": [
+      "CA1"
+    ],
+    "layers": [],
+    "download_filename": "95810006.abf",
+    "download_link": "https://data-proxy.ebrains.eu/api/v1/buckets/pc0a33-EBRAINS_live_papers/2018_migliore_et_al/exp_data/abf-pyr-cAC/95810005/95810006.abf",
+    "cell_type": "pyramidal",
+    "etype": "cAC",
+    "papers": [],
+    "source": "EBRAINS"
+  },
+  {
+    "source_id": "internal_electrophysiologies-95810007",
+    "id": "95810007",
+    "type": "electrophysiology",
+    "name": "95810007",
+    "page_link": "https://live-papers.apps.ebrains.eu/#2018-migliore-et-al",
+    "icon": "https://openbluebrain.s3.us-west-2.amazonaws.com/Portals/hippocampus-model-portal/data/images/2_neuron-models/trace-preview/95810007.png",
+    "region": "hippocampus",
+    "species": [
+      "rat"
+    ],
+    "secondary_region": [
+      "CA1"
+    ],
+    "layers": [],
+    "download_filename": "95810007.abf",
+    "download_link": "https://data-proxy.ebrains.eu/api/v1/buckets/pc0a33-EBRAINS_live_papers/2018_migliore_et_al/exp_data/abf-pyr-cAC/95810005/95810007.abf",
+    "cell_type": "pyramidal",
+    "etype": "cAC",
+    "papers": [],
+    "source": "EBRAINS"
+  },
+  {
+    "source_id": "internal_electrophysiologies-95810008",
+    "id": "95810008",
+    "type": "electrophysiology",
+    "name": "95810008",
+    "page_link": "https://live-papers.apps.ebrains.eu/#2018-migliore-et-al",
+    "icon": "https://openbluebrain.s3.us-west-2.amazonaws.com/Portals/hippocampus-model-portal/data/images/2_neuron-models/trace-preview/95810008.png",
+    "region": "hippocampus",
+    "species": [
+      "rat"
+    ],
+    "secondary_region": [
+      "CA1"
+    ],
+    "layers": [],
+    "download_filename": "95810008.abf",
+    "download_link": "https://data-proxy.ebrains.eu/api/v1/buckets/pc0a33-EBRAINS_live_papers/2018_migliore_et_al/exp_data/abf-pyr-cAC/95810005/95810008.abf",
+    "cell_type": "pyramidal",
+    "etype": "cAC",
+    "papers": [],
+    "source": "EBRAINS"
+  },
+  {
+    "source_id": "internal_electrophysiologies-95810010",
+    "id": "95810010",
+    "type": "electrophysiology",
+    "name": "95810010",
+    "page_link": "https://live-papers.apps.ebrains.eu/#2018-migliore-et-al",
+    "icon": "https://openbluebrain.s3.us-west-2.amazonaws.com/Portals/hippocampus-model-portal/data/images/2_neuron-models/trace-preview/95810010.png",
+    "region": "hippocampus",
+    "species": [
+      "rat"
+    ],
+    "secondary_region": [
+      "CA1"
+    ],
+    "layers": [],
+    "download_filename": "95810010.abf",
+    "download_link": "https://data-proxy.ebrains.eu/api/v1/buckets/pc0a33-EBRAINS_live_papers/2018_migliore_et_al/exp_data/abf-pyr-cAC/95810010/95810010.abf",
+    "cell_type": "pyramidal",
+    "etype": "cAC",
+    "papers": [],
+    "source": "EBRAINS"
+  },
+  {
+    "source_id": "internal_electrophysiologies-95810011",
+    "id": "95810011",
+    "type": "electrophysiology",
+    "name": "95810011",
+    "page_link": "https://live-papers.apps.ebrains.eu/#2018-migliore-et-al",
+    "icon": "https://openbluebrain.s3.us-west-2.amazonaws.com/Portals/hippocampus-model-portal/data/images/2_neuron-models/trace-preview/95810011.png",
+    "region": "hippocampus",
+    "species": [
+      "rat"
+    ],
+    "secondary_region": [
+      "CA1"
+    ],
+    "layers": [],
+    "download_filename": "95810011.abf",
+    "download_link": "https://data-proxy.ebrains.eu/api/v1/buckets/pc0a33-EBRAINS_live_papers/2018_migliore_et_al/exp_data/abf-pyr-cAC/95810011/95810011.abf",
+    "cell_type": "pyramidal",
+    "etype": "cAC",
+    "papers": [],
+    "source": "EBRAINS"
+  },
+  {
+    "source_id": "internal_electrophysiologies-95810012",
+    "id": "95810012",
+    "type": "electrophysiology",
+    "name": "95810012",
+    "page_link": "https://live-papers.apps.ebrains.eu/#2018-migliore-et-al",
+    "icon": "https://openbluebrain.s3.us-west-2.amazonaws.com/Portals/hippocampus-model-portal/data/images/2_neuron-models/trace-preview/95810012.png",
+    "region": "hippocampus",
+    "species": [
+      "rat"
+    ],
+    "secondary_region": [
+      "CA1"
+    ],
+    "layers": [],
+    "download_filename": "95810012.abf",
+    "download_link": "https://data-proxy.ebrains.eu/api/v1/buckets/pc0a33-EBRAINS_live_papers/2018_migliore_et_al/exp_data/abf-pyr-cAC/95810012/95810012.abf",
+    "cell_type": "pyramidal",
+    "etype": "cAC",
+    "papers": [],
+    "source": "EBRAINS"
+  },
+  {
+    "source_id": "internal_electrophysiologies-95810013",
+    "id": "95810013",
+    "type": "electrophysiology",
+    "name": "95810013",
+    "page_link": "https://live-papers.apps.ebrains.eu/#2018-migliore-et-al",
+    "icon": "https://openbluebrain.s3.us-west-2.amazonaws.com/Portals/hippocampus-model-portal/data/images/2_neuron-models/trace-preview/95810013.png",
+    "region": "hippocampus",
+    "species": [
+      "rat"
+    ],
+    "secondary_region": [
+      "CA1"
+    ],
+    "layers": [],
+    "download_filename": "95810013.abf",
+    "download_link": "https://data-proxy.ebrains.eu/api/v1/buckets/pc0a33-EBRAINS_live_papers/2018_migliore_et_al/exp_data/abf-pyr-cAC/95810012/95810013.abf",
+    "cell_type": "pyramidal",
+    "etype": "cAC",
+    "papers": [],
+    "source": "EBRAINS"
+  },
+  {
+    "source_id": "internal_electrophysiologies-95810014",
+    "id": "95810014",
+    "type": "electrophysiology",
+    "name": "95810014",
+    "page_link": "https://live-papers.apps.ebrains.eu/#2018-migliore-et-al",
+    "icon": "https://openbluebrain.s3.us-west-2.amazonaws.com/Portals/hippocampus-model-portal/data/images/2_neuron-models/trace-preview/95810014.png",
+    "region": "hippocampus",
+    "species": [
+      "rat"
+    ],
+    "secondary_region": [
+      "CA1"
+    ],
+    "layers": [],
+    "download_filename": "95810014.abf",
+    "download_link": "https://data-proxy.ebrains.eu/api/v1/buckets/pc0a33-EBRAINS_live_papers/2018_migliore_et_al/exp_data/abf-pyr-cAC/95810012/95810014.abf",
+    "cell_type": "pyramidal",
+    "etype": "cAC",
+    "papers": [],
+    "source": "EBRAINS"
+  },
+  {
+    "source_id": "internal_electrophysiologies-95810015",
+    "id": "95810015",
+    "type": "electrophysiology",
+    "name": "95810015",
+    "page_link": "https://live-papers.apps.ebrains.eu/#2018-migliore-et-al",
+    "icon": "https://openbluebrain.s3.us-west-2.amazonaws.com/Portals/hippocampus-model-portal/data/images/2_neuron-models/trace-preview/95810015.png",
+    "region": "hippocampus",
+    "species": [
+      "rat"
+    ],
+    "secondary_region": [
+      "CA1"
+    ],
+    "layers": [],
+    "download_filename": "95810015.abf",
+    "download_link": "https://data-proxy.ebrains.eu/api/v1/buckets/pc0a33-EBRAINS_live_papers/2018_migliore_et_al/exp_data/abf-pyr-cAC/95810012/95810015.abf",
+    "cell_type": "pyramidal",
+    "etype": "cAC",
+    "papers": [],
+    "source": "EBRAINS"
+  },
+  {
+    "source_id": "internal_electrophysiologies-95810022",
+    "id": "95810022",
+    "type": "electrophysiology",
+    "name": "95810022",
+    "page_link": "https://live-papers.apps.ebrains.eu/#2018-migliore-et-al",
+    "icon": "https://openbluebrain.s3.us-west-2.amazonaws.com/Portals/hippocampus-model-portal/data/images/2_neuron-models/trace-preview/95810022.png",
+    "region": "hippocampus",
+    "species": [
+      "rat"
+    ],
+    "secondary_region": [
+      "CA1"
+    ],
+    "layers": [],
+    "download_filename": "95810022.abf",
+    "download_link": "https://data-proxy.ebrains.eu/api/v1/buckets/pc0a33-EBRAINS_live_papers/2018_migliore_et_al/exp_data/abf-pyr-cAC/95810022/95810022.abf",
+    "cell_type": "pyramidal",
+    "etype": "cAC",
+    "papers": [],
+    "source": "EBRAINS"
+  },
+  {
+    "source_id": "internal_electrophysiologies-95810023",
+    "id": "95810023",
+    "type": "electrophysiology",
+    "name": "95810023",
+    "page_link": "https://live-papers.apps.ebrains.eu/#2018-migliore-et-al",
+    "icon": "https://openbluebrain.s3.us-west-2.amazonaws.com/Portals/hippocampus-model-portal/data/images/2_neuron-models/trace-preview/95810023.png",
+    "region": "hippocampus",
+    "species": [
+      "rat"
+    ],
+    "secondary_region": [
+      "CA1"
+    ],
+    "layers": [],
+    "download_filename": "95810023.abf",
+    "download_link": "https://data-proxy.ebrains.eu/api/v1/buckets/pc0a33-EBRAINS_live_papers/2018_migliore_et_al/exp_data/abf-pyr-cAC/95810022/95810023.abf",
+    "cell_type": "pyramidal",
+    "etype": "cAC",
+    "papers": [],
+    "source": "EBRAINS"
+  },
+  {
+    "source_id": "internal_electrophysiologies-95810024",
+    "id": "95810024",
+    "type": "electrophysiology",
+    "name": "95810024",
+    "page_link": "https://live-papers.apps.ebrains.eu/#2018-migliore-et-al",
+    "icon": "https://openbluebrain.s3.us-west-2.amazonaws.com/Portals/hippocampus-model-portal/data/images/2_neuron-models/trace-preview/95810024.png",
+    "region": "hippocampus",
+    "species": [
+      "rat"
+    ],
+    "secondary_region": [
+      "CA1"
+    ],
+    "layers": [],
+    "download_filename": "95810024.abf",
+    "download_link": "https://data-proxy.ebrains.eu/api/v1/buckets/pc0a33-EBRAINS_live_papers/2018_migliore_et_al/exp_data/abf-pyr-cAC/95810022/95810024.abf",
+    "cell_type": "pyramidal",
+    "etype": "cAC",
+    "papers": [],
+    "source": "EBRAINS"
+  },
+  {
+    "source_id": "internal_electrophysiologies-95810025",
+    "id": "95810025",
+    "type": "electrophysiology",
+    "name": "95810025",
+    "page_link": "https://live-papers.apps.ebrains.eu/#2018-migliore-et-al",
+    "icon": "https://openbluebrain.s3.us-west-2.amazonaws.com/Portals/hippocampus-model-portal/data/images/2_neuron-models/trace-preview/95810025.png",
+    "region": "hippocampus",
+    "species": [
+      "rat"
+    ],
+    "secondary_region": [
+      "CA1"
+    ],
+    "layers": [],
+    "download_filename": "95810025.abf",
+    "download_link": "https://data-proxy.ebrains.eu/api/v1/buckets/pc0a33-EBRAINS_live_papers/2018_migliore_et_al/exp_data/abf-pyr-cAC/95810022/95810025.abf",
+    "cell_type": "pyramidal",
+    "etype": "cAC",
+    "papers": [],
+    "source": "EBRAINS"
+  },
+  {
+    "source_id": "internal_electrophysiologies-95810026",
+    "id": "95810026",
+    "type": "electrophysiology",
+    "name": "95810026",
+    "page_link": "https://live-papers.apps.ebrains.eu/#2018-migliore-et-al",
+    "icon": "https://openbluebrain.s3.us-west-2.amazonaws.com/Portals/hippocampus-model-portal/data/images/2_neuron-models/trace-preview/95810026.png",
+    "region": "hippocampus",
+    "species": [
+      "rat"
+    ],
+    "secondary_region": [
+      "CA1"
+    ],
+    "layers": [],
+    "download_filename": "95810026.abf",
+    "download_link": "https://data-proxy.ebrains.eu/api/v1/buckets/pc0a33-EBRAINS_live_papers/2018_migliore_et_al/exp_data/abf-pyr-cAC/95810012/95810026.abf",
+    "cell_type": "pyramidal",
+    "etype": "cAC",
+    "papers": [],
+    "source": "EBRAINS"
+  },
+  {
+    "source_id": "internal_electrophysiologies-95810027",
+    "id": "95810027",
+    "type": "electrophysiology",
+    "name": "95810027",
+    "page_link": "https://live-papers.apps.ebrains.eu/#2018-migliore-et-al",
+    "icon": "https://openbluebrain.s3.us-west-2.amazonaws.com/Portals/hippocampus-model-portal/data/images/2_neuron-models/trace-preview/95810027.png",
+    "region": "hippocampus",
+    "species": [
+      "rat"
+    ],
+    "secondary_region": [
+      "CA1"
+    ],
+    "layers": [],
+    "download_filename": "95810027.abf",
+    "download_link": "https://data-proxy.ebrains.eu/api/v1/buckets/pc0a33-EBRAINS_live_papers/2018_migliore_et_al/exp_data/abf-pyr-cAC/95810012/95810027.abf",
+    "cell_type": "pyramidal",
+    "etype": "cAC",
+    "papers": [],
+    "source": "EBRAINS"
+  },
+  {
+    "source_id": "internal_electrophysiologies-95810028",
+    "id": "95810028",
+    "type": "electrophysiology",
+    "name": "95810028",
+    "page_link": "https://live-papers.apps.ebrains.eu/#2018-migliore-et-al",
+    "icon": "https://openbluebrain.s3.us-west-2.amazonaws.com/Portals/hippocampus-model-portal/data/images/2_neuron-models/trace-preview/95810028.png",
+    "region": "hippocampus",
+    "species": [
+      "rat"
+    ],
+    "secondary_region": [
+      "CA1"
+    ],
+    "layers": [],
+    "download_filename": "95810028.abf",
+    "download_link": "https://data-proxy.ebrains.eu/api/v1/buckets/pc0a33-EBRAINS_live_papers/2018_migliore_et_al/exp_data/abf-pyr-cAC/95810012/95810028.abf",
+    "cell_type": "pyramidal",
+    "etype": "cAC",
+    "papers": [],
+    "source": "EBRAINS"
+  },
+  {
+    "source_id": "internal_electrophysiologies-95810029",
+    "id": "95810029",
+    "type": "electrophysiology",
+    "name": "95810029",
+    "page_link": "https://live-papers.apps.ebrains.eu/#2018-migliore-et-al",
+    "icon": "https://openbluebrain.s3.us-west-2.amazonaws.com/Portals/hippocampus-model-portal/data/images/2_neuron-models/trace-preview/95810029.png",
+    "region": "hippocampus",
+    "species": [
+      "rat"
+    ],
+    "secondary_region": [
+      "CA1"
+    ],
+    "layers": [],
+    "download_filename": "95810029.abf",
+    "download_link": "https://data-proxy.ebrains.eu/api/v1/buckets/pc0a33-EBRAINS_live_papers/2018_migliore_et_al/exp_data/abf-pyr-cAC/95810012/95810029.abf",
+    "cell_type": "pyramidal",
+    "etype": "cAC",
+    "papers": [],
+    "source": "EBRAINS"
+  },
+  {
+    "source_id": "internal_electrophysiologies-95810030",
+    "id": "95810030",
+    "type": "electrophysiology",
+    "name": "95810030",
+    "page_link": "https://live-papers.apps.ebrains.eu/#2018-migliore-et-al",
+    "icon": "https://openbluebrain.s3.us-west-2.amazonaws.com/Portals/hippocampus-model-portal/data/images/2_neuron-models/trace-preview/95810030.png",
+    "region": "hippocampus",
+    "species": [
+      "rat"
+    ],
+    "secondary_region": [
+      "CA1"
+    ],
+    "layers": [],
+    "download_filename": "95810030.abf",
+    "download_link": "https://data-proxy.ebrains.eu/api/v1/buckets/pc0a33-EBRAINS_live_papers/2018_migliore_et_al/exp_data/abf-pyr-cAC/95810030/95810030.abf",
+    "cell_type": "pyramidal",
+    "etype": "cAC",
+    "papers": [],
+    "source": "EBRAINS"
+  },
+  {
+    "source_id": "internal_electrophysiologies-95810031",
+    "id": "95810031",
+    "type": "electrophysiology",
+    "name": "95810031",
+    "page_link": "https://live-papers.apps.ebrains.eu/#2018-migliore-et-al",
+    "icon": "https://openbluebrain.s3.us-west-2.amazonaws.com/Portals/hippocampus-model-portal/data/images/2_neuron-models/trace-preview/95810031.png",
+    "region": "hippocampus",
+    "species": [
+      "rat"
+    ],
+    "secondary_region": [
+      "CA1"
+    ],
+    "layers": [],
+    "download_filename": "95810031.abf",
+    "download_link": "https://data-proxy.ebrains.eu/api/v1/buckets/pc0a33-EBRAINS_live_papers/2018_migliore_et_al/exp_data/abf-pyr-cAC/95810031/95810031.abf",
+    "cell_type": "pyramidal",
+    "etype": "cAC",
+    "papers": [],
+    "source": "EBRAINS"
+  },
+  {
+    "source_id": "internal_electrophysiologies-95810032",
+    "id": "95810032",
+    "type": "electrophysiology",
+    "name": "95810032",
+    "page_link": "https://live-papers.apps.ebrains.eu/#2018-migliore-et-al",
+    "icon": "https://openbluebrain.s3.us-west-2.amazonaws.com/Portals/hippocampus-model-portal/data/images/2_neuron-models/trace-preview/95810032.png",
+    "region": "hippocampus",
+    "species": [
+      "rat"
+    ],
+    "secondary_region": [
+      "CA1"
+    ],
+    "layers": [],
+    "download_filename": "95810032.abf",
+    "download_link": "https://data-proxy.ebrains.eu/api/v1/buckets/pc0a33-EBRAINS_live_papers/2018_migliore_et_al/exp_data/abf-pyr-cAC/95810032/95810032.abf",
+    "cell_type": "pyramidal",
+    "etype": "cAC",
+    "papers": [],
+    "source": "EBRAINS"
+  },
+  {
+    "source_id": "internal_electrophysiologies-95810033",
+    "id": "95810033",
+    "type": "electrophysiology",
+    "name": "95810033",
+    "page_link": "https://live-papers.apps.ebrains.eu/#2018-migliore-et-al",
+    "icon": "https://openbluebrain.s3.us-west-2.amazonaws.com/Portals/hippocampus-model-portal/data/images/2_neuron-models/trace-preview/95810033.png",
+    "region": "hippocampus",
+    "species": [
+      "rat"
+    ],
+    "secondary_region": [
+      "CA1"
+    ],
+    "layers": [],
+    "download_filename": "95810033.abf",
+    "download_link": "https://data-proxy.ebrains.eu/api/v1/buckets/pc0a33-EBRAINS_live_papers/2018_migliore_et_al/exp_data/abf-pyr-cAC/95810033/95810033.abf",
+    "cell_type": "pyramidal",
+    "etype": "cAC",
+    "papers": [],
+    "source": "EBRAINS"
+  },
+  {
+    "source_id": "internal_electrophysiologies-95810035",
+    "id": "95810035",
+    "type": "electrophysiology",
+    "name": "95810035",
+    "page_link": "https://live-papers.apps.ebrains.eu/#2018-migliore-et-al",
+    "icon": "https://openbluebrain.s3.us-west-2.amazonaws.com/Portals/hippocampus-model-portal/data/images/2_neuron-models/trace-preview/95810035.png",
+    "region": "hippocampus",
+    "species": [
+      "rat"
+    ],
+    "secondary_region": [
+      "CA1"
+    ],
+    "layers": [],
+    "download_filename": "95810035.abf",
+    "download_link": "https://data-proxy.ebrains.eu/api/v1/buckets/pc0a33-EBRAINS_live_papers/2018_migliore_et_al/exp_data/abf-int-bAC/SP_BS/95810035.abf",
+    "cell_type": "interneuron",
+    "etype": "bAC",
+    "papers": [],
+    "source": "EBRAINS"
+  },
+  {
+    "source_id": "internal_electrophysiologies-95810036",
+    "id": "95810036",
+    "type": "electrophysiology",
+    "name": "95810036",
+    "page_link": "https://live-papers.apps.ebrains.eu/#2018-migliore-et-al",
+    "icon": "https://openbluebrain.s3.us-west-2.amazonaws.com/Portals/hippocampus-model-portal/data/images/2_neuron-models/trace-preview/95810036.png",
+    "region": "hippocampus",
+    "species": [
+      "rat"
+    ],
+    "secondary_region": [
+      "CA1"
+    ],
+    "layers": [],
+    "download_filename": "95810036.abf",
+    "download_link": "https://data-proxy.ebrains.eu/api/v1/buckets/pc0a33-EBRAINS_live_papers/2018_migliore_et_al/exp_data/abf-int-bAC/SP_BS/95810036.abf",
+    "cell_type": "interneuron",
+    "etype": "bAC",
+    "papers": [],
+    "source": "EBRAINS"
+  },
+  {
+    "source_id": "internal_electrophysiologies-95810037",
+    "id": "95810037",
+    "type": "electrophysiology",
+    "name": "95810037",
+    "page_link": "https://live-papers.apps.ebrains.eu/#2018-migliore-et-al",
+    "icon": "https://openbluebrain.s3.us-west-2.amazonaws.com/Portals/hippocampus-model-portal/data/images/2_neuron-models/trace-preview/95810037.png",
+    "region": "hippocampus",
+    "species": [
+      "rat"
+    ],
+    "secondary_region": [
+      "CA1"
+    ],
+    "layers": [],
+    "download_filename": "95810037.abf",
+    "download_link": "https://data-proxy.ebrains.eu/api/v1/buckets/pc0a33-EBRAINS_live_papers/2018_migliore_et_al/exp_data/abf-pyr-cAC/95810037/95810037.abf",
+    "cell_type": "pyramidal",
+    "etype": "cAC",
+    "papers": [],
+    "source": "EBRAINS"
+  },
+  {
+    "source_id": "internal_electrophysiologies-95810038",
+    "id": "95810038",
+    "type": "electrophysiology",
+    "name": "95810038",
+    "page_link": "https://live-papers.apps.ebrains.eu/#2018-migliore-et-al",
+    "icon": "https://openbluebrain.s3.us-west-2.amazonaws.com/Portals/hippocampus-model-portal/data/images/2_neuron-models/trace-preview/95810038.png",
+    "region": "hippocampus",
+    "species": [
+      "rat"
+    ],
+    "secondary_region": [
+      "CA1"
+    ],
+    "layers": [],
+    "download_filename": "95810038.abf",
+    "download_link": "https://data-proxy.ebrains.eu/api/v1/buckets/pc0a33-EBRAINS_live_papers/2018_migliore_et_al/exp_data/abf-pyr-cAC/95810037/95810038.abf",
+    "cell_type": "pyramidal",
+    "etype": "cAC",
+    "papers": [],
+    "source": "EBRAINS"
+  },
+  {
+    "source_id": "internal_electrophysiologies-95810039",
+    "id": "95810039",
+    "type": "electrophysiology",
+    "name": "95810039",
+    "page_link": "https://live-papers.apps.ebrains.eu/#2018-migliore-et-al",
+    "icon": "https://openbluebrain.s3.us-west-2.amazonaws.com/Portals/hippocampus-model-portal/data/images/2_neuron-models/trace-preview/95810039.png",
+    "region": "hippocampus",
+    "species": [
+      "rat"
+    ],
+    "secondary_region": [
+      "CA1"
+    ],
+    "layers": [],
+    "download_filename": "95810039.abf",
+    "download_link": "https://data-proxy.ebrains.eu/api/v1/buckets/pc0a33-EBRAINS_live_papers/2018_migliore_et_al/exp_data/abf-pyr-cAC/95810037/95810039.abf",
+    "cell_type": "pyramidal",
+    "etype": "cAC",
+    "papers": [],
+    "source": "EBRAINS"
+  },
+  {
+    "source_id": "internal_electrophysiologies-95810040",
+    "id": "95810040",
+    "type": "electrophysiology",
+    "name": "95810040",
+    "page_link": "https://live-papers.apps.ebrains.eu/#2018-migliore-et-al",
+    "icon": "https://openbluebrain.s3.us-west-2.amazonaws.com/Portals/hippocampus-model-portal/data/images/2_neuron-models/trace-preview/95810040.png",
+    "region": "hippocampus",
+    "species": [
+      "rat"
+    ],
+    "secondary_region": [
+      "CA1"
+    ],
+    "layers": [],
+    "download_filename": "95810040.abf",
+    "download_link": "https://data-proxy.ebrains.eu/api/v1/buckets/pc0a33-EBRAINS_live_papers/2018_migliore_et_al/exp_data/abf-pyr-cAC/95810037/95810040.abf",
+    "cell_type": "pyramidal",
+    "etype": "cAC",
+    "papers": [],
+    "source": "EBRAINS"
+  },
+  {
+    "source_id": "internal_electrophysiologies-95810041",
+    "id": "95810041",
+    "type": "electrophysiology",
+    "name": "95810041",
+    "page_link": "https://live-papers.apps.ebrains.eu/#2018-migliore-et-al",
+    "icon": "https://openbluebrain.s3.us-west-2.amazonaws.com/Portals/hippocampus-model-portal/data/images/2_neuron-models/trace-preview/95810041.png",
+    "region": "hippocampus",
+    "species": [
+      "rat"
+    ],
+    "secondary_region": [
+      "CA1"
+    ],
+    "layers": [],
+    "download_filename": "95810041.abf",
+    "download_link": "https://data-proxy.ebrains.eu/api/v1/buckets/pc0a33-EBRAINS_live_papers/2018_migliore_et_al/exp_data/abf-pyr-cAC/95810037/95810041.abf",
+    "cell_type": "pyramidal",
+    "etype": "cAC",
+    "papers": [],
+    "source": "EBRAINS"
+  },
+  {
+    "source_id": "internal_electrophysiologies-95817000",
+    "id": "95817000",
+    "type": "electrophysiology",
+    "name": "95817000",
+    "page_link": "https://live-papers.apps.ebrains.eu/#2018-migliore-et-al",
+    "icon": "https://openbluebrain.s3.us-west-2.amazonaws.com/Portals/hippocampus-model-portal/data/images/2_neuron-models/trace-preview/95817000.png",
+    "region": "hippocampus",
+    "species": [
+      "rat"
+    ],
+    "secondary_region": [
+      "CA1"
+    ],
+    "layers": [],
+    "download_filename": "95817000.abf",
+    "download_link": "https://data-proxy.ebrains.eu/api/v1/buckets/pc0a33-EBRAINS_live_papers/2018_migliore_et_al/exp_data/abf-int-cNAC/SP_BS/95817000.abf",
+    "cell_type": "interneuron",
+    "etype": "cNAC",
+    "papers": [],
+    "source": "EBRAINS"
+  },
+  {
+    "source_id": "internal_electrophysiologies-95817001",
+    "id": "95817001",
+    "type": "electrophysiology",
+    "name": "95817001",
+    "page_link": "https://live-papers.apps.ebrains.eu/#2018-migliore-et-al",
+    "icon": "https://openbluebrain.s3.us-west-2.amazonaws.com/Portals/hippocampus-model-portal/data/images/2_neuron-models/trace-preview/95817001.png",
+    "region": "hippocampus",
+    "species": [
+      "rat"
+    ],
+    "secondary_region": [
+      "CA1"
+    ],
+    "layers": [],
+    "download_filename": "95817001.abf",
+    "download_link": "https://data-proxy.ebrains.eu/api/v1/buckets/pc0a33-EBRAINS_live_papers/2018_migliore_et_al/exp_data/abf-int-cNAC/SP_BS/95817001.abf",
+    "cell_type": "interneuron",
+    "etype": "cNAC",
+    "papers": [],
+    "source": "EBRAINS"
+  },
+  {
+    "source_id": "internal_electrophysiologies-95817002",
+    "id": "95817002",
+    "type": "electrophysiology",
+    "name": "95817002",
+    "page_link": "https://live-papers.apps.ebrains.eu/#2018-migliore-et-al",
+    "icon": "https://openbluebrain.s3.us-west-2.amazonaws.com/Portals/hippocampus-model-portal/data/images/2_neuron-models/trace-preview/95817002.png",
+    "region": "hippocampus",
+    "species": [
+      "rat"
+    ],
+    "secondary_region": [
+      "CA1"
+    ],
+    "layers": [],
+    "download_filename": "95817002.abf",
+    "download_link": "https://data-proxy.ebrains.eu/api/v1/buckets/pc0a33-EBRAINS_live_papers/2018_migliore_et_al/exp_data/abf-int-cNAC/SP_BS/95817002.abf",
+    "cell_type": "interneuron",
+    "etype": "cNAC",
+    "papers": [],
+    "source": "EBRAINS"
+  },
+  {
+    "source_id": "internal_electrophysiologies-95817003",
+    "id": "95817003",
+    "type": "electrophysiology",
+    "name": "95817003",
+    "page_link": "https://live-papers.apps.ebrains.eu/#2018-migliore-et-al",
+    "icon": "https://openbluebrain.s3.us-west-2.amazonaws.com/Portals/hippocampus-model-portal/data/images/2_neuron-models/trace-preview/95817003.png",
+    "region": "hippocampus",
+    "species": [
+      "rat"
+    ],
+    "secondary_region": [
+      "CA1"
+    ],
+    "layers": [],
+    "download_filename": "95817003.abf",
+    "download_link": "https://data-proxy.ebrains.eu/api/v1/buckets/pc0a33-EBRAINS_live_papers/2018_migliore_et_al/exp_data/abf-pyr-cAC/95817003/95817003.abf",
+    "cell_type": "pyramidal",
+    "etype": "cAC",
+    "papers": [],
+    "source": "EBRAINS"
+  },
+  {
+    "source_id": "internal_electrophysiologies-95817004",
+    "id": "95817004",
+    "type": "electrophysiology",
+    "name": "95817004",
+    "page_link": "https://live-papers.apps.ebrains.eu/#2018-migliore-et-al",
+    "icon": "https://openbluebrain.s3.us-west-2.amazonaws.com/Portals/hippocampus-model-portal/data/images/2_neuron-models/trace-preview/95817004.png",
+    "region": "hippocampus",
+    "species": [
+      "rat"
+    ],
+    "secondary_region": [
+      "CA1"
+    ],
+    "layers": [],
+    "download_filename": "95817004.abf",
+    "download_link": "https://data-proxy.ebrains.eu/api/v1/buckets/pc0a33-EBRAINS_live_papers/2018_migliore_et_al/exp_data/abf-pyr-cAC/95817004/95817004.abf",
+    "cell_type": "pyramidal",
+    "etype": "cAC",
+    "papers": [],
+    "source": "EBRAINS"
+  },
+  {
+    "source_id": "internal_electrophysiologies-95817005",
+    "id": "95817005",
+    "type": "electrophysiology",
+    "name": "95817005",
+    "page_link": "https://live-papers.apps.ebrains.eu/#2018-migliore-et-al",
+    "icon": "https://openbluebrain.s3.us-west-2.amazonaws.com/Portals/hippocampus-model-portal/data/images/2_neuron-models/trace-preview/95817005.png",
+    "region": "hippocampus",
+    "species": [
+      "rat"
+    ],
+    "secondary_region": [
+      "CA1"
+    ],
+    "layers": [],
+    "download_filename": "95817005.abf",
+    "download_link": "https://data-proxy.ebrains.eu/api/v1/buckets/pc0a33-EBRAINS_live_papers/2018_migliore_et_al/exp_data/abf-pyr-cAC/95817005/95817005.abf",
+    "cell_type": "pyramidal",
+    "etype": "cAC",
+    "papers": [],
+    "source": "EBRAINS"
+  },
+  {
+    "source_id": "internal_electrophysiologies-95817006",
+    "id": "95817006",
+    "type": "electrophysiology",
+    "name": "95817006",
+    "page_link": "https://live-papers.apps.ebrains.eu/#2018-migliore-et-al",
+    "icon": "https://openbluebrain.s3.us-west-2.amazonaws.com/Portals/hippocampus-model-portal/data/images/2_neuron-models/trace-preview/95817006.png",
+    "region": "hippocampus",
+    "species": [
+      "rat"
+    ],
+    "secondary_region": [
+      "CA1"
+    ],
+    "layers": [],
+    "download_filename": "95817006.abf",
+    "download_link": "https://data-proxy.ebrains.eu/api/v1/buckets/pc0a33-EBRAINS_live_papers/2018_migliore_et_al/exp_data/abf-pyr-cAC/95817005/95817006.abf",
+    "cell_type": "pyramidal",
+    "etype": "cAC",
+    "papers": [],
+    "source": "EBRAINS"
+  },
+  {
+    "source_id": "internal_electrophysiologies-95817007",
+    "id": "95817007",
+    "type": "electrophysiology",
+    "name": "95817007",
+    "page_link": "https://live-papers.apps.ebrains.eu/#2018-migliore-et-al",
+    "icon": "https://openbluebrain.s3.us-west-2.amazonaws.com/Portals/hippocampus-model-portal/data/images/2_neuron-models/trace-preview/95817007.png",
+    "region": "hippocampus",
+    "species": [
+      "rat"
+    ],
+    "secondary_region": [
+      "CA1"
+    ],
+    "layers": [],
+    "download_filename": "95817007.abf",
+    "download_link": "https://data-proxy.ebrains.eu/api/v1/buckets/pc0a33-EBRAINS_live_papers/2018_migliore_et_al/exp_data/abf-pyr-cAC/95817007/95817007.abf",
+    "cell_type": "pyramidal",
+    "etype": "cAC",
+    "papers": [],
+    "source": "EBRAINS"
+  },
+  {
+    "source_id": "internal_electrophysiologies-95817008",
+    "id": "95817008",
+    "type": "electrophysiology",
+    "name": "95817008",
+    "page_link": "https://live-papers.apps.ebrains.eu/#2018-migliore-et-al",
+    "icon": "https://openbluebrain.s3.us-west-2.amazonaws.com/Portals/hippocampus-model-portal/data/images/2_neuron-models/trace-preview/95817008.png",
+    "region": "hippocampus",
+    "species": [
+      "rat"
+    ],
+    "secondary_region": [
+      "CA1"
+    ],
+    "layers": [],
+    "download_filename": "95817008.abf",
+    "download_link": "https://data-proxy.ebrains.eu/api/v1/buckets/pc0a33-EBRAINS_live_papers/2018_migliore_et_al/exp_data/abf-pyr-cAC/95817007/95817008.abf",
+    "cell_type": "pyramidal",
+    "etype": "cAC",
+    "papers": [],
+    "source": "EBRAINS"
+  },
+  {
+    "source_id": "internal_electrophysiologies-95822000",
+    "id": "95822000",
+    "type": "electrophysiology",
+    "name": "95822000",
+    "page_link": "https://live-papers.apps.ebrains.eu/#2018-migliore-et-al",
+    "icon": "https://openbluebrain.s3.us-west-2.amazonaws.com/Portals/hippocampus-model-portal/data/images/2_neuron-models/trace-preview/95822000.png",
+    "region": "hippocampus",
+    "species": [
+      "rat"
+    ],
+    "secondary_region": [
+      "CA1"
+    ],
+    "layers": [],
+    "download_filename": "95822000.abf",
+    "download_link": "https://data-proxy.ebrains.eu/api/v1/buckets/pc0a33-EBRAINS_live_papers/2018_migliore_et_al/exp_data/abf-pyr-cAC/95822000/95822000.abf",
+    "cell_type": "pyramidal",
+    "etype": "cAC",
+    "papers": [],
+    "source": "EBRAINS"
+  },
+  {
+    "source_id": "internal_electrophysiologies-95822001",
+    "id": "95822001",
+    "type": "electrophysiology",
+    "name": "95822001",
+    "page_link": "https://live-papers.apps.ebrains.eu/#2018-migliore-et-al",
+    "icon": "https://openbluebrain.s3.us-west-2.amazonaws.com/Portals/hippocampus-model-portal/data/images/2_neuron-models/trace-preview/95822001.png",
+    "region": "hippocampus",
+    "species": [
+      "rat"
+    ],
+    "secondary_region": [
+      "CA1"
+    ],
+    "layers": [],
+    "download_filename": "95822001.abf",
+    "download_link": "https://data-proxy.ebrains.eu/api/v1/buckets/pc0a33-EBRAINS_live_papers/2018_migliore_et_al/exp_data/abf-pyr-cAC/95822000/95822001.abf",
+    "cell_type": "pyramidal",
+    "etype": "cAC",
+    "papers": [],
+    "source": "EBRAINS"
+  },
+  {
+    "source_id": "internal_electrophysiologies-95822002",
+    "id": "95822002",
+    "type": "electrophysiology",
+    "name": "95822002",
+    "page_link": "https://live-papers.apps.ebrains.eu/#2018-migliore-et-al",
+    "icon": "https://openbluebrain.s3.us-west-2.amazonaws.com/Portals/hippocampus-model-portal/data/images/2_neuron-models/trace-preview/95822002.png",
+    "region": "hippocampus",
+    "species": [
+      "rat"
+    ],
+    "secondary_region": [
+      "CA1"
+    ],
+    "layers": [],
+    "download_filename": "95822002.abf",
+    "download_link": "https://data-proxy.ebrains.eu/api/v1/buckets/pc0a33-EBRAINS_live_papers/2018_migliore_et_al/exp_data/abf-pyr-cAC/95822002/95822002.abf",
+    "cell_type": "pyramidal",
+    "etype": "cAC",
+    "papers": [],
+    "source": "EBRAINS"
+  },
+  {
+    "source_id": "internal_electrophysiologies-95822003",
+    "id": "95822003",
+    "type": "electrophysiology",
+    "name": "95822003",
+    "page_link": "https://live-papers.apps.ebrains.eu/#2018-migliore-et-al",
+    "icon": "https://openbluebrain.s3.us-west-2.amazonaws.com/Portals/hippocampus-model-portal/data/images/2_neuron-models/trace-preview/95822003.png",
+    "region": "hippocampus",
+    "species": [
+      "rat"
+    ],
+    "secondary_region": [
+      "CA1"
+    ],
+    "layers": [],
+    "download_filename": "95822003.abf",
+    "download_link": "https://data-proxy.ebrains.eu/api/v1/buckets/pc0a33-EBRAINS_live_papers/2018_migliore_et_al/exp_data/abf-pyr-cAC/95822002/95822003.abf",
+    "cell_type": "pyramidal",
+    "etype": "cAC",
+    "papers": [],
+    "source": "EBRAINS"
+  },
+  {
+    "source_id": "internal_electrophysiologies-95822009",
+    "id": "95822009",
+    "type": "electrophysiology",
+    "name": "95822009",
+    "page_link": "https://live-papers.apps.ebrains.eu/#2018-migliore-et-al",
+    "icon": "https://openbluebrain.s3.us-west-2.amazonaws.com/Portals/hippocampus-model-portal/data/images/2_neuron-models/trace-preview/95822009.png",
+    "region": "hippocampus",
+    "species": [
+      "rat"
+    ],
+    "secondary_region": [
+      "CA1"
+    ],
+    "layers": [],
+    "download_filename": "95822009.abf",
+    "download_link": "https://data-proxy.ebrains.eu/api/v1/buckets/pc0a33-EBRAINS_live_papers/2018_migliore_et_al/exp_data/abf-pyr-cAC/95822007/95822009.abf",
+    "cell_type": "pyramidal",
+    "etype": "cAC",
+    "papers": [],
+    "source": "EBRAINS"
+  },
+  {
+    "source_id": "internal_electrophysiologies-95822010",
+    "id": "95822010",
+    "type": "electrophysiology",
+    "name": "95822010",
+    "page_link": "https://live-papers.apps.ebrains.eu/#2018-migliore-et-al",
+    "icon": "https://openbluebrain.s3.us-west-2.amazonaws.com/Portals/hippocampus-model-portal/data/images/2_neuron-models/trace-preview/95822010.png",
+    "region": "hippocampus",
+    "species": [
+      "rat"
+    ],
+    "secondary_region": [
+      "CA1"
+    ],
+    "layers": [],
+    "download_filename": "95822010.abf",
+    "download_link": "https://data-proxy.ebrains.eu/api/v1/buckets/pc0a33-EBRAINS_live_papers/2018_migliore_et_al/exp_data/abf-pyr-cAC/95822010/95822010.abf",
+    "cell_type": "pyramidal",
+    "etype": "cAC",
+    "papers": [],
+    "source": "EBRAINS"
+  },
+  {
+    "source_id": "internal_electrophysiologies-95822011",
+    "id": "95822011",
+    "type": "electrophysiology",
+    "name": "95822011",
+    "page_link": "https://live-papers.apps.ebrains.eu/#2018-migliore-et-al",
+    "icon": "https://openbluebrain.s3.us-west-2.amazonaws.com/Portals/hippocampus-model-portal/data/images/2_neuron-models/trace-preview/95822011.png",
+    "region": "hippocampus",
+    "species": [
+      "rat"
+    ],
+    "secondary_region": [
+      "CA1"
+    ],
+    "layers": [],
+    "download_filename": "95822011.abf",
+    "download_link": "https://data-proxy.ebrains.eu/api/v1/buckets/pc0a33-EBRAINS_live_papers/2018_migliore_et_al/exp_data/abf-pyr-cAC/95822010/95822011.abf",
+    "cell_type": "pyramidal",
+    "etype": "cAC",
+    "papers": [],
+    "source": "EBRAINS"
+  },
+  {
+    "source_id": "internal_electrophysiologies-95824000",
+    "id": "95824000",
+    "type": "electrophysiology",
+    "name": "95824000",
+    "page_link": "https://live-papers.apps.ebrains.eu/#2018-migliore-et-al",
+    "icon": "https://openbluebrain.s3.us-west-2.amazonaws.com/Portals/hippocampus-model-portal/data/images/2_neuron-models/trace-preview/95824000.png",
+    "region": "hippocampus",
+    "species": [
+      "rat"
+    ],
+    "secondary_region": [
+      "CA1"
+    ],
+    "layers": [],
+    "download_filename": "95824000.abf",
+    "download_link": "https://data-proxy.ebrains.eu/api/v1/buckets/pc0a33-EBRAINS_live_papers/2018_migliore_et_al/exp_data/abf-pyr-cAC/95824000/95824000.abf",
+    "cell_type": "pyramidal",
+    "etype": "cAC",
+    "papers": [],
+    "source": "EBRAINS"
+  },
+  {
+    "source_id": "internal_electrophysiologies-95824004",
+    "id": "95824004",
+    "type": "electrophysiology",
+    "name": "95824004",
+    "page_link": "https://live-papers.apps.ebrains.eu/#2018-migliore-et-al",
+    "icon": "https://openbluebrain.s3.us-west-2.amazonaws.com/Portals/hippocampus-model-portal/data/images/2_neuron-models/trace-preview/95824004.png",
+    "region": "hippocampus",
+    "species": [
+      "rat"
+    ],
+    "secondary_region": [
+      "CA1"
+    ],
+    "layers": [],
+    "download_filename": "95824004.abf",
+    "download_link": "https://data-proxy.ebrains.eu/api/v1/buckets/pc0a33-EBRAINS_live_papers/2018_migliore_et_al/exp_data/abf-pyr-cAC/95824004/95824004.abf",
+    "cell_type": "pyramidal",
+    "etype": "cAC",
+    "papers": [],
+    "source": "EBRAINS"
+  },
+  {
+    "source_id": "internal_electrophysiologies-95824006",
+    "id": "95824006",
+    "type": "electrophysiology",
+    "name": "95824006",
+    "page_link": "https://live-papers.apps.ebrains.eu/#2018-migliore-et-al",
+    "icon": "https://openbluebrain.s3.us-west-2.amazonaws.com/Portals/hippocampus-model-portal/data/images/2_neuron-models/trace-preview/95824006.png",
+    "region": "hippocampus",
+    "species": [
+      "rat"
+    ],
+    "secondary_region": [
+      "CA1"
+    ],
+    "layers": [],
+    "download_filename": "95824006.abf",
+    "download_link": "https://data-proxy.ebrains.eu/api/v1/buckets/pc0a33-EBRAINS_live_papers/2018_migliore_et_al/exp_data/abf-pyr-cAC/95824006/95824006.abf",
+    "cell_type": "pyramidal",
+    "etype": "cAC",
+    "papers": [],
+    "source": "EBRAINS"
+  },
+  {
+    "source_id": "internal_electrophysiologies-95831000",
+    "id": "95831000",
+    "type": "electrophysiology",
+    "name": "95831000",
+    "page_link": "https://live-papers.apps.ebrains.eu/#2018-migliore-et-al",
+    "icon": "https://openbluebrain.s3.us-west-2.amazonaws.com/Portals/hippocampus-model-portal/data/images/2_neuron-models/trace-preview/95831000.png",
+    "region": "hippocampus",
+    "species": [
+      "rat"
+    ],
+    "secondary_region": [
+      "CA1"
+    ],
+    "layers": [],
+    "download_filename": "95831000.abf",
+    "download_link": "https://data-proxy.ebrains.eu/api/v1/buckets/pc0a33-EBRAINS_live_papers/2018_migliore_et_al/exp_data/abf-pyr-cAC/95831000/95831000.abf",
+    "cell_type": "pyramidal",
+    "etype": "cAC",
+    "papers": [],
+    "source": "EBRAINS"
+  },
+  {
+    "source_id": "internal_electrophysiologies-95831002",
+    "id": "95831002",
+    "type": "electrophysiology",
+    "name": "95831002",
+    "page_link": "https://live-papers.apps.ebrains.eu/#2018-migliore-et-al",
+    "icon": "https://openbluebrain.s3.us-west-2.amazonaws.com/Portals/hippocampus-model-portal/data/images/2_neuron-models/trace-preview/95831002.png",
+    "region": "hippocampus",
+    "species": [
+      "rat"
+    ],
+    "secondary_region": [
+      "CA1"
+    ],
+    "layers": [],
+    "download_filename": "95831002.abf",
+    "download_link": "https://data-proxy.ebrains.eu/api/v1/buckets/pc0a33-EBRAINS_live_papers/2018_migliore_et_al/exp_data/abf-pyr-cAC/95831002/95831002.abf",
+    "cell_type": "pyramidal",
+    "etype": "cAC",
+    "papers": [],
+    "source": "EBRAINS"
+  },
+  {
+    "source_id": "internal_electrophysiologies-95831003",
+    "id": "95831003",
+    "type": "electrophysiology",
+    "name": "95831003",
+    "page_link": "https://live-papers.apps.ebrains.eu/#2018-migliore-et-al",
+    "icon": "https://openbluebrain.s3.us-west-2.amazonaws.com/Portals/hippocampus-model-portal/data/images/2_neuron-models/trace-preview/95831003.png",
+    "region": "hippocampus",
+    "species": [
+      "rat"
+    ],
+    "secondary_region": [
+      "CA1"
+    ],
+    "layers": [],
+    "download_filename": "95831003.abf",
+    "download_link": "https://data-proxy.ebrains.eu/api/v1/buckets/pc0a33-EBRAINS_live_papers/2018_migliore_et_al/exp_data/abf-pyr-cAC/95831003/95831003.abf",
+    "cell_type": "pyramidal",
+    "etype": "cAC",
+    "papers": [],
+    "source": "EBRAINS"
+  },
+  {
+    "source_id": "internal_electrophysiologies-95831004",
+    "id": "95831004",
+    "type": "electrophysiology",
+    "name": "95831004",
+    "page_link": "https://live-papers.apps.ebrains.eu/#2018-migliore-et-al",
+    "icon": "https://openbluebrain.s3.us-west-2.amazonaws.com/Portals/hippocampus-model-portal/data/images/2_neuron-models/trace-preview/95831004.png",
+    "region": "hippocampus",
+    "species": [
+      "rat"
+    ],
+    "secondary_region": [
+      "CA1"
+    ],
+    "layers": [],
+    "download_filename": "95831004.abf",
+    "download_link": "https://data-proxy.ebrains.eu/api/v1/buckets/pc0a33-EBRAINS_live_papers/2018_migliore_et_al/exp_data/abf-pyr-cAC/95831004/95831004.abf",
+    "cell_type": "pyramidal",
+    "etype": "cAC",
+    "papers": [],
+    "source": "EBRAINS"
+  },
+  {
+    "source_id": "internal_electrophysiologies-95912005",
+    "id": "95912005",
+    "type": "electrophysiology",
+    "name": "95912005",
+    "page_link": "https://live-papers.apps.ebrains.eu/#2018-migliore-et-al",
+    "icon": "https://openbluebrain.s3.us-west-2.amazonaws.com/Portals/hippocampus-model-portal/data/images/2_neuron-models/trace-preview/95912005.png",
+    "region": "hippocampus",
+    "species": [
+      "rat"
+    ],
+    "secondary_region": [
+      "CA1"
+    ],
+    "layers": [],
+    "download_filename": "95912005.abf",
+    "download_link": "https://data-proxy.ebrains.eu/api/v1/buckets/pc0a33-EBRAINS_live_papers/2018_migliore_et_al/exp_data/abf-pyr-cAC/95912005/95912005.abf",
+    "cell_type": "pyramidal",
+    "etype": "cAC",
+    "papers": [],
+    "source": "EBRAINS"
+  },
+  {
+    "source_id": "internal_electrophysiologies-95912006",
+    "id": "95912006",
+    "type": "electrophysiology",
+    "name": "95912006",
+    "page_link": "https://live-papers.apps.ebrains.eu/#2018-migliore-et-al",
+    "icon": "https://openbluebrain.s3.us-west-2.amazonaws.com/Portals/hippocampus-model-portal/data/images/2_neuron-models/trace-preview/95912006.png",
+    "region": "hippocampus",
+    "species": [
+      "rat"
+    ],
+    "secondary_region": [
+      "CA1"
+    ],
+    "layers": [],
+    "download_filename": "95912006.abf",
+    "download_link": "https://data-proxy.ebrains.eu/api/v1/buckets/pc0a33-EBRAINS_live_papers/2018_migliore_et_al/exp_data/abf-pyr-cAC/95912005/95912006.abf",
+    "cell_type": "pyramidal",
+    "etype": "cAC",
+    "papers": [],
+    "source": "EBRAINS"
+  },
+  {
+    "source_id": "internal_electrophysiologies-95914002",
+    "id": "95914002",
+    "type": "electrophysiology",
+    "name": "95914002",
+    "page_link": "https://live-papers.apps.ebrains.eu/#2018-migliore-et-al",
+    "icon": "https://openbluebrain.s3.us-west-2.amazonaws.com/Portals/hippocampus-model-portal/data/images/2_neuron-models/trace-preview/95914002.png",
+    "region": "hippocampus",
+    "species": [
+      "rat"
+    ],
+    "secondary_region": [
+      "CA1"
+    ],
+    "layers": [],
+    "download_filename": "95914002.abf",
+    "download_link": "https://data-proxy.ebrains.eu/api/v1/buckets/pc0a33-EBRAINS_live_papers/2018_migliore_et_al/exp_data/abf-pyr-cAC/95914002/95914002.abf",
+    "cell_type": "pyramidal",
+    "etype": "cAC",
+    "papers": [],
+    "source": "EBRAINS"
+  },
+  {
+    "source_id": "internal_electrophysiologies-95914003",
+    "id": "95914003",
+    "type": "electrophysiology",
+    "name": "95914003",
+    "page_link": "https://live-papers.apps.ebrains.eu/#2018-migliore-et-al",
+    "icon": "https://openbluebrain.s3.us-west-2.amazonaws.com/Portals/hippocampus-model-portal/data/images/2_neuron-models/trace-preview/95914003.png",
+    "region": "hippocampus",
+    "species": [
+      "rat"
+    ],
+    "secondary_region": [
+      "CA1"
+    ],
+    "layers": [],
+    "download_filename": "95914003.abf",
+    "download_link": "https://data-proxy.ebrains.eu/api/v1/buckets/pc0a33-EBRAINS_live_papers/2018_migliore_et_al/exp_data/abf-pyr-cAC/95914002/95914003.abf",
+    "cell_type": "pyramidal",
+    "etype": "cAC",
+    "papers": [],
+    "source": "EBRAINS"
+  },
+  {
+    "source_id": "internal_electrophysiologies-95914004",
+    "id": "95914004",
+    "type": "electrophysiology",
+    "name": "95914004",
+    "page_link": "https://live-papers.apps.ebrains.eu/#2018-migliore-et-al",
+    "icon": "https://openbluebrain.s3.us-west-2.amazonaws.com/Portals/hippocampus-model-portal/data/images/2_neuron-models/trace-preview/95914004.png",
+    "region": "hippocampus",
+    "species": [
+      "rat"
+    ],
+    "secondary_region": [
+      "CA1"
+    ],
+    "layers": [],
+    "download_filename": "95914004.abf",
+    "download_link": "https://data-proxy.ebrains.eu/api/v1/buckets/pc0a33-EBRAINS_live_papers/2018_migliore_et_al/exp_data/abf-pyr-cAC/95914002/95914004.abf",
+    "cell_type": "pyramidal",
+    "etype": "cAC",
+    "papers": [],
+    "source": "EBRAINS"
+  },
+  {
+    "source_id": "internal_electrophysiologies-97428000",
+    "id": "97428000",
+    "type": "electrophysiology",
+    "name": "97428000",
+    "page_link": "https://live-papers.apps.ebrains.eu/#2018-migliore-et-al",
+    "icon": "https://openbluebrain.s3.us-west-2.amazonaws.com/Portals/hippocampus-model-portal/data/images/2_neuron-models/trace-preview/97428000.png",
+    "region": "hippocampus",
+    "species": [
+      "rat"
+    ],
+    "secondary_region": [
+      "CA1"
+    ],
+    "layers": [],
+    "download_filename": "97428000.abf",
+    "download_link": "https://data-proxy.ebrains.eu/api/v1/buckets/pc0a33-EBRAINS_live_papers/2018_migliore_et_al/exp_data/abf-int-cAC/SO_OLM_970428A1/97428000.abf",
+    "cell_type": "interneuron",
+    "etype": "cAC",
+    "papers": [],
+    "source": "EBRAINS"
+  },
+  {
+    "source_id": "internal_electrophysiologies-97428001",
+    "id": "97428001",
+    "type": "electrophysiology",
+    "name": "97428001",
+    "page_link": "https://live-papers.apps.ebrains.eu/#2018-migliore-et-al",
+    "icon": "https://openbluebrain.s3.us-west-2.amazonaws.com/Portals/hippocampus-model-portal/data/images/2_neuron-models/trace-preview/97428001.png",
+    "region": "hippocampus",
+    "species": [
+      "rat"
+    ],
+    "secondary_region": [
+      "CA1"
+    ],
+    "layers": [],
+    "download_filename": "97428001.abf",
+    "download_link": "https://data-proxy.ebrains.eu/api/v1/buckets/pc0a33-EBRAINS_live_papers/2018_migliore_et_al/exp_data/abf-int-cAC/SO_OLM_970428A1/97428001.abf",
+    "cell_type": "interneuron",
+    "etype": "cAC",
+    "papers": [],
+    "source": "EBRAINS"
+  },
+  {
+    "source_id": "internal_electrophysiologies-97509008",
+    "id": "97509008",
+    "type": "electrophysiology",
+    "name": "97509008",
+    "page_link": "https://live-papers.apps.ebrains.eu/#2018-migliore-et-al",
+    "icon": "https://openbluebrain.s3.us-west-2.amazonaws.com/Portals/hippocampus-model-portal/data/images/2_neuron-models/trace-preview/97509008.png",
+    "region": "hippocampus",
+    "species": [
+      "rat"
+    ],
+    "secondary_region": [
+      "CA1"
+    ],
+    "layers": [],
+    "download_filename": "97509008.abf",
+    "download_link": "https://data-proxy.ebrains.eu/api/v1/buckets/pc0a33-EBRAINS_live_papers/2018_migliore_et_al/exp_data/abf-int-cAC/SO_Tri_970509HP2/97509008.abf",
+    "cell_type": "interneuron",
+    "etype": "cAC",
+    "papers": [],
+    "source": "EBRAINS"
+  },
+  {
+    "source_id": "internal_electrophysiologies-97509009",
+    "id": "97509009",
+    "type": "electrophysiology",
+    "name": "97509009",
+    "page_link": "https://live-papers.apps.ebrains.eu/#2018-migliore-et-al",
+    "icon": "https://openbluebrain.s3.us-west-2.amazonaws.com/Portals/hippocampus-model-portal/data/images/2_neuron-models/trace-preview/97509009.png",
+    "region": "hippocampus",
+    "species": [
+      "rat"
+    ],
+    "secondary_region": [
+      "CA1"
+    ],
+    "layers": [],
+    "download_filename": "97509009.abf",
+    "download_link": "https://data-proxy.ebrains.eu/api/v1/buckets/pc0a33-EBRAINS_live_papers/2018_migliore_et_al/exp_data/abf-int-cAC/SO_Tri_970509HP2/97509009.abf",
+    "cell_type": "interneuron",
+    "etype": "cAC",
+    "papers": [],
+    "source": "EBRAINS"
+  },
+  {
+    "source_id": "internal_electrophysiologies-97509010",
+    "id": "97509010",
+    "type": "electrophysiology",
+    "name": "97509010",
+    "page_link": "https://live-papers.apps.ebrains.eu/#2018-migliore-et-al",
+    "icon": "https://openbluebrain.s3.us-west-2.amazonaws.com/Portals/hippocampus-model-portal/data/images/2_neuron-models/trace-preview/97509010.png",
+    "region": "hippocampus",
+    "species": [
+      "rat"
+    ],
+    "secondary_region": [
+      "CA1"
+    ],
+    "layers": [],
+    "download_filename": "97509010.abf",
+    "download_link": "https://data-proxy.ebrains.eu/api/v1/buckets/pc0a33-EBRAINS_live_papers/2018_migliore_et_al/exp_data/abf-int-cAC/SO_Tri_970509HP2/97509010.abf",
+    "cell_type": "interneuron",
+    "etype": "cAC",
+    "papers": [],
+    "source": "EBRAINS"
+  },
+  {
+    "source_id": "internal_electrophysiologies-97509011",
+    "id": "97509011",
+    "type": "electrophysiology",
+    "name": "97509011",
+    "page_link": "https://live-papers.apps.ebrains.eu/#2018-migliore-et-al",
+    "icon": "https://openbluebrain.s3.us-west-2.amazonaws.com/Portals/hippocampus-model-portal/data/images/2_neuron-models/trace-preview/97509011.png",
+    "region": "hippocampus",
+    "species": [
+      "rat"
+    ],
+    "secondary_region": [
+      "CA1"
+    ],
+    "layers": [],
+    "download_filename": "97509011.abf",
+    "download_link": "https://data-proxy.ebrains.eu/api/v1/buckets/pc0a33-EBRAINS_live_papers/2018_migliore_et_al/exp_data/abf-int-cAC/SO_Tri_970509HP2/97509011.abf",
+    "cell_type": "interneuron",
+    "etype": "cAC",
+    "papers": [],
+    "source": "EBRAINS"
+  },
+  {
+    "source_id": "internal_electrophysiologies-97717005",
+    "id": "97717005",
+    "type": "electrophysiology",
+    "name": "97717005",
+    "page_link": "https://live-papers.apps.ebrains.eu/#2018-migliore-et-al",
+    "icon": "https://openbluebrain.s3.us-west-2.amazonaws.com/Portals/hippocampus-model-portal/data/images/2_neuron-models/trace-preview/97717005.png",
+    "region": "hippocampus",
+    "species": [
+      "rat"
+    ],
+    "secondary_region": [
+      "CA1"
+    ],
+    "layers": [],
+    "download_filename": "97717005.abf",
+    "download_link": "https://data-proxy.ebrains.eu/api/v1/buckets/pc0a33-EBRAINS_live_papers/2018_migliore_et_al/exp_data/abf-int-cNAC/SP_Ivy_970717D/97717005.abf",
+    "cell_type": "interneuron",
+    "etype": "cNAC",
+    "papers": [],
+    "source": "EBRAINS"
+  },
+  {
+    "source_id": "internal_electrophysiologies-97911000",
+    "id": "97911000",
+    "type": "electrophysiology",
+    "name": "97911000",
+    "page_link": "https://live-papers.apps.ebrains.eu/#2018-migliore-et-al",
+    "icon": "https://openbluebrain.s3.us-west-2.amazonaws.com/Portals/hippocampus-model-portal/data/images/2_neuron-models/trace-preview/97911000.png",
+    "region": "hippocampus",
+    "species": [
+      "rat"
+    ],
+    "secondary_region": [
+      "CA1"
+    ],
+    "layers": [],
+    "download_filename": "97911000.abf",
+    "download_link": "https://data-proxy.ebrains.eu/api/v1/buckets/pc0a33-EBRAINS_live_papers/2018_migliore_et_al/exp_data/abf-int-bAC/SP_AA_970911C/97911000.abf",
+    "cell_type": "interneuron",
+    "etype": "bAC",
+    "papers": [],
+    "source": "EBRAINS"
+  },
+  {
+    "source_id": "internal_electrophysiologies-97911001",
+    "id": "97911001",
+    "type": "electrophysiology",
+    "name": "97911001",
+    "page_link": "https://live-papers.apps.ebrains.eu/#2018-migliore-et-al",
+    "icon": "https://openbluebrain.s3.us-west-2.amazonaws.com/Portals/hippocampus-model-portal/data/images/2_neuron-models/trace-preview/97911001.png",
+    "region": "hippocampus",
+    "species": [
+      "rat"
+    ],
+    "secondary_region": [
+      "CA1"
+    ],
+    "layers": [],
+    "download_filename": "97911001.abf",
+    "download_link": "https://data-proxy.ebrains.eu/api/v1/buckets/pc0a33-EBRAINS_live_papers/2018_migliore_et_al/exp_data/abf-int-bAC/SP_AA_970911C/97911001.abf",
+    "cell_type": "interneuron",
+    "etype": "bAC",
+    "papers": [],
+    "source": "EBRAINS"
+  },
+  {
+    "source_id": "internal_electrophysiologies-97911002",
+    "id": "97911002",
+    "type": "electrophysiology",
+    "name": "97911002",
+    "page_link": "https://live-papers.apps.ebrains.eu/#2018-migliore-et-al",
+    "icon": "https://openbluebrain.s3.us-west-2.amazonaws.com/Portals/hippocampus-model-portal/data/images/2_neuron-models/trace-preview/97911002.png",
+    "region": "hippocampus",
+    "species": [
+      "rat"
+    ],
+    "secondary_region": [
+      "CA1"
+    ],
+    "layers": [],
+    "download_filename": "97911002.abf",
+    "download_link": "https://data-proxy.ebrains.eu/api/v1/buckets/pc0a33-EBRAINS_live_papers/2018_migliore_et_al/exp_data/abf-int-bAC/SP_AA_970911C/97911002.abf",
+    "cell_type": "interneuron",
+    "etype": "bAC",
+    "papers": [],
+    "source": "EBRAINS"
+  },
+  {
+    "source_id": "internal_electrophysiologies-98205021",
+    "id": "98205021",
+    "type": "electrophysiology",
+    "name": "98205021",
+    "page_link": "https://live-papers.apps.ebrains.eu/#2018-migliore-et-al",
+    "icon": "https://openbluebrain.s3.us-west-2.amazonaws.com/Portals/hippocampus-model-portal/data/images/2_neuron-models/trace-preview/98205021.png",
+    "region": "hippocampus",
+    "species": [
+      "rat"
+    ],
+    "secondary_region": [
+      "CA1"
+    ],
+    "layers": [],
+    "download_filename": "98205021.abf",
+    "download_link": "https://data-proxy.ebrains.eu/api/v1/buckets/pc0a33-EBRAINS_live_papers/2018_migliore_et_al/exp_data/abf-int-cAC/OLM_980205FHP/98205021.abf",
+    "cell_type": "interneuron",
+    "etype": "cAC",
+    "papers": [],
+    "source": "EBRAINS"
+  },
+  {
+    "source_id": "internal_electrophysiologies-98205022",
+    "id": "98205022",
+    "type": "electrophysiology",
+    "name": "98205022",
+    "page_link": "https://live-papers.apps.ebrains.eu/#2018-migliore-et-al",
+    "icon": "https://openbluebrain.s3.us-west-2.amazonaws.com/Portals/hippocampus-model-portal/data/images/2_neuron-models/trace-preview/98205022.png",
+    "region": "hippocampus",
+    "species": [
+      "rat"
+    ],
+    "secondary_region": [
+      "CA1"
+    ],
+    "layers": [],
+    "download_filename": "98205022.abf",
+    "download_link": "https://data-proxy.ebrains.eu/api/v1/buckets/pc0a33-EBRAINS_live_papers/2018_migliore_et_al/exp_data/abf-int-cAC/OLM_980205FHP/98205022.abf",
+    "cell_type": "interneuron",
+    "etype": "cAC",
+    "papers": [],
+    "source": "EBRAINS"
+  },
+  {
+    "source_id": "internal_electrophysiologies-98205024",
+    "id": "98205024",
+    "type": "electrophysiology",
+    "name": "98205024",
+    "page_link": "https://live-papers.apps.ebrains.eu/#2018-migliore-et-al",
+    "icon": "https://openbluebrain.s3.us-west-2.amazonaws.com/Portals/hippocampus-model-portal/data/images/2_neuron-models/trace-preview/98205024.png",
+    "region": "hippocampus",
+    "species": [
+      "rat"
+    ],
+    "secondary_region": [
+      "CA1"
+    ],
+    "layers": [],
+    "download_filename": "98205024.abf",
+    "download_link": "https://data-proxy.ebrains.eu/api/v1/buckets/pc0a33-EBRAINS_live_papers/2018_migliore_et_al/exp_data/abf-int-cAC/OLM_980205FHP/98205024.abf",
+    "cell_type": "interneuron",
+    "etype": "cAC",
+    "papers": [],
+    "source": "EBRAINS"
+  },
+  {
+    "source_id": "internal_electrophysiologies-98205025",
+    "id": "98205025",
+    "type": "electrophysiology",
+    "name": "98205025",
+    "page_link": "https://live-papers.apps.ebrains.eu/#2018-migliore-et-al",
+    "icon": "https://openbluebrain.s3.us-west-2.amazonaws.com/Portals/hippocampus-model-portal/data/images/2_neuron-models/trace-preview/98205025.png",
+    "region": "hippocampus",
+    "species": [
+      "rat"
+    ],
+    "secondary_region": [
+      "CA1"
+    ],
+    "layers": [],
+    "download_filename": "98205025.abf",
+    "download_link": "https://data-proxy.ebrains.eu/api/v1/buckets/pc0a33-EBRAINS_live_papers/2018_migliore_et_al/exp_data/abf-int-cAC/OLM_980205FHP/98205025.abf",
+    "cell_type": "interneuron",
+    "etype": "cAC",
+    "papers": [],
+    "source": "EBRAINS"
+  },
+  {
+    "source_id": "internal_electrophysiologies-98513011",
+    "id": "98513011",
+    "type": "electrophysiology",
+    "name": "98513011",
+    "page_link": "https://live-papers.apps.ebrains.eu/#2018-migliore-et-al",
+    "icon": "https://openbluebrain.s3.us-west-2.amazonaws.com/Portals/hippocampus-model-portal/data/images/2_neuron-models/trace-preview/98513011.png",
+    "region": "hippocampus",
+    "species": [
+      "rat"
+    ],
+    "secondary_region": [
+      "CA1"
+    ],
+    "layers": [],
+    "download_filename": "98513011.abf",
+    "download_link": "https://data-proxy.ebrains.eu/api/v1/buckets/pc0a33-EBRAINS_live_papers/2018_migliore_et_al/exp_data/abf-int-cNAC/SP_BS_980513B/98513011.abf",
+    "cell_type": "interneuron",
+    "etype": "cNAC",
+    "papers": [],
+    "source": "EBRAINS"
+  },
+  {
+    "source_id": "internal_electrophysiologies-99111000",
+    "id": "99111000",
+    "type": "electrophysiology",
+    "name": "99111000",
+    "page_link": "https://live-papers.apps.ebrains.eu/#2018-migliore-et-al",
+    "icon": "https://openbluebrain.s3.us-west-2.amazonaws.com/Portals/hippocampus-model-portal/data/images/2_neuron-models/trace-preview/99111000.png",
+    "region": "hippocampus",
+    "species": [
+      "rat"
+    ],
+    "secondary_region": [
+      "CA1"
+    ],
+    "layers": [],
+    "download_filename": "99111000.abf",
+    "download_link": "https://data-proxy.ebrains.eu/api/v1/buckets/pc0a33-EBRAINS_live_papers/2018_migliore_et_al/exp_data/abf-int-bAC/PVBC_990111ABHP1/99111000.abf",
+    "cell_type": "interneuron",
+    "etype": "bAC",
+    "papers": [],
+    "source": "EBRAINS"
+  },
+  {
+    "source_id": "internal_electrophysiologies-99111001",
+    "id": "99111001",
+    "type": "electrophysiology",
+    "name": "99111001",
+    "page_link": "https://live-papers.apps.ebrains.eu/#2018-migliore-et-al",
+    "icon": "https://openbluebrain.s3.us-west-2.amazonaws.com/Portals/hippocampus-model-portal/data/images/2_neuron-models/trace-preview/99111001.png",
+    "region": "hippocampus",
+    "species": [
+      "rat"
+    ],
+    "secondary_region": [
+      "CA1"
+    ],
+    "layers": [],
+    "download_filename": "99111001.abf",
+    "download_link": "https://data-proxy.ebrains.eu/api/v1/buckets/pc0a33-EBRAINS_live_papers/2018_migliore_et_al/exp_data/abf-int-bAC/PVBC_990111ABHP1/99111001.abf",
+    "cell_type": "interneuron",
+    "etype": "bAC",
+    "papers": [],
+    "source": "EBRAINS"
+  },
+  {
+    "source_id": "internal_electrophysiologies-99111002",
+    "id": "99111002",
+    "type": "electrophysiology",
+    "name": "99111002",
+    "page_link": "https://live-papers.apps.ebrains.eu/#2018-migliore-et-al",
+    "icon": "https://openbluebrain.s3.us-west-2.amazonaws.com/Portals/hippocampus-model-portal/data/images/2_neuron-models/trace-preview/99111002.png",
+    "region": "hippocampus",
+    "species": [
+      "rat"
+    ],
+    "secondary_region": [
+      "CA1"
+    ],
+    "layers": [],
+    "download_filename": "99111002.abf",
+    "download_link": "https://data-proxy.ebrains.eu/api/v1/buckets/pc0a33-EBRAINS_live_papers/2018_migliore_et_al/exp_data/abf-int-bAC/PVBC_990111ABHP1/99111002.abf",
+    "cell_type": "interneuron",
+    "etype": "bAC",
+    "papers": [],
+    "source": "EBRAINS"
+  },
+  {
+    "source_id": "internal_electrophysiologies-99111004",
+    "id": "99111004",
+    "type": "electrophysiology",
+    "name": "99111004",
+    "page_link": "https://live-papers.apps.ebrains.eu/#2018-migliore-et-al",
+    "icon": "https://openbluebrain.s3.us-west-2.amazonaws.com/Portals/hippocampus-model-portal/data/images/2_neuron-models/trace-preview/99111004.png",
+    "region": "hippocampus",
+    "species": [
+      "rat"
+    ],
+    "secondary_region": [
+      "CA1"
+    ],
+    "layers": [],
+    "download_filename": "99111004.abf",
+    "download_link": "https://data-proxy.ebrains.eu/api/v1/buckets/pc0a33-EBRAINS_live_papers/2018_migliore_et_al/exp_data/abf-int-cNAC/PVBC_990111HP2/99111004.abf",
+    "cell_type": "interneuron",
+    "etype": "cNAC",
+    "papers": [],
+    "source": "EBRAINS"
+  },
+  {
+    "source_id": "internal_electrophysiologies-99111006",
+    "id": "99111006",
+    "type": "electrophysiology",
+    "name": "99111006",
+    "page_link": "https://live-papers.apps.ebrains.eu/#2018-migliore-et-al",
+    "icon": "https://openbluebrain.s3.us-west-2.amazonaws.com/Portals/hippocampus-model-portal/data/images/2_neuron-models/trace-preview/99111006.png",
+    "region": "hippocampus",
+    "species": [
+      "rat"
+    ],
+    "secondary_region": [
+      "CA1"
+    ],
+    "layers": [],
+    "download_filename": "99111006.abf",
+    "download_link": "https://data-proxy.ebrains.eu/api/v1/buckets/pc0a33-EBRAINS_live_papers/2018_migliore_et_al/exp_data/abf-int-cNAC/PVBC_990111HP2/99111006.abf",
+    "cell_type": "interneuron",
+    "etype": "cNAC",
+    "papers": [],
+    "source": "EBRAINS"
+  },
+  {
+    "source_id": "internal_electrophysiologies-98D15008",
+    "id": "98D15008",
+    "type": "electrophysiology",
+    "name": "98D15008",
+    "page_link": "https://live-papers.apps.ebrains.eu/#2018-migliore-et-al",
+    "icon": "https://openbluebrain.s3.us-west-2.amazonaws.com/Portals/hippocampus-model-portal/data/images/2_neuron-models/trace-preview/98D15008.png",
+    "region": "hippocampus",
+    "species": [
+      "rat"
+    ],
+    "secondary_region": [
+      "CA1"
+    ],
+    "layers": [],
+    "download_filename": "98D15008.abf",
+    "download_link": "https://data-proxy.ebrains.eu/api/v1/buckets/pc0a33-EBRAINS_live_papers/2018_migliore_et_al/exp_data/abf-int-cNAC/PVBC_981215GHP4/98D15008.abf",
+    "cell_type": "interneuron",
+    "etype": "cNAC",
+    "papers": [],
+    "source": "EBRAINS"
+  },
+  {
+    "source_id": "internal_electrophysiologies-98D15009",
+    "id": "98D15009",
+    "type": "electrophysiology",
+    "name": "98D15009",
+    "page_link": "https://live-papers.apps.ebrains.eu/#2018-migliore-et-al",
+    "icon": "https://openbluebrain.s3.us-west-2.amazonaws.com/Portals/hippocampus-model-portal/data/images/2_neuron-models/trace-preview/98D15009.png",
+    "region": "hippocampus",
+    "species": [
+      "rat"
+    ],
+    "secondary_region": [
+      "CA1"
+    ],
+    "layers": [],
+    "download_filename": "98D15009.abf",
+    "download_link": "https://data-proxy.ebrains.eu/api/v1/buckets/pc0a33-EBRAINS_live_papers/2018_migliore_et_al/exp_data/abf-int-cNAC/PVBC_981215GHP4/98D15009.abf",
+    "cell_type": "interneuron",
+    "etype": "cNAC",
+    "papers": [],
+    "source": "EBRAINS"
+  }
+]
