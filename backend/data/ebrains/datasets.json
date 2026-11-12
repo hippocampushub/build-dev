@@ -3120,71 +3120,6 @@
     "source": "EBRAINS"
   },
   {
-    "source_id": "ebrains-51ad4f55-6fe2-4513-85fc-449fead4c998",
-    "id": "51ad4f55-6fe2-4513-85fc-449fead4c998",
-    "type": "dataset",
-    "kg_type": [
-      "Dataset version"
-    ],
-    "name": "Hippocampal image volume derived from Thy1-GFP-M transgenic mouse (v1)",
-    "version": "v1",
-    "description": "Reconstruction of the hippocampus of a Thy1-GFP-M transgenic mouse, where a subset of pyramidal neurons and of interneurons are labeled. Data obtained with serial two-photon tomography.",
-    "new_in_this_version": null,
-    "accessibility": "free access",
-    "released_at": "2018-06-06",
-    "region": [
-      "hippocampal region (Allen Mouse Brain Atlas)"
-    ],
-    "species": [
-      "Mus musculus"
-    ],
-    "keywords": [
-      "Thy-1"
-    ],
-    "experimental_approach": [
-      "morphology"
-    ],
-    "techniques": [
-      "CLARITY/TDE",
-      "light microscopy",
-      "spatial registration"
-    ],
-    "preparation": [
-      "ex vivo"
-    ],
-    "study_targets": [
-      "pyramidal cell",
-      "interneuron"
-    ],
-    "custodians": [
-      "Pavone, F. S."
-    ],
-    "contributors": [
-      "Pavone, F. S.",
-      "Silvestri, L."
-    ],
-    "projects": [
-      "Hippocampus reconstruction"
-    ],
-    "publications": [],
-    "doi": "10.25493/PMDH-FW1",
-    "license": {
-      "label": "Creative Commons Attribution Non Commercial Share Alike 4.0 International",
-      "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode"
-    },
-    "data_descriptor": null,
-    "file_repository_id": "d16163d4-208b-48c5-a597-56882ecc4fee",
-    "page_link": "https://search.kg.ebrains.eu/instances/51ad4f55-6fe2-4513-85fc-449fead4c998",
-    "download_link": "https://doi.org/10.25493/PMDH-FW1",
-    "identifiers": [
-      "https://kg.ebrains.eu/api/instances/51ad4f55-6fe2-4513-85fc-449fead4c998",
-      "https://nexus.humanbrainproject.org/v0/data/minds/core/dataset/v1.0.0/51ad4f55-6fe2-4513-85fc-449fead4c998",
-      "8fb1a664ca3390bae960cc1aa11f5827",
-      "https://doi.org/10.25493/PMDH-FW1"
-    ],
-    "source": "EBRAINS"
-  },
-  {
     "source_id": "ebrains-49d24b6f-65f9-4e7a-a3db-83321b6a49d4",
     "id": "49d24b6f-65f9-4e7a-a3db-83321b6a49d4",
     "type": "dataset",
@@ -3320,6 +3255,133 @@
     "identifiers": [
       "https://kg.ebrains.eu/api/instances/db16128e-4cec-409c-aed7-1a6df7107595",
       "https://doi.org/10.25493/T1N3-KCX"
+    ],
+    "source": "EBRAINS"
+  },
+  {
+    "source_id": "ebrains-9b379582-ec75-426c-b88a-c53043a2233c",
+    "id": "9b379582-ec75-426c-b88a-c53043a2233c",
+    "type": "dataset",
+    "kg_type": [
+      "Dataset version"
+    ],
+    "name": "Reactivations of emotional memory in the hippocampus–amygdala system during sleep (0.250624.0426)",
+    "version": "0.250624.0426",
+    "description": "The consolidation of context-dependent emotional memory requires communication between the hippocampus and the basolateral amygdala (BLA), but the mechanisms of this process are unknown. We recorded neuronal ensembles in the hippocampus and BLA while rats learned the location of an aversive air puff on a linear track, as well as during sleep before and after training. We found coordinated reactivations between the hippocampus and the BLA during non-REM sleep following training. These reactivations peaked during hippocampal sharp wave–ripples (SPW-Rs) and involved a subgroup of BLA cells positively modulated during hippocampal SPW-Rs. Notably, reactivation was stronger for the hippocampus–BLA correlation patterns representing the run direction that involved the air puff than for the 'safe' direction. These findings suggest that consolidation of contextual emotional memory occurs during ripple-reactivation of hippocampus–amygdala circuits.\nThis dataset is from the [DANDI Archive](https://dandiarchive.org).\n\n<img src=\"https://dandiarchive.org/assets/logo-DbYqjGgV.svg\" alt=\"DANDI Archive Logo: a brain wearing a top hat\" style=\"width: 200px\" />",
+    "new_in_this_version": "New version published on DANDI on 2025-06-24.",
+    "accessibility": "free access",
+    "released_at": "2025-06-24",
+    "region": [],
+    "species": [
+      "Rattus norvegicus"
+    ],
+    "keywords": [
+      "local field potential"
+    ],
+    "experimental_approach": [
+      "electrophysiology"
+    ],
+    "techniques": [
+      "spike sorting",
+      "temporal filtering",
+      "multi-electrode extracellular electrophysiology"
+    ],
+    "preparation": [],
+    "study_targets": [
+      "Rattus norvegicus"
+    ],
+    "custodians": [
+      "Girardeau, G."
+    ],
+    "contributors": [
+      "Girardeau, G.",
+      "Inema, I.",
+      "Buzsáki, G."
+    ],
+    "projects": [],
+    "publications": [
+      "Girardeau, G., Inema, I., & Buzsáki, G. (2017). Reactivations of emotional memory in the hippocampus–amygdala system during sleep. Nature Neuroscience, 20(11), 1634–1642. https://doi.org/10.1038/nn.4637\n[DOI: 10.1038/nn.4637]\n[DOI: 10.1038/nn.4637]: https://doi.org/10.1038/nn.4637"
+    ],
+    "doi": "10.48324/dandi.000061/0.250624.0426",
+    "license": {
+      "label": "Creative Commons Attribution 4.0 International",
+      "url": "https://creativecommons.org/licenses/by/4.0/legalcode"
+    },
+    "data_descriptor": {
+      "label": "https://dandiarchive.org/dandiset/000061/0.250624.0426",
+      "url": "https://dandiarchive.org/dandiset/000061/0.250624.0426"
+    },
+    "file_repository_id": null,
+    "page_link": "https://search.kg.ebrains.eu/instances/9b379582-ec75-426c-b88a-c53043a2233c",
+    "download_link": "https://doi.org/10.48324/dandi.000061/0.250624.0426",
+    "identifiers": [
+      "https://kg.ebrains.eu/api/instances/9b379582-ec75-426c-b88a-c53043a2233c",
+      "https://doi.org/10.48324/dandi.000061/0.250624.0426"
+    ],
+    "source": "EBRAINS"
+  },
+  {
+    "source_id": "ebrains-51ad4f55-6fe2-4513-85fc-449fead4c998",
+    "id": "51ad4f55-6fe2-4513-85fc-449fead4c998",
+    "type": "dataset",
+    "kg_type": [
+      "Dataset version"
+    ],
+    "name": "Hippocampal image volume derived from Thy1-GFP-M transgenic mouse (v1)",
+    "version": "v1",
+    "description": "Reconstruction of the hippocampus of a Thy1-GFP-M transgenic mouse, where a subset of pyramidal neurons and of interneurons are labeled. Data obtained with serial two-photon tomography.",
+    "new_in_this_version": null,
+    "accessibility": "free access",
+    "released_at": "2018-06-06",
+    "region": [
+      "hippocampal region (Allen Mouse Brain Atlas)"
+    ],
+    "species": [
+      "Mus musculus"
+    ],
+    "keywords": [
+      "Thy-1"
+    ],
+    "experimental_approach": [
+      "morphology"
+    ],
+    "techniques": [
+      "CLARITY/TDE",
+      "light microscopy",
+      "spatial registration"
+    ],
+    "preparation": [
+      "ex vivo"
+    ],
+    "study_targets": [
+      "pyramidal cell",
+      "interneuron"
+    ],
+    "custodians": [
+      "Pavone, F. S."
+    ],
+    "contributors": [
+      "Pavone, F. S.",
+      "Silvestri, L."
+    ],
+    "projects": [
+      "Hippocampus reconstruction"
+    ],
+    "publications": [],
+    "doi": "10.25493/PMDH-FW1",
+    "license": {
+      "label": "Creative Commons Attribution Non Commercial Share Alike 4.0 International",
+      "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode"
+    },
+    "data_descriptor": null,
+    "file_repository_id": "d16163d4-208b-48c5-a597-56882ecc4fee",
+    "page_link": "https://search.kg.ebrains.eu/instances/51ad4f55-6fe2-4513-85fc-449fead4c998",
+    "download_link": "https://doi.org/10.25493/PMDH-FW1",
+    "identifiers": [
+      "https://kg.ebrains.eu/api/instances/51ad4f55-6fe2-4513-85fc-449fead4c998",
+      "https://nexus.humanbrainproject.org/v0/data/minds/core/dataset/v1.0.0/51ad4f55-6fe2-4513-85fc-449fead4c998",
+      "8fb1a664ca3390bae960cc1aa11f5827",
+      "https://doi.org/10.25493/PMDH-FW1"
     ],
     "source": "EBRAINS"
   },
@@ -4075,73 +4137,6 @@
     "source": "EBRAINS"
   },
   {
-    "source_id": "ebrains-a1f4563e-2c7f-4412-a83e-730e70875b30",
-    "id": "a1f4563e-2c7f-4412-a83e-730e70875b30",
-    "type": "dataset",
-    "kg_type": [
-      "Dataset version"
-    ],
-    "name": "All-viral tracing of monosynaptic inputs to single birthdate-defined neurons in the intact brain (v1)",
-    "version": "v1",
-    "description": "These data were collected to determine if a modified rabies virus carrying channelrhodopsin 2 can be used to identify the functional properties of cells in the medial entorhinal cortex that provide monosynaptic input to cells in the hippocampus. Tetrode recordings from two mice freely foraging in an open field arena were made, with subsequent laser stimulation trials to identify which of the recorded cells project directly to the hippocampus. The dataset includes spike times, position data and laser onset times from nine open field sessions, nine laser stimulation sessions and a total of seven cells (one of which was recorded across six consecutive open field sessions). The data can be reused to investigate the firing properties of cells expressing a modified rabies virus.",
-    "new_in_this_version": "Version 1.0 of the dataset is provided in NWB v2.4.0 format. This dataset contains data from two mice, nine open field sessions, nine laser stimulation sessions, and a total of seven cells.",
-    "accessibility": "free access",
-    "released_at": "2023-05-09",
-    "region": [
-      "medial entorhinal cortex"
-    ],
-    "species": [
-      "Mus musculus"
-    ],
-    "keywords": [],
-    "experimental_approach": [
-      "neural connectivity",
-      "optogenetics",
-      "electrophysiology"
-    ],
-    "techniques": [
-      "optogenetic stimulation",
-      "tetrode extracellular electrophysiology"
-    ],
-    "preparation": [
-      "in vivo"
-    ],
-    "study_targets": [],
-    "custodians": [
-      "Moser, E. I."
-    ],
-    "contributors": [
-      "Jacobsen, R. I.",
-      "Nair, R. R.",
-      "Obenhaus, H.",
-      "Donato, F.",
-      "Slettmoen, T.",
-      "Moser, M.-B.",
-      "Moser, E. I."
-    ],
-    "projects": [],
-    "publications": [
-      "Jacobsen, R. I., Nair, R. R., Obenhaus, H. A., Donato, F., Slettmoen, T., Moser, M.-B., & Moser, E. I. (2022). All-viral tracing of monosynaptic inputs to single birthdate-defined neurons in the intact brain. Cell Reports Methods, 2(5), 100221. https://doi.org/10.1016/j.crmeth.2022.100221\n[DOI: 10.1016/j.crmeth.2022.100221]\n[DOI: 10.1016/j.crmeth.2022.100221]: https://doi.org/10.1016/j.crmeth.2022.100221"
-    ],
-    "doi": "10.25493/PH62-JRD",
-    "license": {
-      "label": "Creative Commons Attribution Non Commercial 4.0 International",
-      "url": "https://creativecommons.org/licenses/by-nc/4.0/legalcode"
-    },
-    "data_descriptor": {
-      "label": "https://data-proxy.ebrains.eu/api/permalinks/8be73e25-4157-4177-8567-5dd52603d019",
-      "url": "https://data-proxy.ebrains.eu/api/permalinks/8be73e25-4157-4177-8567-5dd52603d019?inline=true"
-    },
-    "file_repository_id": "2f720dbb-3876-4b36-8eec-317c21c8c40e",
-    "page_link": "https://search.kg.ebrains.eu/instances/a1f4563e-2c7f-4412-a83e-730e70875b30",
-    "download_link": "https://doi.org/10.25493/PH62-JRD",
-    "identifiers": [
-      "https://kg.ebrains.eu/api/instances/a1f4563e-2c7f-4412-a83e-730e70875b30",
-      "https://doi.org/10.25493/PH62-JRD"
-    ],
-    "source": "EBRAINS"
-  },
-  {
     "source_id": "ebrains-1d7f47f3-3416-4207-85bf-10382b31d87b",
     "id": "1d7f47f3-3416-4207-85bf-10382b31d87b",
     "type": "dataset",
@@ -4218,6 +4213,73 @@
     "identifiers": [
       "https://kg.ebrains.eu/api/instances/1d7f47f3-3416-4207-85bf-10382b31d87b",
       "https://doi.org/10.25493/ACKX-Q3J"
+    ],
+    "source": "EBRAINS"
+  },
+  {
+    "source_id": "ebrains-a1f4563e-2c7f-4412-a83e-730e70875b30",
+    "id": "a1f4563e-2c7f-4412-a83e-730e70875b30",
+    "type": "dataset",
+    "kg_type": [
+      "Dataset version"
+    ],
+    "name": "All-viral tracing of monosynaptic inputs to single birthdate-defined neurons in the intact brain (v1)",
+    "version": "v1",
+    "description": "These data were collected to determine if a modified rabies virus carrying channelrhodopsin 2 can be used to identify the functional properties of cells in the medial entorhinal cortex that provide monosynaptic input to cells in the hippocampus. Tetrode recordings from two mice freely foraging in an open field arena were made, with subsequent laser stimulation trials to identify which of the recorded cells project directly to the hippocampus. The dataset includes spike times, position data and laser onset times from nine open field sessions, nine laser stimulation sessions and a total of seven cells (one of which was recorded across six consecutive open field sessions). The data can be reused to investigate the firing properties of cells expressing a modified rabies virus.",
+    "new_in_this_version": "Version 1.0 of the dataset is provided in NWB v2.4.0 format. This dataset contains data from two mice, nine open field sessions, nine laser stimulation sessions, and a total of seven cells.",
+    "accessibility": "free access",
+    "released_at": "2023-05-09",
+    "region": [
+      "medial entorhinal cortex"
+    ],
+    "species": [
+      "Mus musculus"
+    ],
+    "keywords": [],
+    "experimental_approach": [
+      "neural connectivity",
+      "optogenetics",
+      "electrophysiology"
+    ],
+    "techniques": [
+      "optogenetic stimulation",
+      "tetrode extracellular electrophysiology"
+    ],
+    "preparation": [
+      "in vivo"
+    ],
+    "study_targets": [],
+    "custodians": [
+      "Moser, E. I."
+    ],
+    "contributors": [
+      "Jacobsen, R. I.",
+      "Nair, R. R.",
+      "Obenhaus, H.",
+      "Donato, F.",
+      "Slettmoen, T.",
+      "Moser, M.-B.",
+      "Moser, E. I."
+    ],
+    "projects": [],
+    "publications": [
+      "Jacobsen, R. I., Nair, R. R., Obenhaus, H. A., Donato, F., Slettmoen, T., Moser, M.-B., & Moser, E. I. (2022). All-viral tracing of monosynaptic inputs to single birthdate-defined neurons in the intact brain. Cell Reports Methods, 2(5), 100221. https://doi.org/10.1016/j.crmeth.2022.100221\n[DOI: 10.1016/j.crmeth.2022.100221]\n[DOI: 10.1016/j.crmeth.2022.100221]: https://doi.org/10.1016/j.crmeth.2022.100221"
+    ],
+    "doi": "10.25493/PH62-JRD",
+    "license": {
+      "label": "Creative Commons Attribution Non Commercial 4.0 International",
+      "url": "https://creativecommons.org/licenses/by-nc/4.0/legalcode"
+    },
+    "data_descriptor": {
+      "label": "https://data-proxy.ebrains.eu/api/permalinks/8be73e25-4157-4177-8567-5dd52603d019",
+      "url": "https://data-proxy.ebrains.eu/api/permalinks/8be73e25-4157-4177-8567-5dd52603d019?inline=true"
+    },
+    "file_repository_id": "2f720dbb-3876-4b36-8eec-317c21c8c40e",
+    "page_link": "https://search.kg.ebrains.eu/instances/a1f4563e-2c7f-4412-a83e-730e70875b30",
+    "download_link": "https://doi.org/10.25493/PH62-JRD",
+    "identifiers": [
+      "https://kg.ebrains.eu/api/instances/a1f4563e-2c7f-4412-a83e-730e70875b30",
+      "https://doi.org/10.25493/PH62-JRD"
     ],
     "source": "EBRAINS"
   },
@@ -4699,6 +4761,72 @@
     "source": "EBRAINS"
   },
   {
+    "source_id": "ebrains-4080b78d-edc5-4ae4-8144-7f6de79930ea",
+    "id": "4080b78d-edc5-4ae4-8144-7f6de79930ea",
+    "type": "dataset",
+    "kg_type": [
+      "Dataset version"
+    ],
+    "name": "Left-right-alternating theta sweeps in the entorhinal-hippocampal spatial map (v1)",
+    "version": "v1",
+    "description": "This dataset contains electrophysiological population recordings from 19 freely behaving rats implanted with high-site-count Neuropixels probes in the medial entorhinal cortex (n=10), the hippocampus (n=2), or both regions (n=7). Numbers of simultaneously recorded units ranges from 235-1,522. The recordings were obtained while the rats engaged in different navigational tasks (foraging in an open field; running in a wagon-wheel-shaped maze, an m-shaped maze, or a linear track), and during natural sleep in a rest chamber. The animals’ head positions and orientations were tracked with OptiTrack motion-capture system.\n\nThe raw neural activity was spike-sorted using Kilosort 2.5. The present data files include the spike-sorted activity (spike times) of all cells that were used in the accompanying paper. Grid cells were clustered into ‘modules’ according to their spatial firing patterns.\n\nThe data may be used to examine activity of spatial-coding neural populations (or single cells) during navigation and sleep.",
+    "new_in_this_version": "This is the first version of this dataset, containing data from 19 subjects studied via extra-cellular electrophysiology using high density Neuropixels probes.",
+    "accessibility": "free access",
+    "released_at": "2024-11-22",
+    "region": [
+      "medial entorhinal cortex",
+      "parasubiculum"
+    ],
+    "species": [
+      "Rattus norvegicus"
+    ],
+    "keywords": [],
+    "experimental_approach": [
+      "electrophysiology",
+      "behavior"
+    ],
+    "techniques": [
+      "multi-electrode extracellular electrophysiology"
+    ],
+    "preparation": [
+      "in vivo"
+    ],
+    "study_targets": [
+      "Hippocampus"
+    ],
+    "custodians": [
+      "Moser, E. I."
+    ],
+    "contributors": [
+      "Vollan, A. Z.",
+      "Gardner, R.",
+      "Moser, M.-B.",
+      "Moser, E. I."
+    ],
+    "projects": [],
+    "publications": [
+      "Gardner, R. J., Hermansen, E., Pachitariu, M., Burak, Y., Baas, N. A., Dunn, B. A., Moser, M.-B., & Moser, E. I. (2022). Toroidal topology of population activity in grid cells. Nature, 602(7895), 123–128. https://doi.org/10.1038/s41586-021-04268-7\n[DOI: 10.1038/s41586-021-04268-7]\n[DOI: 10.1038/s41586-021-04268-7]: https://doi.org/10.1038/s41586-021-04268-7",
+      "Waaga, T., Agmon, H., Normand, V. A., Nagelhus, A., Gardner, R. J., Moser, M.-B., Moser, E. I., & Burak, Y. (2022). Grid-cell modules remain coordinated when neural activity is dissociated from external sensory cues. Neuron, 110(11), 1843–1856. https://doi.org/10.1016/j.neuron.2022.03.011\n[DOI: 10.1016/j.neuron.2022.03.011]\n[DOI: 10.1016/j.neuron.2022.03.011]: https://doi.org/10.1016/j.neuron.2022.03.011"
+    ],
+    "doi": "10.25493/R5FR-EDG",
+    "license": {
+      "label": "Creative Commons Attribution Share Alike 4.0 International",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0/legalcode"
+    },
+    "data_descriptor": {
+      "label": "https://data-proxy.ebrains.eu/api/permalinks/2106e909-a8ba-420e-9b09-10845432609e",
+      "url": "https://data-proxy.ebrains.eu/api/permalinks/2106e909-a8ba-420e-9b09-10845432609e?inline=true"
+    },
+    "file_repository_id": "ec87e98e-d279-4914-96a1-85b92faa0ff4",
+    "page_link": "https://search.kg.ebrains.eu/instances/4080b78d-edc5-4ae4-8144-7f6de79930ea",
+    "download_link": "https://doi.org/10.25493/R5FR-EDG",
+    "identifiers": [
+      "https://kg.ebrains.eu/api/instances/4080b78d-edc5-4ae4-8144-7f6de79930ea",
+      "https://doi.org/10.25493/R5FR-EDG"
+    ],
+    "source": "EBRAINS"
+  },
+  {
     "source_id": "ebrains-d278f032-f941-48a5-8ebb-0396ef12d610",
     "id": "d278f032-f941-48a5-8ebb-0396ef12d610",
     "type": "dataset",
@@ -4763,72 +4891,6 @@
     "identifiers": [
       "https://kg.ebrains.eu/api/instances/d278f032-f941-48a5-8ebb-0396ef12d610",
       "https://doi.org/10.48324/dandi.000003/0.250624.0409"
-    ],
-    "source": "EBRAINS"
-  },
-  {
-    "source_id": "ebrains-4080b78d-edc5-4ae4-8144-7f6de79930ea",
-    "id": "4080b78d-edc5-4ae4-8144-7f6de79930ea",
-    "type": "dataset",
-    "kg_type": [
-      "Dataset version"
-    ],
-    "name": "Left-right-alternating theta sweeps in the entorhinal-hippocampal spatial map (v1)",
-    "version": "v1",
-    "description": "This dataset contains electrophysiological population recordings from 19 freely behaving rats implanted with high-site-count Neuropixels probes in the medial entorhinal cortex (n=10), the hippocampus (n=2), or both regions (n=7). Numbers of simultaneously recorded units ranges from 235-1,522. The recordings were obtained while the rats engaged in different navigational tasks (foraging in an open field; running in a wagon-wheel-shaped maze, an m-shaped maze, or a linear track), and during natural sleep in a rest chamber. The animals’ head positions and orientations were tracked with OptiTrack motion-capture system.\n\nThe raw neural activity was spike-sorted using Kilosort 2.5. The present data files include the spike-sorted activity (spike times) of all cells that were used in the accompanying paper. Grid cells were clustered into ‘modules’ according to their spatial firing patterns.\n\nThe data may be used to examine activity of spatial-coding neural populations (or single cells) during navigation and sleep.",
-    "new_in_this_version": "This is the first version of this dataset, containing data from 19 subjects studied via extra-cellular electrophysiology using high density Neuropixels probes.",
-    "accessibility": "free access",
-    "released_at": "2024-11-22",
-    "region": [
-      "medial entorhinal cortex",
-      "parasubiculum"
-    ],
-    "species": [
-      "Rattus norvegicus"
-    ],
-    "keywords": [],
-    "experimental_approach": [
-      "electrophysiology",
-      "behavior"
-    ],
-    "techniques": [
-      "multi-electrode extracellular electrophysiology"
-    ],
-    "preparation": [
-      "in vivo"
-    ],
-    "study_targets": [
-      "Hippocampus"
-    ],
-    "custodians": [
-      "Moser, E. I."
-    ],
-    "contributors": [
-      "Vollan, A. Z.",
-      "Gardner, R.",
-      "Moser, M.-B.",
-      "Moser, E. I."
-    ],
-    "projects": [],
-    "publications": [
-      "Gardner, R. J., Hermansen, E., Pachitariu, M., Burak, Y., Baas, N. A., Dunn, B. A., Moser, M.-B., & Moser, E. I. (2022). Toroidal topology of population activity in grid cells. Nature, 602(7895), 123–128. https://doi.org/10.1038/s41586-021-04268-7\n[DOI: 10.1038/s41586-021-04268-7]\n[DOI: 10.1038/s41586-021-04268-7]: https://doi.org/10.1038/s41586-021-04268-7",
-      "Waaga, T., Agmon, H., Normand, V. A., Nagelhus, A., Gardner, R. J., Moser, M.-B., Moser, E. I., & Burak, Y. (2022). Grid-cell modules remain coordinated when neural activity is dissociated from external sensory cues. Neuron, 110(11), 1843–1856. https://doi.org/10.1016/j.neuron.2022.03.011\n[DOI: 10.1016/j.neuron.2022.03.011]\n[DOI: 10.1016/j.neuron.2022.03.011]: https://doi.org/10.1016/j.neuron.2022.03.011"
-    ],
-    "doi": "10.25493/R5FR-EDG",
-    "license": {
-      "label": "Creative Commons Attribution Share Alike 4.0 International",
-      "url": "https://creativecommons.org/licenses/by-sa/4.0/legalcode"
-    },
-    "data_descriptor": {
-      "label": "https://data-proxy.ebrains.eu/api/permalinks/2106e909-a8ba-420e-9b09-10845432609e",
-      "url": "https://data-proxy.ebrains.eu/api/permalinks/2106e909-a8ba-420e-9b09-10845432609e?inline=true"
-    },
-    "file_repository_id": "ec87e98e-d279-4914-96a1-85b92faa0ff4",
-    "page_link": "https://search.kg.ebrains.eu/instances/4080b78d-edc5-4ae4-8144-7f6de79930ea",
-    "download_link": "https://doi.org/10.25493/R5FR-EDG",
-    "identifiers": [
-      "https://kg.ebrains.eu/api/instances/4080b78d-edc5-4ae4-8144-7f6de79930ea",
-      "https://doi.org/10.25493/R5FR-EDG"
     ],
     "source": "EBRAINS"
   },
@@ -5612,146 +5674,6 @@
     "source": "EBRAINS"
   },
   {
-    "source_id": "ebrains-8f64dbb4-6ced-4883-a97b-e64cd8eb3aa5",
-    "id": "8f64dbb4-6ced-4883-a97b-e64cd8eb3aa5",
-    "type": "dataset",
-    "kg_type": [
-      "Dataset version"
-    ],
-    "name": "NLG3KO mice exhibit deficits in social behavior (v1)",
-    "version": "v1",
-    "description": "Autism spectrum disorders (ASDs) comprise a heterogeneous group of neuro-developmental abnormalities with a strong genetic component, characterized by deficits in verbal and non-verbal communication, impaired social interactions, and stereotyped behaviors. In a small percentage of cases, ASDs are associated with alterations of genes involved in synaptic function. Among  these, relatively frequent are mutations/deletions of genes encoding for neuroligins (NLGs). NLGs are postsynaptic adhesion molecules that,  interacting with their presynaptic partners neurexins, ensure the cross talk between pre- and postsynaptic specializations and synaptic stabilization, a condition needed for maintaining a proper excitatory/inhibitory balance within local neuronal circuits.\nWe have focused on mice lacking NLG3 (NLG3 knock-out mice), animal models of a non-syndromic form of autism, which exhibit deficits in social behavior reminiscent of those found in ASDs.\nData obtained in our experiments can be used by researchers to understand social deficits induced by lack of Neuroligin 3 protein.",
-    "new_in_this_version": null,
-    "accessibility": "free access",
-    "released_at": "2020-04-01",
-    "region": [],
-    "species": [
-      "Mus musculus"
-    ],
-    "keywords": [
-      "Hippocampus",
-      "sociability",
-      "social memory"
-    ],
-    "experimental_approach": [
-      "behavior"
-    ],
-    "techniques": [
-      "video tracking"
-    ],
-    "preparation": [
-      "in vivo"
-    ],
-    "study_targets": [
-      "autism spectrum disorder"
-    ],
-    "custodians": [
-      "Cherubini, E."
-    ],
-    "contributors": [
-      "Pimpinella, D.",
-      "Marchetti, C.",
-      "Cherubini, E.",
-      "Griguoli, M."
-    ],
-    "projects": [
-      "Social Behavior and Hippocampal Oscillations"
-    ],
-    "publications": [
-      "Modi, B., Pimpinella, D., Pazienti, A., Zacchi, P., Cherubini, E., & Griguoli, M. (2019). Possible Implication of the CA2 Hippocampal Circuit in Social Cognition Deficits Observed in the Neuroligin 3 Knock-Out Mouse, a Non-Syndromic Animal Model of Autism. Frontiers in Psychiatry, 10. https://doi.org/10.3389/fpsyt.2019.00513\n[DOI: 10.3389/fpsyt.2019.00513]\n[DOI: 10.3389/fpsyt.2019.00513]: https://doi.org/10.3389/fpsyt.2019.00513"
-    ],
-    "doi": "10.25493/9WBS-PK4",
-    "license": {
-      "label": "Creative Commons Attribution Non Commercial No Derivatives 4.0 International",
-      "url": "https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode"
-    },
-    "data_descriptor": {
-      "label": "BehaviorRodent_data-descriptor.pdf",
-      "url": "https://data-proxy.ebrains.eu/api/v1/buckets/p63ea6-hbp-d00026_BehaviorRodent_pub/BehaviorRodent_data-descriptor.pdf?inline=true"
-    },
-    "file_repository_id": "96e7c21f-a191-4268-975f-735d33954151",
-    "page_link": "https://search.kg.ebrains.eu/instances/8f64dbb4-6ced-4883-a97b-e64cd8eb3aa5",
-    "download_link": "https://doi.org/10.25493/9WBS-PK4",
-    "identifiers": [
-      "https://nexus.humanbrainproject.org/v0/data/minds/core/dataset/v1.0.0/8f64dbb4-6ced-4883-a97b-e64cd8eb3aa5",
-      "https://kg.ebrains.eu/api/instances/8f64dbb4-6ced-4883-a97b-e64cd8eb3aa5",
-      "https://doi.org/10.25493/9WBS-PK4"
-    ],
-    "source": "EBRAINS"
-  },
-  {
-    "source_id": "ebrains-09f0d6e2-b492-41b0-bba4-37ad9e54de27",
-    "id": "09f0d6e2-b492-41b0-bba4-37ad9e54de27",
-    "type": "dataset",
-    "kg_type": [
-      "Dataset version"
-    ],
-    "name": "Neuroimaging, clinical and molecular biomarker data from large human cohort assessed on cognitive impairments (elderly patients).",
-    "version": null,
-    "description": "Rich multicentric dataset of human neuroimaging, molecular biomarker and clinical/ neuropsychological data obtained prior to-, and following scheduled surgical intervention, performed to identify predictors and biomarkers of Postoperative Cognitive Impairments (n=1130 patients enrolled in the study with follow-up data up to one year). \nImaging dataset contains MRI (MPRAGE, T2 SPACE/FLAIR, pcASL Arterial Spin labeling, Diffusion Tensor Imaging, 7-Tesla spectroscopy, T2- weighted high-resolution Hippocampus, SWI susceptibility weighted imaging) and Simultaneous fMRI/EEG resting state recordings. Molecular biomarkers (blood and CSF) and genome-wide array data (DNA, mRNA, miRNA) available. \n\n\n**The dataset is hosted by the data provider. For information concerning institutional agreements and process required to access this dataset, contact:\n[curation-support@ebrains.eu](curation-support@ebrains.eu)**",
-    "new_in_this_version": null,
-    "accessibility": "restricted access",
-    "released_at": "2019-07-01",
-    "region": [],
-    "species": [
-      "Homo sapiens"
-    ],
-    "keywords": [
-      "MPRAGE",
-      "T2 MRI",
-      "T2 SPACE/FLAIR",
-      "biomarkers",
-      "cognitive decline in the elderly",
-      "cognitive test battery",
-      "simultaneous fMRI/EEG"
-    ],
-    "experimental_approach": [
-      "behavior",
-      "neuroimaging"
-    ],
-    "techniques": [
-      "electroencephalography",
-      "ultra high-field magnetic resonance spectroscopy",
-      "diffusion tensor imaging",
-      "gene expression measurement",
-      "magnetic resonance imaging",
-      "functional magnetic resonance imaging",
-      "pseudo-continuous arterial spin labeling"
-    ],
-    "preparation": [
-      "in vivo"
-    ],
-    "study_targets": [],
-    "custodians": [],
-    "contributors": [
-      "Winterer, G."
-    ],
-    "projects": [
-      "Neuroimaging, clinical and molecular biomarker data from large human cohort assessed on cognitive impairment (elderly patients)."
-    ],
-    "publications": [
-      "Winterer, G., Androsova, G., Bender, O., Boraschi, D., Borchers, F., Dschietzig, T. B., Feinkohl, I., Fletcher, P., Gallinat, J., Hadzidiakos, D., Haynes, J. D., Heppner, F., Hetzer, S., Hendrikse, J., Ittermann, B., Kant, I. M. J., Kraft, A., Krannich, A., Krause, R., et al. (2018). Personalized risk prediction of postoperative cognitive impairment – rationale for the EU-funded BioCog project. European Psychiatry, 50, 34–39. https://doi.org/10.1016/j.eurpsy.2017.10.004\n[DOI: 10.1016/j.eurpsy.2017.10.004]\n[DOI: 10.1016/j.eurpsy.2017.10.004]: https://doi.org/10.1016/j.eurpsy.2017.10.004",
-      "Androsova, G., Krause, R., Winterer, G., & Schneider, R. (2015). Biomarkers of postoperative delirium and cognitive dysfunction. Frontiers in Aging Neuroscience, 7. https://doi.org/10.3389/fnagi.2015.00112\n[DOI: 10.3389/fnagi.2015.00112]\n[DOI: 10.3389/fnagi.2015.00112]: https://doi.org/10.3389/fnagi.2015.00112",
-      "Feinkohl, I., Winterer, G., Spies, C. D., & Pischon, T. (2017). Cognitive Reserve and the Risk of Postoperative Cognitive Dysfunction. Deutsches Ärzteblatt International. https://doi.org/10.3238/arztebl.2017.0110\n[DOI: 10.3238/arztebl.2017.0110]\n[DOI: 10.3238/arztebl.2017.0110]: https://doi.org/10.3238/arztebl.2017.0110",
-      "Feinkohl, I., Winterer, G., & Pischon, T. (2018). Associations of dyslipidaemia and lipid-lowering treatment with risk of postoperative cognitive dysfunction: a systematic review and meta-analysis. Journal of Epidemiology and Community Health, 72(6), 499–506. https://doi.org/10.1136/jech-2017-210338\n[DOI: 10.1136/jech-2017-210338]\n[DOI: 10.1136/jech-2017-210338]: https://doi.org/10.1136/jech-2017-210338",
-      "Feinkohl, I., Winterer, G., & Pischon, T. (2017). Hypertension and Risk of Post-Operative Cognitive Dysfunction (POCD): A Systematic Review and Meta-Analysis. Clinical Practice &Amp; Epidemiology in Mental Health, 13(1), 27–42. https://doi.org/10.2174/1745017901713010027\n[DOI: 10.2174/1745017901713010027]\n[DOI: 10.2174/1745017901713010027]: https://doi.org/10.2174/1745017901713010027",
-      "Feinkohl, I., Winterer, G., & Pischon, T. (2017). Diabetes is associated with risk of postoperative cognitive dysfunction: A meta‐analysis. Diabetes/Metabolism Research and Reviews, 33(5). Portico. https://doi.org/10.1002/dmrr.2884\n[DOI: 10.1002/dmrr.2884]\n[DOI: 10.1002/dmrr.2884]: https://doi.org/10.1002/dmrr.2884",
-      "Feinkohl, I., Winterer, G., & Pischon, T. (2016). Obesity and post‐operative cognitive dysfunction: a systematic review and meta‐analysis. Diabetes/Metabolism Research and Reviews, 32(6), 643–651. Portico. https://doi.org/10.1002/dmrr.2786\n[DOI: 10.1002/dmrr.2786]\n[DOI: 10.1002/dmrr.2786]: https://doi.org/10.1002/dmrr.2786",
-      "Lachmann, G., Spies, C., Windmann, V., Wollersheim, T., Engelhardt, L. J., Winterer, G., Kuehn, S., & . (2018). Impact of Intraoperative Hyperglycemia on Brain Structures and Volumes. Journal of Neuroimaging, 29(2), 260–267. Portico. https://doi.org/10.1111/jon.12583\n[DOI: 10.1111/jon.12583]\n[DOI: 10.1111/jon.12583]: https://doi.org/10.1111/jon.12583",
-      "Kant, I. M. J., de Bresser, J., van Montfort, S. J. T., Aarts, E., Verlaan, J.-J., Zacharias, N., Winterer, G., Spies, C., Slooter, A. J. C., & Hendrikse, J. (2018). The association between brain volume, cortical brain infarcts, and physical frailty. Neurobiology of Aging, 70, 247–253. https://doi.org/10.1016/j.neurobiolaging.2018.06.032\n[DOI: 10.1016/j.neurobiolaging.2018.06.032]\n[DOI: 10.1016/j.neurobiolaging.2018.06.032]: https://doi.org/10.1016/j.neurobiolaging.2018.06.032",
-      "Lammers, F., Borchers, F., Feinkohl, I., Hendrikse, J., Kant, I. M. J., Kozma, P., Pischon, T., Slooter, A. J. C., Spies, C., van Montfort, S. J. T., Zacharias, N., Zaborszky, L., & Winterer, G. (2018). Basal forebrain cholinergic system volume is associated with general cognitive ability in the elderly. Neuropsychologia, 119, 145–156. https://doi.org/10.1016/j.neuropsychologia.2018.08.005\n[DOI: 10.1016/j.neuropsychologia.2018.08.005]\n[DOI: 10.1016/j.neuropsychologia.2018.08.005]: https://doi.org/10.1016/j.neuropsychologia.2018.08.005",
-      "Laubach, M., Lammers, F., Zacharias, N., Feinkohl, I., Pischon, T., Borchers, F., Slooter, A. J. C., Kühn, S., Spies, C., & Winterer, G. (2018). Size matters: Grey matter brain reserve predicts executive functioning in the elderly. Neuropsychologia, 119, 172–181. https://doi.org/10.1016/j.neuropsychologia.2018.08.008\n[DOI: 10.1016/j.neuropsychologia.2018.08.008]\n[DOI: 10.1016/j.neuropsychologia.2018.08.008]: https://doi.org/10.1016/j.neuropsychologia.2018.08.008"
-    ],
-    "doi": null,
-    "license": null,
-    "data_descriptor": null,
-    "file_repository_id": null,
-    "page_link": "https://search.kg.ebrains.eu/instances/09f0d6e2-b492-41b0-bba4-37ad9e54de27",
-    "download_link": null,
-    "identifiers": null,
-    "source": "EBRAINS"
-  },
-  {
     "source_id": "ebrains-07554ebd-95a2-46f0-8065-d961d56ce098",
     "id": "07554ebd-95a2-46f0-8065-d961d56ce098",
     "type": "dataset",
@@ -5881,6 +5803,146 @@
     "identifiers": [
       "https://kg.ebrains.eu/api/instances/0162668e-bef0-4754-8562-40440db5bc0c",
       "https://doi.org/10.25493/Q0FG-1X8"
+    ],
+    "source": "EBRAINS"
+  },
+  {
+    "source_id": "ebrains-09f0d6e2-b492-41b0-bba4-37ad9e54de27",
+    "id": "09f0d6e2-b492-41b0-bba4-37ad9e54de27",
+    "type": "dataset",
+    "kg_type": [
+      "Dataset version"
+    ],
+    "name": "Neuroimaging, clinical and molecular biomarker data from large human cohort assessed on cognitive impairments (elderly patients).",
+    "version": null,
+    "description": "Rich multicentric dataset of human neuroimaging, molecular biomarker and clinical/ neuropsychological data obtained prior to-, and following scheduled surgical intervention, performed to identify predictors and biomarkers of Postoperative Cognitive Impairments (n=1130 patients enrolled in the study with follow-up data up to one year). \nImaging dataset contains MRI (MPRAGE, T2 SPACE/FLAIR, pcASL Arterial Spin labeling, Diffusion Tensor Imaging, 7-Tesla spectroscopy, T2- weighted high-resolution Hippocampus, SWI susceptibility weighted imaging) and Simultaneous fMRI/EEG resting state recordings. Molecular biomarkers (blood and CSF) and genome-wide array data (DNA, mRNA, miRNA) available. \n\n\n**The dataset is hosted by the data provider. For information concerning institutional agreements and process required to access this dataset, contact:\n[curation-support@ebrains.eu](curation-support@ebrains.eu)**",
+    "new_in_this_version": null,
+    "accessibility": "restricted access",
+    "released_at": "2019-07-01",
+    "region": [],
+    "species": [
+      "Homo sapiens"
+    ],
+    "keywords": [
+      "MPRAGE",
+      "T2 MRI",
+      "T2 SPACE/FLAIR",
+      "biomarkers",
+      "cognitive decline in the elderly",
+      "cognitive test battery",
+      "simultaneous fMRI/EEG"
+    ],
+    "experimental_approach": [
+      "behavior",
+      "neuroimaging"
+    ],
+    "techniques": [
+      "electroencephalography",
+      "ultra high-field magnetic resonance spectroscopy",
+      "diffusion tensor imaging",
+      "gene expression measurement",
+      "magnetic resonance imaging",
+      "functional magnetic resonance imaging",
+      "pseudo-continuous arterial spin labeling"
+    ],
+    "preparation": [
+      "in vivo"
+    ],
+    "study_targets": [],
+    "custodians": [],
+    "contributors": [
+      "Winterer, G."
+    ],
+    "projects": [
+      "Neuroimaging, clinical and molecular biomarker data from large human cohort assessed on cognitive impairment (elderly patients)."
+    ],
+    "publications": [
+      "Winterer, G., Androsova, G., Bender, O., Boraschi, D., Borchers, F., Dschietzig, T. B., Feinkohl, I., Fletcher, P., Gallinat, J., Hadzidiakos, D., Haynes, J. D., Heppner, F., Hetzer, S., Hendrikse, J., Ittermann, B., Kant, I. M. J., Kraft, A., Krannich, A., Krause, R., et al. (2018). Personalized risk prediction of postoperative cognitive impairment – rationale for the EU-funded BioCog project. European Psychiatry, 50, 34–39. https://doi.org/10.1016/j.eurpsy.2017.10.004\n[DOI: 10.1016/j.eurpsy.2017.10.004]\n[DOI: 10.1016/j.eurpsy.2017.10.004]: https://doi.org/10.1016/j.eurpsy.2017.10.004",
+      "Androsova, G., Krause, R., Winterer, G., & Schneider, R. (2015). Biomarkers of postoperative delirium and cognitive dysfunction. Frontiers in Aging Neuroscience, 7. https://doi.org/10.3389/fnagi.2015.00112\n[DOI: 10.3389/fnagi.2015.00112]\n[DOI: 10.3389/fnagi.2015.00112]: https://doi.org/10.3389/fnagi.2015.00112",
+      "Feinkohl, I., Winterer, G., Spies, C. D., & Pischon, T. (2017). Cognitive Reserve and the Risk of Postoperative Cognitive Dysfunction. Deutsches Ärzteblatt International. https://doi.org/10.3238/arztebl.2017.0110\n[DOI: 10.3238/arztebl.2017.0110]\n[DOI: 10.3238/arztebl.2017.0110]: https://doi.org/10.3238/arztebl.2017.0110",
+      "Feinkohl, I., Winterer, G., & Pischon, T. (2018). Associations of dyslipidaemia and lipid-lowering treatment with risk of postoperative cognitive dysfunction: a systematic review and meta-analysis. Journal of Epidemiology and Community Health, 72(6), 499–506. https://doi.org/10.1136/jech-2017-210338\n[DOI: 10.1136/jech-2017-210338]\n[DOI: 10.1136/jech-2017-210338]: https://doi.org/10.1136/jech-2017-210338",
+      "Feinkohl, I., Winterer, G., & Pischon, T. (2017). Hypertension and Risk of Post-Operative Cognitive Dysfunction (POCD): A Systematic Review and Meta-Analysis. Clinical Practice &Amp; Epidemiology in Mental Health, 13(1), 27–42. https://doi.org/10.2174/1745017901713010027\n[DOI: 10.2174/1745017901713010027]\n[DOI: 10.2174/1745017901713010027]: https://doi.org/10.2174/1745017901713010027",
+      "Feinkohl, I., Winterer, G., & Pischon, T. (2017). Diabetes is associated with risk of postoperative cognitive dysfunction: A meta‐analysis. Diabetes/Metabolism Research and Reviews, 33(5). Portico. https://doi.org/10.1002/dmrr.2884\n[DOI: 10.1002/dmrr.2884]\n[DOI: 10.1002/dmrr.2884]: https://doi.org/10.1002/dmrr.2884",
+      "Feinkohl, I., Winterer, G., & Pischon, T. (2016). Obesity and post‐operative cognitive dysfunction: a systematic review and meta‐analysis. Diabetes/Metabolism Research and Reviews, 32(6), 643–651. Portico. https://doi.org/10.1002/dmrr.2786\n[DOI: 10.1002/dmrr.2786]\n[DOI: 10.1002/dmrr.2786]: https://doi.org/10.1002/dmrr.2786",
+      "Lachmann, G., Spies, C., Windmann, V., Wollersheim, T., Engelhardt, L. J., Winterer, G., Kuehn, S., & . (2018). Impact of Intraoperative Hyperglycemia on Brain Structures and Volumes. Journal of Neuroimaging, 29(2), 260–267. Portico. https://doi.org/10.1111/jon.12583\n[DOI: 10.1111/jon.12583]\n[DOI: 10.1111/jon.12583]: https://doi.org/10.1111/jon.12583",
+      "Kant, I. M. J., de Bresser, J., van Montfort, S. J. T., Aarts, E., Verlaan, J.-J., Zacharias, N., Winterer, G., Spies, C., Slooter, A. J. C., & Hendrikse, J. (2018). The association between brain volume, cortical brain infarcts, and physical frailty. Neurobiology of Aging, 70, 247–253. https://doi.org/10.1016/j.neurobiolaging.2018.06.032\n[DOI: 10.1016/j.neurobiolaging.2018.06.032]\n[DOI: 10.1016/j.neurobiolaging.2018.06.032]: https://doi.org/10.1016/j.neurobiolaging.2018.06.032",
+      "Lammers, F., Borchers, F., Feinkohl, I., Hendrikse, J., Kant, I. M. J., Kozma, P., Pischon, T., Slooter, A. J. C., Spies, C., van Montfort, S. J. T., Zacharias, N., Zaborszky, L., & Winterer, G. (2018). Basal forebrain cholinergic system volume is associated with general cognitive ability in the elderly. Neuropsychologia, 119, 145–156. https://doi.org/10.1016/j.neuropsychologia.2018.08.005\n[DOI: 10.1016/j.neuropsychologia.2018.08.005]\n[DOI: 10.1016/j.neuropsychologia.2018.08.005]: https://doi.org/10.1016/j.neuropsychologia.2018.08.005",
+      "Laubach, M., Lammers, F., Zacharias, N., Feinkohl, I., Pischon, T., Borchers, F., Slooter, A. J. C., Kühn, S., Spies, C., & Winterer, G. (2018). Size matters: Grey matter brain reserve predicts executive functioning in the elderly. Neuropsychologia, 119, 172–181. https://doi.org/10.1016/j.neuropsychologia.2018.08.008\n[DOI: 10.1016/j.neuropsychologia.2018.08.008]\n[DOI: 10.1016/j.neuropsychologia.2018.08.008]: https://doi.org/10.1016/j.neuropsychologia.2018.08.008"
+    ],
+    "doi": null,
+    "license": null,
+    "data_descriptor": null,
+    "file_repository_id": null,
+    "page_link": "https://search.kg.ebrains.eu/instances/09f0d6e2-b492-41b0-bba4-37ad9e54de27",
+    "download_link": null,
+    "identifiers": null,
+    "source": "EBRAINS"
+  },
+  {
+    "source_id": "ebrains-8f64dbb4-6ced-4883-a97b-e64cd8eb3aa5",
+    "id": "8f64dbb4-6ced-4883-a97b-e64cd8eb3aa5",
+    "type": "dataset",
+    "kg_type": [
+      "Dataset version"
+    ],
+    "name": "NLG3KO mice exhibit deficits in social behavior (v1)",
+    "version": "v1",
+    "description": "Autism spectrum disorders (ASDs) comprise a heterogeneous group of neuro-developmental abnormalities with a strong genetic component, characterized by deficits in verbal and non-verbal communication, impaired social interactions, and stereotyped behaviors. In a small percentage of cases, ASDs are associated with alterations of genes involved in synaptic function. Among  these, relatively frequent are mutations/deletions of genes encoding for neuroligins (NLGs). NLGs are postsynaptic adhesion molecules that,  interacting with their presynaptic partners neurexins, ensure the cross talk between pre- and postsynaptic specializations and synaptic stabilization, a condition needed for maintaining a proper excitatory/inhibitory balance within local neuronal circuits.\nWe have focused on mice lacking NLG3 (NLG3 knock-out mice), animal models of a non-syndromic form of autism, which exhibit deficits in social behavior reminiscent of those found in ASDs.\nData obtained in our experiments can be used by researchers to understand social deficits induced by lack of Neuroligin 3 protein.",
+    "new_in_this_version": null,
+    "accessibility": "free access",
+    "released_at": "2020-04-01",
+    "region": [],
+    "species": [
+      "Mus musculus"
+    ],
+    "keywords": [
+      "Hippocampus",
+      "sociability",
+      "social memory"
+    ],
+    "experimental_approach": [
+      "behavior"
+    ],
+    "techniques": [
+      "video tracking"
+    ],
+    "preparation": [
+      "in vivo"
+    ],
+    "study_targets": [
+      "autism spectrum disorder"
+    ],
+    "custodians": [
+      "Cherubini, E."
+    ],
+    "contributors": [
+      "Pimpinella, D.",
+      "Marchetti, C.",
+      "Cherubini, E.",
+      "Griguoli, M."
+    ],
+    "projects": [
+      "Social Behavior and Hippocampal Oscillations"
+    ],
+    "publications": [
+      "Modi, B., Pimpinella, D., Pazienti, A., Zacchi, P., Cherubini, E., & Griguoli, M. (2019). Possible Implication of the CA2 Hippocampal Circuit in Social Cognition Deficits Observed in the Neuroligin 3 Knock-Out Mouse, a Non-Syndromic Animal Model of Autism. Frontiers in Psychiatry, 10. https://doi.org/10.3389/fpsyt.2019.00513\n[DOI: 10.3389/fpsyt.2019.00513]\n[DOI: 10.3389/fpsyt.2019.00513]: https://doi.org/10.3389/fpsyt.2019.00513"
+    ],
+    "doi": "10.25493/9WBS-PK4",
+    "license": {
+      "label": "Creative Commons Attribution Non Commercial No Derivatives 4.0 International",
+      "url": "https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode"
+    },
+    "data_descriptor": {
+      "label": "BehaviorRodent_data-descriptor.pdf",
+      "url": "https://data-proxy.ebrains.eu/api/v1/buckets/p63ea6-hbp-d00026_BehaviorRodent_pub/BehaviorRodent_data-descriptor.pdf?inline=true"
+    },
+    "file_repository_id": "96e7c21f-a191-4268-975f-735d33954151",
+    "page_link": "https://search.kg.ebrains.eu/instances/8f64dbb4-6ced-4883-a97b-e64cd8eb3aa5",
+    "download_link": "https://doi.org/10.25493/9WBS-PK4",
+    "identifiers": [
+      "https://nexus.humanbrainproject.org/v0/data/minds/core/dataset/v1.0.0/8f64dbb4-6ced-4883-a97b-e64cd8eb3aa5",
+      "https://kg.ebrains.eu/api/instances/8f64dbb4-6ced-4883-a97b-e64cd8eb3aa5",
+      "https://doi.org/10.25493/9WBS-PK4"
     ],
     "source": "EBRAINS"
   },
@@ -6181,6 +6243,70 @@
     "source": "EBRAINS"
   },
   {
+    "source_id": "ebrains-5f58ec49-8e36-456d-818d-97097923d101",
+    "id": "5f58ec49-8e36-456d-818d-97097923d101",
+    "type": "dataset",
+    "kg_type": [
+      "Dataset version"
+    ],
+    "name": "Electrophysiological characterization of sharp-wave ripple oscillations and associated cellular activities in hippocampal slices from Scn1a+/- mice (v1)",
+    "version": "v1",
+    "description": "The data was obtained from hippocampal area CA1 in acute hippocampal slices from transgenic _Scn1a<sup>+/-</sup>_ mice and wild type littermates. The dataset consists of field potential recordings, simultaneous field and somatic whole cell patch clamp recordings from either fast-spiking parvalbumin-expressing cells or from pyramidal cells, only somatic recordings, and axonal whole cell patch clamp recordings. Data was collected for two age groups, juvenile mice (age range postnatal days 19-23) before the critical period of high mortality of the _Scn1a<sup>+/-</sup>_ genotype, and young adult mice (age range postnatal days 28-37) surviving past the critical period. Accordingly, the data is organised into four different groups throughout the dataset. Field potential recordings were used to quantify sharp wave ripple oscillation activity and to relate ripple oscillations to synaptic and action potential activity recorded from individual cells in the temporal domain. Somatic recordings were used to quantify the amplitude of synaptic currents and to study action potential timing and waveform. Axon recordings were used to quantify action potential waveforms only. The data can be reused to analyse the interplay between field and (sub-)cellular activity of different cell types in the hippocampus.",
+    "new_in_this_version": "This is the first version of this dataset. It contains 193 recordings from 186 subjects. Note: the age categories of subjects in the EBRAINS KG are defined according to openMINDS, which is different from how age categories are defined in the dataset. Mice referred to as juvenile in the dataset are labeled as infant in the KG, mice referred to as young adult in the dataset are labeled as juvenile in the KG.",
+    "accessibility": "free access",
+    "released_at": "2026-06-24",
+    "region": [],
+    "species": [
+      "Mus musculus"
+    ],
+    "keywords": [
+      "Dravet syndrome",
+      "epilepsy model",
+      "sharp-wave ripples"
+    ],
+    "experimental_approach": [
+      "electrophysiology"
+    ],
+    "techniques": [
+      "extracellular electrophysiology",
+      "whole cell patch clamp"
+    ],
+    "preparation": [
+      "in vitro"
+    ],
+    "study_targets": [
+      "Rodentia",
+      "hippocampus CA1 pyramidal neuron",
+      "parvalbumin expressing neuron"
+    ],
+    "custodians": [
+      "Roth, F. C."
+    ],
+    "contributors": [
+      "Lascorz, R.",
+      "Roth, F. C."
+    ],
+    "projects": [],
+    "publications": [],
+    "doi": "10.25493/YEDC-A5S",
+    "license": {
+      "label": "Creative Commons Attribution Non Commercial 4.0 International",
+      "url": "https://creativecommons.org/licenses/by-nc/4.0/legalcode"
+    },
+    "data_descriptor": {
+      "label": "https://data-proxy.ebrains.eu/api/permalinks/e0ae6279-1bc1-4d00-8876-c22c19b0a586",
+      "url": "https://data-proxy.ebrains.eu/api/permalinks/e0ae6279-1bc1-4d00-8876-c22c19b0a586?inline=true"
+    },
+    "file_repository_id": "73bb3935-b4bb-4221-8449-a3bd3a838e9a",
+    "page_link": "https://search.kg.ebrains.eu/instances/5f58ec49-8e36-456d-818d-97097923d101",
+    "download_link": "https://doi.org/10.25493/YEDC-A5S",
+    "identifiers": [
+      "https://kg.ebrains.eu/api/instances/5f58ec49-8e36-456d-818d-97097923d101",
+      "https://doi.org/10.25493/YEDC-A5S"
+    ],
+    "source": "EBRAINS"
+  },
+  {
     "source_id": "ebrains-7269d1a2-c7ad-4745-972c-10dbf5a022b7",
     "id": "7269d1a2-c7ad-4745-972c-10dbf5a022b7",
     "type": "dataset",
@@ -6400,143 +6526,6 @@
     "source": "EBRAINS"
   },
   {
-    "source_id": "ebrains-5f58ec49-8e36-456d-818d-97097923d101",
-    "id": "5f58ec49-8e36-456d-818d-97097923d101",
-    "type": "dataset",
-    "kg_type": [
-      "Dataset version"
-    ],
-    "name": "Electrophysiological characterization of sharp-wave ripple oscillations and associated cellular activities in hippocampal slices from Scn1a+/- mice (v1)",
-    "version": "v1",
-    "description": "The data was obtained from hippocampal area CA1 in acute hippocampal slices from transgenic _Scn1a<sup>+/-</sup>_ mice and wild type littermates. The dataset consists of field potential recordings, simultaneous field and somatic whole cell patch clamp recordings from either fast-spiking parvalbumin-expressing cells or from pyramidal cells, only somatic recordings, and axonal whole cell patch clamp recordings. Data was collected for two age groups, juvenile mice (age range postnatal days 19-23) before the critical period of high mortality of the _Scn1a<sup>+/-</sup>_ genotype, and young adult mice (age range postnatal days 28-37) surviving past the critical period. Accordingly, the data is organised into four different groups throughout the dataset. Field potential recordings were used to quantify sharp wave ripple oscillation activity and to relate ripple oscillations to synaptic and action potential activity recorded from individual cells in the temporal domain. Somatic recordings were used to quantify the amplitude of synaptic currents and to study action potential timing and waveform. Axon recordings were used to quantify action potential waveforms only. The data can be reused to analyse the interplay between field and (sub-)cellular activity of different cell types in the hippocampus.",
-    "new_in_this_version": "This is the first version of this dataset. It contains 193 recordings from 186 subjects. Note: the age categories of subjects in the EBRAINS KG are defined according to openMINDS, which is different from how age categories are defined in the dataset. Mice referred to as juvenile in the dataset are labeled as infant in the KG, mice referred to as young adult in the dataset are labeled as juvenile in the KG.",
-    "accessibility": "free access",
-    "released_at": "2026-06-24",
-    "region": [],
-    "species": [
-      "Mus musculus"
-    ],
-    "keywords": [
-      "Dravet syndrome",
-      "epilepsy model",
-      "sharp-wave ripples"
-    ],
-    "experimental_approach": [
-      "electrophysiology"
-    ],
-    "techniques": [
-      "extracellular electrophysiology",
-      "whole cell patch clamp"
-    ],
-    "preparation": [
-      "in vitro"
-    ],
-    "study_targets": [
-      "Rodentia",
-      "hippocampus CA1 pyramidal neuron",
-      "parvalbumin expressing neuron"
-    ],
-    "custodians": [
-      "Roth, F. C."
-    ],
-    "contributors": [
-      "Lascorz, R.",
-      "Roth, F. C."
-    ],
-    "projects": [],
-    "publications": [],
-    "doi": "10.25493/YEDC-A5S",
-    "license": {
-      "label": "Creative Commons Attribution Non Commercial 4.0 International",
-      "url": "https://creativecommons.org/licenses/by-nc/4.0/legalcode"
-    },
-    "data_descriptor": {
-      "label": "https://data-proxy.ebrains.eu/api/permalinks/e0ae6279-1bc1-4d00-8876-c22c19b0a586",
-      "url": "https://data-proxy.ebrains.eu/api/permalinks/e0ae6279-1bc1-4d00-8876-c22c19b0a586?inline=true"
-    },
-    "file_repository_id": "73bb3935-b4bb-4221-8449-a3bd3a838e9a",
-    "page_link": "https://search.kg.ebrains.eu/instances/5f58ec49-8e36-456d-818d-97097923d101",
-    "download_link": "https://doi.org/10.25493/YEDC-A5S",
-    "identifiers": [
-      "https://kg.ebrains.eu/api/instances/5f58ec49-8e36-456d-818d-97097923d101",
-      "https://doi.org/10.25493/YEDC-A5S"
-    ],
-    "source": "EBRAINS"
-  },
-  {
-    "source_id": "ebrains-8f7f8576-a28c-4a79-b58e-7ad9b60db639",
-    "id": "8f7f8576-a28c-4a79-b58e-7ad9b60db639",
-    "type": "dataset",
-    "kg_type": [
-      "Dataset version"
-    ],
-    "name": "Whole-cell recording and labelling of hippocampal neurons in vivo (v1)",
-    "version": "v1",
-    "description": "This study has provided both intracellular recordings from single neurons and LFP recordings from the hippocampal CA1 region in head-restrained, behaving mice, along with morphological reconstructions of some of the recorded cells. This dataset complements our larger database of hippocampal neurons recorded and filled in hippocampal slices, mainly by characterizing the spontaneous and evoked physiological behavior of the cells under in vivo conditions.",
-    "new_in_this_version": null,
-    "accessibility": "free access",
-    "released_at": "2019-12-04",
-    "region": [
-      "field CA1 (Allen Mouse Brain Atlas)"
-    ],
-    "species": [
-      "Mus musculus"
-    ],
-    "keywords": [
-      "Running speed",
-      "somatic current injection"
-    ],
-    "experimental_approach": [
-      "electrophysiology",
-      "cell morphology",
-      "microscopy"
-    ],
-    "techniques": [
-      "reconstruction technique",
-      "current step stimulation",
-      "confocal microscopy",
-      "biocytin staining",
-      "intracellular electrophysiology",
-      "whole cell patch clamp"
-    ],
-    "preparation": [
-      "in vivo"
-    ],
-    "study_targets": [
-      "local field potential"
-    ],
-    "custodians": [
-      "Jelitai, M."
-    ],
-    "contributors": [
-      "Jelitai, M.",
-      "Komlosi, F.",
-      "Káli, S.",
-      "Schlingloff, D.",
-      "Varga, V. L."
-    ],
-    "projects": [],
-    "publications": [],
-    "doi": "10.25493/WJJG-ZMM",
-    "license": {
-      "label": "Creative Commons Attribution Non Commercial Share Alike 4.0 International",
-      "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode"
-    },
-    "data_descriptor": {
-      "label": "DataDescriptor_Hippocampus_awake_Morphology-EPhys.pdf",
-      "url": "https://data-proxy.ebrains.eu/api/v1/buckets/p63ea6-Freund_SGA1_T1.2.5/HC-awake-ephys/DataDescriptor_Hippocampus_awake_Morphology-EPhys.pdf?inline=true"
-    },
-    "file_repository_id": "6c013c84-71ea-4431-ad14-f082c11e2579",
-    "page_link": "https://search.kg.ebrains.eu/instances/8f7f8576-a28c-4a79-b58e-7ad9b60db639",
-    "download_link": "https://doi.org/10.25493/WJJG-ZMM",
-    "identifiers": [
-      "https://kg.ebrains.eu/api/instances/8f7f8576-a28c-4a79-b58e-7ad9b60db639",
-      "https://nexus.humanbrainproject.org/v0/data/minds/core/dataset/v1.0.0/8f7f8576-a28c-4a79-b58e-7ad9b60db639",
-      "https://doi.org/10.25493/WJJG-ZMM"
-    ],
-    "source": "EBRAINS"
-  },
-  {
     "source_id": "ebrains-b8100148-b5d2-4d3d-98cd-8d6a6b19d653",
     "id": "b8100148-b5d2-4d3d-98cd-8d6a6b19d653",
     "type": "dataset",
@@ -6623,73 +6612,6 @@
     "source": "EBRAINS"
   },
   {
-    "source_id": "ebrains-804f848e-0408-4e02-a363-687f37655a41",
-    "id": "804f848e-0408-4e02-a363-687f37655a41",
-    "type": "dataset",
-    "kg_type": [
-      "Dataset version"
-    ],
-    "name": "Adaptive modulation of theta sweeps in the brain’s spatial navigation circuit (v1)",
-    "version": "v1",
-    "description": "This dataset contains electrophysiological population recordings from 10 freely behaving rats implanted with high-site-count Neuropixels probes. All animals were implanted in the medial entorhinal cortex and parasubiculum (MEC-parasubiculum); subsets were additionally implanted in hippocampus, presubiculum, anterodorsal thalamus and/or postrhinal cortex, with up to four probes per animal. The recordings were obtained while the rats engaged in different navigational tasks (free foraging in an open-field arena; pursuit of a rapidly moving bait in the same arena; running on a linear track; backing out of narrow corridors or across the open field) and during natural sleep in a rest chamber, including periods of REM sleep. The animals’ head position and direction were tracked with an OptiTrack motion-capture system, and bait position was tracked using OptiTrack or DeepLabCut.\n\nThe raw neural activity was spike-sorted using Kilosort 2.5. The present data files include the spike-sorted activity (spike times) of all cells used in the accompanying paper, and grid cells in MEC-parasubiculum are clustered into modules according to their spatial firing patterns.\n\nThe data may be used to examine activity of spatially modulated and direction-tuned neural populations during free exploration, goal-directed pursuit, backward locomotion and sleep.",
-    "new_in_this_version": "This is the first version of this dataset, containing data from 10 subjects.",
-    "accessibility": "free access",
-    "released_at": "2026-05-29",
-    "region": [
-      "medial entorhinal cortex",
-      "parasubiculum",
-      "presubiculum",
-      "anterior nuclear group",
-      "Ammon's horn"
-    ],
-    "species": [
-      "Rattus norvegicus"
-    ],
-    "keywords": [],
-    "experimental_approach": [
-      "behavior",
-      "electrophysiology"
-    ],
-    "techniques": [
-      "multi-electrode extracellular electrophysiology"
-    ],
-    "preparation": [
-      "in vivo"
-    ],
-    "study_targets": [
-      "Rattus norvegicus"
-    ],
-    "custodians": [
-      "Moser, E. I."
-    ],
-    "contributors": [
-      "Vollan, A. Z.",
-      "Schellenberger, M.",
-      "Gardner, R.",
-      "Moser, M.-B.",
-      "Moser, E. I."
-    ],
-    "projects": [],
-    "publications": [],
-    "doi": "10.25493/916J-DB7",
-    "license": {
-      "label": "Creative Commons Attribution Share Alike 4.0 International",
-      "url": "https://creativecommons.org/licenses/by-sa/4.0/legalcode"
-    },
-    "data_descriptor": {
-      "label": "https://data-proxy.ebrains.eu/api/permalinks/00e81375-3e0e-4ab1-999e-92eb9322f513",
-      "url": "https://data-proxy.ebrains.eu/api/permalinks/00e81375-3e0e-4ab1-999e-92eb9322f513?inline=true"
-    },
-    "file_repository_id": "c69692fb-8af8-4fe0-bc06-fd7e3064a37d",
-    "page_link": "https://search.kg.ebrains.eu/instances/804f848e-0408-4e02-a363-687f37655a41",
-    "download_link": "https://doi.org/10.25493/916J-DB7",
-    "identifiers": [
-      "https://kg.ebrains.eu/api/instances/804f848e-0408-4e02-a363-687f37655a41",
-      "https://doi.org/10.25493/916J-DB7"
-    ],
-    "source": "EBRAINS"
-  },
-  {
     "source_id": "ebrains-66a333f2-0af8-4793-adb8-c227d57527c7",
     "id": "66a333f2-0af8-4793-adb8-c227d57527c7",
     "type": "dataset",
@@ -6762,6 +6684,146 @@
     "identifiers": [
       "https://kg.ebrains.eu/api/instances/66a333f2-0af8-4793-adb8-c227d57527c7",
       "https://doi.org/10.25493/H2E4-AGH"
+    ],
+    "source": "EBRAINS"
+  },
+  {
+    "source_id": "ebrains-8f7f8576-a28c-4a79-b58e-7ad9b60db639",
+    "id": "8f7f8576-a28c-4a79-b58e-7ad9b60db639",
+    "type": "dataset",
+    "kg_type": [
+      "Dataset version"
+    ],
+    "name": "Whole-cell recording and labelling of hippocampal neurons in vivo (v1)",
+    "version": "v1",
+    "description": "This study has provided both intracellular recordings from single neurons and LFP recordings from the hippocampal CA1 region in head-restrained, behaving mice, along with morphological reconstructions of some of the recorded cells. This dataset complements our larger database of hippocampal neurons recorded and filled in hippocampal slices, mainly by characterizing the spontaneous and evoked physiological behavior of the cells under in vivo conditions.",
+    "new_in_this_version": null,
+    "accessibility": "free access",
+    "released_at": "2019-12-04",
+    "region": [
+      "field CA1 (Allen Mouse Brain Atlas)"
+    ],
+    "species": [
+      "Mus musculus"
+    ],
+    "keywords": [
+      "Running speed",
+      "somatic current injection"
+    ],
+    "experimental_approach": [
+      "electrophysiology",
+      "cell morphology",
+      "microscopy"
+    ],
+    "techniques": [
+      "reconstruction technique",
+      "current step stimulation",
+      "confocal microscopy",
+      "biocytin staining",
+      "intracellular electrophysiology",
+      "whole cell patch clamp"
+    ],
+    "preparation": [
+      "in vivo"
+    ],
+    "study_targets": [
+      "local field potential"
+    ],
+    "custodians": [
+      "Jelitai, M."
+    ],
+    "contributors": [
+      "Jelitai, M.",
+      "Komlosi, F.",
+      "Káli, S.",
+      "Schlingloff, D.",
+      "Varga, V. L."
+    ],
+    "projects": [],
+    "publications": [],
+    "doi": "10.25493/WJJG-ZMM",
+    "license": {
+      "label": "Creative Commons Attribution Non Commercial Share Alike 4.0 International",
+      "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode"
+    },
+    "data_descriptor": {
+      "label": "DataDescriptor_Hippocampus_awake_Morphology-EPhys.pdf",
+      "url": "https://data-proxy.ebrains.eu/api/v1/buckets/p63ea6-Freund_SGA1_T1.2.5/HC-awake-ephys/DataDescriptor_Hippocampus_awake_Morphology-EPhys.pdf?inline=true"
+    },
+    "file_repository_id": "6c013c84-71ea-4431-ad14-f082c11e2579",
+    "page_link": "https://search.kg.ebrains.eu/instances/8f7f8576-a28c-4a79-b58e-7ad9b60db639",
+    "download_link": "https://doi.org/10.25493/WJJG-ZMM",
+    "identifiers": [
+      "https://kg.ebrains.eu/api/instances/8f7f8576-a28c-4a79-b58e-7ad9b60db639",
+      "https://nexus.humanbrainproject.org/v0/data/minds/core/dataset/v1.0.0/8f7f8576-a28c-4a79-b58e-7ad9b60db639",
+      "https://doi.org/10.25493/WJJG-ZMM"
+    ],
+    "source": "EBRAINS"
+  },
+  {
+    "source_id": "ebrains-804f848e-0408-4e02-a363-687f37655a41",
+    "id": "804f848e-0408-4e02-a363-687f37655a41",
+    "type": "dataset",
+    "kg_type": [
+      "Dataset version"
+    ],
+    "name": "Adaptive modulation of theta sweeps in the brain’s spatial navigation circuit (v1)",
+    "version": "v1",
+    "description": "This dataset contains electrophysiological population recordings from 10 freely behaving rats implanted with high-site-count Neuropixels probes. All animals were implanted in the medial entorhinal cortex and parasubiculum (MEC-parasubiculum); subsets were additionally implanted in hippocampus, presubiculum, anterodorsal thalamus and/or postrhinal cortex, with up to four probes per animal. The recordings were obtained while the rats engaged in different navigational tasks (free foraging in an open-field arena; pursuit of a rapidly moving bait in the same arena; running on a linear track; backing out of narrow corridors or across the open field) and during natural sleep in a rest chamber, including periods of REM sleep. The animals’ head position and direction were tracked with an OptiTrack motion-capture system, and bait position was tracked using OptiTrack or DeepLabCut.\n\nThe raw neural activity was spike-sorted using Kilosort 2.5. The present data files include the spike-sorted activity (spike times) of all cells used in the accompanying paper, and grid cells in MEC-parasubiculum are clustered into modules according to their spatial firing patterns.\n\nThe data may be used to examine activity of spatially modulated and direction-tuned neural populations during free exploration, goal-directed pursuit, backward locomotion and sleep.",
+    "new_in_this_version": "This is the first version of this dataset, containing data from 10 subjects.",
+    "accessibility": "free access",
+    "released_at": "2026-05-29",
+    "region": [
+      "medial entorhinal cortex",
+      "parasubiculum",
+      "presubiculum",
+      "anterior nuclear group",
+      "Ammon's horn"
+    ],
+    "species": [
+      "Rattus norvegicus"
+    ],
+    "keywords": [],
+    "experimental_approach": [
+      "behavior",
+      "electrophysiology"
+    ],
+    "techniques": [
+      "multi-electrode extracellular electrophysiology"
+    ],
+    "preparation": [
+      "in vivo"
+    ],
+    "study_targets": [
+      "Rattus norvegicus"
+    ],
+    "custodians": [
+      "Moser, E. I."
+    ],
+    "contributors": [
+      "Vollan, A. Z.",
+      "Schellenberger, M.",
+      "Gardner, R.",
+      "Moser, M.-B.",
+      "Moser, E. I."
+    ],
+    "projects": [],
+    "publications": [],
+    "doi": "10.25493/916J-DB7",
+    "license": {
+      "label": "Creative Commons Attribution Share Alike 4.0 International",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0/legalcode"
+    },
+    "data_descriptor": {
+      "label": "https://data-proxy.ebrains.eu/api/permalinks/00e81375-3e0e-4ab1-999e-92eb9322f513",
+      "url": "https://data-proxy.ebrains.eu/api/permalinks/00e81375-3e0e-4ab1-999e-92eb9322f513?inline=true"
+    },
+    "file_repository_id": "c69692fb-8af8-4fe0-bc06-fd7e3064a37d",
+    "page_link": "https://search.kg.ebrains.eu/instances/804f848e-0408-4e02-a363-687f37655a41",
+    "download_link": "https://doi.org/10.25493/916J-DB7",
+    "identifiers": [
+      "https://kg.ebrains.eu/api/instances/804f848e-0408-4e02-a363-687f37655a41",
+      "https://doi.org/10.25493/916J-DB7"
     ],
     "source": "EBRAINS"
   },
@@ -7184,6 +7246,80 @@
       "https://kg.ebrains.eu/api/instances/7246bb9d-5f8c-4281-a142-ab931f824f9c",
       "https://nexus.humanbrainproject.org/v0/data/minds/core/dataset/v1.0.0/7246bb9d-5f8c-4281-a142-ab931f824f9c",
       "https://doi.org/10.25493/2ZBM-J1S"
+    ],
+    "source": "EBRAINS"
+  },
+  {
+    "source_id": "ebrains-df94bfcd-e9f7-4a93-9c15-baa8f933d7cb",
+    "id": "df94bfcd-e9f7-4a93-9c15-baa8f933d7cb",
+    "type": "dataset",
+    "kg_type": [
+      "Dataset version"
+    ],
+    "name": "Diversity in neural firing dynamics supports both rigid and learned hippocampal sequences (0.261005.2101)",
+    "version": "0.261005.2101",
+    "description": "This data set is composed of eight bilateral silicon-probe multi-cellular electrophysiological recordings performed on four male Long-Evans rats in the Buzsáki lab at NYU. These recordings were performed to assess the effect of novel spatial learning on hippocampal CA1 neural firing and LFP patterns in naïve animals. Each session consisted of a long (~4 hour) PRE rest/sleep epoch home-cage recordings performed in a familiar room, followed by a Novel MAZE running epoch (~45 minutes) in which the animals were transferred to a novel room, and water-rewarded to run on a novel maze. These mazes were either A) a wooden 1.6m linear platform, B) a wooden 1m diameter circular platform or C) a 2m metal linear platform. Animals were rewarded either at both ends of the linear platform, or at a predetermined location on the circular platform. The animal was gently encouraged to run unidirectionally on the circular platform. After the MAZE epochs the animals were transferred back to their home-cage in the familiar room where a long (~4 hour) POST rest/sleep was recorded. All eight sessions were concatenated from the PRE, MAZE, and POST recording epochs. In addition to hippocampal electrophysiological recordings, neck EMG and head-mounted accelerometer signals were recorded, and the animal’s position during MAZE running epochs was tracked via head-mounted LEDs.\nThis dataset is from the [DANDI Archive](https://dandiarchive.org).\n\n<img src=\"https://dandiarchive.org/assets/logo-DbYqjGgV.svg\" alt=\"DANDI Archive Logo: a brain wearing a top hat\" style=\"width: 200px\" />",
+    "new_in_this_version": "New version published on DANDI on 2026-10-05.",
+    "accessibility": "free access",
+    "released_at": "2026-10-05",
+    "region": [
+      "CA1 field of hippocampus",
+      "Ammon's horn"
+    ],
+    "species": [
+      "Rattus norvegicus"
+    ],
+    "keywords": [
+      "Long-Evans rat",
+      "Memory consolidation",
+      "Place cell",
+      "Sharp wave ripples",
+      "Spatial learning",
+      "local field potential",
+      "pyramidal cell"
+    ],
+    "experimental_approach": [
+      "electrophysiology",
+      "behavior"
+    ],
+    "techniques": [
+      "surgical technique",
+      "spike sorting",
+      "temporal filtering",
+      "multi-electrode extracellular electrophysiology"
+    ],
+    "preparation": [],
+    "study_targets": [
+      "pyramidal neuron",
+      "Rattus norvegicus"
+    ],
+    "custodians": [
+      "Grosmark, A. D."
+    ],
+    "contributors": [
+      "Grosmark, A. D.",
+      "Buzsáki, G."
+    ],
+    "projects": [],
+    "publications": [
+      "Grosmark, A. D., & Buzsáki, G. (2016). Diversity in neural firing dynamics supports both rigid and learned hippocampal sequences. Science, 351(6280), 1440–1443. https://doi.org/10.1126/science.aad1935\n[DOI: 10.1126/science.aad1935]\n[DOI: 10.1126/science.aad1935]: https://doi.org/10.1126/science.aad1935",
+      "Chen, Z., Grosmark, A. D., Penagos, H., & Wilson, M. A. (2016). Uncovering representations of sleep-associated hippocampal ensemble spike activity. Scientific Reports, 6(1). https://doi.org/10.1038/srep32193\n[DOI: 10.1038/srep32193]\n[DOI: 10.1038/srep32193]: https://doi.org/10.1038/srep32193"
+    ],
+    "doi": "10.48324/dandi.000044/0.261005.2101",
+    "license": {
+      "label": "Creative Commons Attribution 4.0 International",
+      "url": "https://creativecommons.org/licenses/by/4.0/legalcode"
+    },
+    "data_descriptor": {
+      "label": "https://dandiarchive.org/dandiset/000044/0.261005.2101",
+      "url": "https://dandiarchive.org/dandiset/000044/0.261005.2101"
+    },
+    "file_repository_id": null,
+    "page_link": "https://search.kg.ebrains.eu/instances/df94bfcd-e9f7-4a93-9c15-baa8f933d7cb",
+    "download_link": "https://doi.org/10.48324/dandi.000044/0.261005.2101",
+    "identifiers": [
+      "https://kg.ebrains.eu/api/instances/df94bfcd-e9f7-4a93-9c15-baa8f933d7cb",
+      "https://doi.org/10.48324/dandi.000044/0.261005.2101"
     ],
     "source": "EBRAINS"
   },
@@ -8187,6 +8323,69 @@
       "https://kg.ebrains.eu/api/instances/9d8a2594-3d2b-496b-a5ba-82365d29172f",
       "bf19d2dceeb5aba0045d5d56a8e62fc4",
       "https://doi.org/10.25493/7CHV-1JR"
+    ],
+    "source": "EBRAINS"
+  },
+  {
+    "source_id": "ebrains-56e8f74e-8220-451a-9a75-b4aae482949f",
+    "id": "56e8f74e-8220-451a-9a75-b4aae482949f",
+    "type": "dataset",
+    "kg_type": [
+      "Dataset version"
+    ],
+    "name": "Cooling of Medial Septum Reveals Theta Phase Lag Coordination of Hippocampal Cell Assemblies (0.250624.0444)",
+    "version": "0.250624.0444",
+    "description": "Hippocampal theta oscillations coordinate neuronal firing to support memory and spatial navigation. The medial septum (MS) is critical in theta generation by two possible mechanisms: either a unitary “pacemaker” timing signal is imposed on the hippocampal system, or it may assist in organizing target subcircuits within the phase space of theta oscillations. We used temperature manipulation of the MS to test these models. Cooling of the MS reduced both theta frequency and power and was associated with an enhanced incidence of errors in a spatial navigation task, but it did not affect spatial correlates of neurons. MS cooling decreased theta frequency oscillations of place cells and reduced distance-time compression but preserved distance-phase compression of place field sequences within the theta cycle. Thus, the septum is critical for sustaining precise theta phase coordination of cell assemblies in the hippocampal system, a mechanism needed for spatial memory.\nThis dataset is from the [DANDI Archive](https://dandiarchive.org).\n\n<img src=\"https://dandiarchive.org/assets/logo-DbYqjGgV.svg\" alt=\"DANDI Archive Logo: a brain wearing a top hat\" style=\"width: 200px\" />",
+    "new_in_this_version": "New version published on DANDI on 2025-06-24.",
+    "accessibility": "free access",
+    "released_at": "2025-06-24",
+    "region": [],
+    "species": [
+      "Rattus norvegicus"
+    ],
+    "keywords": [
+      "local field potential"
+    ],
+    "experimental_approach": [
+      "electrophysiology",
+      "behavior"
+    ],
+    "techniques": [
+      "surgical technique",
+      "spike sorting",
+      "temporal filtering",
+      "multi-electrode extracellular electrophysiology"
+    ],
+    "preparation": [],
+    "study_targets": [
+      "Rattus norvegicus"
+    ],
+    "custodians": [
+      "Petersen, P."
+    ],
+    "contributors": [
+      "Petersen, P.",
+      "Buzsáki, G."
+    ],
+    "projects": [],
+    "publications": [
+      "Petersen, P. C., & Buzsáki, G. (2020). Cooling of Medial Septum Reveals Theta Phase Lag Coordination of Hippocampal Cell Assemblies. Neuron, 107(4), 731–744. https://doi.org/10.1016/j.neuron.2020.05.023\n[DOI: 10.1016/j.neuron.2020.05.023]\n[DOI: 10.1016/j.neuron.2020.05.023]: https://doi.org/10.1016/j.neuron.2020.05.023"
+    ],
+    "doi": "10.48324/dandi.000059/0.250624.0444",
+    "license": {
+      "label": "Creative Commons Attribution 4.0 International",
+      "url": "https://creativecommons.org/licenses/by/4.0/legalcode"
+    },
+    "data_descriptor": {
+      "label": "https://dandiarchive.org/dandiset/000059/0.250624.0444",
+      "url": "https://dandiarchive.org/dandiset/000059/0.250624.0444"
+    },
+    "file_repository_id": null,
+    "page_link": "https://search.kg.ebrains.eu/instances/56e8f74e-8220-451a-9a75-b4aae482949f",
+    "download_link": "https://doi.org/10.48324/dandi.000059/0.250624.0444",
+    "identifiers": [
+      "https://kg.ebrains.eu/api/instances/56e8f74e-8220-451a-9a75-b4aae482949f",
+      "https://doi.org/10.48324/dandi.000059/0.250624.0444"
     ],
     "source": "EBRAINS"
   },
