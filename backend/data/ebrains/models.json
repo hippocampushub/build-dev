@@ -5623,7 +5623,7 @@
         "version": "2.0",
         "description": "Python 3 compatible",
         "source": "https://data-proxy.ebrains.eu/api/v1/buckets/pc0a33-hippocampus_optimization?prefix=rat/CA1/v4.0.5/optimizations_Python3/CA1_pyr_cACpyr_oh140807_A0_idH_20190328143152/",
-        "parameters": "https://data-proxy.ebrains.eu/api/v1/buckets/pc0a33-hippocampus_optimization/rat/CA1/v4.0.5/optimizations_Python3/CA1_pyr_cACpyr_oh140807_A0_idH_20190328143152/CA1_pyr_cACpyr_oh140807_A0_idH_20190328143152_meta.json",
+        "parameters": null,
         "morphology": null,
         "code_format": "text/plain",
         "license": null,
