@@ -5736,77 +5736,6 @@
     "source": "EBRAINS"
   },
   {
-    "source_id": "ebrains-0162668e-bef0-4754-8562-40440db5bc0c",
-    "id": "0162668e-bef0-4754-8562-40440db5bc0c",
-    "type": "dataset",
-    "kg_type": [
-      "Dataset version"
-    ],
-    "name": "Extracellular unit recordings from CA1/CA3 pyramidal cells in rats exploring an open arena with object landmarks (v1)",
-    "version": "v1",
-    "description": "These data were collected to determine how objects or landmarks influence activity in hippocampal CA1 and CA3 neurons. The data consists of spike recordings that include time and position stamps from up to 620 neurons recorded simultaneously in the CA1 and CA3 regions of rats that were freely foraging in an arena. The experiment was conducted both with and without a distinctive object present. The dataset is a mix of tetrode (“microdrive”) and probe (Neuropixels 2.0) recordings collected from 10 male Long-Evans rats. The data can be reused to further determine activity structure in hippocampal CA1 cells during foraging in simple structured environments.",
-    "new_in_this_version": "This version contains spike recordings and position data in .mat files.",
-    "accessibility": "free access",
-    "released_at": "2023-05-05",
-    "region": [
-      "CA1 field of hippocampus",
-      "CA3 field of hippocampus"
-    ],
-    "species": [
-      "Rattus norvegicus"
-    ],
-    "keywords": [
-      "Extracellular single unit recordings"
-    ],
-    "experimental_approach": [
-      "electrophysiology",
-      "behavior"
-    ],
-    "techniques": [
-      "tetrode extracellular electrophysiology",
-      "multi-electrode extracellular electrophysiology",
-      "extracellular electrophysiology"
-    ],
-    "preparation": [
-      "in vivo"
-    ],
-    "study_targets": [
-      "hippocampus CA1 pyramidal neuron",
-      "Rattus norvegicus"
-    ],
-    "custodians": [
-      "Moser, E. I."
-    ],
-    "contributors": [
-      "Nagelhus, A.",
-      "Andersson, S. O.",
-      "Gonzalo Cogno, S.",
-      "Moser, E. I.",
-      "Moser, M.-B."
-    ],
-    "projects": [],
-    "publications": [
-      "Nagelhus, A., Andersson, S. O., Cogno, S. G., Moser, E. I., & Moser, M.-B. (2023). Object-centered population coding in CA1 of the hippocampus. Neuron, 111(13), 2091–2104. https://doi.org/10.1016/j.neuron.2023.04.008\n[DOI: 10.1016/j.neuron.2023.04.008]\n[DOI: 10.1016/j.neuron.2023.04.008]: https://doi.org/10.1016/j.neuron.2023.04.008"
-    ],
-    "doi": "10.25493/Q0FG-1X8",
-    "license": {
-      "label": "Creative Commons Attribution 4.0 International",
-      "url": "https://creativecommons.org/licenses/by/4.0/legalcode"
-    },
-    "data_descriptor": {
-      "label": "https://data-proxy.ebrains.eu/api/permalinks/e678951d-7f76-4f6a-a59a-aabef4c6ce1e",
-      "url": "https://data-proxy.ebrains.eu/api/permalinks/e678951d-7f76-4f6a-a59a-aabef4c6ce1e?inline=true"
-    },
-    "file_repository_id": "0fe384d5-dda0-4789-8b40-6ac331e8541b",
-    "page_link": "https://search.kg.ebrains.eu/instances/0162668e-bef0-4754-8562-40440db5bc0c",
-    "download_link": "https://doi.org/10.25493/Q0FG-1X8",
-    "identifiers": [
-      "https://kg.ebrains.eu/api/instances/0162668e-bef0-4754-8562-40440db5bc0c",
-      "https://doi.org/10.25493/Q0FG-1X8"
-    ],
-    "source": "EBRAINS"
-  },
-  {
     "source_id": "ebrains-09f0d6e2-b492-41b0-bba4-37ad9e54de27",
     "id": "09f0d6e2-b492-41b0-bba4-37ad9e54de27",
     "type": "dataset",
@@ -5876,6 +5805,77 @@
     "page_link": "https://search.kg.ebrains.eu/instances/09f0d6e2-b492-41b0-bba4-37ad9e54de27",
     "download_link": null,
     "identifiers": null,
+    "source": "EBRAINS"
+  },
+  {
+    "source_id": "ebrains-0162668e-bef0-4754-8562-40440db5bc0c",
+    "id": "0162668e-bef0-4754-8562-40440db5bc0c",
+    "type": "dataset",
+    "kg_type": [
+      "Dataset version"
+    ],
+    "name": "Extracellular unit recordings from CA1/CA3 pyramidal cells in rats exploring an open arena with object landmarks (v1)",
+    "version": "v1",
+    "description": "These data were collected to determine how objects or landmarks influence activity in hippocampal CA1 and CA3 neurons. The data consists of spike recordings that include time and position stamps from up to 620 neurons recorded simultaneously in the CA1 and CA3 regions of rats that were freely foraging in an arena. The experiment was conducted both with and without a distinctive object present. The dataset is a mix of tetrode (“microdrive”) and probe (Neuropixels 2.0) recordings collected from 10 male Long-Evans rats. The data can be reused to further determine activity structure in hippocampal CA1 cells during foraging in simple structured environments.",
+    "new_in_this_version": "This version contains spike recordings and position data in .mat files.",
+    "accessibility": "free access",
+    "released_at": "2023-05-05",
+    "region": [
+      "CA1 field of hippocampus",
+      "CA3 field of hippocampus"
+    ],
+    "species": [
+      "Rattus norvegicus"
+    ],
+    "keywords": [
+      "Extracellular single unit recordings"
+    ],
+    "experimental_approach": [
+      "electrophysiology",
+      "behavior"
+    ],
+    "techniques": [
+      "tetrode extracellular electrophysiology",
+      "multi-electrode extracellular electrophysiology",
+      "extracellular electrophysiology"
+    ],
+    "preparation": [
+      "in vivo"
+    ],
+    "study_targets": [
+      "hippocampus CA1 pyramidal neuron",
+      "Rattus norvegicus"
+    ],
+    "custodians": [
+      "Moser, E. I."
+    ],
+    "contributors": [
+      "Nagelhus, A.",
+      "Andersson, S. O.",
+      "Gonzalo Cogno, S.",
+      "Moser, E. I.",
+      "Moser, M.-B."
+    ],
+    "projects": [],
+    "publications": [
+      "Nagelhus, A., Andersson, S. O., Cogno, S. G., Moser, E. I., & Moser, M.-B. (2023). Object-centered population coding in CA1 of the hippocampus. Neuron, 111(13), 2091–2104. https://doi.org/10.1016/j.neuron.2023.04.008\n[DOI: 10.1016/j.neuron.2023.04.008]\n[DOI: 10.1016/j.neuron.2023.04.008]: https://doi.org/10.1016/j.neuron.2023.04.008"
+    ],
+    "doi": "10.25493/Q0FG-1X8",
+    "license": {
+      "label": "Creative Commons Attribution 4.0 International",
+      "url": "https://creativecommons.org/licenses/by/4.0/legalcode"
+    },
+    "data_descriptor": {
+      "label": "https://data-proxy.ebrains.eu/api/permalinks/e678951d-7f76-4f6a-a59a-aabef4c6ce1e",
+      "url": "https://data-proxy.ebrains.eu/api/permalinks/e678951d-7f76-4f6a-a59a-aabef4c6ce1e?inline=true"
+    },
+    "file_repository_id": "0fe384d5-dda0-4789-8b40-6ac331e8541b",
+    "page_link": "https://search.kg.ebrains.eu/instances/0162668e-bef0-4754-8562-40440db5bc0c",
+    "download_link": "https://doi.org/10.25493/Q0FG-1X8",
+    "identifiers": [
+      "https://kg.ebrains.eu/api/instances/0162668e-bef0-4754-8562-40440db5bc0c",
+      "https://doi.org/10.25493/Q0FG-1X8"
+    ],
     "source": "EBRAINS"
   },
   {
@@ -6243,70 +6243,6 @@
     "source": "EBRAINS"
   },
   {
-    "source_id": "ebrains-5f58ec49-8e36-456d-818d-97097923d101",
-    "id": "5f58ec49-8e36-456d-818d-97097923d101",
-    "type": "dataset",
-    "kg_type": [
-      "Dataset version"
-    ],
-    "name": "Electrophysiological characterization of sharp-wave ripple oscillations and associated cellular activities in hippocampal slices from Scn1a+/- mice (v1)",
-    "version": "v1",
-    "description": "The data was obtained from hippocampal area CA1 in acute hippocampal slices from transgenic _Scn1a<sup>+/-</sup>_ mice and wild type littermates. The dataset consists of field potential recordings, simultaneous field and somatic whole cell patch clamp recordings from either fast-spiking parvalbumin-expressing cells or from pyramidal cells, only somatic recordings, and axonal whole cell patch clamp recordings. Data was collected for two age groups, juvenile mice (age range postnatal days 19-23) before the critical period of high mortality of the _Scn1a<sup>+/-</sup>_ genotype, and young adult mice (age range postnatal days 28-37) surviving past the critical period. Accordingly, the data is organised into four different groups throughout the dataset. Field potential recordings were used to quantify sharp wave ripple oscillation activity and to relate ripple oscillations to synaptic and action potential activity recorded from individual cells in the temporal domain. Somatic recordings were used to quantify the amplitude of synaptic currents and to study action potential timing and waveform. Axon recordings were used to quantify action potential waveforms only. The data can be reused to analyse the interplay between field and (sub-)cellular activity of different cell types in the hippocampus.",
-    "new_in_this_version": "This is the first version of this dataset. It contains 193 recordings from 186 subjects. Note: the age categories of subjects in the EBRAINS KG are defined according to openMINDS, which is different from how age categories are defined in the dataset. Mice referred to as juvenile in the dataset are labeled as infant in the KG, mice referred to as young adult in the dataset are labeled as juvenile in the KG.",
-    "accessibility": "free access",
-    "released_at": "2026-06-24",
-    "region": [],
-    "species": [
-      "Mus musculus"
-    ],
-    "keywords": [
-      "Dravet syndrome",
-      "epilepsy model",
-      "sharp-wave ripples"
-    ],
-    "experimental_approach": [
-      "electrophysiology"
-    ],
-    "techniques": [
-      "extracellular electrophysiology",
-      "whole cell patch clamp"
-    ],
-    "preparation": [
-      "in vitro"
-    ],
-    "study_targets": [
-      "Rodentia",
-      "hippocampus CA1 pyramidal neuron",
-      "parvalbumin expressing neuron"
-    ],
-    "custodians": [
-      "Roth, F. C."
-    ],
-    "contributors": [
-      "Lascorz, R.",
-      "Roth, F. C."
-    ],
-    "projects": [],
-    "publications": [],
-    "doi": "10.25493/YEDC-A5S",
-    "license": {
-      "label": "Creative Commons Attribution Non Commercial 4.0 International",
-      "url": "https://creativecommons.org/licenses/by-nc/4.0/legalcode"
-    },
-    "data_descriptor": {
-      "label": "https://data-proxy.ebrains.eu/api/permalinks/e0ae6279-1bc1-4d00-8876-c22c19b0a586",
-      "url": "https://data-proxy.ebrains.eu/api/permalinks/e0ae6279-1bc1-4d00-8876-c22c19b0a586?inline=true"
-    },
-    "file_repository_id": "73bb3935-b4bb-4221-8449-a3bd3a838e9a",
-    "page_link": "https://search.kg.ebrains.eu/instances/5f58ec49-8e36-456d-818d-97097923d101",
-    "download_link": "https://doi.org/10.25493/YEDC-A5S",
-    "identifiers": [
-      "https://kg.ebrains.eu/api/instances/5f58ec49-8e36-456d-818d-97097923d101",
-      "https://doi.org/10.25493/YEDC-A5S"
-    ],
-    "source": "EBRAINS"
-  },
-  {
     "source_id": "ebrains-7269d1a2-c7ad-4745-972c-10dbf5a022b7",
     "id": "7269d1a2-c7ad-4745-972c-10dbf5a022b7",
     "type": "dataset",
@@ -6380,6 +6316,70 @@
       "https://kg.ebrains.eu/api/instances/7269d1a2-c7ad-4745-972c-10dbf5a022b7",
       "https://nexus.humanbrainproject.org/v0/data/minds/core/dataset/v1.0.0/7269d1a2-c7ad-4745-972c-10dbf5a022b7",
       "https://doi.org/10.25493/77Z6-C2"
+    ],
+    "source": "EBRAINS"
+  },
+  {
+    "source_id": "ebrains-5f58ec49-8e36-456d-818d-97097923d101",
+    "id": "5f58ec49-8e36-456d-818d-97097923d101",
+    "type": "dataset",
+    "kg_type": [
+      "Dataset version"
+    ],
+    "name": "Electrophysiological characterization of sharp-wave ripple oscillations and associated cellular activities in hippocampal slices from Scn1a+/- mice (v1)",
+    "version": "v1",
+    "description": "The data was obtained from hippocampal area CA1 in acute hippocampal slices from transgenic _Scn1a<sup>+/-</sup>_ mice and wild type littermates. The dataset consists of field potential recordings, simultaneous field and somatic whole cell patch clamp recordings from either fast-spiking parvalbumin-expressing cells or from pyramidal cells, only somatic recordings, and axonal whole cell patch clamp recordings. Data was collected for two age groups, juvenile mice (age range postnatal days 19-23) before the critical period of high mortality of the _Scn1a<sup>+/-</sup>_ genotype, and young adult mice (age range postnatal days 28-37) surviving past the critical period. Accordingly, the data is organised into four different groups throughout the dataset. Field potential recordings were used to quantify sharp wave ripple oscillation activity and to relate ripple oscillations to synaptic and action potential activity recorded from individual cells in the temporal domain. Somatic recordings were used to quantify the amplitude of synaptic currents and to study action potential timing and waveform. Axon recordings were used to quantify action potential waveforms only. The data can be reused to analyse the interplay between field and (sub-)cellular activity of different cell types in the hippocampus.",
+    "new_in_this_version": "This is the first version of this dataset. It contains 193 recordings from 186 subjects. Note: the age categories of subjects in the EBRAINS KG are defined according to openMINDS, which is different from how age categories are defined in the dataset. Mice referred to as juvenile in the dataset are labeled as infant in the KG, mice referred to as young adult in the dataset are labeled as juvenile in the KG.",
+    "accessibility": "free access",
+    "released_at": "2026-06-24",
+    "region": [],
+    "species": [
+      "Mus musculus"
+    ],
+    "keywords": [
+      "Dravet syndrome",
+      "epilepsy model",
+      "sharp-wave ripples"
+    ],
+    "experimental_approach": [
+      "electrophysiology"
+    ],
+    "techniques": [
+      "extracellular electrophysiology",
+      "whole cell patch clamp"
+    ],
+    "preparation": [
+      "in vitro"
+    ],
+    "study_targets": [
+      "Rodentia",
+      "hippocampus CA1 pyramidal neuron",
+      "parvalbumin expressing neuron"
+    ],
+    "custodians": [
+      "Roth, F. C."
+    ],
+    "contributors": [
+      "Lascorz, R.",
+      "Roth, F. C."
+    ],
+    "projects": [],
+    "publications": [],
+    "doi": "10.25493/YEDC-A5S",
+    "license": {
+      "label": "Creative Commons Attribution Non Commercial 4.0 International",
+      "url": "https://creativecommons.org/licenses/by-nc/4.0/legalcode"
+    },
+    "data_descriptor": {
+      "label": "https://data-proxy.ebrains.eu/api/permalinks/e0ae6279-1bc1-4d00-8876-c22c19b0a586",
+      "url": "https://data-proxy.ebrains.eu/api/permalinks/e0ae6279-1bc1-4d00-8876-c22c19b0a586?inline=true"
+    },
+    "file_repository_id": "73bb3935-b4bb-4221-8449-a3bd3a838e9a",
+    "page_link": "https://search.kg.ebrains.eu/instances/5f58ec49-8e36-456d-818d-97097923d101",
+    "download_link": "https://doi.org/10.25493/YEDC-A5S",
+    "identifiers": [
+      "https://kg.ebrains.eu/api/instances/5f58ec49-8e36-456d-818d-97097923d101",
+      "https://doi.org/10.25493/YEDC-A5S"
     ],
     "source": "EBRAINS"
   },
@@ -6688,6 +6688,73 @@
     "source": "EBRAINS"
   },
   {
+    "source_id": "ebrains-804f848e-0408-4e02-a363-687f37655a41",
+    "id": "804f848e-0408-4e02-a363-687f37655a41",
+    "type": "dataset",
+    "kg_type": [
+      "Dataset version"
+    ],
+    "name": "Adaptive modulation of theta sweeps in the brain’s spatial navigation circuit (v1)",
+    "version": "v1",
+    "description": "This dataset contains electrophysiological population recordings from 10 freely behaving rats implanted with high-site-count Neuropixels probes. All animals were implanted in the medial entorhinal cortex and parasubiculum (MEC-parasubiculum); subsets were additionally implanted in hippocampus, presubiculum, anterodorsal thalamus and/or postrhinal cortex, with up to four probes per animal. The recordings were obtained while the rats engaged in different navigational tasks (free foraging in an open-field arena; pursuit of a rapidly moving bait in the same arena; running on a linear track; backing out of narrow corridors or across the open field) and during natural sleep in a rest chamber, including periods of REM sleep. The animals’ head position and direction were tracked with an OptiTrack motion-capture system, and bait position was tracked using OptiTrack or DeepLabCut.\n\nThe raw neural activity was spike-sorted using Kilosort 2.5. The present data files include the spike-sorted activity (spike times) of all cells used in the accompanying paper, and grid cells in MEC-parasubiculum are clustered into modules according to their spatial firing patterns.\n\nThe data may be used to examine activity of spatially modulated and direction-tuned neural populations during free exploration, goal-directed pursuit, backward locomotion and sleep.",
+    "new_in_this_version": "This is the first version of this dataset, containing data from 10 subjects.",
+    "accessibility": "free access",
+    "released_at": "2026-05-29",
+    "region": [
+      "medial entorhinal cortex",
+      "parasubiculum",
+      "presubiculum",
+      "anterior nuclear group",
+      "Ammon's horn"
+    ],
+    "species": [
+      "Rattus norvegicus"
+    ],
+    "keywords": [],
+    "experimental_approach": [
+      "behavior",
+      "electrophysiology"
+    ],
+    "techniques": [
+      "multi-electrode extracellular electrophysiology"
+    ],
+    "preparation": [
+      "in vivo"
+    ],
+    "study_targets": [
+      "Rattus norvegicus"
+    ],
+    "custodians": [
+      "Moser, E. I."
+    ],
+    "contributors": [
+      "Vollan, A. Z.",
+      "Schellenberger, M.",
+      "Gardner, R.",
+      "Moser, M.-B.",
+      "Moser, E. I."
+    ],
+    "projects": [],
+    "publications": [],
+    "doi": "10.25493/916J-DB7",
+    "license": {
+      "label": "Creative Commons Attribution Share Alike 4.0 International",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0/legalcode"
+    },
+    "data_descriptor": {
+      "label": "https://data-proxy.ebrains.eu/api/permalinks/00e81375-3e0e-4ab1-999e-92eb9322f513",
+      "url": "https://data-proxy.ebrains.eu/api/permalinks/00e81375-3e0e-4ab1-999e-92eb9322f513?inline=true"
+    },
+    "file_repository_id": "c69692fb-8af8-4fe0-bc06-fd7e3064a37d",
+    "page_link": "https://search.kg.ebrains.eu/instances/804f848e-0408-4e02-a363-687f37655a41",
+    "download_link": "https://doi.org/10.25493/916J-DB7",
+    "identifiers": [
+      "https://kg.ebrains.eu/api/instances/804f848e-0408-4e02-a363-687f37655a41",
+      "https://doi.org/10.25493/916J-DB7"
+    ],
+    "source": "EBRAINS"
+  },
+  {
     "source_id": "ebrains-8f7f8576-a28c-4a79-b58e-7ad9b60db639",
     "id": "8f7f8576-a28c-4a79-b58e-7ad9b60db639",
     "type": "dataset",
@@ -6757,73 +6824,6 @@
       "https://kg.ebrains.eu/api/instances/8f7f8576-a28c-4a79-b58e-7ad9b60db639",
       "https://nexus.humanbrainproject.org/v0/data/minds/core/dataset/v1.0.0/8f7f8576-a28c-4a79-b58e-7ad9b60db639",
       "https://doi.org/10.25493/WJJG-ZMM"
-    ],
-    "source": "EBRAINS"
-  },
-  {
-    "source_id": "ebrains-804f848e-0408-4e02-a363-687f37655a41",
-    "id": "804f848e-0408-4e02-a363-687f37655a41",
-    "type": "dataset",
-    "kg_type": [
-      "Dataset version"
-    ],
-    "name": "Adaptive modulation of theta sweeps in the brain’s spatial navigation circuit (v1)",
-    "version": "v1",
-    "description": "This dataset contains electrophysiological population recordings from 10 freely behaving rats implanted with high-site-count Neuropixels probes. All animals were implanted in the medial entorhinal cortex and parasubiculum (MEC-parasubiculum); subsets were additionally implanted in hippocampus, presubiculum, anterodorsal thalamus and/or postrhinal cortex, with up to four probes per animal. The recordings were obtained while the rats engaged in different navigational tasks (free foraging in an open-field arena; pursuit of a rapidly moving bait in the same arena; running on a linear track; backing out of narrow corridors or across the open field) and during natural sleep in a rest chamber, including periods of REM sleep. The animals’ head position and direction were tracked with an OptiTrack motion-capture system, and bait position was tracked using OptiTrack or DeepLabCut.\n\nThe raw neural activity was spike-sorted using Kilosort 2.5. The present data files include the spike-sorted activity (spike times) of all cells used in the accompanying paper, and grid cells in MEC-parasubiculum are clustered into modules according to their spatial firing patterns.\n\nThe data may be used to examine activity of spatially modulated and direction-tuned neural populations during free exploration, goal-directed pursuit, backward locomotion and sleep.",
-    "new_in_this_version": "This is the first version of this dataset, containing data from 10 subjects.",
-    "accessibility": "free access",
-    "released_at": "2026-05-29",
-    "region": [
-      "medial entorhinal cortex",
-      "parasubiculum",
-      "presubiculum",
-      "anterior nuclear group",
-      "Ammon's horn"
-    ],
-    "species": [
-      "Rattus norvegicus"
-    ],
-    "keywords": [],
-    "experimental_approach": [
-      "behavior",
-      "electrophysiology"
-    ],
-    "techniques": [
-      "multi-electrode extracellular electrophysiology"
-    ],
-    "preparation": [
-      "in vivo"
-    ],
-    "study_targets": [
-      "Rattus norvegicus"
-    ],
-    "custodians": [
-      "Moser, E. I."
-    ],
-    "contributors": [
-      "Vollan, A. Z.",
-      "Schellenberger, M.",
-      "Gardner, R.",
-      "Moser, M.-B.",
-      "Moser, E. I."
-    ],
-    "projects": [],
-    "publications": [],
-    "doi": "10.25493/916J-DB7",
-    "license": {
-      "label": "Creative Commons Attribution Share Alike 4.0 International",
-      "url": "https://creativecommons.org/licenses/by-sa/4.0/legalcode"
-    },
-    "data_descriptor": {
-      "label": "https://data-proxy.ebrains.eu/api/permalinks/00e81375-3e0e-4ab1-999e-92eb9322f513",
-      "url": "https://data-proxy.ebrains.eu/api/permalinks/00e81375-3e0e-4ab1-999e-92eb9322f513?inline=true"
-    },
-    "file_repository_id": "c69692fb-8af8-4fe0-bc06-fd7e3064a37d",
-    "page_link": "https://search.kg.ebrains.eu/instances/804f848e-0408-4e02-a363-687f37655a41",
-    "download_link": "https://doi.org/10.25493/916J-DB7",
-    "identifiers": [
-      "https://kg.ebrains.eu/api/instances/804f848e-0408-4e02-a363-687f37655a41",
-      "https://doi.org/10.25493/916J-DB7"
     ],
     "source": "EBRAINS"
   },
@@ -6976,6 +6976,78 @@
     "source": "EBRAINS"
   },
   {
+    "source_id": "ebrains-aaca9deb-6cea-4339-a221-254dffeedcda",
+    "id": "aaca9deb-6cea-4339-a221-254dffeedcda",
+    "type": "dataset",
+    "kg_type": [
+      "Dataset version"
+    ],
+    "name": "Functional imaging data (3 Tesla) on Object-In-Room Recall in healthy, younger adults (v1)",
+    "version": "v1",
+    "description": "Episodic memories comprise information from various domains (e.g. objects and scenes). Upon retrieval, a unimodal cue can be sufficient to reinstate the multimodal representation of the episode. Here, functional neuroimaging data at 3Tesla was acquired in 25 healthy adults. Participants learned object-in-room associations. Each artificially created room contained two objects at random locations. During functional data acquisition, participants were cued with empty rooms and a specific object location, upon which they were required to recall and imagine the respective object and indicate whether the room was old or new. A subsequent 3 alternative forced choice recognition task assessed whether the object they remembered in that location was the correct object, the other object within that room or a third, familiar object that has not been paired with that room. A control condition contained empty rooms only. Here, participants perceptually matched room-cut-outs to a specific location within a novel empty room. Functional data captured a slab (resolution: 1.8x1.8x1.8 mm), oriented along the longitudinal axis of the hippocampus and covered the temporal lobe, parietal and visual cortex and inferior frontal regions. Structural T2-weighted (slab, resolution: 0.4x0.4x1mm) and T1-weighted data (whole-brain, resolution: 0.6mm3) was acquired. Data can be used to answer questions about the functional involvement of medial temporal lobe subregions, their neocortical interactions, structure-behavior relationships, and questions about context-object retrieval and memory recollection.",
+    "new_in_this_version": "This is version 1 of the dataset. A comparable paradigm was used in the dataset “3 Tesla fMRI data on episodic memory of place-object associations - older adults with subjective cognitive impairment”, which will be published via EBRAINS soon. Moreover, an app-version of the task has been implemented for longitudinal assessment of memory retrieval in a published study ([Berron et al., 2022](https://doi.org/10.3389/fdgth.2022.892997)). While here the task is generally named “Place Object Completion” (POCO) the same task idea was implemented, with partially overlapping stimuli, in for example ([Berron et al., 2022](https://doi.org/10.3389/fdgth.2022.892997)) as “Object-In-Room Recall” (ORR) task.",
+    "accessibility": "under embargo",
+    "released_at": "2019-12-09",
+    "region": [
+      "lateral occipital cortex",
+      "superior occipital gyrus",
+      "medial parietal lobe",
+      "brain",
+      "hippocampal formation"
+    ],
+    "species": [
+      "Homo sapiens"
+    ],
+    "keywords": [
+      "holistic recollection",
+      "unimodal cue"
+    ],
+    "experimental_approach": [
+      "behavior",
+      "neuroimaging"
+    ],
+    "techniques": [
+      "functional magnetic resonance imaging",
+      "T1 pulse sequence",
+      "magnetic resonance imaging",
+      "T2 pulse sequence",
+      "echo planar pulse sequence"
+    ],
+    "preparation": [
+      "in vivo"
+    ],
+    "study_targets": [
+      "pattern completion",
+      "episodic memory"
+    ],
+    "custodians": [
+      "Düzel, E."
+    ],
+    "contributors": [
+      "Grande, X.",
+      "Berron, D.",
+      "Düzel, E."
+    ],
+    "projects": [
+      "Place-object associative memory at 3 Tesla fMRI"
+    ],
+    "publications": [],
+    "doi": null,
+    "license": {
+      "label": "The use of this dataset requires that the user cites the associated DOI and adheres to the conditions of use that are contained in the Data Use Agreement. You may not use the dataset for commercial purposes.",
+      "url": "https://strapi-prod.sos-ch-dk-2.exo.io/EBRAINS_Data_Use_Agreement_90858e7836_ef3ee29d50.pdf"
+    },
+    "data_descriptor": {
+      "label": "https://data-proxy.ebrains.eu/api/permalinks/0f1f8648-69da-4de5-aa7c-3078a9d2e414",
+      "url": "https://data-proxy.ebrains.eu/api/permalinks/0f1f8648-69da-4de5-aa7c-3078a9d2e414?inline=true"
+    },
+    "file_repository_id": null,
+    "page_link": "https://search.kg.ebrains.eu/instances/aaca9deb-6cea-4339-a221-254dffeedcda",
+    "download_link": null,
+    "identifiers": null,
+    "source": "EBRAINS"
+  },
+  {
     "source_id": "ebrains-0a5b42ea-27a0-4eb3-81ff-e2da03f27296",
     "id": "0a5b42ea-27a0-4eb3-81ff-e2da03f27296",
     "type": "dataset",
@@ -7048,78 +7120,6 @@
       "9bb70415297a141fc298afe8874f7528",
       "https://doi.org/10.25493/JZS5-BC5"
     ],
-    "source": "EBRAINS"
-  },
-  {
-    "source_id": "ebrains-aaca9deb-6cea-4339-a221-254dffeedcda",
-    "id": "aaca9deb-6cea-4339-a221-254dffeedcda",
-    "type": "dataset",
-    "kg_type": [
-      "Dataset version"
-    ],
-    "name": "Functional imaging data (3 Tesla) on Object-In-Room Recall in healthy, younger adults (v1)",
-    "version": "v1",
-    "description": "Episodic memories comprise information from various domains (e.g. objects and scenes). Upon retrieval, a unimodal cue can be sufficient to reinstate the multimodal representation of the episode. Here, functional neuroimaging data at 3Tesla was acquired in 25 healthy adults. Participants learned object-in-room associations. Each artificially created room contained two objects at random locations. During functional data acquisition, participants were cued with empty rooms and a specific object location, upon which they were required to recall and imagine the respective object and indicate whether the room was old or new. A subsequent 3 alternative forced choice recognition task assessed whether the object they remembered in that location was the correct object, the other object within that room or a third, familiar object that has not been paired with that room. A control condition contained empty rooms only. Here, participants perceptually matched room-cut-outs to a specific location within a novel empty room. Functional data captured a slab (resolution: 1.8x1.8x1.8 mm), oriented along the longitudinal axis of the hippocampus and covered the temporal lobe, parietal and visual cortex and inferior frontal regions. Structural T2-weighted (slab, resolution: 0.4x0.4x1mm) and T1-weighted data (whole-brain, resolution: 0.6mm3) was acquired. Data can be used to answer questions about the functional involvement of medial temporal lobe subregions, their neocortical interactions, structure-behavior relationships, and questions about context-object retrieval and memory recollection.",
-    "new_in_this_version": "This is version 1 of the dataset. A comparable paradigm was used in the dataset “3 Tesla fMRI data on episodic memory of place-object associations - older adults with subjective cognitive impairment”, which will be published via EBRAINS soon. Moreover, an app-version of the task has been implemented for longitudinal assessment of memory retrieval in a published study ([Berron et al., 2022](https://doi.org/10.3389/fdgth.2022.892997)). While here the task is generally named “Place Object Completion” (POCO) the same task idea was implemented, with partially overlapping stimuli, in for example ([Berron et al., 2022](https://doi.org/10.3389/fdgth.2022.892997)) as “Object-In-Room Recall” (ORR) task.",
-    "accessibility": "under embargo",
-    "released_at": "2019-12-09",
-    "region": [
-      "lateral occipital cortex",
-      "superior occipital gyrus",
-      "medial parietal lobe",
-      "brain",
-      "hippocampal formation"
-    ],
-    "species": [
-      "Homo sapiens"
-    ],
-    "keywords": [
-      "holistic recollection",
-      "unimodal cue"
-    ],
-    "experimental_approach": [
-      "behavior",
-      "neuroimaging"
-    ],
-    "techniques": [
-      "functional magnetic resonance imaging",
-      "T1 pulse sequence",
-      "magnetic resonance imaging",
-      "T2 pulse sequence",
-      "echo planar pulse sequence"
-    ],
-    "preparation": [
-      "in vivo"
-    ],
-    "study_targets": [
-      "pattern completion",
-      "episodic memory"
-    ],
-    "custodians": [
-      "Düzel, E."
-    ],
-    "contributors": [
-      "Grande, X.",
-      "Berron, D.",
-      "Düzel, E."
-    ],
-    "projects": [
-      "Place-object associative memory at 3 Tesla fMRI"
-    ],
-    "publications": [],
-    "doi": null,
-    "license": {
-      "label": "The use of this dataset requires that the user cites the associated DOI and adheres to the conditions of use that are contained in the Data Use Agreement. You may not use the dataset for commercial purposes.",
-      "url": "https://strapi-prod.sos-ch-dk-2.exo.io/EBRAINS_Data_Use_Agreement_90858e7836_ef3ee29d50.pdf"
-    },
-    "data_descriptor": {
-      "label": "https://data-proxy.ebrains.eu/api/permalinks/0f1f8648-69da-4de5-aa7c-3078a9d2e414",
-      "url": "https://data-proxy.ebrains.eu/api/permalinks/0f1f8648-69da-4de5-aa7c-3078a9d2e414?inline=true"
-    },
-    "file_repository_id": null,
-    "page_link": "https://search.kg.ebrains.eu/instances/aaca9deb-6cea-4339-a221-254dffeedcda",
-    "download_link": null,
-    "identifiers": null,
     "source": "EBRAINS"
   },
   {
@@ -9617,6 +9617,76 @@
     "source": "EBRAINS"
   },
   {
+    "source_id": "ebrains-5da05ab3-20ce-4190-b612-155abf84ba56",
+    "id": "5da05ab3-20ce-4190-b612-155abf84ba56",
+    "type": "dataset",
+    "kg_type": [
+      "Dataset version"
+    ],
+    "name": "3D atlas locations of tetrode recordings in rats performing a cross-modal memory recall task (v1)",
+    "version": "v1",
+    "description": "This dataset provides coordinates describing the 3D locations in the Waxholm Space (WHS) rat brain atlas of 27 tetrodes placed in subject r14 of the experiment of [Fiorilli et al. (2022)](10.25493/AM91-2D). Histological sections stained for Cresyl violet showing lesioning caused by the tetrodes were registered to the WHS rat brain atlas v3 using the [QuickNII](https://search.kg.ebrains.eu/?facet_type[0]=Dataset&category=Software&q=quicknii#d8d0abf0-aa7a-4be9-8fe4-34b36db7a039) software. The atlas-registered images were used to find WHS rat brain coordinates representing the tetrode track locations. The coordinates were thereafter transformed to 3D atlas cylinder representations using the Locare workflow. The JSON file shared here follows the locareCylinder schema ([https://github.com/Neural-Systems-at-UIO/LocareJSON](https://github.com/Neural-Systems-at-UIO/LocareJSON)), making the 3D brain atlas representation of the data available for visualisation and spatial queries.",
+    "new_in_this_version": "This version contains a LocareJSON file defining a cylindrical object in the Waxholm Space rat brain atlas representing the location of 25 tetrodes placed in one subject.",
+    "accessibility": "free access",
+    "released_at": "2023-10-26",
+    "region": [],
+    "species": [
+      "Rattus norvegicus"
+    ],
+    "keywords": [
+      "Locare workflow"
+    ],
+    "experimental_approach": [
+      "informatics",
+      "anatomy"
+    ],
+    "techniques": [
+      "interpolation",
+      "affine image registration",
+      "spatial registration"
+    ],
+    "preparation": [
+      "in silico"
+    ],
+    "study_targets": [
+      "anatomical location",
+      "recording device"
+    ],
+    "custodians": [
+      "Leergaard, T. B."
+    ],
+    "contributors": [
+      "Reiten, I.",
+      "Ovsthus, M.",
+      "Schlegel, U.",
+      "Blixhavn, C. H.",
+      "Leergaard, T. B."
+    ],
+    "projects": [
+      "Data location represented in 3D brain atlases using the Locare workflow"
+    ],
+    "publications": [
+      "Blixhavn, C. H., Reiten, I., Kleven, H., Øvsthus, M., Yates, S. C., Schlegel, U., Puchades, M. A., Schmid, O., Bjaalie, J. G., Bjerke, I. E., & Leergaard, T. B. (2024). The Locare workflow: representing neuroscience data locations as geometric objects in 3D brain atlases. Frontiers in Neuroinformatics, 18. https://doi.org/10.3389/fninf.2024.1284107\n[DOI: 10.3389/fninf.2024.1284107]\n[DOI: 10.3389/fninf.2024.1284107]: https://doi.org/10.3389/fninf.2024.1284107"
+    ],
+    "doi": "10.25493/T5VW-SRJ",
+    "license": {
+      "label": "Creative Commons Attribution Non Commercial Share Alike 4.0 International",
+      "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode"
+    },
+    "data_descriptor": {
+      "label": "https://data-proxy.ebrains.eu/api/permalinks/75ac7603-3374-4ca9-ada5-4d3addcb069e",
+      "url": "https://data-proxy.ebrains.eu/api/permalinks/75ac7603-3374-4ca9-ada5-4d3addcb069e?inline=true"
+    },
+    "file_repository_id": "3cfe11cf-c428-4f36-9d7a-6e5da33950f6",
+    "page_link": "https://search.kg.ebrains.eu/instances/5da05ab3-20ce-4190-b612-155abf84ba56",
+    "download_link": "https://doi.org/10.25493/T5VW-SRJ",
+    "identifiers": [
+      "https://kg.ebrains.eu/api/instances/5da05ab3-20ce-4190-b612-155abf84ba56",
+      "https://doi.org/10.25493/T5VW-SRJ"
+    ],
+    "source": "EBRAINS"
+  },
+  {
     "source_id": "ebrains-2357f08b-a0f4-40f6-815c-579a8208aa90",
     "id": "2357f08b-a0f4-40f6-815c-579a8208aa90",
     "type": "dataset",
@@ -9759,76 +9829,6 @@
       "https://nexus.humanbrainproject.org/v0/data/minds/core/dataset/v1.0.0/e675d539-6932-415c-8ece-f9017fb30893",
       "https://kg.ebrains.eu/api/instances/e675d539-6932-415c-8ece-f9017fb30893",
       "https://doi.org/10.25493/R6ZZ-400"
-    ],
-    "source": "EBRAINS"
-  },
-  {
-    "source_id": "ebrains-5da05ab3-20ce-4190-b612-155abf84ba56",
-    "id": "5da05ab3-20ce-4190-b612-155abf84ba56",
-    "type": "dataset",
-    "kg_type": [
-      "Dataset version"
-    ],
-    "name": "3D atlas locations of tetrode recordings in rats performing a cross-modal memory recall task (v1)",
-    "version": "v1",
-    "description": "This dataset provides coordinates describing the 3D locations in the Waxholm Space (WHS) rat brain atlas of 27 tetrodes placed in subject r14 of the experiment of [Fiorilli et al. (2022)](10.25493/AM91-2D). Histological sections stained for Cresyl violet showing lesioning caused by the tetrodes were registered to the WHS rat brain atlas v3 using the [QuickNII](https://search.kg.ebrains.eu/?facet_type[0]=Dataset&category=Software&q=quicknii#d8d0abf0-aa7a-4be9-8fe4-34b36db7a039) software. The atlas-registered images were used to find WHS rat brain coordinates representing the tetrode track locations. The coordinates were thereafter transformed to 3D atlas cylinder representations using the Locare workflow. The JSON file shared here follows the locareCylinder schema ([https://github.com/Neural-Systems-at-UIO/LocareJSON](https://github.com/Neural-Systems-at-UIO/LocareJSON)), making the 3D brain atlas representation of the data available for visualisation and spatial queries.",
-    "new_in_this_version": "This version contains a LocareJSON file defining a cylindrical object in the Waxholm Space rat brain atlas representing the location of 25 tetrodes placed in one subject.",
-    "accessibility": "free access",
-    "released_at": "2023-10-26",
-    "region": [],
-    "species": [
-      "Rattus norvegicus"
-    ],
-    "keywords": [
-      "Locare workflow"
-    ],
-    "experimental_approach": [
-      "informatics",
-      "anatomy"
-    ],
-    "techniques": [
-      "interpolation",
-      "affine image registration",
-      "spatial registration"
-    ],
-    "preparation": [
-      "in silico"
-    ],
-    "study_targets": [
-      "anatomical location",
-      "recording device"
-    ],
-    "custodians": [
-      "Leergaard, T. B."
-    ],
-    "contributors": [
-      "Reiten, I.",
-      "Ovsthus, M.",
-      "Schlegel, U.",
-      "Blixhavn, C. H.",
-      "Leergaard, T. B."
-    ],
-    "projects": [
-      "Data location represented in 3D brain atlases using the Locare workflow"
-    ],
-    "publications": [
-      "Blixhavn, C. H., Reiten, I., Kleven, H., Øvsthus, M., Yates, S. C., Schlegel, U., Puchades, M. A., Schmid, O., Bjaalie, J. G., Bjerke, I. E., & Leergaard, T. B. (2024). The Locare workflow: representing neuroscience data locations as geometric objects in 3D brain atlases. Frontiers in Neuroinformatics, 18. https://doi.org/10.3389/fninf.2024.1284107\n[DOI: 10.3389/fninf.2024.1284107]\n[DOI: 10.3389/fninf.2024.1284107]: https://doi.org/10.3389/fninf.2024.1284107"
-    ],
-    "doi": "10.25493/T5VW-SRJ",
-    "license": {
-      "label": "Creative Commons Attribution Non Commercial Share Alike 4.0 International",
-      "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode"
-    },
-    "data_descriptor": {
-      "label": "https://data-proxy.ebrains.eu/api/permalinks/75ac7603-3374-4ca9-ada5-4d3addcb069e",
-      "url": "https://data-proxy.ebrains.eu/api/permalinks/75ac7603-3374-4ca9-ada5-4d3addcb069e?inline=true"
-    },
-    "file_repository_id": "3cfe11cf-c428-4f36-9d7a-6e5da33950f6",
-    "page_link": "https://search.kg.ebrains.eu/instances/5da05ab3-20ce-4190-b612-155abf84ba56",
-    "download_link": "https://doi.org/10.25493/T5VW-SRJ",
-    "identifiers": [
-      "https://kg.ebrains.eu/api/instances/5da05ab3-20ce-4190-b612-155abf84ba56",
-      "https://doi.org/10.25493/T5VW-SRJ"
     ],
     "source": "EBRAINS"
   },
