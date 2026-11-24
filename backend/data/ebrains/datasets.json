@@ -3321,71 +3321,6 @@
     "source": "EBRAINS"
   },
   {
-    "source_id": "ebrains-51ad4f55-6fe2-4513-85fc-449fead4c998",
-    "id": "51ad4f55-6fe2-4513-85fc-449fead4c998",
-    "type": "dataset",
-    "kg_type": [
-      "Dataset version"
-    ],
-    "name": "Hippocampal image volume derived from Thy1-GFP-M transgenic mouse (v1)",
-    "version": "v1",
-    "description": "Reconstruction of the hippocampus of a Thy1-GFP-M transgenic mouse, where a subset of pyramidal neurons and of interneurons are labeled. Data obtained with serial two-photon tomography.",
-    "new_in_this_version": null,
-    "accessibility": "free access",
-    "released_at": "2018-06-06",
-    "region": [
-      "hippocampal region (Allen Mouse Brain Atlas)"
-    ],
-    "species": [
-      "Mus musculus"
-    ],
-    "keywords": [
-      "Thy-1"
-    ],
-    "experimental_approach": [
-      "morphology"
-    ],
-    "techniques": [
-      "CLARITY/TDE",
-      "light microscopy",
-      "spatial registration"
-    ],
-    "preparation": [
-      "ex vivo"
-    ],
-    "study_targets": [
-      "pyramidal cell",
-      "interneuron"
-    ],
-    "custodians": [
-      "Pavone, F. S."
-    ],
-    "contributors": [
-      "Pavone, F. S.",
-      "Silvestri, L."
-    ],
-    "projects": [
-      "Hippocampus reconstruction"
-    ],
-    "publications": [],
-    "doi": "10.25493/PMDH-FW1",
-    "license": {
-      "label": "Creative Commons Attribution Non Commercial Share Alike 4.0 International",
-      "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode"
-    },
-    "data_descriptor": null,
-    "file_repository_id": "d16163d4-208b-48c5-a597-56882ecc4fee",
-    "page_link": "https://search.kg.ebrains.eu/instances/51ad4f55-6fe2-4513-85fc-449fead4c998",
-    "download_link": "https://doi.org/10.25493/PMDH-FW1",
-    "identifiers": [
-      "https://kg.ebrains.eu/api/instances/51ad4f55-6fe2-4513-85fc-449fead4c998",
-      "https://nexus.humanbrainproject.org/v0/data/minds/core/dataset/v1.0.0/51ad4f55-6fe2-4513-85fc-449fead4c998",
-      "8fb1a664ca3390bae960cc1aa11f5827",
-      "https://doi.org/10.25493/PMDH-FW1"
-    ],
-    "source": "EBRAINS"
-  },
-  {
     "source_id": "ebrains-b08a7dbc-7c75-4ce7-905b-690b2b1e8957",
     "id": "b08a7dbc-7c75-4ce7-905b-690b2b1e8957",
     "type": "dataset",
@@ -3451,6 +3386,71 @@
       "https://nexus.humanbrainproject.org/v0/data/minds/core/dataset/v1.0.0/b08a7dbc-7c75-4ce7-905b-690b2b1e8957",
       "https://kg.ebrains.eu/api/instances/b08a7dbc-7c75-4ce7-905b-690b2b1e8957",
       "https://doi.org/10.25493/JQ30-E08"
+    ],
+    "source": "EBRAINS"
+  },
+  {
+    "source_id": "ebrains-51ad4f55-6fe2-4513-85fc-449fead4c998",
+    "id": "51ad4f55-6fe2-4513-85fc-449fead4c998",
+    "type": "dataset",
+    "kg_type": [
+      "Dataset version"
+    ],
+    "name": "Hippocampal image volume derived from Thy1-GFP-M transgenic mouse (v1)",
+    "version": "v1",
+    "description": "Reconstruction of the hippocampus of a Thy1-GFP-M transgenic mouse, where a subset of pyramidal neurons and of interneurons are labeled. Data obtained with serial two-photon tomography.",
+    "new_in_this_version": null,
+    "accessibility": "free access",
+    "released_at": "2018-06-06",
+    "region": [
+      "hippocampal region (Allen Mouse Brain Atlas)"
+    ],
+    "species": [
+      "Mus musculus"
+    ],
+    "keywords": [
+      "Thy-1"
+    ],
+    "experimental_approach": [
+      "morphology"
+    ],
+    "techniques": [
+      "CLARITY/TDE",
+      "light microscopy",
+      "spatial registration"
+    ],
+    "preparation": [
+      "ex vivo"
+    ],
+    "study_targets": [
+      "pyramidal cell",
+      "interneuron"
+    ],
+    "custodians": [
+      "Pavone, F. S."
+    ],
+    "contributors": [
+      "Pavone, F. S.",
+      "Silvestri, L."
+    ],
+    "projects": [
+      "Hippocampus reconstruction"
+    ],
+    "publications": [],
+    "doi": "10.25493/PMDH-FW1",
+    "license": {
+      "label": "Creative Commons Attribution Non Commercial Share Alike 4.0 International",
+      "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode"
+    },
+    "data_descriptor": null,
+    "file_repository_id": "d16163d4-208b-48c5-a597-56882ecc4fee",
+    "page_link": "https://search.kg.ebrains.eu/instances/51ad4f55-6fe2-4513-85fc-449fead4c998",
+    "download_link": "https://doi.org/10.25493/PMDH-FW1",
+    "identifiers": [
+      "https://kg.ebrains.eu/api/instances/51ad4f55-6fe2-4513-85fc-449fead4c998",
+      "https://nexus.humanbrainproject.org/v0/data/minds/core/dataset/v1.0.0/51ad4f55-6fe2-4513-85fc-449fead4c998",
+      "8fb1a664ca3390bae960cc1aa11f5827",
+      "https://doi.org/10.25493/PMDH-FW1"
     ],
     "source": "EBRAINS"
   },
@@ -4761,6 +4761,72 @@
     "source": "EBRAINS"
   },
   {
+    "source_id": "ebrains-4080b78d-edc5-4ae4-8144-7f6de79930ea",
+    "id": "4080b78d-edc5-4ae4-8144-7f6de79930ea",
+    "type": "dataset",
+    "kg_type": [
+      "Dataset version"
+    ],
+    "name": "Left-right-alternating theta sweeps in the entorhinal-hippocampal spatial map (v1)",
+    "version": "v1",
+    "description": "This dataset contains electrophysiological population recordings from 19 freely behaving rats implanted with high-site-count Neuropixels probes in the medial entorhinal cortex (n=10), the hippocampus (n=2), or both regions (n=7). Numbers of simultaneously recorded units ranges from 235-1,522. The recordings were obtained while the rats engaged in different navigational tasks (foraging in an open field; running in a wagon-wheel-shaped maze, an m-shaped maze, or a linear track), and during natural sleep in a rest chamber. The animals’ head positions and orientations were tracked with OptiTrack motion-capture system.\n\nThe raw neural activity was spike-sorted using Kilosort 2.5. The present data files include the spike-sorted activity (spike times) of all cells that were used in the accompanying paper. Grid cells were clustered into ‘modules’ according to their spatial firing patterns.\n\nThe data may be used to examine activity of spatial-coding neural populations (or single cells) during navigation and sleep.",
+    "new_in_this_version": "This is the first version of this dataset, containing data from 19 subjects studied via extra-cellular electrophysiology using high density Neuropixels probes.",
+    "accessibility": "free access",
+    "released_at": "2024-11-22",
+    "region": [
+      "medial entorhinal cortex",
+      "parasubiculum"
+    ],
+    "species": [
+      "Rattus norvegicus"
+    ],
+    "keywords": [],
+    "experimental_approach": [
+      "electrophysiology",
+      "behavior"
+    ],
+    "techniques": [
+      "multi-electrode extracellular electrophysiology"
+    ],
+    "preparation": [
+      "in vivo"
+    ],
+    "study_targets": [
+      "Hippocampus"
+    ],
+    "custodians": [
+      "Moser, E. I."
+    ],
+    "contributors": [
+      "Vollan, A. Z.",
+      "Gardner, R.",
+      "Moser, M.-B.",
+      "Moser, E. I."
+    ],
+    "projects": [],
+    "publications": [
+      "Gardner, R. J., Hermansen, E., Pachitariu, M., Burak, Y., Baas, N. A., Dunn, B. A., Moser, M.-B., & Moser, E. I. (2022). Toroidal topology of population activity in grid cells. Nature, 602(7895), 123–128. https://doi.org/10.1038/s41586-021-04268-7\n[DOI: 10.1038/s41586-021-04268-7]\n[DOI: 10.1038/s41586-021-04268-7]: https://doi.org/10.1038/s41586-021-04268-7",
+      "Waaga, T., Agmon, H., Normand, V. A., Nagelhus, A., Gardner, R. J., Moser, M.-B., Moser, E. I., & Burak, Y. (2022). Grid-cell modules remain coordinated when neural activity is dissociated from external sensory cues. Neuron, 110(11), 1843–1856. https://doi.org/10.1016/j.neuron.2022.03.011\n[DOI: 10.1016/j.neuron.2022.03.011]\n[DOI: 10.1016/j.neuron.2022.03.011]: https://doi.org/10.1016/j.neuron.2022.03.011"
+    ],
+    "doi": "10.25493/R5FR-EDG",
+    "license": {
+      "label": "Creative Commons Attribution Share Alike 4.0 International",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0/legalcode"
+    },
+    "data_descriptor": {
+      "label": "https://data-proxy.ebrains.eu/api/permalinks/2106e909-a8ba-420e-9b09-10845432609e",
+      "url": "https://data-proxy.ebrains.eu/api/permalinks/2106e909-a8ba-420e-9b09-10845432609e?inline=true"
+    },
+    "file_repository_id": "ec87e98e-d279-4914-96a1-85b92faa0ff4",
+    "page_link": "https://search.kg.ebrains.eu/instances/4080b78d-edc5-4ae4-8144-7f6de79930ea",
+    "download_link": "https://doi.org/10.25493/R5FR-EDG",
+    "identifiers": [
+      "https://kg.ebrains.eu/api/instances/4080b78d-edc5-4ae4-8144-7f6de79930ea",
+      "https://doi.org/10.25493/R5FR-EDG"
+    ],
+    "source": "EBRAINS"
+  },
+  {
     "source_id": "ebrains-d278f032-f941-48a5-8ebb-0396ef12d610",
     "id": "d278f032-f941-48a5-8ebb-0396ef12d610",
     "type": "dataset",
@@ -4825,72 +4891,6 @@
     "identifiers": [
       "https://kg.ebrains.eu/api/instances/d278f032-f941-48a5-8ebb-0396ef12d610",
       "https://doi.org/10.48324/dandi.000003/0.250624.0409"
-    ],
-    "source": "EBRAINS"
-  },
-  {
-    "source_id": "ebrains-4080b78d-edc5-4ae4-8144-7f6de79930ea",
-    "id": "4080b78d-edc5-4ae4-8144-7f6de79930ea",
-    "type": "dataset",
-    "kg_type": [
-      "Dataset version"
-    ],
-    "name": "Left-right-alternating theta sweeps in the entorhinal-hippocampal spatial map (v1)",
-    "version": "v1",
-    "description": "This dataset contains electrophysiological population recordings from 19 freely behaving rats implanted with high-site-count Neuropixels probes in the medial entorhinal cortex (n=10), the hippocampus (n=2), or both regions (n=7). Numbers of simultaneously recorded units ranges from 235-1,522. The recordings were obtained while the rats engaged in different navigational tasks (foraging in an open field; running in a wagon-wheel-shaped maze, an m-shaped maze, or a linear track), and during natural sleep in a rest chamber. The animals’ head positions and orientations were tracked with OptiTrack motion-capture system.\n\nThe raw neural activity was spike-sorted using Kilosort 2.5. The present data files include the spike-sorted activity (spike times) of all cells that were used in the accompanying paper. Grid cells were clustered into ‘modules’ according to their spatial firing patterns.\n\nThe data may be used to examine activity of spatial-coding neural populations (or single cells) during navigation and sleep.",
-    "new_in_this_version": "This is the first version of this dataset, containing data from 19 subjects studied via extra-cellular electrophysiology using high density Neuropixels probes.",
-    "accessibility": "free access",
-    "released_at": "2024-11-22",
-    "region": [
-      "medial entorhinal cortex",
-      "parasubiculum"
-    ],
-    "species": [
-      "Rattus norvegicus"
-    ],
-    "keywords": [],
-    "experimental_approach": [
-      "electrophysiology",
-      "behavior"
-    ],
-    "techniques": [
-      "multi-electrode extracellular electrophysiology"
-    ],
-    "preparation": [
-      "in vivo"
-    ],
-    "study_targets": [
-      "Hippocampus"
-    ],
-    "custodians": [
-      "Moser, E. I."
-    ],
-    "contributors": [
-      "Vollan, A. Z.",
-      "Gardner, R.",
-      "Moser, M.-B.",
-      "Moser, E. I."
-    ],
-    "projects": [],
-    "publications": [
-      "Gardner, R. J., Hermansen, E., Pachitariu, M., Burak, Y., Baas, N. A., Dunn, B. A., Moser, M.-B., & Moser, E. I. (2022). Toroidal topology of population activity in grid cells. Nature, 602(7895), 123–128. https://doi.org/10.1038/s41586-021-04268-7\n[DOI: 10.1038/s41586-021-04268-7]\n[DOI: 10.1038/s41586-021-04268-7]: https://doi.org/10.1038/s41586-021-04268-7",
-      "Waaga, T., Agmon, H., Normand, V. A., Nagelhus, A., Gardner, R. J., Moser, M.-B., Moser, E. I., & Burak, Y. (2022). Grid-cell modules remain coordinated when neural activity is dissociated from external sensory cues. Neuron, 110(11), 1843–1856. https://doi.org/10.1016/j.neuron.2022.03.011\n[DOI: 10.1016/j.neuron.2022.03.011]\n[DOI: 10.1016/j.neuron.2022.03.011]: https://doi.org/10.1016/j.neuron.2022.03.011"
-    ],
-    "doi": "10.25493/R5FR-EDG",
-    "license": {
-      "label": "Creative Commons Attribution Share Alike 4.0 International",
-      "url": "https://creativecommons.org/licenses/by-sa/4.0/legalcode"
-    },
-    "data_descriptor": {
-      "label": "https://data-proxy.ebrains.eu/api/permalinks/2106e909-a8ba-420e-9b09-10845432609e",
-      "url": "https://data-proxy.ebrains.eu/api/permalinks/2106e909-a8ba-420e-9b09-10845432609e?inline=true"
-    },
-    "file_repository_id": "ec87e98e-d279-4914-96a1-85b92faa0ff4",
-    "page_link": "https://search.kg.ebrains.eu/instances/4080b78d-edc5-4ae4-8144-7f6de79930ea",
-    "download_link": "https://doi.org/10.25493/R5FR-EDG",
-    "identifiers": [
-      "https://kg.ebrains.eu/api/instances/4080b78d-edc5-4ae4-8144-7f6de79930ea",
-      "https://doi.org/10.25493/R5FR-EDG"
     ],
     "source": "EBRAINS"
   },
@@ -5127,6 +5127,73 @@
       "https://kg.ebrains.eu/api/instances/91f96913-11ec-45e3-91d1-4e016c72fe7e",
       "https://nexus.humanbrainproject.org/v0/data/minds/core/dataset/v1.0.0/91f96913-11ec-45e3-91d1-4e016c72fe7e",
       "https://doi.org/10.17605/OSF.IO/X542S"
+    ],
+    "source": "EBRAINS"
+  },
+  {
+    "source_id": "ebrains-40faae41-7e72-4c3c-9abf-91dea149158d",
+    "id": "40faae41-7e72-4c3c-9abf-91dea149158d",
+    "type": "dataset",
+    "kg_type": [
+      "Dataset version"
+    ],
+    "name": "Electrophysiological recordings of hippocampal CA1 units in rats during open field foraging (v1.0)",
+    "version": "v1.0",
+    "description": "This dataset contains electrophysiological recordings of more than a thousand single units from the hippocampal subfield Cornu Ammonis 1 of 5 male Long Evans rats, obtained while the animals foraged for chocolate cereal crumbs in a 150x150 cm (squared) open field arena. The units were recorded during a total of 114 sessions—all of which lasted for at least twenty minutes or longer. The data was collected to investigate the possible occurrence of egocentric tuning in hippocampal neurons in rats. Well-trained rats were chronically implanted with drives that guided tetrode electrodes into the target brain region and local field potentials were recorded using either a AxonaLtd daqUSB or Neuralynx system; in both cases with an overhead camera tracking two LEDs on the head stage of the animal to register the 2D position of the animal. The data may be used to investigate the spatial properties of CA1 cells in the non-changing standard “open field session”.",
+    "new_in_this_version": "This dataset contains recordings of approximately 1000 single units recorded from the hippocampal CA1 field in 5 male Long Evans rats. The data were collected during 114 open field sessions in a 150x150 cm arena—familiar to the animals—while the animals foraged for chocolate treats. This is the first version of this dataset.",
+    "accessibility": "free access",
+    "released_at": "2024-11-06",
+    "region": [
+      "CA1 field of hippocampus"
+    ],
+    "species": [
+      "Rattus norvegicus"
+    ],
+    "keywords": [
+      "cell tuning",
+      "egocentrism",
+      "navigation",
+      "place cells"
+    ],
+    "experimental_approach": [
+      "electrophysiology",
+      "behavior"
+    ],
+    "techniques": [
+      "tetrode extracellular electrophysiology"
+    ],
+    "preparation": [
+      "in vivo"
+    ],
+    "study_targets": [
+      "hippocampus CA1 pyramidal neuron"
+    ],
+    "custodians": [
+      "Moser, E. I.",
+      "Blackstad, J. S."
+    ],
+    "contributors": [
+      "Blackstad, J. S.",
+      "Moser, E. I.",
+      "Moser, M.-B."
+    ],
+    "projects": [],
+    "publications": [],
+    "doi": "10.25493/36PM-H72",
+    "license": {
+      "label": "Creative Commons Attribution Share Alike 4.0 International",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0/legalcode"
+    },
+    "data_descriptor": {
+      "label": "data-descriptor_91dea149158d.pdf",
+      "url": "https://data-proxy.ebrains.eu/api/v1/buckets/d-40faae41-7e72-4c3c-9abf-91dea149158d/data-descriptor_91dea149158d.pdf?inline=true"
+    },
+    "file_repository_id": "ede61d58-f763-4f34-85fe-0d98860f1b83",
+    "page_link": "https://search.kg.ebrains.eu/instances/40faae41-7e72-4c3c-9abf-91dea149158d",
+    "download_link": "https://doi.org/10.25493/36PM-H72",
+    "identifiers": [
+      "https://kg.ebrains.eu/api/instances/40faae41-7e72-4c3c-9abf-91dea149158d",
+      "https://doi.org/10.25493/36PM-H72"
     ],
     "source": "EBRAINS"
   },
@@ -5459,69 +5526,64 @@
     "source": "EBRAINS"
   },
   {
-    "source_id": "ebrains-40faae41-7e72-4c3c-9abf-91dea149158d",
-    "id": "40faae41-7e72-4c3c-9abf-91dea149158d",
+    "source_id": "ebrains-07554ebd-95a2-46f0-8065-d961d56ce098",
+    "id": "07554ebd-95a2-46f0-8065-d961d56ce098",
     "type": "dataset",
     "kg_type": [
       "Dataset version"
     ],
-    "name": "Electrophysiological recordings of hippocampal CA1 units in rats during open field foraging (v1.0)",
-    "version": "v1.0",
-    "description": "This dataset contains electrophysiological recordings of more than a thousand single units from the hippocampal subfield Cornu Ammonis 1 of 5 male Long Evans rats, obtained while the animals foraged for chocolate cereal crumbs in a 150x150 cm (squared) open field arena. The units were recorded during a total of 114 sessions—all of which lasted for at least twenty minutes or longer. The data was collected to investigate the possible occurrence of egocentric tuning in hippocampal neurons in rats. Well-trained rats were chronically implanted with drives that guided tetrode electrodes into the target brain region and local field potentials were recorded using either a AxonaLtd daqUSB or Neuralynx system; in both cases with an overhead camera tracking two LEDs on the head stage of the animal to register the 2D position of the animal. The data may be used to investigate the spatial properties of CA1 cells in the non-changing standard “open field session”.",
-    "new_in_this_version": "This dataset contains recordings of approximately 1000 single units recorded from the hippocampal CA1 field in 5 male Long Evans rats. The data were collected during 114 open field sessions in a 150x150 cm arena—familiar to the animals—while the animals foraged for chocolate treats. This is the first version of this dataset.",
+    "name": "Excitability of mouse hippocampal CA1 pyramidal neurons during sustained (500 ms) strong depolarization (v1)",
+    "version": "v1",
+    "description": "In this work, we highlight an electrophysiological feature often observed in recordings from mouse CA1 pyramidal cells that has so far been ignored by experimentalists and modelers. It consists of a large and dynamic increase in the depolarization baseline (i.e., the minimum value of the membrane potential between successive action potentials during a sustained depolarizing input) in response to strong somatic current injections. Such an increased sustained depolarization can directly affect neurotransmitter release properties and, more generally, the efficacy of synaptic transmission. However, it cannot be explained by any currently available conductance-based computational model.\n\nHere, we provide the original data describing and modeling the depolarization baseline (DBL) phenomenon and descriptions of the methods used, as reported in the related publication (Bianchi et al., 2022). This dataset entails the experiments generated in laboratory 2.",
+    "new_in_this_version": null,
     "accessibility": "free access",
-    "released_at": "2024-11-06",
-    "region": [
-      "CA1 field of hippocampus"
-    ],
+    "released_at": "2022-06-15",
+    "region": [],
     "species": [
-      "Rattus norvegicus"
+      "Mus musculus"
     ],
     "keywords": [
-      "cell tuning",
-      "egocentrism",
-      "navigation",
-      "place cells"
+      "depolarization baseline",
+      "intrinsic excitability"
     ],
     "experimental_approach": [
-      "electrophysiology",
-      "behavior"
+      "electrophysiology"
     ],
     "techniques": [
-      "tetrode extracellular electrophysiology"
+      "whole cell patch clamp"
     ],
     "preparation": [
-      "in vivo"
+      "ex vivo"
     ],
     "study_targets": [
       "hippocampus CA1 pyramidal neuron"
     ],
     "custodians": [
-      "Moser, E. I.",
-      "Blackstad, J. S."
+      "Leßmann, V."
     ],
     "contributors": [
-      "Blackstad, J. S.",
-      "Moser, E. I.",
-      "Moser, M.-B."
+      "Garad, M.",
+      "Leßmann, V."
     ],
     "projects": [],
-    "publications": [],
-    "doi": "10.25493/36PM-H72",
+    "publications": [
+      "Bianchi, D., Migliore, R., Vitale, P., Garad, M., Pousinha, P. A., Marie, H., Lessmann, V., & Migliore, M. (2022). Membrane electrical properties of mouse hippocampal CA1 pyramidal neurons during strong inputs. Biophysical Journal, 121(4), 644–657. https://doi.org/10.1016/j.bpj.2022.01.002\n[DOI: 10.1016/j.bpj.2022.01.002]\n[DOI: 10.1016/j.bpj.2022.01.002]: https://doi.org/10.1016/j.bpj.2022.01.002"
+    ],
+    "doi": "10.25493/VAV5-BXU",
     "license": {
-      "label": "Creative Commons Attribution Share Alike 4.0 International",
-      "url": "https://creativecommons.org/licenses/by-sa/4.0/legalcode"
+      "label": "Creative Commons Attribution 4.0 International",
+      "url": "https://creativecommons.org/licenses/by/4.0/legalcode"
     },
     "data_descriptor": {
-      "label": "data-descriptor_91dea149158d.pdf",
-      "url": "https://data-proxy.ebrains.eu/api/v1/buckets/d-40faae41-7e72-4c3c-9abf-91dea149158d/data-descriptor_91dea149158d.pdf?inline=true"
+      "label": "https://data-proxy.ebrains.eu/api/v1/permalinks/e6f3f271-e832-45c6-9d97-5778eb1fc69c",
+      "url": "https://data-proxy.ebrains.eu/api/v1/permalinks/e6f3f271-e832-45c6-9d97-5778eb1fc69c?inline=true"
     },
-    "file_repository_id": "ede61d58-f763-4f34-85fe-0d98860f1b83",
-    "page_link": "https://search.kg.ebrains.eu/instances/40faae41-7e72-4c3c-9abf-91dea149158d",
-    "download_link": "https://doi.org/10.25493/36PM-H72",
+    "file_repository_id": "c569b826-9d2e-4ba0-9363-561906c67cd6",
+    "page_link": "https://search.kg.ebrains.eu/instances/07554ebd-95a2-46f0-8065-d961d56ce098",
+    "download_link": "https://doi.org/10.25493/VAV5-BXU",
     "identifiers": [
-      "https://kg.ebrains.eu/api/instances/40faae41-7e72-4c3c-9abf-91dea149158d",
-      "https://doi.org/10.25493/36PM-H72"
+      "https://kg.ebrains.eu/api/instances/07554ebd-95a2-46f0-8065-d961d56ce098",
+      "https://doi.org/10.25493/VAV5-BXU"
     ],
     "source": "EBRAINS"
   },
@@ -5596,64 +5658,73 @@
     "source": "EBRAINS"
   },
   {
-    "source_id": "ebrains-07554ebd-95a2-46f0-8065-d961d56ce098",
-    "id": "07554ebd-95a2-46f0-8065-d961d56ce098",
+    "source_id": "ebrains-0162668e-bef0-4754-8562-40440db5bc0c",
+    "id": "0162668e-bef0-4754-8562-40440db5bc0c",
     "type": "dataset",
     "kg_type": [
       "Dataset version"
     ],
-    "name": "Excitability of mouse hippocampal CA1 pyramidal neurons during sustained (500 ms) strong depolarization (v1)",
+    "name": "Extracellular unit recordings from CA1/CA3 pyramidal cells in rats exploring an open arena with object landmarks (v1)",
     "version": "v1",
-    "description": "In this work, we highlight an electrophysiological feature often observed in recordings from mouse CA1 pyramidal cells that has so far been ignored by experimentalists and modelers. It consists of a large and dynamic increase in the depolarization baseline (i.e., the minimum value of the membrane potential between successive action potentials during a sustained depolarizing input) in response to strong somatic current injections. Such an increased sustained depolarization can directly affect neurotransmitter release properties and, more generally, the efficacy of synaptic transmission. However, it cannot be explained by any currently available conductance-based computational model.\n\nHere, we provide the original data describing and modeling the depolarization baseline (DBL) phenomenon and descriptions of the methods used, as reported in the related publication (Bianchi et al., 2022). This dataset entails the experiments generated in laboratory 2.",
-    "new_in_this_version": null,
+    "description": "These data were collected to determine how objects or landmarks influence activity in hippocampal CA1 and CA3 neurons. The data consists of spike recordings that include time and position stamps from up to 620 neurons recorded simultaneously in the CA1 and CA3 regions of rats that were freely foraging in an arena. The experiment was conducted both with and without a distinctive object present. The dataset is a mix of tetrode (“microdrive”) and probe (Neuropixels 2.0) recordings collected from 10 male Long-Evans rats. The data can be reused to further determine activity structure in hippocampal CA1 cells during foraging in simple structured environments.",
+    "new_in_this_version": "This version contains spike recordings and position data in .mat files.",
     "accessibility": "free access",
-    "released_at": "2022-06-15",
-    "region": [],
+    "released_at": "2023-05-05",
+    "region": [
+      "CA1 field of hippocampus",
+      "CA3 field of hippocampus"
+    ],
     "species": [
-      "Mus musculus"
+      "Rattus norvegicus"
     ],
     "keywords": [
-      "depolarization baseline",
-      "intrinsic excitability"
+      "Extracellular single unit recordings"
     ],
     "experimental_approach": [
-      "electrophysiology"
+      "electrophysiology",
+      "behavior"
     ],
     "techniques": [
-      "whole cell patch clamp"
+      "tetrode extracellular electrophysiology",
+      "multi-electrode extracellular electrophysiology",
+      "extracellular electrophysiology"
     ],
     "preparation": [
-      "ex vivo"
+      "in vivo"
     ],
     "study_targets": [
-      "hippocampus CA1 pyramidal neuron"
+      "hippocampus CA1 pyramidal neuron",
+      "Rattus norvegicus"
     ],
     "custodians": [
-      "Leßmann, V."
+      "Moser, E. I."
     ],
     "contributors": [
-      "Garad, M.",
-      "Leßmann, V."
+      "Nagelhus, A.",
+      "Andersson, S. O.",
+      "Gonzalo Cogno, S.",
+      "Moser, E. I.",
+      "Moser, M.-B."
     ],
     "projects": [],
     "publications": [
-      "Bianchi, D., Migliore, R., Vitale, P., Garad, M., Pousinha, P. A., Marie, H., Lessmann, V., & Migliore, M. (2022). Membrane electrical properties of mouse hippocampal CA1 pyramidal neurons during strong inputs. Biophysical Journal, 121(4), 644–657. https://doi.org/10.1016/j.bpj.2022.01.002\n[DOI: 10.1016/j.bpj.2022.01.002]\n[DOI: 10.1016/j.bpj.2022.01.002]: https://doi.org/10.1016/j.bpj.2022.01.002"
+      "Nagelhus, A., Andersson, S. O., Cogno, S. G., Moser, E. I., & Moser, M.-B. (2023). Object-centered population coding in CA1 of the hippocampus. Neuron, 111(13), 2091–2104. https://doi.org/10.1016/j.neuron.2023.04.008\n[DOI: 10.1016/j.neuron.2023.04.008]\n[DOI: 10.1016/j.neuron.2023.04.008]: https://doi.org/10.1016/j.neuron.2023.04.008"
     ],
-    "doi": "10.25493/VAV5-BXU",
+    "doi": "10.25493/Q0FG-1X8",
     "license": {
       "label": "Creative Commons Attribution 4.0 International",
       "url": "https://creativecommons.org/licenses/by/4.0/legalcode"
     },
     "data_descriptor": {
-      "label": "https://data-proxy.ebrains.eu/api/v1/permalinks/e6f3f271-e832-45c6-9d97-5778eb1fc69c",
-      "url": "https://data-proxy.ebrains.eu/api/v1/permalinks/e6f3f271-e832-45c6-9d97-5778eb1fc69c?inline=true"
+      "label": "https://data-proxy.ebrains.eu/api/permalinks/e678951d-7f76-4f6a-a59a-aabef4c6ce1e",
+      "url": "https://data-proxy.ebrains.eu/api/permalinks/e678951d-7f76-4f6a-a59a-aabef4c6ce1e?inline=true"
     },
-    "file_repository_id": "c569b826-9d2e-4ba0-9363-561906c67cd6",
-    "page_link": "https://search.kg.ebrains.eu/instances/07554ebd-95a2-46f0-8065-d961d56ce098",
-    "download_link": "https://doi.org/10.25493/VAV5-BXU",
+    "file_repository_id": "0fe384d5-dda0-4789-8b40-6ac331e8541b",
+    "page_link": "https://search.kg.ebrains.eu/instances/0162668e-bef0-4754-8562-40440db5bc0c",
+    "download_link": "https://doi.org/10.25493/Q0FG-1X8",
     "identifiers": [
-      "https://kg.ebrains.eu/api/instances/07554ebd-95a2-46f0-8065-d961d56ce098",
-      "https://doi.org/10.25493/VAV5-BXU"
+      "https://kg.ebrains.eu/api/instances/0162668e-bef0-4754-8562-40440db5bc0c",
+      "https://doi.org/10.25493/Q0FG-1X8"
     ],
     "source": "EBRAINS"
   },
@@ -5804,145 +5875,6 @@
       "https://nexus.humanbrainproject.org/v0/data/minds/core/dataset/v1.0.0/c36421b9-ef48-487b-b162-1ce0b261dae0",
       "https://kg.ebrains.eu/api/instances/c36421b9-ef48-487b-b162-1ce0b261dae0",
       "https://doi.org/10.25493/FN3Q-BC3"
-    ],
-    "source": "EBRAINS"
-  },
-  {
-    "source_id": "ebrains-8f64dbb4-6ced-4883-a97b-e64cd8eb3aa5",
-    "id": "8f64dbb4-6ced-4883-a97b-e64cd8eb3aa5",
-    "type": "dataset",
-    "kg_type": [
-      "Dataset version"
-    ],
-    "name": "NLG3KO mice exhibit deficits in social behavior (v1)",
-    "version": "v1",
-    "description": "Autism spectrum disorders (ASDs) comprise a heterogeneous group of neuro-developmental abnormalities with a strong genetic component, characterized by deficits in verbal and non-verbal communication, impaired social interactions, and stereotyped behaviors. In a small percentage of cases, ASDs are associated with alterations of genes involved in synaptic function. Among  these, relatively frequent are mutations/deletions of genes encoding for neuroligins (NLGs). NLGs are postsynaptic adhesion molecules that,  interacting with their presynaptic partners neurexins, ensure the cross talk between pre- and postsynaptic specializations and synaptic stabilization, a condition needed for maintaining a proper excitatory/inhibitory balance within local neuronal circuits.\nWe have focused on mice lacking NLG3 (NLG3 knock-out mice), animal models of a non-syndromic form of autism, which exhibit deficits in social behavior reminiscent of those found in ASDs.\nData obtained in our experiments can be used by researchers to understand social deficits induced by lack of Neuroligin 3 protein.",
-    "new_in_this_version": null,
-    "accessibility": "free access",
-    "released_at": "2020-04-01",
-    "region": [],
-    "species": [
-      "Mus musculus"
-    ],
-    "keywords": [
-      "Hippocampus",
-      "sociability",
-      "social memory"
-    ],
-    "experimental_approach": [
-      "behavior"
-    ],
-    "techniques": [
-      "video tracking"
-    ],
-    "preparation": [
-      "in vivo"
-    ],
-    "study_targets": [
-      "autism spectrum disorder"
-    ],
-    "custodians": [
-      "Cherubini, E."
-    ],
-    "contributors": [
-      "Pimpinella, D.",
-      "Marchetti, C.",
-      "Cherubini, E.",
-      "Griguoli, M."
-    ],
-    "projects": [
-      "Social Behavior and Hippocampal Oscillations"
-    ],
-    "publications": [
-      "Modi, B., Pimpinella, D., Pazienti, A., Zacchi, P., Cherubini, E., & Griguoli, M. (2019). Possible Implication of the CA2 Hippocampal Circuit in Social Cognition Deficits Observed in the Neuroligin 3 Knock-Out Mouse, a Non-Syndromic Animal Model of Autism. Frontiers in Psychiatry, 10. https://doi.org/10.3389/fpsyt.2019.00513\n[DOI: 10.3389/fpsyt.2019.00513]\n[DOI: 10.3389/fpsyt.2019.00513]: https://doi.org/10.3389/fpsyt.2019.00513"
-    ],
-    "doi": "10.25493/9WBS-PK4",
-    "license": {
-      "label": "Creative Commons Attribution Non Commercial No Derivatives 4.0 International",
-      "url": "https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode"
-    },
-    "data_descriptor": {
-      "label": "BehaviorRodent_data-descriptor.pdf",
-      "url": "https://data-proxy.ebrains.eu/api/v1/buckets/p63ea6-hbp-d00026_BehaviorRodent_pub/BehaviorRodent_data-descriptor.pdf?inline=true"
-    },
-    "file_repository_id": "96e7c21f-a191-4268-975f-735d33954151",
-    "page_link": "https://search.kg.ebrains.eu/instances/8f64dbb4-6ced-4883-a97b-e64cd8eb3aa5",
-    "download_link": "https://doi.org/10.25493/9WBS-PK4",
-    "identifiers": [
-      "https://nexus.humanbrainproject.org/v0/data/minds/core/dataset/v1.0.0/8f64dbb4-6ced-4883-a97b-e64cd8eb3aa5",
-      "https://kg.ebrains.eu/api/instances/8f64dbb4-6ced-4883-a97b-e64cd8eb3aa5",
-      "https://doi.org/10.25493/9WBS-PK4"
-    ],
-    "source": "EBRAINS"
-  },
-  {
-    "source_id": "ebrains-0162668e-bef0-4754-8562-40440db5bc0c",
-    "id": "0162668e-bef0-4754-8562-40440db5bc0c",
-    "type": "dataset",
-    "kg_type": [
-      "Dataset version"
-    ],
-    "name": "Extracellular unit recordings from CA1/CA3 pyramidal cells in rats exploring an open arena with object landmarks (v1)",
-    "version": "v1",
-    "description": "These data were collected to determine how objects or landmarks influence activity in hippocampal CA1 and CA3 neurons. The data consists of spike recordings that include time and position stamps from up to 620 neurons recorded simultaneously in the CA1 and CA3 regions of rats that were freely foraging in an arena. The experiment was conducted both with and without a distinctive object present. The dataset is a mix of tetrode (“microdrive”) and probe (Neuropixels 2.0) recordings collected from 10 male Long-Evans rats. The data can be reused to further determine activity structure in hippocampal CA1 cells during foraging in simple structured environments.",
-    "new_in_this_version": "This version contains spike recordings and position data in .mat files.",
-    "accessibility": "free access",
-    "released_at": "2023-05-05",
-    "region": [
-      "CA1 field of hippocampus",
-      "CA3 field of hippocampus"
-    ],
-    "species": [
-      "Rattus norvegicus"
-    ],
-    "keywords": [
-      "Extracellular single unit recordings"
-    ],
-    "experimental_approach": [
-      "electrophysiology",
-      "behavior"
-    ],
-    "techniques": [
-      "tetrode extracellular electrophysiology",
-      "multi-electrode extracellular electrophysiology",
-      "extracellular electrophysiology"
-    ],
-    "preparation": [
-      "in vivo"
-    ],
-    "study_targets": [
-      "hippocampus CA1 pyramidal neuron",
-      "Rattus norvegicus"
-    ],
-    "custodians": [
-      "Moser, E. I."
-    ],
-    "contributors": [
-      "Nagelhus, A.",
-      "Andersson, S. O.",
-      "Gonzalo Cogno, S.",
-      "Moser, E. I.",
-      "Moser, M.-B."
-    ],
-    "projects": [],
-    "publications": [
-      "Nagelhus, A., Andersson, S. O., Cogno, S. G., Moser, E. I., & Moser, M.-B. (2023). Object-centered population coding in CA1 of the hippocampus. Neuron, 111(13), 2091–2104. https://doi.org/10.1016/j.neuron.2023.04.008\n[DOI: 10.1016/j.neuron.2023.04.008]\n[DOI: 10.1016/j.neuron.2023.04.008]: https://doi.org/10.1016/j.neuron.2023.04.008"
-    ],
-    "doi": "10.25493/Q0FG-1X8",
-    "license": {
-      "label": "Creative Commons Attribution 4.0 International",
-      "url": "https://creativecommons.org/licenses/by/4.0/legalcode"
-    },
-    "data_descriptor": {
-      "label": "https://data-proxy.ebrains.eu/api/permalinks/e678951d-7f76-4f6a-a59a-aabef4c6ce1e",
-      "url": "https://data-proxy.ebrains.eu/api/permalinks/e678951d-7f76-4f6a-a59a-aabef4c6ce1e?inline=true"
-    },
-    "file_repository_id": "0fe384d5-dda0-4789-8b40-6ac331e8541b",
-    "page_link": "https://search.kg.ebrains.eu/instances/0162668e-bef0-4754-8562-40440db5bc0c",
-    "download_link": "https://doi.org/10.25493/Q0FG-1X8",
-    "identifiers": [
-      "https://kg.ebrains.eu/api/instances/0162668e-bef0-4754-8562-40440db5bc0c",
-      "https://doi.org/10.25493/Q0FG-1X8"
     ],
     "source": "EBRAINS"
   },
@@ -6169,6 +6101,138 @@
     "source": "EBRAINS"
   },
   {
+    "source_id": "ebrains-8f64dbb4-6ced-4883-a97b-e64cd8eb3aa5",
+    "id": "8f64dbb4-6ced-4883-a97b-e64cd8eb3aa5",
+    "type": "dataset",
+    "kg_type": [
+      "Dataset version"
+    ],
+    "name": "NLG3KO mice exhibit deficits in social behavior (v1)",
+    "version": "v1",
+    "description": "Autism spectrum disorders (ASDs) comprise a heterogeneous group of neuro-developmental abnormalities with a strong genetic component, characterized by deficits in verbal and non-verbal communication, impaired social interactions, and stereotyped behaviors. In a small percentage of cases, ASDs are associated with alterations of genes involved in synaptic function. Among  these, relatively frequent are mutations/deletions of genes encoding for neuroligins (NLGs). NLGs are postsynaptic adhesion molecules that,  interacting with their presynaptic partners neurexins, ensure the cross talk between pre- and postsynaptic specializations and synaptic stabilization, a condition needed for maintaining a proper excitatory/inhibitory balance within local neuronal circuits.\nWe have focused on mice lacking NLG3 (NLG3 knock-out mice), animal models of a non-syndromic form of autism, which exhibit deficits in social behavior reminiscent of those found in ASDs.\nData obtained in our experiments can be used by researchers to understand social deficits induced by lack of Neuroligin 3 protein.",
+    "new_in_this_version": null,
+    "accessibility": "free access",
+    "released_at": "2020-04-01",
+    "region": [],
+    "species": [
+      "Mus musculus"
+    ],
+    "keywords": [
+      "Hippocampus",
+      "sociability",
+      "social memory"
+    ],
+    "experimental_approach": [
+      "behavior"
+    ],
+    "techniques": [
+      "video tracking"
+    ],
+    "preparation": [
+      "in vivo"
+    ],
+    "study_targets": [
+      "autism spectrum disorder"
+    ],
+    "custodians": [
+      "Cherubini, E."
+    ],
+    "contributors": [
+      "Pimpinella, D.",
+      "Marchetti, C.",
+      "Cherubini, E.",
+      "Griguoli, M."
+    ],
+    "projects": [
+      "Social Behavior and Hippocampal Oscillations"
+    ],
+    "publications": [
+      "Modi, B., Pimpinella, D., Pazienti, A., Zacchi, P., Cherubini, E., & Griguoli, M. (2019). Possible Implication of the CA2 Hippocampal Circuit in Social Cognition Deficits Observed in the Neuroligin 3 Knock-Out Mouse, a Non-Syndromic Animal Model of Autism. Frontiers in Psychiatry, 10. https://doi.org/10.3389/fpsyt.2019.00513\n[DOI: 10.3389/fpsyt.2019.00513]\n[DOI: 10.3389/fpsyt.2019.00513]: https://doi.org/10.3389/fpsyt.2019.00513"
+    ],
+    "doi": "10.25493/9WBS-PK4",
+    "license": {
+      "label": "Creative Commons Attribution Non Commercial No Derivatives 4.0 International",
+      "url": "https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode"
+    },
+    "data_descriptor": {
+      "label": "BehaviorRodent_data-descriptor.pdf",
+      "url": "https://data-proxy.ebrains.eu/api/v1/buckets/p63ea6-hbp-d00026_BehaviorRodent_pub/BehaviorRodent_data-descriptor.pdf?inline=true"
+    },
+    "file_repository_id": "96e7c21f-a191-4268-975f-735d33954151",
+    "page_link": "https://search.kg.ebrains.eu/instances/8f64dbb4-6ced-4883-a97b-e64cd8eb3aa5",
+    "download_link": "https://doi.org/10.25493/9WBS-PK4",
+    "identifiers": [
+      "https://nexus.humanbrainproject.org/v0/data/minds/core/dataset/v1.0.0/8f64dbb4-6ced-4883-a97b-e64cd8eb3aa5",
+      "https://kg.ebrains.eu/api/instances/8f64dbb4-6ced-4883-a97b-e64cd8eb3aa5",
+      "https://doi.org/10.25493/9WBS-PK4"
+    ],
+    "source": "EBRAINS"
+  },
+  {
+    "source_id": "ebrains-5f58ec49-8e36-456d-818d-97097923d101",
+    "id": "5f58ec49-8e36-456d-818d-97097923d101",
+    "type": "dataset",
+    "kg_type": [
+      "Dataset version"
+    ],
+    "name": "Electrophysiological characterization of sharp-wave ripple oscillations and associated cellular activities in hippocampal slices from Scn1a+/- mice (v1)",
+    "version": "v1",
+    "description": "The data was obtained from hippocampal area CA1 in acute hippocampal slices from transgenic _Scn1a<sup>+/-</sup>_ mice and wild type littermates. The dataset consists of field potential recordings, simultaneous field and somatic whole cell patch clamp recordings from either fast-spiking parvalbumin-expressing cells or from pyramidal cells, only somatic recordings, and axonal whole cell patch clamp recordings. Data was collected for two age groups, juvenile mice (age range postnatal days 19-23) before the critical period of high mortality of the _Scn1a<sup>+/-</sup>_ genotype, and young adult mice (age range postnatal days 28-37) surviving past the critical period. Accordingly, the data is organised into four different groups throughout the dataset. Field potential recordings were used to quantify sharp wave ripple oscillation activity and to relate ripple oscillations to synaptic and action potential activity recorded from individual cells in the temporal domain. Somatic recordings were used to quantify the amplitude of synaptic currents and to study action potential timing and waveform. Axon recordings were used to quantify action potential waveforms only. The data can be reused to analyse the interplay between field and (sub-)cellular activity of different cell types in the hippocampus.",
+    "new_in_this_version": "This is the first version of this dataset. It contains 193 recordings from 186 subjects. Note: the age categories of subjects in the EBRAINS KG are defined according to openMINDS, which is different from how age categories are defined in the dataset. Mice referred to as juvenile in the dataset are labeled as infant in the KG, mice referred to as young adult in the dataset are labeled as juvenile in the KG.",
+    "accessibility": "free access",
+    "released_at": "2026-06-24",
+    "region": [],
+    "species": [
+      "Mus musculus"
+    ],
+    "keywords": [
+      "Dravet syndrome",
+      "epilepsy model",
+      "sharp-wave ripples"
+    ],
+    "experimental_approach": [
+      "electrophysiology"
+    ],
+    "techniques": [
+      "extracellular electrophysiology",
+      "whole cell patch clamp"
+    ],
+    "preparation": [
+      "in vitro"
+    ],
+    "study_targets": [
+      "Rodentia",
+      "hippocampus CA1 pyramidal neuron",
+      "parvalbumin expressing neuron"
+    ],
+    "custodians": [
+      "Roth, F. C."
+    ],
+    "contributors": [
+      "Lascorz, R.",
+      "Roth, F. C."
+    ],
+    "projects": [],
+    "publications": [],
+    "doi": "10.25493/YEDC-A5S",
+    "license": {
+      "label": "Creative Commons Attribution Non Commercial 4.0 International",
+      "url": "https://creativecommons.org/licenses/by-nc/4.0/legalcode"
+    },
+    "data_descriptor": {
+      "label": "https://data-proxy.ebrains.eu/api/permalinks/e0ae6279-1bc1-4d00-8876-c22c19b0a586",
+      "url": "https://data-proxy.ebrains.eu/api/permalinks/e0ae6279-1bc1-4d00-8876-c22c19b0a586?inline=true"
+    },
+    "file_repository_id": "73bb3935-b4bb-4221-8449-a3bd3a838e9a",
+    "page_link": "https://search.kg.ebrains.eu/instances/5f58ec49-8e36-456d-818d-97097923d101",
+    "download_link": "https://doi.org/10.25493/YEDC-A5S",
+    "identifiers": [
+      "https://kg.ebrains.eu/api/instances/5f58ec49-8e36-456d-818d-97097923d101",
+      "https://doi.org/10.25493/YEDC-A5S"
+    ],
+    "source": "EBRAINS"
+  },
+  {
     "source_id": "ebrains-87a63af5-06ac-4fec-89e0-b7f1a9d6c192",
     "id": "87a63af5-06ac-4fec-89e0-b7f1a9d6c192",
     "type": "dataset",
@@ -6320,70 +6384,6 @@
     "source": "EBRAINS"
   },
   {
-    "source_id": "ebrains-5f58ec49-8e36-456d-818d-97097923d101",
-    "id": "5f58ec49-8e36-456d-818d-97097923d101",
-    "type": "dataset",
-    "kg_type": [
-      "Dataset version"
-    ],
-    "name": "Electrophysiological characterization of sharp-wave ripple oscillations and associated cellular activities in hippocampal slices from Scn1a+/- mice (v1)",
-    "version": "v1",
-    "description": "The data was obtained from hippocampal area CA1 in acute hippocampal slices from transgenic _Scn1a<sup>+/-</sup>_ mice and wild type littermates. The dataset consists of field potential recordings, simultaneous field and somatic whole cell patch clamp recordings from either fast-spiking parvalbumin-expressing cells or from pyramidal cells, only somatic recordings, and axonal whole cell patch clamp recordings. Data was collected for two age groups, juvenile mice (age range postnatal days 19-23) before the critical period of high mortality of the _Scn1a<sup>+/-</sup>_ genotype, and young adult mice (age range postnatal days 28-37) surviving past the critical period. Accordingly, the data is organised into four different groups throughout the dataset. Field potential recordings were used to quantify sharp wave ripple oscillation activity and to relate ripple oscillations to synaptic and action potential activity recorded from individual cells in the temporal domain. Somatic recordings were used to quantify the amplitude of synaptic currents and to study action potential timing and waveform. Axon recordings were used to quantify action potential waveforms only. The data can be reused to analyse the interplay between field and (sub-)cellular activity of different cell types in the hippocampus.",
-    "new_in_this_version": "This is the first version of this dataset. It contains 193 recordings from 186 subjects. Note: the age categories of subjects in the EBRAINS KG are defined according to openMINDS, which is different from how age categories are defined in the dataset. Mice referred to as juvenile in the dataset are labeled as infant in the KG, mice referred to as young adult in the dataset are labeled as juvenile in the KG.",
-    "accessibility": "free access",
-    "released_at": "2026-06-24",
-    "region": [],
-    "species": [
-      "Mus musculus"
-    ],
-    "keywords": [
-      "Dravet syndrome",
-      "epilepsy model",
-      "sharp-wave ripples"
-    ],
-    "experimental_approach": [
-      "electrophysiology"
-    ],
-    "techniques": [
-      "extracellular electrophysiology",
-      "whole cell patch clamp"
-    ],
-    "preparation": [
-      "in vitro"
-    ],
-    "study_targets": [
-      "Rodentia",
-      "hippocampus CA1 pyramidal neuron",
-      "parvalbumin expressing neuron"
-    ],
-    "custodians": [
-      "Roth, F. C."
-    ],
-    "contributors": [
-      "Lascorz, R.",
-      "Roth, F. C."
-    ],
-    "projects": [],
-    "publications": [],
-    "doi": "10.25493/YEDC-A5S",
-    "license": {
-      "label": "Creative Commons Attribution Non Commercial 4.0 International",
-      "url": "https://creativecommons.org/licenses/by-nc/4.0/legalcode"
-    },
-    "data_descriptor": {
-      "label": "https://data-proxy.ebrains.eu/api/permalinks/e0ae6279-1bc1-4d00-8876-c22c19b0a586",
-      "url": "https://data-proxy.ebrains.eu/api/permalinks/e0ae6279-1bc1-4d00-8876-c22c19b0a586?inline=true"
-    },
-    "file_repository_id": "73bb3935-b4bb-4221-8449-a3bd3a838e9a",
-    "page_link": "https://search.kg.ebrains.eu/instances/5f58ec49-8e36-456d-818d-97097923d101",
-    "download_link": "https://doi.org/10.25493/YEDC-A5S",
-    "identifiers": [
-      "https://kg.ebrains.eu/api/instances/5f58ec49-8e36-456d-818d-97097923d101",
-      "https://doi.org/10.25493/YEDC-A5S"
-    ],
-    "source": "EBRAINS"
-  },
-  {
     "source_id": "ebrains-a2bcb3e6-227d-4d9d-a5c3-7c27eb49af91",
     "id": "a2bcb3e6-227d-4d9d-a5c3-7c27eb49af91",
     "type": "dataset",
@@ -6451,6 +6451,82 @@
     "page_link": "https://search.kg.ebrains.eu/instances/a2bcb3e6-227d-4d9d-a5c3-7c27eb49af91",
     "download_link": null,
     "identifiers": null,
+    "source": "EBRAINS"
+  },
+  {
+    "source_id": "ebrains-66a333f2-0af8-4793-adb8-c227d57527c7",
+    "id": "66a333f2-0af8-4793-adb8-c227d57527c7",
+    "type": "dataset",
+    "kg_type": [
+      "Dataset version"
+    ],
+    "name": "Electrophysiological properties and spontaneous synaptic activity in developing mouse CA1 neurons (v1)",
+    "version": "v1",
+    "description": "This dataset was created to characterize the postnatal development of electrophysiological properties and spontaneous excitatory synaptic activity in C57BL/6J mouse hippocampal CA1 pyramidal neurons. Whole-cell patch-clamp recordings were obtained from acute hippocampal slices prepared from 52 animals of both sexes across four postnatal age groups: P4-P6 (P5), P8-P9 (P8), P13-P16 (P15), and P19-P23 (P21). In total, the dataset contains recordings from 256 neurons, with 1-15 neurons recorded per animal. Two main types of electrophysiological recordings are included. Under current-clamp conditions, neuronal voltage responses to subthreshold and suprathreshold current steps ranging from -60 to 390 pA were recorded to capture membrane responses, individual action potentials, and repetitive firing. Under voltage-clamp conditions, spontaneous excitatory postsynaptic currents were recorded for ~6-10 min while neurons were held at -70 mV. The dataset contains raw electrophysiological recordings in Axon Binary File (.abf) format. These data can be reused to investigate passive membrane properties, action potential characteristics, neuronal excitability and firing patterns, spontaneous excitatory synaptic activity, and age- or sex-related variation during early postnatal hippocampal development.",
+    "new_in_this_version": "This is the first version of the dataset, prepared following an initial review and quality assessment of the recordings. It contains whole-cell patch-clamp recordings from 256 hippocampal CA1 neurons obtained from 52 mice of both sexes across four postnatal age groups (P5, P8, P15, P21). The dataset includes raw current-clamp recordings of membrane responses and evoked action potential firing, as well as voltage-clamp recordings of spontaneous excitatory postsynaptic currents. Prior to release, the recordings underwent quality control, and recordings that were incomplete, affected by excessive noise that could not be corrected, or otherwise unsuitable for reliable downstream analysis were excluded. This version therefore contains the curated set of electrophysiological recordings selected for quantitative analysis.",
+    "accessibility": "under embargo",
+    "released_at": "2026-09-16",
+    "region": [],
+    "species": [
+      "Mus musculus"
+    ],
+    "keywords": [
+      "action potential",
+      "brain development",
+      "intrinsic excitability",
+      "postnatal development",
+      "spontaneous excitatory postsynaptic current"
+    ],
+    "experimental_approach": [
+      "developmental biology",
+      "electrophysiology"
+    ],
+    "techniques": [
+      "voltage clamp",
+      "current clamp",
+      "whole cell patch clamp"
+    ],
+    "preparation": [
+      "ex vivo"
+    ],
+    "study_targets": [
+      "Rodentia",
+      "female",
+      "male",
+      "hippocampus CA1 pyramidal neuron",
+      "Mus musculus"
+    ],
+    "custodians": [
+      "Neniskyte, U."
+    ],
+    "contributors": [
+      "Nagula, I.",
+      "Kavalnyte, E.",
+      "Vitkute, K.",
+      "Dabkeviciene, D.",
+      "Neniskyte, U.",
+      "Alaburda, A."
+    ],
+    "projects": [],
+    "publications": [
+      "Nagula, I., Kavalnyte, E., Vitkute, K., Dabkeviciene, D., Neniskyte, U., & Alaburda, A. (2026). Electrophysiological properties and synaptic activity of the mouse hippocampal CA1 neurons during postnatal development. https://doi.org/10.64898/2026.06.15.732242\n[DOI: 10.64898/2026.06.15.732242]\n[DOI: 10.64898/2026.06.15.732242]: https://doi.org/10.64898/2026.06.15.732242"
+    ],
+    "doi": "10.25493/H2E4-AGH",
+    "license": {
+      "label": "Creative Commons Attribution 4.0 International",
+      "url": "https://creativecommons.org/licenses/by/4.0/legalcode"
+    },
+    "data_descriptor": {
+      "label": "https://data-proxy.ebrains.eu/api/permalinks/52d4eb36-6e7e-454b-8483-df0ee0a6a36a",
+      "url": "https://data-proxy.ebrains.eu/api/permalinks/52d4eb36-6e7e-454b-8483-df0ee0a6a36a?inline=true"
+    },
+    "file_repository_id": null,
+    "page_link": "https://search.kg.ebrains.eu/instances/66a333f2-0af8-4793-adb8-c227d57527c7",
+    "download_link": "https://doi.org/10.25493/H2E4-AGH",
+    "identifiers": [
+      "https://kg.ebrains.eu/api/instances/66a333f2-0af8-4793-adb8-c227d57527c7",
+      "https://doi.org/10.25493/H2E4-AGH"
+    ],
     "source": "EBRAINS"
   },
   {
@@ -6599,82 +6675,6 @@
     "source": "EBRAINS"
   },
   {
-    "source_id": "ebrains-66a333f2-0af8-4793-adb8-c227d57527c7",
-    "id": "66a333f2-0af8-4793-adb8-c227d57527c7",
-    "type": "dataset",
-    "kg_type": [
-      "Dataset version"
-    ],
-    "name": "Electrophysiological properties and spontaneous synaptic activity in developing mouse CA1 neurons (v1)",
-    "version": "v1",
-    "description": "This dataset was created to characterize the postnatal development of electrophysiological properties and spontaneous excitatory synaptic activity in C57BL/6J mouse hippocampal CA1 pyramidal neurons. Whole-cell patch-clamp recordings were obtained from acute hippocampal slices prepared from 52 animals of both sexes across four postnatal age groups: P4-P6 (P5), P8-P9 (P8), P13-P16 (P15), and P19-P23 (P21). In total, the dataset contains recordings from 256 neurons, with 1-15 neurons recorded per animal. Two main types of electrophysiological recordings are included. Under current-clamp conditions, neuronal voltage responses to subthreshold and suprathreshold current steps ranging from -60 to 390 pA were recorded to capture membrane responses, individual action potentials, and repetitive firing. Under voltage-clamp conditions, spontaneous excitatory postsynaptic currents were recorded for ~6-10 min while neurons were held at -70 mV. The dataset contains raw electrophysiological recordings in Axon Binary File (.abf) format. These data can be reused to investigate passive membrane properties, action potential characteristics, neuronal excitability and firing patterns, spontaneous excitatory synaptic activity, and age- or sex-related variation during early postnatal hippocampal development.",
-    "new_in_this_version": "This is the first version of the dataset, prepared following an initial review and quality assessment of the recordings. It contains whole-cell patch-clamp recordings from 256 hippocampal CA1 neurons obtained from 52 mice of both sexes across four postnatal age groups (P5, P8, P15, P21). The dataset includes raw current-clamp recordings of membrane responses and evoked action potential firing, as well as voltage-clamp recordings of spontaneous excitatory postsynaptic currents. Prior to release, the recordings underwent quality control, and recordings that were incomplete, affected by excessive noise that could not be corrected, or otherwise unsuitable for reliable downstream analysis were excluded. This version therefore contains the curated set of electrophysiological recordings selected for quantitative analysis.",
-    "accessibility": "under embargo",
-    "released_at": "2026-09-16",
-    "region": [],
-    "species": [
-      "Mus musculus"
-    ],
-    "keywords": [
-      "action potential",
-      "brain development",
-      "intrinsic excitability",
-      "postnatal development",
-      "spontaneous excitatory postsynaptic current"
-    ],
-    "experimental_approach": [
-      "developmental biology",
-      "electrophysiology"
-    ],
-    "techniques": [
-      "voltage clamp",
-      "current clamp",
-      "whole cell patch clamp"
-    ],
-    "preparation": [
-      "ex vivo"
-    ],
-    "study_targets": [
-      "Rodentia",
-      "female",
-      "male",
-      "hippocampus CA1 pyramidal neuron",
-      "Mus musculus"
-    ],
-    "custodians": [
-      "Neniskyte, U."
-    ],
-    "contributors": [
-      "Nagula, I.",
-      "Kavalnyte, E.",
-      "Vitkute, K.",
-      "Dabkeviciene, D.",
-      "Neniskyte, U.",
-      "Alaburda, A."
-    ],
-    "projects": [],
-    "publications": [
-      "Nagula, I., Kavalnyte, E., Vitkute, K., Dabkeviciene, D., Neniskyte, U., & Alaburda, A. (2026). Electrophysiological properties and synaptic activity of the mouse hippocampal CA1 neurons during postnatal development. https://doi.org/10.64898/2026.06.15.732242\n[DOI: 10.64898/2026.06.15.732242]\n[DOI: 10.64898/2026.06.15.732242]: https://doi.org/10.64898/2026.06.15.732242"
-    ],
-    "doi": "10.25493/H2E4-AGH",
-    "license": {
-      "label": "Creative Commons Attribution 4.0 International",
-      "url": "https://creativecommons.org/licenses/by/4.0/legalcode"
-    },
-    "data_descriptor": {
-      "label": "https://data-proxy.ebrains.eu/api/permalinks/52d4eb36-6e7e-454b-8483-df0ee0a6a36a",
-      "url": "https://data-proxy.ebrains.eu/api/permalinks/52d4eb36-6e7e-454b-8483-df0ee0a6a36a?inline=true"
-    },
-    "file_repository_id": null,
-    "page_link": "https://search.kg.ebrains.eu/instances/66a333f2-0af8-4793-adb8-c227d57527c7",
-    "download_link": "https://doi.org/10.25493/H2E4-AGH",
-    "identifiers": [
-      "https://kg.ebrains.eu/api/instances/66a333f2-0af8-4793-adb8-c227d57527c7",
-      "https://doi.org/10.25493/H2E4-AGH"
-    ],
-    "source": "EBRAINS"
-  },
-  {
     "source_id": "ebrains-804f848e-0408-4e02-a363-687f37655a41",
     "id": "804f848e-0408-4e02-a363-687f37655a41",
     "type": "dataset",
@@ -6738,6 +6738,86 @@
     "identifiers": [
       "https://kg.ebrains.eu/api/instances/804f848e-0408-4e02-a363-687f37655a41",
       "https://doi.org/10.25493/916J-DB7"
+    ],
+    "source": "EBRAINS"
+  },
+  {
+    "source_id": "ebrains-d3345ee1-c454-474f-bc74-bda126029e84",
+    "id": "d3345ee1-c454-474f-bc74-bda126029e84",
+    "type": "dataset",
+    "kg_type": [
+      "Dataset version"
+    ],
+    "name": "Microscopic images showing the fibro- and cytoarchitecture demarcating the border between the dentate gyrus and CA3 in sheep (Ovis aries) (v2)",
+    "version": "v2",
+    "description": "This dataset from sheep (Ovis aries) consists of a selection of bright-field microscopic images of Timm-thionin- and Golgi-stained histological sections from alternating blocks cut transverse to the long axis of the isolated hippocampi. Timm-thionin-stained sections show blue cell somata and black zinc-containing axonal terminals that occur scattered along the entire length of both main mossy fibres and their collaterals thus making them traceable, although the fibres themselves remain largely unstained. Golgi-impregnated sections show the morphology of randomly stained cell bodies and dendrites with postsynaptic excrescences, as well as unmyelinated axons, including mossy fibres and their collaterals with presynaptic boutons and varicosities. This combination of staining methods provides cyto- and fibroarchitectonic features suitable for exploring the microscopic architecture and localizing the border between the dentate gyrus and cornu Ammonis 3.",
+    "new_in_this_version": "The content of the dataset remains the same, but images were rotated and/or flipped to a standardized anatomical oriented across data, presenting images with dorsal facing up and medial towards the right.",
+    "accessibility": "free access",
+    "released_at": "2022-08-24",
+    "region": [
+      "dentate gyrus of hippocampal formation",
+      "CA3 field of hippocampus"
+    ],
+    "species": [
+      "Ovis aries"
+    ],
+    "keywords": [
+      "border description",
+      "comparative anatomy",
+      "mossy fiber system"
+    ],
+    "experimental_approach": [
+      "anatomy",
+      "histology",
+      "microscopy"
+    ],
+    "techniques": [
+      "Nissl staining",
+      "silver staining",
+      "microtome sectioning",
+      "diffusion fixation technique",
+      "Golgi staining",
+      "Timm's staining",
+      "histochemistry",
+      "high-resolution scanning",
+      "widefield microscopy"
+    ],
+    "preparation": [
+      "ex vivo"
+    ],
+    "study_targets": [
+      "cytoarchitecture",
+      "fibroarchitecture"
+    ],
+    "custodians": [
+      "Leergaard, T. B."
+    ],
+    "contributors": [
+      "Blackstad, J. S.",
+      "Osen, K. K.",
+      "Leergaard, T. B."
+    ],
+    "projects": [
+      "The comparative anatomy of the dentate gyrus in mammals"
+    ],
+    "publications": [
+      "Blackstad, J. S., Osen, K. K., & Leergaard, T. B. (2022). The fibro‐ and cyto‐architecture demarcating the border between the dentate gyrus and CA3 in sheep (Ovis aries) and domestic pig (Sus scrofa domesticus). Hippocampus, 32(9), 639–659. Portico. https://doi.org/10.1002/hipo.23457\n[DOI: 10.1002/hipo.23457]\n[DOI: 10.1002/hipo.23457]: https://doi.org/10.1002/hipo.23457"
+    ],
+    "doi": "10.25493/BNH8-Y3S",
+    "license": {
+      "label": "Creative Commons Attribution 4.0 International",
+      "url": "https://creativecommons.org/licenses/by/4.0/legalcode"
+    },
+    "data_descriptor": {
+      "label": "https://data-proxy.ebrains.eu/api/v1/permalinks/d1c1da24-8122-4e8a-b399-856c6204a3d0",
+      "url": "https://data-proxy.ebrains.eu/api/v1/permalinks/d1c1da24-8122-4e8a-b399-856c6204a3d0?inline=true"
+    },
+    "file_repository_id": "860678fe-c740-4cd5-a807-1db76506a98c",
+    "page_link": "https://search.kg.ebrains.eu/instances/d3345ee1-c454-474f-bc74-bda126029e84",
+    "download_link": "https://doi.org/10.25493/BNH8-Y3S",
+    "identifiers": [
+      "https://kg.ebrains.eu/api/instances/d3345ee1-c454-474f-bc74-bda126029e84",
+      "https://doi.org/10.25493/BNH8-Y3S"
     ],
     "source": "EBRAINS"
   },
@@ -6828,154 +6908,6 @@
     "source": "EBRAINS"
   },
   {
-    "source_id": "ebrains-717242ad-58fc-4c3a-a19a-0f68d4bbfd16",
-    "id": "717242ad-58fc-4c3a-a19a-0f68d4bbfd16",
-    "type": "dataset",
-    "kg_type": [
-      "Dataset version"
-    ],
-    "name": "Patch-clamp electrophysiological characterization of neurons in human dentate gyrus (V1)",
-    "version": "V1",
-    "description": "The dentate gyrus (DG) is a substructure within the hippocampal formation that is crucial to memory processing through its cell types and projections. However, much less is known about the correlation between these characteristics and genetic expression. Together with our partners, we aimed at characterizing genetic expression in human and murine DG. For the first phase of this project, we performed experiments in a total of 9 brain samples, deriving 40 usable cells that were recorded using patch-clamp (whole-cell, current-clamp), 26 of which had their cytoplasm collected for further analysis. This preliminary study showed that we have the technical ability to perform patch-seq at a possible rate of success of around 80%, since 21/26 cells that had their cytoplasm collected contained enough detectable RNA content to suggest further sequencing was possible. The data we are sharing represents the patch-clamp experiments performed during this first stage of the project. It includes the recordings of 40 cells from human brain tissue which underwent our full characterization protocol.",
-    "new_in_this_version": "This is the first version of this dataset.",
-    "accessibility": "controlled access",
-    "released_at": "2020-10-03",
-    "region": [
-      "dentate gyrus of hippocampal formation"
-    ],
-    "species": [
-      "Homo sapiens"
-    ],
-    "keywords": [
-      "cytoplasm",
-      "epilepsy",
-      "selective amygdala-hippocampus excision"
-    ],
-    "experimental_approach": [
-      "electrophysiology",
-      "histology"
-    ],
-    "techniques": [
-      "whole cell patch clamp",
-      "current clamp"
-    ],
-    "preparation": [
-      "ex vivo"
-    ],
-    "study_targets": [
-      "brain"
-    ],
-    "custodians": [
-      "Remy, S."
-    ],
-    "contributors": [
-      "Pupe, S.",
-      "Dalügge, D.",
-      "Kaneko, H.",
-      "Remy, S."
-    ],
-    "projects": [],
-    "publications": [],
-    "doi": "10.25493/BDT0-WKG",
-    "license": {
-      "label": "Creative Commons Attribution 4.0 International",
-      "url": "https://creativecommons.org/licenses/by/4.0/legalcode"
-    },
-    "data_descriptor": {
-      "label": "https://object.cscs.ch/v1/AUTH_63ea6845b1d34ad7a43c8158d9572867/00000_Data-Descriptors_pub/hbp-d002324_patch-clamp-human_data-descriptor.pdf",
-      "url": "https://object.cscs.ch/v1/AUTH_63ea6845b1d34ad7a43c8158d9572867/00000_Data-Descriptors_pub/hbp-d002324_patch-clamp-human_data-descriptor.pdf"
-    },
-    "file_repository_id": null,
-    "page_link": "https://search.kg.ebrains.eu/instances/717242ad-58fc-4c3a-a19a-0f68d4bbfd16",
-    "download_link": "https://doi.org/10.25493/BDT0-WKG",
-    "identifiers": [
-      "https://nexus.humanbrainproject.org/v0/data/minds/core/dataset/v1.0.0/717242ad-58fc-4c3a-a19a-0f68d4bbfd16",
-      "https://kg.ebrains.eu/api/instances/717242ad-58fc-4c3a-a19a-0f68d4bbfd16",
-      "https://doi.org/10.25493/BDT0-WKG"
-    ],
-    "source": "EBRAINS"
-  },
-  {
-    "source_id": "ebrains-d3345ee1-c454-474f-bc74-bda126029e84",
-    "id": "d3345ee1-c454-474f-bc74-bda126029e84",
-    "type": "dataset",
-    "kg_type": [
-      "Dataset version"
-    ],
-    "name": "Microscopic images showing the fibro- and cytoarchitecture demarcating the border between the dentate gyrus and CA3 in sheep (Ovis aries) (v2)",
-    "version": "v2",
-    "description": "This dataset from sheep (Ovis aries) consists of a selection of bright-field microscopic images of Timm-thionin- and Golgi-stained histological sections from alternating blocks cut transverse to the long axis of the isolated hippocampi. Timm-thionin-stained sections show blue cell somata and black zinc-containing axonal terminals that occur scattered along the entire length of both main mossy fibres and their collaterals thus making them traceable, although the fibres themselves remain largely unstained. Golgi-impregnated sections show the morphology of randomly stained cell bodies and dendrites with postsynaptic excrescences, as well as unmyelinated axons, including mossy fibres and their collaterals with presynaptic boutons and varicosities. This combination of staining methods provides cyto- and fibroarchitectonic features suitable for exploring the microscopic architecture and localizing the border between the dentate gyrus and cornu Ammonis 3.",
-    "new_in_this_version": "The content of the dataset remains the same, but images were rotated and/or flipped to a standardized anatomical oriented across data, presenting images with dorsal facing up and medial towards the right.",
-    "accessibility": "free access",
-    "released_at": "2022-08-24",
-    "region": [
-      "dentate gyrus of hippocampal formation",
-      "CA3 field of hippocampus"
-    ],
-    "species": [
-      "Ovis aries"
-    ],
-    "keywords": [
-      "border description",
-      "comparative anatomy",
-      "mossy fiber system"
-    ],
-    "experimental_approach": [
-      "anatomy",
-      "histology",
-      "microscopy"
-    ],
-    "techniques": [
-      "Nissl staining",
-      "silver staining",
-      "microtome sectioning",
-      "diffusion fixation technique",
-      "Golgi staining",
-      "Timm's staining",
-      "histochemistry",
-      "high-resolution scanning",
-      "widefield microscopy"
-    ],
-    "preparation": [
-      "ex vivo"
-    ],
-    "study_targets": [
-      "cytoarchitecture",
-      "fibroarchitecture"
-    ],
-    "custodians": [
-      "Leergaard, T. B."
-    ],
-    "contributors": [
-      "Blackstad, J. S.",
-      "Osen, K. K.",
-      "Leergaard, T. B."
-    ],
-    "projects": [
-      "The comparative anatomy of the dentate gyrus in mammals"
-    ],
-    "publications": [
-      "Blackstad, J. S., Osen, K. K., & Leergaard, T. B. (2022). The fibro‐ and cyto‐architecture demarcating the border between the dentate gyrus and CA3 in sheep (Ovis aries) and domestic pig (Sus scrofa domesticus). Hippocampus, 32(9), 639–659. Portico. https://doi.org/10.1002/hipo.23457\n[DOI: 10.1002/hipo.23457]\n[DOI: 10.1002/hipo.23457]: https://doi.org/10.1002/hipo.23457"
-    ],
-    "doi": "10.25493/BNH8-Y3S",
-    "license": {
-      "label": "Creative Commons Attribution 4.0 International",
-      "url": "https://creativecommons.org/licenses/by/4.0/legalcode"
-    },
-    "data_descriptor": {
-      "label": "https://data-proxy.ebrains.eu/api/v1/permalinks/d1c1da24-8122-4e8a-b399-856c6204a3d0",
-      "url": "https://data-proxy.ebrains.eu/api/v1/permalinks/d1c1da24-8122-4e8a-b399-856c6204a3d0?inline=true"
-    },
-    "file_repository_id": "860678fe-c740-4cd5-a807-1db76506a98c",
-    "page_link": "https://search.kg.ebrains.eu/instances/d3345ee1-c454-474f-bc74-bda126029e84",
-    "download_link": "https://doi.org/10.25493/BNH8-Y3S",
-    "identifiers": [
-      "https://kg.ebrains.eu/api/instances/d3345ee1-c454-474f-bc74-bda126029e84",
-      "https://doi.org/10.25493/BNH8-Y3S"
-    ],
-    "source": "EBRAINS"
-  },
-  {
     "source_id": "ebrains-0a5b42ea-27a0-4eb3-81ff-e2da03f27296",
     "id": "0a5b42ea-27a0-4eb3-81ff-e2da03f27296",
     "type": "dataset",
@@ -7047,6 +6979,74 @@
       "https://kg.ebrains.eu/api/instances/0a5b42ea-27a0-4eb3-81ff-e2da03f27296",
       "9bb70415297a141fc298afe8874f7528",
       "https://doi.org/10.25493/JZS5-BC5"
+    ],
+    "source": "EBRAINS"
+  },
+  {
+    "source_id": "ebrains-717242ad-58fc-4c3a-a19a-0f68d4bbfd16",
+    "id": "717242ad-58fc-4c3a-a19a-0f68d4bbfd16",
+    "type": "dataset",
+    "kg_type": [
+      "Dataset version"
+    ],
+    "name": "Patch-clamp electrophysiological characterization of neurons in human dentate gyrus (V1)",
+    "version": "V1",
+    "description": "The dentate gyrus (DG) is a substructure within the hippocampal formation that is crucial to memory processing through its cell types and projections. However, much less is known about the correlation between these characteristics and genetic expression. Together with our partners, we aimed at characterizing genetic expression in human and murine DG. For the first phase of this project, we performed experiments in a total of 9 brain samples, deriving 40 usable cells that were recorded using patch-clamp (whole-cell, current-clamp), 26 of which had their cytoplasm collected for further analysis. This preliminary study showed that we have the technical ability to perform patch-seq at a possible rate of success of around 80%, since 21/26 cells that had their cytoplasm collected contained enough detectable RNA content to suggest further sequencing was possible. The data we are sharing represents the patch-clamp experiments performed during this first stage of the project. It includes the recordings of 40 cells from human brain tissue which underwent our full characterization protocol.",
+    "new_in_this_version": "This is the first version of this dataset.",
+    "accessibility": "controlled access",
+    "released_at": "2020-10-03",
+    "region": [
+      "dentate gyrus of hippocampal formation"
+    ],
+    "species": [
+      "Homo sapiens"
+    ],
+    "keywords": [
+      "cytoplasm",
+      "epilepsy",
+      "selective amygdala-hippocampus excision"
+    ],
+    "experimental_approach": [
+      "electrophysiology",
+      "histology"
+    ],
+    "techniques": [
+      "whole cell patch clamp",
+      "current clamp"
+    ],
+    "preparation": [
+      "ex vivo"
+    ],
+    "study_targets": [
+      "brain"
+    ],
+    "custodians": [
+      "Remy, S."
+    ],
+    "contributors": [
+      "Pupe, S.",
+      "Dalügge, D.",
+      "Kaneko, H.",
+      "Remy, S."
+    ],
+    "projects": [],
+    "publications": [],
+    "doi": "10.25493/BDT0-WKG",
+    "license": {
+      "label": "Creative Commons Attribution 4.0 International",
+      "url": "https://creativecommons.org/licenses/by/4.0/legalcode"
+    },
+    "data_descriptor": {
+      "label": "https://object.cscs.ch/v1/AUTH_63ea6845b1d34ad7a43c8158d9572867/00000_Data-Descriptors_pub/hbp-d002324_patch-clamp-human_data-descriptor.pdf",
+      "url": "https://object.cscs.ch/v1/AUTH_63ea6845b1d34ad7a43c8158d9572867/00000_Data-Descriptors_pub/hbp-d002324_patch-clamp-human_data-descriptor.pdf"
+    },
+    "file_repository_id": null,
+    "page_link": "https://search.kg.ebrains.eu/instances/717242ad-58fc-4c3a-a19a-0f68d4bbfd16",
+    "download_link": "https://doi.org/10.25493/BDT0-WKG",
+    "identifiers": [
+      "https://nexus.humanbrainproject.org/v0/data/minds/core/dataset/v1.0.0/717242ad-58fc-4c3a-a19a-0f68d4bbfd16",
+      "https://kg.ebrains.eu/api/instances/717242ad-58fc-4c3a-a19a-0f68d4bbfd16",
+      "https://doi.org/10.25493/BDT0-WKG"
     ],
     "source": "EBRAINS"
   },
@@ -7180,72 +7180,6 @@
     "identifiers": [
       "https://kg.ebrains.eu/api/instances/242f7522-8553-4c4f-a067-0b79f0b02199",
       "https://doi.org/10.25493/9165-R6X"
-    ],
-    "source": "EBRAINS"
-  },
-  {
-    "source_id": "ebrains-7246bb9d-5f8c-4281-a142-ab931f824f9c",
-    "id": "7246bb9d-5f8c-4281-a142-ab931f824f9c",
-    "type": "dataset",
-    "kg_type": [
-      "Dataset version"
-    ],
-    "name": "Visual Tactile data collected by simulated WhiskEye robot for ViTa-SLAM study",
-    "version": null,
-    "description": "Visual tactile sensory data collected from a simulated instance of a WhiskEye robot during mobile exploration. This was used to demonstrate a multi-modal spatial navigation system developed as part of larger project task within the Human Brain Project called ViTa-SLAM (Visuo-Tactile Simultaneous Localization And Mapping).",
-    "new_in_this_version": null,
-    "accessibility": "free access",
-    "released_at": "2020-02-29",
-    "region": [],
-    "species": [],
-    "keywords": [
-      "Hippocampus-inspired",
-      "Mobile exploration",
-      "RatSLAM",
-      "WhiskEye robot"
-    ],
-    "experimental_approach": [
-      "behavior",
-      "computational modeling"
-    ],
-    "techniques": [
-      "simulation"
-    ],
-    "preparation": [
-      "in silico"
-    ],
-    "study_targets": [
-      "Spatial memory"
-    ],
-    "custodians": [
-      "Pearson, M. J."
-    ],
-    "contributors": [
-      "Struckmeier, O.",
-      "Pearson, M. J."
-    ],
-    "projects": [
-      "WhiskEye Collected Datasets for Multisensory Integration and Representation Learning"
-    ],
-    "publications": [
-      "Struckmeier, O., Tiwari, K., Salman, M., Pearson, M. J., & Kyrki, V. (2019). ViTa-SLAM: A Bio-inspired Visuo-Tactile SLAM for Navigation while Interacting with Aliased Environments. 2019 IEEE International Conference on Cyborg and Bionic Systems (CBS), 97–103. https://doi.org/10.1109/cbs46900.2019.9114526\n[DOI: 10.1109/CBS46900.2019.9114526]\n[DOI: 10.1109/CBS46900.2019.9114526]: https://doi.org/10.1109/CBS46900.2019.9114526"
-    ],
-    "doi": "10.25493/2ZBM-J1S",
-    "license": {
-      "label": "Creative Commons Attribution 4.0 International",
-      "url": "https://creativecommons.org/licenses/by/4.0/legalcode"
-    },
-    "data_descriptor": {
-      "label": "hbp-d0000012_VITASLAM_data-descriptor.pdf",
-      "url": "https://data-proxy.ebrains.eu/api/v1/buckets/p25b4e-hbp-d0000012_VITASLAM_pub/hbp-d0000012_VITASLAM_data-descriptor.pdf?inline=true"
-    },
-    "file_repository_id": "777ac8ef-a407-4911-bb45-a5b6cb89b192",
-    "page_link": "https://search.kg.ebrains.eu/instances/7246bb9d-5f8c-4281-a142-ab931f824f9c",
-    "download_link": "https://doi.org/10.25493/2ZBM-J1S",
-    "identifiers": [
-      "https://kg.ebrains.eu/api/instances/7246bb9d-5f8c-4281-a142-ab931f824f9c",
-      "https://nexus.humanbrainproject.org/v0/data/minds/core/dataset/v1.0.0/7246bb9d-5f8c-4281-a142-ab931f824f9c",
-      "https://doi.org/10.25493/2ZBM-J1S"
     ],
     "source": "EBRAINS"
   },
@@ -7405,6 +7339,72 @@
       "https://kg.ebrains.eu/api/instances/ba6eb15d-9a23-4774-974f-f6470f327a91",
       "https://nexus.humanbrainproject.org/v0/data/minds/core/dataset/v1.0.0/ba6eb15d-9a23-4774-974f-f6470f327a91",
       "https://doi.org/10.25493/JQ8F-TNF"
+    ],
+    "source": "EBRAINS"
+  },
+  {
+    "source_id": "ebrains-7246bb9d-5f8c-4281-a142-ab931f824f9c",
+    "id": "7246bb9d-5f8c-4281-a142-ab931f824f9c",
+    "type": "dataset",
+    "kg_type": [
+      "Dataset version"
+    ],
+    "name": "Visual Tactile data collected by simulated WhiskEye robot for ViTa-SLAM study",
+    "version": null,
+    "description": "Visual tactile sensory data collected from a simulated instance of a WhiskEye robot during mobile exploration. This was used to demonstrate a multi-modal spatial navigation system developed as part of larger project task within the Human Brain Project called ViTa-SLAM (Visuo-Tactile Simultaneous Localization And Mapping).",
+    "new_in_this_version": null,
+    "accessibility": "free access",
+    "released_at": "2020-02-29",
+    "region": [],
+    "species": [],
+    "keywords": [
+      "Hippocampus-inspired",
+      "Mobile exploration",
+      "RatSLAM",
+      "WhiskEye robot"
+    ],
+    "experimental_approach": [
+      "behavior",
+      "computational modeling"
+    ],
+    "techniques": [
+      "simulation"
+    ],
+    "preparation": [
+      "in silico"
+    ],
+    "study_targets": [
+      "Spatial memory"
+    ],
+    "custodians": [
+      "Pearson, M. J."
+    ],
+    "contributors": [
+      "Struckmeier, O.",
+      "Pearson, M. J."
+    ],
+    "projects": [
+      "WhiskEye Collected Datasets for Multisensory Integration and Representation Learning"
+    ],
+    "publications": [
+      "Struckmeier, O., Tiwari, K., Salman, M., Pearson, M. J., & Kyrki, V. (2019). ViTa-SLAM: A Bio-inspired Visuo-Tactile SLAM for Navigation while Interacting with Aliased Environments. 2019 IEEE International Conference on Cyborg and Bionic Systems (CBS), 97–103. https://doi.org/10.1109/cbs46900.2019.9114526\n[DOI: 10.1109/CBS46900.2019.9114526]\n[DOI: 10.1109/CBS46900.2019.9114526]: https://doi.org/10.1109/CBS46900.2019.9114526"
+    ],
+    "doi": "10.25493/2ZBM-J1S",
+    "license": {
+      "label": "Creative Commons Attribution 4.0 International",
+      "url": "https://creativecommons.org/licenses/by/4.0/legalcode"
+    },
+    "data_descriptor": {
+      "label": "hbp-d0000012_VITASLAM_data-descriptor.pdf",
+      "url": "https://data-proxy.ebrains.eu/api/v1/buckets/p25b4e-hbp-d0000012_VITASLAM_pub/hbp-d0000012_VITASLAM_data-descriptor.pdf?inline=true"
+    },
+    "file_repository_id": "777ac8ef-a407-4911-bb45-a5b6cb89b192",
+    "page_link": "https://search.kg.ebrains.eu/instances/7246bb9d-5f8c-4281-a142-ab931f824f9c",
+    "download_link": "https://doi.org/10.25493/2ZBM-J1S",
+    "identifiers": [
+      "https://kg.ebrains.eu/api/instances/7246bb9d-5f8c-4281-a142-ab931f824f9c",
+      "https://nexus.humanbrainproject.org/v0/data/minds/core/dataset/v1.0.0/7246bb9d-5f8c-4281-a142-ab931f824f9c",
+      "https://doi.org/10.25493/2ZBM-J1S"
     ],
     "source": "EBRAINS"
   },
